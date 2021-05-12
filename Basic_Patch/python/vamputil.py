@@ -2140,7 +2140,6 @@ def OnFrenzyBegin():
         pc.RemoveItem("item_i_written")
 # added by EntenSchreck to correct Frenzy stats
     if __main__.G.Patch_Plus == 1:
-        __main__.FindPlayer().ClearActiveDisciplines()
         f=FindClass("Npc_VFrenzyShadow")[0]    #This is the frenzying clone
         if f:
             f.SetName("FrenzyShadow")

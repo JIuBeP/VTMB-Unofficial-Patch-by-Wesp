@@ -105,7 +105,7 @@ Trackerscheme.res: Turns Malkavian font off, check txt, by Wesp5.
 Version Changelog:
 ------------------
 
-v10.9                                                  08.05.2021
+v10.9                                                  12.05.2021
 -----
 +Improved braid icon and four models boundaries, thanks to Norrwin.
 +Restored way to kill Vandal and improved other SM clinic details.
@@ -121,7 +121,7 @@ v10.9                                                  08.05.2021
 +Restored beachhouse video game fighters and Gangrel sheet stance.
 +Made Blood Boil stun enemies and unarmed Giovanni guests run away.
 +Added Hallowbrook GLOCKs to secret room and made Firemage defend.
-+Removed active Disciplines during frenzy and several guard floats.
+Fixed vanishing severed arm and henchman hair, thanks to Barrabah.
 Added links for beta videos to Restoration Doc, thanks to tarulu.
 Fixed Fortitude ghoul, Lasombra teleport and walls at Hallowbrook.
 Corrected LODs, transitions and inspections at Hallowbrook Hotel.
@@ -131,10 +131,10 @@ Updated BSPSource and NirCmd, thanks to atrblizzard and Nir Sofer.
 Restored and corrected junk details on many maps, thanks Norrwin.
 Made Tseng hide his guns faster and Carson's killing being logged.
 Fixed being stuck on warrens gate and added ammo to Society roof.
-Corrected Python script that broke when renaming the patch folder.
+Corrected critical Python script and removed several guard floats.
 Made hunters attack Tung and Barabus turn off Potence more often.
 Fixed pier water, warehouse ladder and several interesting places.
-Corrected some mistakes in the walkthrough and minor text issues.
+Corrected some mistakes in the walkthrough and other text issues.
 Repaired Nadia standing up again and restored zombie death sounds.
 
 v10.8                                                  21.03.2021
@@ -2723,11 +2723,10 @@ Stats:
 +Included and modified the cut histories, so that each clan has ten.
 +Created homosexual history for all clans and adjusted intro scene.
 +Made stealth harder to maximize it out and increased falling damage.
-+Lessened damage for frenzy check and removed Disciplines on frenzy.
++Lessened damage for frenzy check and made frenzy use boosted stats.
 +Raised minimum Humanity for killing innocents to three like in hubs.
 +Added Combat to feats to avoid confusion and renamed Social Public.
-+Made Nosferatu break Masquerade easier and frenzy use boosted stats.
-+Swapped trouble making history conditions with similar limitations.
++Made Nosferatu break Masquerade easier and fixed troubled histories.
 +Added config, commands and special equipped clans for multiplayer.
 +Implied sleeping near tutorial and warehouse including bloodloss.
 +Restored killing any innocents inside combat areas cost Humanity.
@@ -2776,11 +2775,11 @@ Items:
 +Set eight occult powerups to unknown unless a Research stat is met.
 +Made Strauss give Fae Charm and Isaac Pearl or money when in basic.
 +Modified Ocean House diary and Lily's photo textures to fit text.
-Modified placeholder names of four upgrade books and lowered a value.
 Corrected shown armor ratings and fixed some item drop and sell flags.
 Fixed graphics of baton, VV photo, business cards and Gary's tapes.
 Made sarcophagus key and clothes not stashable and fixed drop sounds.
 Fixed the same-objects-in-inventory-and-containers-not-visible bug.
+Modified placeholder names of four upgrade books and lowered a value.
 
 Weapons:
 +Made first person melee fighting possible, the files are in Extras.
@@ -3130,9 +3129,9 @@ Fixed Humanity loss when killing thugs and Chinese Theatre trigger.
 Restored new female bartender and two unused hustlers to Hollywood.
 Removed bad warrens hatch reflection and forced Tzimisce subtitels.
 Made celebrity database update and stopped VV from sending poster. 
-Stopped dead Tommy writing review and fixed slanting streetlights.
+Stopped dead Tommy writing a review and fixed several streetlights.
 Restored three King's Way headrunners and fixed Red Spot door bug.
-Corrected netcafe sound schemes switch and fixed many streetlights.
+Repaired netcafe sound schemes switch and disappearing severed arm.
 Switched badly fixed missing Tommy line with better fitting float.
 Fixed possible courier and warrens computer problems in Hollywood.
 Added missing XP if you found Ginger Swan before meeting courier.
