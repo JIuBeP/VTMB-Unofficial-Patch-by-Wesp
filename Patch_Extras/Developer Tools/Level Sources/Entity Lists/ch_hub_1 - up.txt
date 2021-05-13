@@ -11309,7 +11309,7 @@
 "particle_definition" "carlight_emmiter"
 "bounds" "512"
 "ramp_scale" "1"
-"origin" "-2684 3096 2799"
+"origin" "-2684 3096 2780"
 }
 {
 "classname" "light_spot"
@@ -13470,7 +13470,7 @@
 "particle_definition" "carlight_emmiter"
 "bounds" "512"
 "ramp_scale" "1"
-"origin" "-2200 3554 2800"
+"origin" "-2200 3554 2780"
 }
 {
 "classname" "env_sprite"
@@ -23594,7 +23594,7 @@
 "particle_definition" "carlight_emmiter"
 "bounds" "512"
 "ramp_scale" "1"
-"origin" "-2428 3543 2798.5"
+"origin" "-2428 3543 2780"
 }
 {
 "classname" "light"
@@ -23655,7 +23655,7 @@
 "particle_definition" "carlight_emmiter"
 "bounds" "512"
 "ramp_scale" "1"
-"origin" "-2692 3357 2798.5"
+"origin" "-2692 3357 2780"
 }
 {
 "classname" "light"
@@ -25369,6 +25369,20 @@
 "renderamt" "255"
 "rendercolor" "255 255 255"
 "origin" "260 1925 -23"
+}
+{
+"model" "*36"
+"classname" "func_brush"
+"renderamt" "0"
+"rendercolor" "255 255 255"
+"disableshadows" "1"
+"Solidity" "2"
+"climbable" "0"
+"InputFilter" "32"
+"renderfx" "6"
+"targetname" "trailer_fix"
+"StartHidden" "0"
+"origin" "3910 3395 -82"
 }
 {
 "classname" "prop_dynamic"
