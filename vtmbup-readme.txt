@@ -105,7 +105,7 @@ Trackerscheme.res: Turns Malkavian font off, check txt, by Wesp5.
 Version Changelog:
 ------------------
 
-v10.9                                                  12.05.2021
+v10.9                                                  20.05.2021
 -----
 +Improved braid icon and four models boundaries, thanks to Norrwin.
 +Restored way to kill Vandal and improved other SM clinic details.
@@ -120,7 +120,9 @@ v10.9                                                  12.05.2021
 +Made books sellable again due to real exploit fix, thanks Norrwin.
 +Restored beachhouse video game fighters and Gangrel sheet stance.
 +Made Blood Boil stun enemies and unarmed Giovanni guests run away.
-+Added Hallowbrook GLOCKs to secret room and made Firemage defend.
++Moved Hallowbrook GLOCKs to secret room and made Firemage defend.
++Added missing effects to Tremere using Dominate on two characters.
+Removed floating Chinatown lights and blocked jumping on trailer.
 Fixed vanishing severed arm and henchman hair, thanks to Barrabah.
 Added links for beta videos to Restoration Doc, thanks to tarulu.
 Fixed Fortitude ghoul, Lasombra teleport and walls at Hallowbrook.
@@ -3254,6 +3256,7 @@ Fixed bug when talking to Zhao from outside and LOD on the main hub.
 Added newpaper for stealth Glaze and changed Fu newspaper condition.
 Recompiled Zhao's Warehouse to fix the doors vanishing at a distance.
 Fixed bad Lotus Blossom map location and replaced buggy phone sound.
+Removed floating Chinatown lights and blocked jumping on trailer.
 
 Fu Syndicate:
 +Added squashed Odious Chalice, katana, GLOCK and some more scenery.

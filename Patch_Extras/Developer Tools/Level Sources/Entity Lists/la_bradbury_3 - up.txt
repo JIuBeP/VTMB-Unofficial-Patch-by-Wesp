@@ -3555,9 +3555,9 @@
 "classname" "info_landmark"
 "angles" "0 90 0"
 "StartHidden" "0"
-"spawnflags" "0"
+"spawnflags" "1"
 "targetname" "brad_basement"
-"origin" "42 380 -172.041"
+"origin" "70 380 -172.041"
 }
 {
 "model" "*18"
