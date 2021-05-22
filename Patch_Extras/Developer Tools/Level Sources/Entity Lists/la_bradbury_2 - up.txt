@@ -8434,7 +8434,6 @@
 "additionalequipment" "item_w_mac_10"
 "alternateequipment" "item_w_claws_ghoul"
 "OnHalfHealth" "tremere_half,Trigger,,0,-1,,"
-"OnHalfHealth" "Mage,SetRelationship,player D_HT 5,0,-1,,"
 "OnDeath" "tremere_death,Trigger,,0,-1,,"
 "OnDamaged" "shield_on_relay,Trigger,,0,-1,,"
 "origin" "-652 -28 -621"
@@ -15975,11 +15974,14 @@
 "targetname" "tremere_half"
 "StartDisabled" "0"
 "spawnflags" "1"
-"OnTrigger" "tremere_*,Kill,,0,-1,,"
-"OnTrigger" "barrel_*,Kill,,0,-1,,"
-"OnTrigger" "explosion_*,Kill,,0,-1,,"
-"OnTrigger" "shield*,Kill,,0,-1,,"
-"OnTrigger" "fire*,Kill,,0,-1,,"
+"OnTrigger" "tremere_cast_sequence,CancelSequence,,0,-1,,"
+"OnTrigger" "tremere_*,Kill,,1,-1,,"
+"OnTrigger" "barrel_*,Kill,,1,-1,,"
+"OnTrigger" "explosion_*,Kill,,1,-1,,"
+"OnTrigger" "shield*,Kill,,1,-1,,"
+"OnTrigger" "fire*,Kill,,1,-1,,"
+"OnTrigger" "Mage,SetRelationship,player D_HT 5,0,-1,,"
+"OnTrigger" "Mage_Female,SetRelationship,player D_HT 5,0,-1,,"
 "origin" "-590.878 -137.996 -655.528"
 }
 {
@@ -16010,6 +16012,18 @@
 "m_iszPlay" "Tremere_Spell2"
 "spawnflags" "228"
 "origin" "-592 -420 -620"
+}
+{
+"classname" "scripted_sequence"
+"targetname" "tremere_close_cast_sequence"
+"m_iszEntity" "Mage"
+"m_flRadius" "51200"
+"m_flRepeat" "0"
+"m_fMoveTo" "5"
+"angles" "0 180 0"
+"m_iszPlay" "Tremere_Rubhands2"
+"spawnflags" "228"
+"origin" "-586 -380 -620"
 }
 {
 "model" "*210"
@@ -16188,18 +16202,6 @@
 "OnCase02" "tremere_close_barrel_relay_1,Trigger,,0,-1,,"
 "OnCase01" "tremere_close_barrel_relay_0,Trigger,,0,-1,,"
 "origin" "-722 -46.156 -529.571"
-}
-{
-"classname" "scripted_sequence"
-"targetname" "tremere_close_cast_sequence"
-"m_iszEntity" "Mage"
-"m_flRadius" "51200"
-"m_flRepeat" "0"
-"m_fMoveTo" "5"
-"angles" "0 180 0"
-"m_iszPlay" "Tremere_Rubhands2"
-"spawnflags" "228"
-"origin" "-586 -380 -620"
 }
 {
 "classname" "npc_VHumanCombatant"
@@ -20557,7 +20559,6 @@
 "additionalequipment" "item_w_mac_10"
 "alternateequipment" "item_w_claws_ghoul"
 "OnHalfHealth" "tremere_half,Trigger,,0,-1,,"
-"OnHalfHealth" "Mage_Female,SetRelationship,player D_HT 5,0,-1,,"
 "OnDeath" "tremere_death,Trigger,,0,-1,,"
 "OnDamaged" "shield_on_relay,Trigger,,0,-1,,"
 "origin" "-652 -28 -621"

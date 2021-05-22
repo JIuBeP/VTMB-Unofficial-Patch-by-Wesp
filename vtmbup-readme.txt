@@ -105,7 +105,7 @@ Trackerscheme.res: Turns Malkavian font off, check txt, by Wesp5.
 Version Changelog:
 ------------------
 
-v10.9                                                  20.05.2021
+v10.9                                                  22.05.2021
 -----
 +Improved braid icon and four models boundaries, thanks to Norrwin.
 +Restored way to kill Vandal and improved other SM clinic details.
@@ -138,6 +138,7 @@ Made hunters attack Tung and Barabus turn off Potence more often.
 Fixed pier water, warehouse ladder and several interesting places.
 Corrected some mistakes in the walkthrough and other text issues.
 Repaired Nadia standing up again and restored zombie death sounds.
+Fixed conversation triggers and movement afterwards on five maps.
 
 v10.8                                                  21.03.2021
 -----

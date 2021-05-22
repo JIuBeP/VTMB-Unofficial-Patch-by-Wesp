@@ -4630,6 +4630,7 @@
 "targetname" "trigger_1_conversation_1"
 "OnTrigger" "trigger_2_conversation_1,Disable,,0,-1,,"
 "OnTrigger" "monk_conversation_ip_control,PlayOneOffSound,,0,-1,,"
+"OnTrigger" "guards_message_sound,PlaySound,,0,-1,,"
 }
 {
 "model" "*22"
@@ -4639,6 +4640,7 @@
 "targetname" "trigger_2_conversation_1"
 "OnTrigger" "trigger_1_conversation_1,Disable,,0,-1,,"
 "OnTrigger" "monk_conversation_ip_control,PlayOneOffSound,,0,-1,,"
+"OnTrigger" "guards_message_sound,PlaySound,,0,-1,,"
 }
 {
 "classname" "prop_doorknob"
@@ -4694,6 +4696,7 @@
 "origin" "-230 -535 245.5"
 "OnTrigger" "monk_upstairs,ScriptUnhide,,0,1,,"
 "OnTrigger" "upstairs_conversation_control,PlayOneOffSound,,0,-1,,"
+"OnTrigger" "cafeteria_message_sound,PlaySound,,0,-1,,"
 }
 {
 "classname" "info_node_cover_med"
@@ -4999,21 +5002,9 @@
 "targetname" "monk_conversation_ip_control"
 "sound_occluded" "0"
 "angles" "0 0 0"
-"OnOneOffSoundComplete" "guards_message_sound,PlaySound,,0,-1,,"
-"OnOneOffSoundComplete" "monk_conversation_ip_after_2,ScriptUnhide,,45,-1,,"
-"OnOneOffSoundComplete" "monk_conversation_ip_after_2,Enable,,45,-1,,"
-"OnPlayerTooClose" "monk_conversation_ip_after_2,Enable,,0,-1,,"
-"OnPlayerTooClose" "monk_conversation_ip_after_2,ScriptUnhide,,0,-1,,"
-"OnPlayerTooClose" "monk_conversation_ip_after,ScriptUnhide,,0,-1,,"
-"OnPlayerTooClose" "monk_conversation_ip_after,Enable,,0,-1,,"
-"OnOneOffSoundComplete" "monk_conversation_ip_after,Enable,,45,-1,,"
-"OnOneOffSoundComplete" "monk_conversation_ip_after,ScriptUnhide,,45,-1,,"
-"OnOneOffSoundComplete" "monk_conversation_ip,ScriptHide,,45,-1,,"
+"OnOneOffSoundComplete" "monk_conversation_ip_after_2,Enable,,44,-1,,"
+"OnOneOffSoundComplete" "monk_conversation_ip_after,Enable,,44,-1,,"
 "OnOneOffSoundComplete" "monk_conversation_ip,Disable,,45,-1,,"
-"OnConversationEnd" "monk_conversation_ip,Disable,,45,-1,,"
-"OnConversationEnd" "monk_conversation_ip,ScriptHide,,45,-1,,"
-"OnConversationEnd" "monk_conversation_ip_after,ScriptUnhide,,45,-1,,"
-"OnConversationEnd" "monk_conversation_ip_after,Enable,,45,-1,,"
 "origin" "-126 -700 12"
 }
 {
@@ -5163,8 +5154,6 @@
 "sound_once" "null.mp3"
 "sound_occluded" "0"
 "angles" "0 0 0"
-"OnOneOffSoundComplete" "cafeteria_message_sound,PlaySound,,0,-1,,"
-"OnOneOffSoundComplete" "upstairs_conversation,ScriptHide,,35,-1,,"
 "OnOneOffSoundComplete" "upstairs_conversation,Disable,,35,-1,,"
 "origin" "12 -132 201"
 }
@@ -6578,7 +6567,7 @@
 "rating" "5"
 "testflags" "4"
 "enabled" "0"
-"StartHidden" "1"
+"StartHidden" "0"
 "origin" "-170 -81 9"
 }
 {
@@ -7016,7 +7005,7 @@
 "rating" "5"
 "testflags" "4"
 "enabled" "0"
-"StartHidden" "1"
+"StartHidden" "0"
 "origin" "194 -80 9"
 }
 {

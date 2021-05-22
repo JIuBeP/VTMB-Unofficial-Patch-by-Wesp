@@ -17696,7 +17696,6 @@
 "sound_once" "null.mp3"
 "targetname" "intp_conversation_2"
 "sound_occluded" "1"
-"OnOneOffSoundComplete" "conversation2,PlaySound,,0,-1,,"
 "origin" "1856 -478 -217"
 }
 {
@@ -17757,7 +17756,6 @@
 "sound_once" "null.mp3"
 "targetname" "intp_conversation_1"
 "sound_occluded" "1"
-"OnOneOffSoundComplete" "conversation1,PlaySound,,0,-1,,"
 "origin" "-724.888 -817.069 -280"
 }
 {
@@ -17854,7 +17852,6 @@
 "sound_once" "null.mp3"
 "targetname" "intp_big_conversation"
 "sound_occluded" "1"
-"OnOneOffSoundComplete" "conversationbig,PlaySound,,0,-1,,"
 "origin" "126 1085 -24"
 }
 {
@@ -17894,6 +17891,7 @@
 "targetname" "trigger_one_off_conv1"
 "OnTrigger" "trigger_one_off_conv1,Kill,,0.05,-1,,"
 "OnTrigger" "intp_conversation_1,PlayOneOffSound,,0,-1,,"
+"OnTrigger" "conversation1,PlaySound,,0,-1,,"
 "OnTrigger" "Beckett,ClearPatrolPath,,0,-1,,"
 }
 {
@@ -17929,6 +17927,7 @@
 "targetname" "trigger_one_off_conv1"
 "OnTrigger" "trigger_one_off_conv1,Kill,,0.05,-1,,"
 "OnTrigger" "intp_conversation_1,PlayOneOffSound,,0,-1,,"
+"OnTrigger" "conversation1,PlaySound,,0,-1,,"
 }
 {
 "classname" "info_node"
@@ -18221,6 +18220,7 @@
 "targetname" "temp_sound_shit2"
 "OnTrigger" "temp_sound_shit2,Kill,,0.05,-1,,"
 "OnTrigger" "intp_conversation_2,PlayOneOffSound,,0,1,,"
+"OnTrigger" "conversation2,PlaySound,,0,-1,,"
 }
 {
 "model" "*182"
@@ -18231,6 +18231,7 @@
 "targetname" "trig_conversation_3"
 "OnTrigger" "trig_conversation_3,Kill,,0.05,1,,"
 "OnTrigger" "initP_conversation_3,PlayOneOffSound,,0,-1,,"
+"OnTrigger" "conversation3,PlaySound,,0,-1,,"
 }
 {
 "model" "*183"
@@ -18241,6 +18242,7 @@
 "targetname" "trig_conversation_3"
 "OnTrigger" "trig_conversation_3,Kill,,0.05,1,,"
 "OnTrigger" "initP_conversation_3,PlayOneOffSound,,0,-1,,"
+"OnTrigger" "conversation3,PlaySound,,0,-1,,"
 }
 {
 "model" "*184"
@@ -18251,6 +18253,7 @@
 "targetname" "trig_conversation_3"
 "OnTrigger" "trig_conversation_3,Kill,,0.05,1,,"
 "OnTrigger" "initP_conversation_3,PlayOneOffSound,,0,-1,,"
+"OnTrigger" "conversation3,PlaySound,,0,-1,,"
 }
 {
 "model" "*185"
@@ -18261,6 +18264,7 @@
 "targetname" "trig_conversation_3"
 "OnTrigger" "trig_conversation_3,Kill,,0.05,1,,"
 "OnTrigger" "initP_conversation_3,PlayOneOffSound,,0,-1,,"
+"OnTrigger" "conversation3,PlaySound,,0,-1,,"
 }
 {
 "model" "*186"
@@ -18271,6 +18275,7 @@
 "targetname" "trig_conversation_3"
 "OnTrigger" "trig_conversation_3,Kill,,0.05,1,,"
 "OnTrigger" "initP_conversation_3,PlayOneOffSound,,0,-1,,"
+"OnTrigger" "conversation3,PlaySound,,0,-1,,"
 }
 {
 "model" "*187"
@@ -18281,6 +18286,7 @@
 "targetname" "temp_sound_shit2"
 "OnTrigger" "temp_sound_shit2,Kill,,0.05,-1,,"
 "OnTrigger" "intp_conversation_2,PlayOneOffSound,,0,1,,"
+"OnTrigger" "conversation2,PlaySound,,0,-1,,"
 }
 {
 "classname" "intersting_place"
@@ -18534,18 +18540,17 @@
 }
 {
 "classname" "intersting_place_conversation"
-"min_time" "10.0"
-"max_time" "20.0"
+"min_time" "10"
+"max_time" "20"
 "enabled" "1"
 "targetname" "initP_conversation_3"
-"player_dist" "0"
+"player_dist" "176"
 "audible_dist" "1000"
 "turn_towards_talker" "0"
 "interesting_places" "initP_conversation_3_nodes"
 "sound_loop" "Environmental/People/Conversation1.wav"
 "sound_once" "null.mp3"
 "sound_occluded" "1"
-"OnOneOffSoundComplete" "conversation3,PlaySound,,0,-1,,"
 "origin" "522 78 -251"
 }
 {
@@ -18893,26 +18898,26 @@
 "model" "*197"
 "classname" "trigger_multiple"
 "targetname" "trig_start_bigconversation"
-"StartHidden" "0"
 "StartDisabled" "0"
 "spawnflags" "1"
 "origin" "86 1502 -188"
 "wait" "2"
 "OnTrigger" "trig_start_bigconversation,Kill,,1,-1,,"
 "OnTrigger" "intp_big_conversation,PlayOneOffSound,,0,-1,,"
+"OnTrigger" "conversationbig,PlaySound,,0,-1,,"
 "OnTriggerX" "office_talk,Kill,,0,-1,,"
 }
 {
 "model" "*198"
 "classname" "trigger_multiple"
 "targetname" "trig_start_bigconversation"
-"StartHidden" "0"
 "StartDisabled" "0"
 "spawnflags" "1"
 "origin" "164 804 -20"
 "wait" "2"
 "OnTrigger" "trig_start_bigconversation,Kill,,1,-1,,"
 "OnTrigger" "intp_big_conversation,PlayOneOffSound,,0,-1,,"
+"OnTrigger" "conversationbig,PlaySound,,0,-1,,"
 }
 {
 "model" "*199"
@@ -21578,13 +21583,13 @@
 "model" "*228"
 "classname" "trigger_multiple"
 "targetname" "trig_start_bigconversation"
-"StartHidden" "0"
 "StartDisabled" "0"
 "spawnflags" "1"
 "origin" "816 910 -4"
 "wait" "2"
 "OnTrigger" "trig_start_bigconversation,Kill,,1,-1,,"
 "OnTrigger" "intp_big_conversation,PlayOneOffSound,,0,-1,,"
+"OnTrigger" "conversationbig,PlaySound,,0,-1,,"
 }
 {
 "model" "*229"

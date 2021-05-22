@@ -2375,14 +2375,9 @@
 "OnBreak" "ip_after_boulder_1,ScriptUnhide,,0,-1,,"
 "OnBreak" "ip_after_boulder_1,Enable,,0.1,-1,,"
 "OnBreak" "ip_conversation_3_control,Enable,,0.2,-1,,"
-"OnBreak" "ip_conversation_3_control,ScriptUnhide,,0.2,-1,,"
 "OnBreak" "ip_smoke1,Disable,,0.5,-1,,"
-"OnBreak" "ip_smoke1,ScriptHide,,0.5,-1,,"
-"OnBreak" "ip_drink,ScriptHide,,0.5,-1,,"
 "OnBreak" "ip_drink,Disable,,0.5,-1,,"
 "OnBreak" "ip_arms_crossed_1,Disable,,0.5,-1,,"
-"OnBreak" "ip_arms_crossed_1,ScriptHide,,0.5,-1,,"
-"OnBreak" "ip_after_conversation_2_2,ScriptHide,,0.5,-1,,"
 "OnBreak" "ip_after_conversation_2_2,Disable,,0.5,-1,,"
 "origin" "719.051 1037.83 396"
 }
@@ -2686,14 +2681,9 @@
 "sound_once" "null.mp3"
 "sound_loop" "Environmental/People/Conversation1.wav"
 "sound_occluded" "1"
-"OnPlayerTooClose" "clearing_message_sound,PlaySound,,0,-1,,"
-"OnPlayerTooClose" "ip_conversation_1_control,Kill,,1,-1,,"
-"OnPlayerTooClose" "ip_after_conversation_1_2,ScriptUnhide,,21,-1,,"
-"OnPlayerTooClose" "ip_after_conversation_1_1,ScriptUnhide,,21,-1,,"
-"OnPlayerTooClose" "ip_after_conversation_1_1,Enable,,22,-1,,"
-"OnPlayerTooClose" "ip_after_conversation_1_2,Enable,,22,-1,,"
-"OnPlayerTooClose" "ip_conversation_1_control,Disable,,22.5,-1,,"
-"OnPlayerTooClose" "ip_conversation_1,Disable,,22.2,-1,,"
+"OnOneOffSoundComplete" "ip_conversation_1,Disable,,22.2,-1,,"
+"OnOneOffSoundComplete" "ip_after_conversation_1_1,Enable,,21,-1,,"
+"OnOneOffSoundComplete" "ip_after_conversation_1_2,Enable,,21,-1,,"
 "origin" "709 -619.665 1.6572"
 }
 {
@@ -2743,8 +2733,7 @@
 "targetname" "ip_conversation_1_trigger"
 "OnTrigger" "ip_conversation_1_trigger_2,Disable,,0,-1,,"
 "OnTrigger" "ip_conversation_1_control,PlayOneOffSound,,0,1,,"
-"OnTrigger" "ip_conversation_2_trigger_2,Disable,,0,-1,,"
-"OnTrigger" "ip_conversation_2_control,PlayOneOffSound,,0,1,,"
+"OnTrigger" "clearing_message_sound,PlaySound,,0,-1,,"
 }
 {
 "classname" "intersting_place"
@@ -2762,7 +2751,7 @@
 "rating" "4"
 "testflags" "4"
 "enabled" "0"
-"StartHidden" "1"
+"StartHidden" "0"
 "origin" "817 -261 9"
 }
 {
@@ -3158,14 +3147,9 @@
 "sound_once" "null.mp3"
 "sound_loop" "Environmental/People/Conversation1.wav"
 "sound_occluded" "1"
-"OnPlayerTooClose" "backdoor_message_sound,PlaySound,,0,-1,,"
-"OnPlayerTooClose" "ip_conversation_2_control,Kill,,1,-1,,"
-"OnPlayerTooClose" "ip_after_conversation_2_2,ScriptUnhide,,23,-1,,"
-"OnPlayerTooClose" "ip_after_conversation_2_1,ScriptUnhide,,23,-1,,"
-"OnPlayerTooClose" "ip_after_conversation_2_1,Enable,,24,-1,,"
-"OnPlayerTooClose" "ip_after_conversation_2_2,Enable,,24,-1,,"
-"OnPlayerTooClose" "ip_conversation_2_control,Disable,,24.5,-1,,"
-"OnPlayerTooClose" "ip_conversation_2,Disable,,24.2,-1,,"
+"OnOneOffSoundComplete" "ip_conversation_2,Disable,,24.2,-1,,"
+"OnOneOffSoundComplete" "ip_after_conversation_2_1,Enable,,23,-1,,"
+"OnOneOffSoundComplete" "ip_after_conversation_2_2,Enable,,23,-1,,"
 "origin" "480.061 1040.5 12.5542"
 }
 {
@@ -3212,8 +3196,7 @@
 "rating" "4"
 "testflags" "4"
 "enabled" "0"
-"StartHidden" "1"
-"OnNPCArrived" "ip_after_conversation_2_1,ScriptHide,,0,-1,,"
+"StartHidden" "0"
 "OnNPCArrived" "ip_after_conversation_2_1,Disable,,0,-1,,"
 "origin" "351 912 6.12749"
 }
@@ -3233,7 +3216,7 @@
 "rating" "2"
 "testflags" "4"
 "enabled" "0"
-"StartHidden" "1"
+"StartHidden" "0"
 "origin" "-201 865 24.1275"
 }
 {
@@ -4518,8 +4501,7 @@
 "targetname" "ip_conversation_1_trigger_2"
 "OnTrigger" "ip_conversation_1_trigger,Disable,,0,-1,,"
 "OnTrigger" "ip_conversation_1_control,PlayOneOffSound,,0,1,,"
-"OnTrigger" "ip_conversation_2_trigger_2,Disable,,0,-1,,"
-"OnTrigger" "ip_conversation_2_control,PlayOneOffSound,,0,1,,"
+"OnTrigger" "clearing_message_sound,PlaySound,,0,-1,,"
 }
 {
 "classname" "intersting_place"
@@ -4670,6 +4652,7 @@
 "targetname" "ip_conversation_2_trigger_2"
 "OnTrigger" "ip_conversation_2_trigger,Disable,,0,-1,,"
 "OnTrigger" "ip_conversation_2_control,PlayOneOffSound,,0,1,,"
+"OnTrigger" "backdoor_message_sound,PlaySound,,0,-1,,"
 }
 {
 "classname" "info_node"
@@ -5491,9 +5474,8 @@
 "rating" "4"
 "testflags" "4"
 "enabled" "0"
-"StartHidden" "1"
+"StartHidden" "0"
 "OnNPCArrived" "ip_after_conversation_1_2,Disable,,0,-1,,"
-"OnNPCArrived" "ip_after_conversation_1_2,ScriptHide,,0,-1,,"
 "origin" "43 -53 9"
 }
 {

@@ -34807,6 +34807,7 @@
 "classname" "logic_auto"
 "spawnflags" "0"
 "OnMapLoad" ",,,0,-1,unhidePlus(),"
+"OnMapLoad" "plus_sobbing_sound,StopSound,,1,-1,,"
 "origin" "0 0 0"
 }
 {
