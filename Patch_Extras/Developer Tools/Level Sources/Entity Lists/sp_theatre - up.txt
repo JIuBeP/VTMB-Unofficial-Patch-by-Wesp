@@ -3332,7 +3332,7 @@
 "FocalLength" "20"
 "Roll" "0"
 "origin" "-16 340 -12"
-"OnReachedKeyframe" "plus_impact,TurnOn,,4.6,-1,,"
+"OnReachedKeyframe" "plus_impact,TurnOn,,4.55,-1,,"
 }
 {
 "classname" "camera_keyframe"

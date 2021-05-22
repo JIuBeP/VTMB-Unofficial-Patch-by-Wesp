@@ -3268,7 +3268,10 @@ def chooseSire():
     staker2 = Find("Vampire2")
     brujah_female = "models/character/pc/female/brujah/armor3/brujah_female_armor_3.mdl"
     gangrel_female = "models/character/pc/female/gangrel/armor2/Gangrel_female_Armor_2.mdl"
-    malkavian_female = "models/character/pc/female/malkavian/armor3/Malk_Girl_Armor_3.mdl"
+    if getattr(pc, "BloodHeal") != -1:
+        malkavian_female = "models/character/pc/female/malkavian/armor0/malkavian_female_armor_0.mdl"
+    else:
+        malkavian_female = "models/character/pc/female/malkavian/armor3/Malk_Girl_Armor_3.mdl"
     nosferatu_female = "models/character/pc/female/nosferatu/armor0/nosferatu_Female_Armor_0.mdl"
     toreador_female = "models/character/pc/female/toreador/armor2/toreador_female_armor_2.mdl"
     tremere_female = "models/character/pc/female/tremere/armor2/tremere_female_Armor_2.mdl"

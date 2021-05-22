@@ -121,7 +121,7 @@ v10.9                                                  22.05.2021
 +Restored beachhouse video game fighters and Gangrel sheet stance.
 +Made Blood Boil stun enemies and unarmed Giovanni guests run away.
 +Moved Hallowbrook GLOCKs to secret room and made Firemage defend.
-+Added missing effects to Tremere using Dominate on two characters.
++Added two Tremere Domination and female Malkavian intro particles.
 Removed floating Chinatown lights and blocked jumping on trailer.
 Fixed vanishing severed arm and henchman hair, thanks to Barrabah.
 Added links for beta videos to Restoration Doc, thanks to tarulu.
