@@ -14,9 +14,9 @@ as the Troika Games official patch 1.2 is included. It runs out of a
 subfolder so other mods can be run in parallel but applying it to an
 international version will revert all localizations back to English!
 
-The default Basic Patch fixes multiple bugs and restores only little
-content to stay close to the original. The Plus Patch (+) adds minor
-tweaks and lots of content, the Patch Extras include a SDK and more!
+The default Basic Patch fixes bugs mostly and restores only a bit of
+content to be close to the original. The Plus Patch (+) adds various
+tweaks and lots of content. The Patch Extras include a SDK and more!
 Patched loader, client, engine, shaderapidx9, and vampire dlls bring
 widescreen support and fix weapon-stats, coronas-gone, refresh-rate,
 lights-through-walls, floats-for-females and more-than-2GB-RAM bugs.
@@ -105,7 +105,7 @@ Trackerscheme.res: Turns Malkavian font off, check txt, by Wesp5.
 Version Changelog:
 ------------------
 
-v10.9                                                  22.05.2021
+v10.9                                                  01.06.2021
 -----
 +Improved braid icon and four models boundaries, thanks to Norrwin.
 +Restored way to kill Vandal and improved other SM clinic details.
@@ -122,6 +122,8 @@ v10.9                                                  22.05.2021
 +Made Blood Boil stun enemies and unarmed Giovanni guests run away.
 +Moved Hallowbrook GLOCKs to secret room and made Firemage defend.
 +Added two Tremere Domination and female Malkavian intro particles.
++Fixed idle animations issues and a hole in female Malkavian hair.
+Repaired Nadia standing up again and restored zombie death sounds.
 Removed floating Chinatown lights and blocked jumping on trailer.
 Fixed vanishing severed arm and henchman hair, thanks to Barrabah.
 Added links for beta videos to Restoration Doc, thanks to tarulu.
@@ -137,8 +139,7 @@ Corrected critical Python script and removed several guard floats.
 Made hunters attack Tung and Barabus turn off Potence more often.
 Fixed pier water, warehouse ladder and several interesting places.
 Corrected some mistakes in the walkthrough and other text issues.
-Repaired Nadia standing up again and restored zombie death sounds.
-Fixed conversation triggers and movement afterwards on five maps.
+Fixed conversation triggers and movements afterwards on five maps.
 
 v10.8                                                  21.03.2021
 -----
@@ -3963,8 +3964,8 @@ The library level was build to present a smaller but darker version
 of the real library, using the original Troika assets listed below.
 
 Troika Design Infos:
-Brian Mitsoda was asked via email on 18.10.2011 about the library, 
-he replied: "The library design never even made it into an alpha 
+Brian Mitsoda was asked via email on 18.10.2011 about the library.
+He replied: "The library design never even made it into an alpha 
 stage. It was discussed, part of the level was built, but there was
 never any finalized quest plans or layout. There was some idea of 
 it being a side quest connected to one of the major characters and 
@@ -3974,7 +3975,6 @@ fully. My memory fails me on a lot of the finer details since it was
 never a major focus of design." So the rest had to be improvised.
 
 Restored Models:
-models/gibs/computergibs.mdl
 models/scenery/misc/globe/globe.mdl
 models/scenery/misc/podium/podium.mdl
 models/scenery/misc/socket/socket.mdl
@@ -3984,21 +3984,24 @@ models/scenery/misc/info_booth/info_booth.mdl
 models/scenery/misc/socket_tube/socket_tube.mdl
 models/scenery/misc/lib_fountain/lib_fountain.mdl
 models/scenery/structural/librail/librail.mdl
-models/scenery/structural/bradbury/boardstatic
 models/scenery/structural/liblight/liblight.mdl
 models/scenery/structural/libcolumn/libcolumn.mdl
 models/scenery/structural/escalator/escalator.mdl
+models/scenery/structural/bradbury/boardstatic.mdl
 models/scenery/structural/gio_bust_one/gio_bust_one.mdl
 models/scenery/structural/gio_bust_two/gio_bust_two.mdl
 models/scenery/structural/gio_statue_two/gio_statue_two.mdl
-models/scenery/furniture/ladder/ladder.mdl
 models/scenery/furniture/blankets/blankets.mdl
 models/scenery/furniture/table/library_table.mdl
 models/scenery/furniture/stepladder/stepladder.mdl
+models/scenery/furniture/hollowbook/hollowbook.mdl
 models/scenery/furniture/bookcase/library_bookcase_lg.mdl
 models/scenery/furniture/bookcase/library_bookcase_small.mdl
 models/scenery/furniture/bookcase/library_bookcase_small2.mdl
-models/scenery/furniture/camwarehouse_cart\camwarehouse_cart.mdl
+models/scenery/furniture/camwarehouse_cart/camwarehouse_cart.mdl
+models/gibs/computergibs.mdl
+models/items/vacuumtubes/Ground|Info/vacuumtubes.mdl
+models/items/beckett_key/Ground|Info/item_g|i_beckett_key.mdl
 models/character/pc/male/gangrel/armor_0/gangrel_male_beastial.mdl
 
 Restored Textures:
@@ -4211,14 +4214,14 @@ sound/epic/wind.wav, sound/area/santa_monica/clinic/click3.wav
 
 Chateau Hotel:
 --------------
-The chateau map was build around a modified version of the real
+The chateau map was build to show a smaller version of the real
 Chateau Marmont, using the original Troika assets listed below.
 
 Troika Design Infos:
 Brian Mitsoda wrote that "The Chateau was probably built for an 
 earlier build, but was dropped as a location in the game before 
 I came on board." So it might have been a prototype for both the
-Ocean House hotel or Grout's Mansion. The textures and a concept
+Ocean House hotel or Grout's Mansion. The textures and concept
 art show that is was supposed to look similar to the real one.
 
 Restored Models:

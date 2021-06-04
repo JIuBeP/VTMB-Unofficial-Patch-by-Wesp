@@ -345,7 +345,7 @@ def setPlus():
             museumteleport.Enable()
             if G.Story_State >= 30:
                 beckett = Find("Beckett")
-                beckett.ScriptHide()
+                if beckett: beckett.ScriptHide()
                 if IsClan(pc,"Nosferatu"):
                     manholefake = Find("Manhole_Museum_Fake")
                     manhole = Find("Manhole_Museum")
@@ -642,22 +642,22 @@ def changeLevelCheck():
     if (__main__.G.Nadia_Fright == 1):
         print ( "********* cleaning up *************" )
         door = Find("door_fake")
-        door.ScriptHide()
+        if door: door.ScriptHide()
         block = Find("door_block")
-        block.ScriptHide()
+        if block: block.ScriptHide()
         float = Find("Nadia_Motioning1")
-        float.ScriptHide()
+        if float: float.ScriptHide()
         float = Find("choreo_thisway")
-        float.ScriptHide()
+        if float: float.ScriptHide()
         float = Find("choreo_comon")
-        float.ScriptHide()
+        if float: float.ScriptHide()
         Nadia = Find("Nadia")
-        Nadia.ScriptHide()
+        if Nadia: Nadia.ScriptHide()
     else:
         door = Find("door_fake")
-        door.ScriptUnhide()
+        if door: door.ScriptUnhide()
         block = Find("door_block")
-        block.ScriptUnhide()
+        if block: block.ScriptUnhide()
 
 #HALLOWBROOK HOTEL: Changes Models of the Spiderchicks, added by EntenSchreck
 def MabelleneModel():
@@ -681,9 +681,9 @@ def genderTremere():
     mage = Find("Mage")
     female_mage = Find("Mage_Female")
     if (gender == 1 and clan == 7):
-        female_mage.ScriptUnhide()
+        if female_mage: female_mage.ScriptUnhide()
     else:
-        mage.ScriptUnhide()
+        if mage: mage.ScriptUnhide()
 
 #HAVEN: Used to trigger library quest log, added by wesp
 def librarySetQuest():
@@ -1907,7 +1907,7 @@ def AThingOfSomeKind():
         elif pc.model==VenF1 or pc.model==VenF2 or pc.model==VenF3 or pc.model==VenF4:
             clan=8
         #elif pc.model==Beast:
-        i = randint(1, 5)
+        i = randint(1, 4)
         gender = pc.IsMale()                                                             
         clan = pc.clan
         if(gender == 1):
@@ -1915,84 +1915,83 @@ def AThingOfSomeKind():
             if(clan == 1 and i == 1): c.ArmsCrossed=""
             elif(clan == 1 and i == 2): c.Pissed=""
             elif(clan == 1 and i == 3): c.Pray=""
-            elif(clan == 1 and i > 3): c.Lost=""
+            elif(clan == 1 and i == 4): c.Lost=""
             #Brujah
-            if(clan == 2 and i == 1): c.BruAnim2=""
-            elif(clan == 2 and i == 2): c.BruAnim3=""
+            if(clan == 2 and i == 1): c.BruAnim1=""
+            elif(clan == 2 and i == 2): c.BruAnim2=""
+            elif(clan == 2 and i == 4): c.BruAnim3=""
             elif(clan == 2 and i == 3): c.Lost=""
-            elif(clan == 2 and i > 3): c.BruAnim1=""
             #Gangrel
-            if(clan == 3 and i == 1): c.GanAnim3=""
+            if(clan == 3 and i == 1): c.GanAnim1=""
             elif(clan == 3 and i == 2): c.GanAnim2=""
-            if(clan == 3 and i == 3): c.Lost=""
-            elif(clan == 3 and i > 2): c.GanAnim1=""
+            elif(clan == 3 and i == 4): c.GanAnim3=""
+            elif(clan == 3 and i == 3): c.Lost=""
             #Malkavian
-            if(clan == 4 and i == 1): c.MalAnim2=""
-            elif(clan == 4 and i == 2): c.Lost=""
+            if(clan == 4 and i == 1): c.MalAnim1=""
+            elif(clan == 4 and i == 2): c.MalAnim2=""
             elif(clan == 4 and i == 3): c.Jittery=""
-            elif(clan == 4 and i > 3): c.MalAnim1=""
+            elif(clan == 4 and i == 4): c.Lost=""
             #Nosferatu
-            if(clan == 5 and i == 1): c.NosAnim2=""
-            elif(clan == 5 and i == 2): c.NosAnim3=""
-            elif(clan == 5 and i == 3): c.Lost=""
-            elif(clan == 5 and i > 3): c.NosAnim1=""
+            if(clan == 5 and i == 1): c.NosAnim1=""
+            elif(clan == 5 and i == 2): c.NosAnim2=""
+            elif(clan == 5 and i == 3): c.NosAnim3=""
+            elif(clan == 5 and i == 4): c.Lost=""
             #Toreador
-            if(clan == 6 and i == 1): c.TorAnim2=""
-            elif(clan == 6 and i == 2): c.TorAnim3=""
-            elif(clan == 6 and i == 3): c.TorAnim4=""
-            elif(clan == 6 and i == 4): c.Lost=""
-            elif(clan == 6 and i > 4): c.TorAnim1=""
+            if(clan == 6 and i == 1): c.TorAnim1=""
+            elif(clan == 6 and i == 2): c.TorAnim2=""
+            elif(clan == 6 and i == 3): c.TorAnim3=""
+            elif(clan == 6 and i == 4): c.TorAnim4=""
             #Tremere
-            if(clan == 7 and i == 1): c.TreAnim2=""
-            elif(clan == 7 and i == 2): c.TreAnim3=""
-            elif(clan == 7 and i == 3): c.Lost=""
-            elif(clan == 7 and i > 3): c.TreAnim1=""
+            if(clan == 7 and i == 1): c.TreAnim1=""
+            elif(clan == 7 and i == 2): c.TreAnim2=""
+            elif(clan == 7 and i == 3): c.TreAnim3=""
+            elif(clan == 7 and i == 4): c.Lost=""
             #Ventrue
-            if(clan == 8 and i == 1): c.VenAnim2=""
-            elif(clan == 8 and i == 2): c.VenAnim3=""
-            elif(clan == 8 and i == 3): c.Lost=""
-            elif(clan == 8 and i > 3): c.VenAnim1=""
+            if(clan == 8 and i == 1): c.VenAnim1=""
+            elif(clan == 8 and i == 2): c.ArmsCrossed=""	# c.VenAnim2=""
+            elif(clan == 8 and i == 3): c.VenAnim3=""
+            elif(clan == 8 and i == 4): c.Lost=""
         elif(gender == 0):
             #Human
             if(clan == 1 and i == 1): c.ArmsCrossed=""
             elif(clan == 1 and i == 2): c.Pissed=""
             elif(clan == 1 and i == 3): c.Pray=""
-            elif(clan == 1 and i > 3): c.Lost=""
+            elif(clan == 1 and i == 4): c.Lost=""
             #Brujah
-            if(clan == 2 and i == 1): c.BrufemAnim2=""
+            if(clan == 2 and i == 1): c.BrufemAnim1=""
             elif(clan == 2 and i == 2): c.BrufemAnim2=""
-            elif(clan == 2 and i == 3): c.Lost=""
-            elif(clan == 2 and i > 3): c.BrufemAnim1=""
+            elif(clan == 2 and i == 3): c.ArmsCrossed=""
+            elif(clan == 2 and i == 4): c.Lost=""
             #Gangrel
             if(clan == 3 and i == 1): c.GanfemAnim1=""
-            elif(clan == 3 and i == 2): c.Lost=""
-# disabled by wesp            elif(clan == 3 and i > 2): c.GanfemAnim2=""
+            elif(clan == 3 and i == 2): c.ArmsCrossed=""	# c.GanfemAnim2=""
+            elif(clan == 3 and i == 3): c.Howl=""		# c.GanfemAnim3=""
+            elif(clan == 3 and i == 4): c.Lost=""
             #Malkavian
-            if(clan == 4 and i == 1): c.MalfemAnim2=""
-            elif(clan == 4 and i == 2): c.MalfemAnim3=""
-            elif(clan == 4 and i == 3): c.MalfemAnim4=""
-            elif(clan == 4 and i == 4): c.Lost=""
-            elif(clan == 4 and i > 4): c.MalfemAnim1=""
+            if(clan == 4 and i == 1): c.MalfemAnim1=""
+            elif(clan == 4 and i == 2): c.MalfemAnim2=""
+            elif(clan == 4 and i == 3): c.MalfemAnim3=""
+            elif(clan == 4 and i == 4): c.MalfemAnim4=""
             #Nosferatu
-            if(clan == 5 and i == 1): c.NosfemAnim2=""
-            elif(clan == 5 and i == 2): c.NosfemAnim3=""
-            elif(clan == 5 and i == 3): c.Lost=""
-            elif(clan == 5 and i > 3): c.NosfemAnim1=""
+            if(clan == 5 and i == 1): c.NosfemAnim1=""
+            elif(clan == 5 and i == 2): c.NosfemAnim2=""
+            elif(clan == 5 and i == 3): c.NosfemAnim3=""
+            elif(clan == 5 and i == 4): c.Lost=""
             #Toreador
-            if(clan == 6 and i == 1): c.TorfemAnim2=""
-            elif(clan == 6 and i == 2): c.TorfemAnim3=""
-            elif(clan == 6 and i == 3): c.Lost=""
-            elif(clan == 6 and i > 3): c.TorfemAnim1=""
+            if(clan == 6 and i == 1): c.TorfemAnim1=""
+            elif(clan == 6 and i == 2): c.TorfemAnim2=""
+            elif(clan == 6 and i == 3): c.TorfemAnim3=""
+            elif(clan == 6 and i == 4): c.Lost=""
             #Tremere
-            if(clan == 7 and i == 1): c.TrefemAnim2=""
-            elif(clan == 7 and i == 2): c.TrefemAnim3=""
-            elif(clan == 7 and i == 3): c.Lost=""
-            elif(clan == 7 and i > 3): c.TrefemAnim1=""
+            if(clan == 7 and i == 1): c.TrefemAnim1=""
+            elif(clan == 7 and i == 2): c.TrefemAnim2=""
+            elif(clan == 7 and i == 3): c.TrefemAnim3=""
+            elif(clan == 7 and i == 4): c.Lost=""
             #Ventrue
-            if(clan == 8 and i == 1): c.VenfemAnim2=""
-            elif(clan == 8 and i == 2): c.VenfemAnim3=""
-            elif(clan == 8 and i == 3): c.Lost=""
-            elif(clan == 8 and i > 3): c.VenfemAnim1=""
+            if(clan == 8 and i == 1): c.VenfemAnim1=""
+            elif(clan == 8 and i == 2): c.VenfemAnim2=""
+            elif(clan == 8 and i == 3): c.VenfemAnim3=""
+            elif(clan == 8 and i == 4): c.Lost=""
 #Durations - unused, but kept them if needed in future
 #Brujah_HitHands2		1.30
 #Brujah_Female_ArmOut2		4.00
