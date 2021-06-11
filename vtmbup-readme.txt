@@ -105,7 +105,7 @@ Trackerscheme.res: Turns Malkavian font off, check txt, by Wesp5.
 Version Changelog:
 ------------------
 
-v10.9                                                  08.06.2021
+v10.9                                                  11.06.2021
 -----
 +Improved braid icon and four models boundaries, thanks to Norrwin.
 +Restored way to kill Vandal and improved other SM clinic details.
@@ -123,6 +123,8 @@ v10.9                                                  08.06.2021
 +Moved Hallowbrook GLOCKs to secret room and made Firemage defend.
 +Added two Tremere Domination and female Malkavian intro particles.
 +Fixed idle animations issues and a hole in female Malkavian hair.
++Restored Humanity gain for Mercurio's money and XP gain for basic.
+Fixed conversation triggers and movement afterwards on five maps.
 Repaired Nadia standing up again and restored zombie death sounds.
 Removed floating Chinatown lights and blocked jumping on trailer.
 Fixed vanishing severed arm and henchman hair, thanks to Barrabah.
@@ -139,7 +141,6 @@ Corrected critical Python script and removed several guard floats.
 Made hunters attack Tung and Barabus turn off Potence more often.
 Fixed pier water, warehouse ladder and several interesting places.
 Corrected some mistakes in the walkthrough and other text issues.
-Fixed conversation triggers and movements afterwards on five maps.
 
 v10.8                                                  21.03.2021
 -----
@@ -2875,6 +2876,7 @@ Santa Monica:
 +Unlocked door in Gimble's lair, showed his hand and fixed cutscene.
 +Made Carson pack his stuff and corrected skybox reflection on hub.
 +Restored fighters brawling in Al's video game at beachhouse level.
++Gave Humanity instead of XP if you give your own money to Mercurio.
 Fixed morphine quest updates after angering Mercurio and warehouse.
 Made diner cook move more and stopped Doris from falling into floor.
 Fixed Lily's sire's license plate in quest log and her diary dates.
