@@ -27,8 +27,8 @@ SignData
 	TextBlock
 	{
 		"Alignment"			"center"
-		"Text"		"You have just been given a .38 revolver.
-To equip the .38 press the Ranged Weapons key (default F2) until the revolver icon is highlighted in your ranged weapon inventory list, and then left-click. To fire, press the Attack key (default left-click). Some weapons (but not the .38) have an alternate firing mode, such as automatic fire. Press the Attack Mode key (default TAB) to toggle it."	// changed by wesp
+		"Text"		"You have been given a .38 revolver.
+To equip it press the Ranged Weapons key (default F2) until the revolver icon is highlighted, and then left-click. To fire, press the Attack key (default left-click). Some weapons (but not the .38) have an alternate firing mode, such as automatic fire. Press the Attack Mode key (default TAB) to toggle it."	// changed by wesp
 		"Font"		"ParagraphText"
 		"XPos"		"836"	//324, ws-fix
 		"YPos"		"460"	//332, ws-fix
