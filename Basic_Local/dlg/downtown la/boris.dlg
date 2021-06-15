@@ -11,7 +11,7 @@
 {	11	}{	Chto eto takoe? Chert voz'mi? Pochemu ti ego vpustil? (What is this? What the hell? Why are you letting him in here?) Who the hell are you?	}{	Chto eto takoe? Chert voz'mi? Pochemu ti ego vpustil? (What is this? What the hell? Why are you letting him in here?) Who the hell are you?	}{	#	}{	npc.SetDisposition("Angry", 1)	}{	G.Boris_Talk = 1	}{	}{	}{	}{	}{	}{	}{	}
 {	12	}{	I have business to discuss with you.	}{	I have business to discuss with you.	}{	31	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	13	}{	Venus sent me to discuss something with you.	}{	Venus sent me to discuss something with you.	}{	51	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	14	}{	I am a herald from the goddess with a message for your ears.	}{	I am a herald from the goddess with a message for your ears.	}{	211	}{	IsClan(pc,"Malkavian") and G.Boris_Dementated == 0 and not IsDead("Dema")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	14	}{	I am a herald from the goddess with a message for your ears.	}{	I am a herald from the goddess with a message for your ears.	}{	211	}{	IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	15	}{	Hell, yes, how appropriate for you to address me as such.	}{	Hell, yes, how appropriate for you to address me as such.	}{	3	}{	IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	Hell. Yes, how appropriate for you to address me as such.	}
 {	16	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	17	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -283,5 +283,5 @@
 {	283	}{	(Starting Condition)	}{	}{	201	}{	G.Boris_Debt == 1 or G.Boris_Venus == 3	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	284	}{	(Starting Condition)	}{	}{	191	}{	G.Boris_Return == 4	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	285	}{	(Starting Condition)	}{	}{	171	}{	G.Boris_Venus > 0	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	286	}{	(Starting Condition)	}{	}{	5	}{	G.Dema_Go == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	287	}{	(Starting Condition)	}{	}{	7	}{	G.Dema_Go != 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	286	}{	(Starting Condition)	}{	}{	5	}{	G.Dema_Go == 1 and not IsDead("Dema")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	287	}{	(Starting Condition)	}{	}{	7	}{	G.Dema_Go != 1 or IsDead("Dema")	}{	}{	}{	}{	}{	}{	}{	}{	}
