@@ -105,7 +105,7 @@ Trackerscheme.res: Turns Malkavian font off, check txt, by Wesp5.
 Version Changelog:
 ------------------
 
-v10.9                                                  14.06.2021
+v10.9                                                  07.07.2021
 -----
 +Improved braid icon and four models boundaries, thanks to Norrwin.
 +Restored way to kill Vandal and improved other SM clinic details.
@@ -140,8 +140,9 @@ Fixed being stuck on warrens gate and added ammo to Society roof.
 Corrected critical Python script and removed several guard floats.
 Made hunters attack Tung and Barabus turn off Potence more often.
 Fixed pier water, warehouse ladder and several interesting places.
-Corrected some mistakes in the walkthrough and other text issues.
-Repaired two map holes downtown and reformated .38 tutorial popup.
+Repaired two downtown map holes and shortened .38 tutorial popup.
+Corrected Boris lines, walkthrough mistakes and other text issues.
+Removed Ocean House hotel sun room haunted music for basic patch.
 
 v10.8                                                  21.03.2021
 -----
@@ -633,7 +634,7 @@ v9.5                                                     24.04.2016
 +Added skulls to ritual chamber and fixed Red Spot storage door bug.
 +Fixed delayed identification of occult powerups and infobar icons.
 +Added new notes to museum outside and to the two Santa Monica hubs.
-+Made Edward's theme play only after the Ocean House has been left.
++Made Edward's theme music play once the Ocean House has been left.
 +Restored two newspaper headers and fixed whispers, thanks Psycho-A.
 +Fixed library guard sound group and added post-installation-infos.
 +Made male blood doll bi and fixed some other minor dialogue issues.
@@ -2965,12 +2966,12 @@ Made killer react to diner violence and quest independent from Muddy.
 Corrected freezes on meeting the killer and Gimble while Obfuscated.
 
 Ocean House:
-+Restored missing Ocean House newspaper and made photos look sepia.
++Restored sun room music, a missing newspaper and made photos sepia.
 +Hid Ocean House killer's axe and increased chance of noticing him.
 +Restored Ocean House sprinkler sequence, some cans and some sounds.
 +Swapped low Dodge book with Defense powerup and restored moon sky.
 +Restored Hellcat and valve sequences and fixed some lantern sparks.
-+Made Edward's theme play only after the Ocean House has been left.
++Made Edward's theme music play once the Ocean House has been left.
 Hid clipping boxes and added a missing door, trailer and bar lamps.
 Added and corrected inspections of containers and steam pipe damage.
 Restored ghost whispers, scenes, laughter and vent breaking sounds.

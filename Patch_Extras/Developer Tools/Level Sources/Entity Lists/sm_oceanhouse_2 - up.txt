@@ -17893,7 +17893,7 @@
 "pitchstart" "100"
 "radius" "1250"
 "sound_event_level" "2"
-"message" "Area/Santa_Monica/Ocean_House/Hauntedmusic.wav"
+"message" "Music/Stems/Mid_Short cutscene27.wav"
 "targetname" "SunRoom_Music"
 "spawnflags" "17"
 "fadein" "2"
