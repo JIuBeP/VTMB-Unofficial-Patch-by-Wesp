@@ -300,8 +300,8 @@
 {	300	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	301	}{	I guess you can go on up. He wasn't expecting you, but it should be alright.	}{	I guess you can go on up. He wasn't expecting you, but it should be alright.	}{	#	}{	}{	G.Chunk_Open = 5	}{	}{	}{	}{	}{	}{	}{	}
 {	302	}{	Thanks.	}{	Thanks.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	It will be.	}
-{	303	}{	Ahem....	}{	Ahem....	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Nobody expects the Malkavian Inquisition.	}
-{	304	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	303	}{	Ahem....	}{	Ahem....	}{	0	}{	G.Patch_Plus == 0	}{	}{	}{	}{	}{	}{	}{	}{	...	}
+{	304	}{	Ahem....	}{	Ahem....	}{	0	}{	G.Patch_Plus == 1	}{	}{	}{	}{	}{	}{	}{	}{	Nobody expects the Malkavian Inquisition.	}
 {	305	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	306	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	307	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}

@@ -105,7 +105,7 @@ Trackerscheme.res: Turns Malkavian font off, check txt, by Wesp5.
 Version Changelog:
 ------------------
 
-v10.9                                                  07.07.2021
+v10.9                                                  15.07.2021
 -----
 +Improved braid icon and four models boundaries, thanks to Norrwin.
 +Restored way to kill Vandal and improved other SM clinic details.
@@ -142,7 +142,7 @@ Made hunters attack Tung and Barabus turn off Potence more often.
 Fixed pier water, warehouse ladder and several interesting places.
 Repaired two downtown map holes and shortened .38 tutorial popup.
 Corrected Boris lines, walkthrough mistakes and other text issues.
-Removed Ocean House hotel sun room haunted music for basic patch.
+Removed restored Ocean House sun music and some lines from basic.
 
 v10.8                                                  21.03.2021
 -----
