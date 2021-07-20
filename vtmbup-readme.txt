@@ -105,6 +105,14 @@ Trackerscheme.res: Turns Malkavian font off, check txt, by Wesp5.
 Version Changelog:
 ------------------
 
+v11.0                                                  20.07.2021
+-----
+Removed leftover changes to vendors and emails for plus and basic.
+Made Chang not drop his blade and renamed second knife for basic.
+Removed special Heather lines and Hallowbrook cowering from basic. 
+Fixed floating junk downtown and gums appearing after Ming fight.
+Made sure player can't leave endgame Skyeline haven via the vents.
+
 v10.9                                                  16.07.2021
 -----
 +Improved braid icon and four models boundaries, thanks to Norrwin.

@@ -29,7 +29,7 @@
 
                                   Version 1.5
 
-                            (Unofficial Patch 10.9)
+                            (Unofficial Patch 11.0)
 
 
 
@@ -5306,9 +5306,9 @@ Notes: The best blunt weapon of the game. It does a great deal of damage, but
 ----------------------
 
 
-~~~~~~~~~~
- 1. KNIFE
-~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~
+ 1. KNIFE / COMBAT KNIFE
+~~~~~~~~~~~~~~~~~~~~~~~~~
 Melee Combat Requirement: 4
 Lethality: 9
 Base Damage: 2
@@ -5450,7 +5450,7 @@ Fire Rate: MEDIUM
 Range: LONG
 Reload Speed: FAST
 
-Notes: the first gun you'll find, it's very weak and it's only advantage is
+Notes: The first gun you'll find, it's very weak and it's only advantage is
        it's long range.
 
 
