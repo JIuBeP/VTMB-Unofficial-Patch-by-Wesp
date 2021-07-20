@@ -1769,7 +1769,7 @@
 "model" "models/character/npc/unique/Giovanni_Mansion/Chang_Brothers/chang3.mdl"
 "additionalequipment" "item_w_chang_blade"
 "squadname" "ChangBrothers"
-"cantdropweapons" "0"
+"cantdropweapons" "1"
 "is_bossmonster" "1"
 "follower_type" "Default"
 "OnDeath" "chang_death_counter,Add,1,0,-1,,"

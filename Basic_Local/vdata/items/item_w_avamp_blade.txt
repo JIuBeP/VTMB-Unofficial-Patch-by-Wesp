@@ -1,9 +1,9 @@
-// Knife
+// Combat Knife, changed by wesp
 
 WeaponData
 {
-	"printname"		"Knife"
-	"description"		"Some knives, throughout their entire existence, are never used for any malicious purpose. This ain't one of them."
+	"printname"		"Combat Knife"	// changed by wesp
+	"description"		"Some knives are used to carve up food. Some knives are used to carve up people. This is one of the latter."	// changed by wesp
 //	"viewmodel"		"models/weapons/knife/view/v_knife.mdl"
 //"viewmodel"	""
 "viewmodel"	"models/weapons/w_null.mdl"
