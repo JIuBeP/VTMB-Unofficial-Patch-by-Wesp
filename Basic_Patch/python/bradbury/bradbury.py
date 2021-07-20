@@ -82,8 +82,8 @@ def heatherCheck():
     else:
         #normal encounter
         print "no heather"
-        trig_heather = Find("trig_heather")
-        if trig_heather: trig_heather.Kill()
+        trigger = Find("trig_heather")
+        if trigger: trigger.Kill()
         relay = Find("non_heather_scene_unhider")
         relay.Trigger()
 
@@ -113,6 +113,12 @@ def heatherDie():
 
 #HALLOBROOK HOTEL 2: This makes me sad, changed by wesp
 def initVars():
+    if G.Patch_Plus == 0:
+        cower = __main__.FindEntitiesByName("plus_cower")
+        for c in cower:
+            c.Disable()
+        trigger = Find("trig_heather")
+        if trigger: trigger.Kill()
     G.shadowList = [1, 1, 0, 0, 1]
     G.deadShadowMages = 0
     heather = Find("Heather")
