@@ -897,7 +897,7 @@ def hannahDialog():
     hannah.SetDisposition("Dead", 1)
     hannah.TakeDamage(100)
 
-#SKYLINE: Called to see if the player took her journal
+#SKYLINE: Called to see if the player took her journal, changed by wesp
 def hannahsBookPickup():
     if(G.Hannah_Jezebel < 1):
         pc = __main__.FindPlayer()
@@ -905,9 +905,11 @@ def hannahsBookPickup():
         G.Hannah_Jezebel = 1
         state = pc.GetQuestState("AllPlague")
         if(state == 0):
-           pc.SetQuest("Plague", 4)
+            pc.SetQuest("Plague", 4)
         else:
             pc.SetQuest("AllPlague", 9)
+    if G.Hannah_Dead == 0:
+        hannahDialog()
 
 #SKYLINE: Called when the player listens to hannah's message
 def hannahMessageHeard():
