@@ -18,7 +18,6 @@ TerminalDefinition
 		"description"		"for all of your erotica needs"
 		"difficulty"		"0"
 		"dependency"		"G.Shubs_Act == 4"
-		"runscript"		"G.Shubfour_Virus = 0"	
 
 		Function
 		{
@@ -28,7 +27,7 @@ TerminalDefinition
 Thanks, kid. Take care of yourself out there.
 
 >m1tn1ck<"	// changed by wesp
-			"runscript"	""
+			"runscript"		"G.Shubfour_Virus = 0"	// added by wesp
 			"trigger"	"0"
 			
 		}
