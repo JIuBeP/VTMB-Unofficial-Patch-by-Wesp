@@ -18,7 +18,7 @@ if not defined ModDir (
 set "ModDir=%Cd%\Vampire")
 set "SdkContent=%Cd%\SDKContent"
 pushd "%~dp0"
-set MsgBox="helpers\msgbox.exe"
+set MsgBox="assets\msgbox.exe"
 if exist "Tools\Texture Utils\TexConvert.exe" (
 set TextureConverter="Tools\Texture Utils\TexConvert.exe"
 ) else set TextureConverter=
@@ -29,15 +29,16 @@ set SourceTexturesFound=
 set Params=
 set CmdLine=%*
 
-:ProcessQcPath
+:GetFixedQcPath
 for %%m in (%*) do (
 if /i "%%~xm"==".qc" (
 	set "QCFile=%%~m"
-	set "QCPath=%%~dpm"
+	call :SetFixed QCPath "%%~dpm"
 	if not exist "%%~m" (
 	if exist "%CwD%\%%~nxm" (
-	set "QCFile=%CwD%\%%~nxm"
-	set "QCPath=%CwD%\"))
+		set "QCFile=%CwD%\%%~nxm"
+		call :SetFixed QCPath "%CwD%"
+	))
 ))
 if not defined QCFile (
 	echo Invalid commands: no QC file specified!
@@ -47,17 +48,17 @@ if not defined QCFile (
 	goto Quit
 )
 
-:ProcessModDir
+:GetFixedModDir
 if exist "GameCfg.ini" (
 for /f "usebackq delims== tokens=1,*" %%a in ("GameCfg.ini") do (
 	if /i "%%~a"=="ModDir" (if exist "%%~b\*" (set "%%~a=%%~b") )
 ))
 if not exist "%ModDir%\" (
-rem Try VProject env.path...
-if defined VProject (
-if exist "%VProject%\" (
-	set "ModDir=%VProject%"
-)))
+	if defined VProject (
+	if exist "%VProject%\" (
+		set "ModDir=%VProject%"
+	))
+)
 if not exist "%ModDir%\" (
 	echo Wrong mod directory specified: "%ModDir%"!
 	goto Quit
@@ -65,14 +66,14 @@ if not exist "%ModDir%\" (
 
 :GetMdlFilePath
 for /f "usebackq eol=/ tokens=1,*" %%a in ("%QCFile%") do (
-if /i "%%~a"=="$modelname" (if not "%%~b"=="" (
+if /i "%%~a"=="$ModelName" (if not "%%~b"=="" (
 	if /i "%%~xb"==".mdl" call :SetFixed ModelName "models/%%~b!"
 	if /i not "%%~xb"==".mdl" call :SetFixed ModelName "models/%%~b.mdl!"
 )))
 if not defined ModelName (
 	echo Failed to get target MDL path from QC!
 	goto Quit
-)
+) else set "ModelName=%ModelName:.mdl!=%"
 
 :ParseCmdline
 for %%l in (-game -mod -build) do (rem Strip mod lines:
@@ -86,8 +87,6 @@ if not defined Params set CmdLine=
 if not defined Params set Params=-None-
 
 :ShowSummary
-call :SetFixed QCPath "%QCPath%"
-set "ModelName=%ModelName:.mdl!=%"
 echo ---------------------
 if /i "%~1"=="-mod" (
 	echo Project: "%ModDir: = %"
@@ -128,7 +127,7 @@ call studiomdl.exe -game "%ModDir%" %CmdLine% "%QCFile%"
 echo. 
 
 :FixBadCollision
-if exist studiomdl-fix.exe (
+if exist "studiomdl-fix.exe" (
 if exist "%ModDir%\%ModelName%.mdl" (
 	echo Fixing model's collision data...
 	call studiomdl-fix.exe "%ModDir%\%ModelName%.mdl"
@@ -142,12 +141,14 @@ if exist "%%~dpns@orig%%~xs" (del /f /q "%%~s"
 	move /y "%%~dpns@orig%%~xs" "%%~s"> nul 2>&1
 ))
 
-:CheckResult
+:CheckResults
 echo ---------------------
 if exist "%ModDir%\%ModelName%.mdl" (
 	echo Compiling model success.) else (
 	echo An error occurred during compiling!
 	echo See StudioMDL log above for details.
+	rem Cancel textures...
+	set TextureConverter=
 )
 echo --------------------- 
 
@@ -232,7 +233,7 @@ if /i "%%~a"=="$cdmaterials" (if not "%%~b"=="" (
 exit /b
 
 :SetFixed
-	set "FixVar=%~2"
+set "FixVar=%~2"
 :SetFixed_loop
 	set "FixVar=%FixVar:/=\%"
 	set "FixVar=%FixVar:\\=\%"
@@ -242,5 +243,5 @@ exit /b
 	if "%FixVar:~-1%"=="\" goto SetFixed_loop
 	if "%FixVar:~0,1%"=="\" goto SetFixed_loop
 	if not "%FixVar:\\=\%"=="%FixVar%" goto SetFixed_loop
-	set "%~1=%FixVar%"
+set "%~1=%FixVar%"
 exit /b

@@ -27,7 +27,7 @@ if "%~1"=="" (
 :SetAppFiles
 pushd "%~dp0"
 pushd "..\..\SDKBinaries\"
-set Sfk="%CD%\helpers\sfk.exe"
+set Sfk="%CD%\assets\sfk.exe"
 popd
 
 :CheckFiles

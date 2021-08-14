@@ -8,14 +8,14 @@ pushd "%~dp0"
 :: Main
 for %%m in (
 	sdklauncher.exe
-	helpers\sfk.exe
-	helpers\msgbox.exe
-	helpers\7za.exe
-	helpers\nircmd.exe
-	helpers\ed_assets.7z
-	helpers\cmdseq.init
-	helpers\setmoddir.exe
-	helpers\resetconfig.exe
+	assets\sfk.exe
+	assets\msgbox.exe
+	assets\7za.exe
+	assets\nircmd.exe
+	assets\editor_main.7z
+	assets\cmdseq.init
+	assets\setmoddir.exe
+	assets\resetconfig.exe
 	tools\wizards\prepwizard.bat
 	tools\wizards\createmod.bat
 ) do (
@@ -27,19 +27,19 @@ for %%m in (
 
 :: Variables
 set "SDKRoot=%CD%"
-set "Sfk=helpers\sfk.exe"
-set "EchoSp=helpers\sfk.exe echo"
-set "MsgBox=helpers\msgbox.exe"
-set "UnZip=helpers\7za.exe"
-set "NirCmd=helpers\nircmd.exe"
+set "Sfk=assets\sfk.exe"
+set "EchoSp=assets\sfk.exe echo"
+set "MsgBox=assets\msgbox.exe"
+set "UnZip=assets\7za.exe"
+set "NirCmd=assets\nircmd.exe"
 
 :: WineTricks
 if not exist "%SystemRoot%\System32\chcp.???" (
 	echo Fixing Wine compatibility...
 	set "WINEARCH=win32"
 	set "WINEPREFIX=~/.wine"
-	%UnZip% x "helpers\winelibs.7z" -o"%SystemRoot%\System32\" -y -aoa> nul
-	regedit /s "helpers\winefix.reg"
+	%UnZip% x "assets\winelibs.7z" -o"%SystemRoot%\System32\" -y -aoa> nul
+	regedit /s "assets\winefix.reg"
 	echo Restarting SDK launcher...
 	for %%s in ("Bloodline*SDK.exe") do (
 		start "SDK: Wine Mode" "%%~s"
@@ -176,11 +176,11 @@ if exist "GameCfg.ini" (
 )> nul
 
 :extractassets
- %UnZip% x "helpers\ed_assets.7z" -o"%GameDir%\" -y -aoa> nul
+ %UnZip% x "assets\editor_main.7z" -o"%GameDir%\" -y -aoa> nul
 
 :cleartemps
  if exist "*.rf"  del /a /q *.rf> nul
- copy /y "helpers\cmdseq.init" ".\cmdseq.wc"> nul
+ copy /y "assets\cmdseq.init" ".\cmdseq.wc"> nul
  reg delete "HKCU\Software\Troika\hlmv" /f> nul
 
 :fisrstrun
@@ -192,7 +192,7 @@ if exist "GameCfg.ini" (
 
 :setmoddir
  %MsgBox% This is the first launch of the Bloodlines SDK. Choose the mod directory you're using for your project (usually it's folder near "vampire.exe" in the game root directory). If you plan to work with the original game (which is in "Vampire" folder), just click "Cancel" to keep default config. /t:MB_SYSTEMMODAL,MB_ICONINFORMATION,MB_OKCANCEL /c:Note
- if not "%ErrorLevel%"=="2" "helpers\setmoddir.exe" -first
+ if not "%ErrorLevel%"=="2" "assets\setmoddir.exe" -first
 
 :checkmoddir
  if "%FixBrokenConfig%"=="1" (
@@ -216,7 +216,7 @@ if exist "GameCfg.ini" (
 
 :badmoddir
  %MsgBox% The currently specified game directory is invalid. Please, choose the correct game content location (this usually is game's "Vampire" or "Unofficial_Patch" subdirectory). If you don't, not all tools will work! /c:Bloodlines SDK :: Error /t:MB_SYSTEMMODAL,MB_ICONWARNING,MB_OKCANCEL
- if "%ErrorLevel%"=="2" (del /a /q "FirstRun.ini"> nul) else ("helpers\setmoddir.exe")
+ if "%ErrorLevel%"=="2" (del /a /q "FirstRun.ini"> nul) else ("assets\setmoddir.exe")
 
 :startsdk
  taskkill /f /im SDKLauncher.exe> nul 2>&1

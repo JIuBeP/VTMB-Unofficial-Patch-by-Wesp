@@ -1,0 +1,16 @@
+"GameInfo"
+{
+	Game	"Bloodlines SDK"
+
+	FileSystem
+	{
+		SteamAppId				211
+		ToolsAppId				211
+
+		SearchPaths
+		{
+			Game				|gameinfo_path|.
+			QCGenerator			|gameinfo_path|.
+		}
+	}
+}

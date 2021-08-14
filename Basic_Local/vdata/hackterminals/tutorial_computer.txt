@@ -4,12 +4,12 @@ TerminalDefinition
 	"brackets"		""			// these surround the command prompt and subdirector names(2 characters), changed by wesp
 
 	"email_password"	"letmein"		// the user must type this to access email from this terminal
-	"email_username"	"Jim Beam"		// printed at the top of the email window, not used for log in, was "Jack Daniels", changed by wesp. 
+	"email_username"	"Jack Daniels"		// printed at the top of the email window, not used for log in
 
 	LogonScreen	// displayed when the user first logs on
 	{
 		// Any number of lines are acceptable
-		"line0"		"Welcome, Jim."		//(any number of characters, but must fit in the screen, changed by wesp
+		"line0"		"Welcome, Jack."		//(any number of characters, but must fit in the screen
 	}
 
 	// you can have up to 5 subdirs per terminal

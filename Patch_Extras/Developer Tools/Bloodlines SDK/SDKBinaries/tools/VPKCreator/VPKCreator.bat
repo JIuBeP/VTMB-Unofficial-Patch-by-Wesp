@@ -39,7 +39,7 @@ pause > nul
 set "VCHome=%CD%"
 set VCConfig="%VCHome%\Config.ini"
 set VBuilder="%VCHome%\service\vpkbuilder.exe"
-set Sfk="%VCHome%\..\..\helpers\sfk.exe"
+set Sfk="%VCHome%\..\..\assets\sfk.exe"
 set "PackDirsList=%VCHome%\pack_dirs.txt"
 
 set Wait=call :WaitFunc

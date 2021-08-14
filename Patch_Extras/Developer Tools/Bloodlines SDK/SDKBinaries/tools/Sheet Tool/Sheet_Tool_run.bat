@@ -8,7 +8,7 @@ pushd "%~dp0"
 :set_vars
 set "AppFile=Sheet_Tool.exe"
 set "Program=%cd%\%AppFile%"
-set "Readme=%cd%\Show_readme.exe"
+set "Readme=%cd%\Show_message.exe"
 set "Delete="
 set "RunKey="
 
@@ -17,9 +17,9 @@ if not exist "%Program%" (
 	echo>>"..\..\..\sdk_errors.log" [%date% %time%] Program error: App file "%Program%" not found!
 	exit
 )
-if exist "..\..\helpers\sfk.exe" (
-	set Sfk="..\..\helpers\sfk.exe") else (
-	echo>>"..\..\..\sdk_errors.log" [%date% %time%] %AppFile:.exe=% error: Missing "%cd%\..\..\helpers\sfk.exe" file.
+if exist "..\..\assets\sfk.exe" (
+	set Sfk="..\..\assets\sfk.exe") else (
+	echo>>"..\..\..\sdk_errors.log" [%date% %time%] %AppFile:.exe=% error: Missing "%cd%\..\..\assets\sfk.exe" file.
 	goto show_readme
 )
 

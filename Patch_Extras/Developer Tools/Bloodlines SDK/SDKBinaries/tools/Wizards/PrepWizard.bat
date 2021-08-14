@@ -9,10 +9,10 @@ pushd "%~dp0"
 
 :app-vars
 pushd "..\.."
-set MsgBox="%cd%\helpers\msgbox.exe"
-set Sfk="%cd%\helpers\sfk.exe"
-set UnZip="%cd%\helpers\7za.exe"
-set Assets="%cd%\helpers\ed_assets.7z"
+set MsgBox="%cd%\assets\msgbox.exe"
+set Sfk="%cd%\assets\sfk.exe"
+set UnZip="%cd%\assets\7za.exe"
+set Assets="%cd%\assets\editor_main.7z"
 set GameCfg="%cd%\GameCfg.ini"
 popd
 

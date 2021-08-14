@@ -12,5 +12,5 @@ Version 0.65
 Copyright 2020
 ZeqMacaw
 
-Bloodlines customization: 
-Psycho-A, 2020
+Bloodlines customization:
+Psycho-A, 2021

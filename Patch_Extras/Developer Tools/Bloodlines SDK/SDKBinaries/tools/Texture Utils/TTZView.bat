@@ -10,8 +10,8 @@ set "PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"
 pushd "%~dp0"
 
 :Vars
-set MsgBox=..\..\helpers\msgbox.exe
-set OpenDlg=..\..\helpers\OpenDlg.exe
+set MsgBox=..\..\assets\msgbox.exe
+set OpenDlg=..\..\assets\OpenDlg.exe
 set TtzDecomp="service\TtzDecomp.exe"
 set FileTypes="service\filetypes.bat"
 set OpenFile=call "%OpenDlg%" /f

@@ -38,7 +38,16 @@ will tell you that the file was created successfully. You should have
 new UV in addition of the new coordinates and vertices, and that's it.
 
 
+How to revert a model that was modified with Blender's script:
+--------------------------------------------------------------
+
+Make a *.x file from the original model. Load that file into Blender.
+Select the vertices you want to move back into their original place.
+Use "VTMB_select_2_vert" script in Blender and choose the model you 
+changed (from the original) to revert back the selected ones.
+
+
 Have fun!
 Dan (alias DDLullu)
 
-// Improved and adapted for Bloodlines SDK by Psycho-A at 25.04.2019
+// Improved and adapted for Bloodlines SDK by Psycho-A at 02.08.2021

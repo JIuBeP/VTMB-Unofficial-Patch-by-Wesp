@@ -2248,7 +2248,7 @@ the one with the bloodstain in front. There talk to Mercurio (1 XP) to get the
  MAIN QUEST: SURF'S UP
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-OUTCOME: 3-4 XP
+OUTCOME: 3-4 XP [+: HUMANITY GAIN]
 
 Head over to the beach and climb the iron stairs to the right. You can finish
 this quest in many ways. You can assault the house and kill all enemies. You
@@ -2260,7 +2260,7 @@ vent in the laundry room and crawl inside, there's a MONEY ENVELOPE there [+:
 or a cigar box with an envelope in it], take it ($250). There is also a CAR
 STEREO in the kitchen for you to sell for some cash. Go back to Mercurio and
 he'll give you the [EXPLOSIVE BEGINNING] quest (1 XP). If you give him money
-back you get another 1 XP.
+back you get another 1 XP [+: and a HUMANITY GAIN if didn't find his money].
 
 
 

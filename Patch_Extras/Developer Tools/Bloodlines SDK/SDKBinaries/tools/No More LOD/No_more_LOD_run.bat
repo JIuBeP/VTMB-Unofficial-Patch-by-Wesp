@@ -9,7 +9,7 @@ pushd "%~dp0"
 set "AppFile=No_more_LOD.exe"
 set "Program=%cd%\%AppFile%"
 set "MsgBox=%cd%\Show_message.exe"
-set "OpenDlg=..\..\helpers\opendlg.exe"
+set "OpenDlg=..\..\assets\opendlg.exe"
 
 :check_files
 for %%m in ("%Program%" "%MsgBox%" "%OpenDlg%") do (if not exist "%%~m" (

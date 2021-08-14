@@ -7,7 +7,7 @@ pushd "%~dp0"
 
 :CheckBin
 set "HLMV=%Cd%\hlmv.exe"
-for %%m in (hlmv.exe helpers\sfk.exe) do (
+for %%m in (hlmv.exe assets\sfk.exe) do (
 if not exist "%%~m" (
 	echo>>"..\sdk_errors.log" [%date% %time%] HlmvShell error: Missing "%cd%\%%~m" file.
 	exit
@@ -29,8 +29,8 @@ if "%~1"=="" (
 )
 
 :StripPath
-for /f "delims=" %%a in ('helpers\sfk.exe echo "%~1" +filter -rep "|\models\??*||"') do (set "ModDir=%%~a")
-for /f "delims=" %%a in ('helpers\sfk.exe echo "%~1" +filter -rep "|??*\models\|models\|"') do (set "FilePath=%%~a")
+for /f "delims=" %%a in ('assets\sfk.exe echo "%~1" +filter -rep "|\models\??*||"') do (set "ModDir=%%~a")
+for /f "delims=" %%a in ('assets\sfk.exe echo "%~1" +filter -rep "|??*\models\|models\|"') do (set "FilePath=%%~a")
 if not exist "%ModDir%\%FilePath%" (
 	echo>>"..\sdk_errors.log" [%date% %time%] HlmvShell error: Can't get ModDir for "%~1".
 )

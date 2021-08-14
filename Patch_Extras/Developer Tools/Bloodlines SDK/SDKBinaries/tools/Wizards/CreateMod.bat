@@ -7,10 +7,10 @@ set Title=Create a New Mod
 title %Title%
 pushd "%~dp0\..\.."
 
-set MsgBox=helpers\msgbox.exe
-set Sfk=helpers\sfk.exe
-set InputBox=helpers\inputbox.exe
-set UnZip=helpers\7za.exe
+set MsgBox=assets\msgbox.exe
+set Sfk=assets\sfk.exe
+set InputBox=assets\inputbox.exe
+set UnZip=assets\7za.exe
 set UtfConv="%~dp0service\ansi2utf.exe"
 set ModBase="%~dp0service\modbase.zip"
 set EchoX=%Sfk% echo

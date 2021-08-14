@@ -26,8 +26,8 @@ if "%~1"=="" (
 pushd "%~dp0"
 pushd "..\..\SDKBinaries\"
 set BSPZip="%CD%\bspzip.exe"
-set UnZip="%CD%\helpers\7za.exe"
-set Sfk="%CD%\helpers\sfk.exe"
+set UnZip="%CD%\assets\7za.exe"
+set Sfk="%CD%\assets\sfk.exe"
 popd
 
 :CheckFiles

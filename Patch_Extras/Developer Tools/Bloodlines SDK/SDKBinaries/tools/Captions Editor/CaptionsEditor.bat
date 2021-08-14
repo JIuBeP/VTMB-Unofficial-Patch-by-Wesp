@@ -16,9 +16,9 @@ chcp 1251> nul
 pushd "%~dp0"
 
 :: Required assets
-set InputBox=..\..\helpers\inputbox.exe
-set Sfk=..\..\helpers\sfk.exe
-set OpenFile=..\..\helpers\opendlg.exe /f "/e=*.lip *.txt"
+set InputBox=..\..\assets\inputbox.exe
+set Sfk=..\..\assets\sfk.exe
+set OpenFile=..\..\assets\opendlg.exe /f "/e=*.lip *.txt"
 
 :: Read LIP file
 echo Reading input...

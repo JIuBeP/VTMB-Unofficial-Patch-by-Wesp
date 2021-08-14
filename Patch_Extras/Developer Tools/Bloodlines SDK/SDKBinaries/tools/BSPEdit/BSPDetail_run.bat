@@ -16,9 +16,9 @@ if not exist "%Program%" (
 	echo>>"..\..\..\sdk_errors.log" [%date% %time%] Program error: App file "%Program%" not found!
 	exit
 )
-if exist "..\..\helpers\sfk.exe" (
-	set Sfk="..\..\helpers\sfk.exe") else (
-	echo>>"..\..\..\sdk_errors.log" [%date% %time%] %AppFile:.exe=% error: Missing "%cd%\..\..\helpers\sfk.exe" file.
+if exist "..\..\assets\sfk.exe" (
+	set Sfk="..\..\assets\sfk.exe") else (
+	echo>>"..\..\..\sdk_errors.log" [%date% %time%] %AppFile:.exe=% error: Missing "%cd%\..\..\assets\sfk.exe" file.
 	goto run_program
 )
 

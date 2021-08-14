@@ -29,9 +29,9 @@ set AutoCreateVmts=1
 
 
 :Vars
-set Sfk="..\..\helpers\sfk.exe"
-set MsgBox="..\..\helpers\msgbox.exe"
-set OpenDlg="..\..\helpers\OpenDlg.exe"
+set Sfk="..\..\assets\sfk.exe"
+set MsgBox="..\..\assets\msgbox.exe"
+set OpenDlg="..\..\assets\OpenDlg.exe"
 set FileTypes="service\filetypes.bat"
 set ZLib="service\zlib1.exe"
 set TtzDec="service\Ttz2Vtf.exe"

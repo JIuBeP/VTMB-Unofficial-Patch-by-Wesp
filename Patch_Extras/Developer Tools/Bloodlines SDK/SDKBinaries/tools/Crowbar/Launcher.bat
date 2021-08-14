@@ -12,7 +12,7 @@ if not defined ProjectDir set ProjectDir=NULL
 
 pushd ..\..
 set "SDKBinaries=%cd%"
-set Sfk="%cd%\helpers\sfk.exe"
+set Sfk="%cd%\assets\sfk.exe"
 set GameCfg="%cd%\GameCfg.ini"
 if exist "GameCfg.ini" (
 for /f "usebackq delims== tokens=1,*" %%a in (%GameCfg%) do (set "%%~a=%%~b"))
@@ -39,11 +39,14 @@ rem MDL Decompiler as default tab...
 
 rem Game paths setup...
 for %%m in ("%ModDir%") do (
+%Sfk% filter "Settings.xml" -where "<GameName>" -rep "|<GameName>*Vampire*|<GameName>Vampire: Bloodlines</GameName>|" -write -yes -quiet=2
+%Sfk% filter "Settings.xml" -where "<GameName>" -srep "|<GameName>*Swarm*|<GameName>\xd0\x90lien Swarm Compiler</GameName>|" -write -yes -quiet=2
 %Sfk% filter "Settings.xml" -where "<GameAppOptions>" -rep "|<GameAppOptions>*|<GameAppOptions>-game %%~nxm</GameAppOptions>|" -write -yes -quiet=2)
-%Sfk% filter "Settings.xml" -where "<GameName>" -rep "|<GameName>*|<GameName>%Name%</GameName>|" -write -yes -quiet=2
 %Sfk% filter "Settings.xml" -where "<GameAppPathFileName>" -rep "|<GameAppPathFileName>*|<GameAppPathFileName>%GameExe%</GameAppPathFileName>|" -write -yes -quiet=2
-%Sfk% filter "Settings.xml" -where "<GamePathFileName>" -rep "|<GamePathFileName>*|<GamePathFileName>%SDKBinaries%\GameCfg.ini</GamePathFileName>|" -write -yes -quiet=2
-%Sfk% filter "Settings.xml" -where "<CompilerPathFileName>" -rep "|<CompilerPathFileName>*|<CompilerPathFileName>%SDKBinaries%\StudioMDL.bat</CompilerPathFileName>|" -write -yes -quiet=2
+%Sfk% filter "Settings.xml" -where "<GamePathFileName>" -rep "|<GamePathFileName>*GameCfg.ini*|<GamePathFileName>%SDKBinaries%\GameCfg.ini</GamePathFileName>|" -write -yes -quiet=2
+%Sfk% filter "Settings.xml" -where "<GamePathFileName>" -rep "|<GamePathFileName>*GameInfo.txt*|<GamePathFileName>%SDKBinaries%\assets\GameInfo.txt</GamePathFileName>|" -write -yes -quiet=2
+%Sfk% filter "Settings.xml" -where "<CompilerPathFileName>" -rep "|<CompilerPathFileName>*StudioMDL.*|<CompilerPathFileName>%SDKBinaries%\StudioMDL.bat</CompilerPathFileName>|" -write -yes -quiet=2
+%Sfk% filter "Settings.xml" -where "<CompilerPathFileName>" -rep "|<CompilerPathFileName>*StudioMDL-Sw.*|<CompilerPathFileName>%SDKBinaries%\StudioMDL-Sw.bat</CompilerPathFileName>|" -write -yes -quiet=2
 %Sfk% filter "Settings.xml" -where "<ViewerPathFileName>" -rep "|<ViewerPathFileName>*|<ViewerPathFileName>%SDKBinaries%\HLMV.exe</ViewerPathFileName>|" -write -yes -quiet=2
 %Sfk% filter "Settings.xml" -where "<MappingToolPathFileName>" -rep "|<MappingToolPathFileName>*|<MappingToolPathFileName>%SDKBinaries%\Hammer.exe</MappingToolPathFileName>|" -write -yes -quiet=2
 %Sfk% filter "Settings.xml" -where "<PackerPathFileName>" -rep "|<PackerPathFileName>*|<PackerPathFileName>%SDKBinaries%\BspZip.exe</PackerPathFileName>|" -write -yes -quiet=2
@@ -94,7 +97,7 @@ rem Unused stuff overrides...
 %Sfk% filter "Settings.xml" -where "<PackMode>" -rep "|<PackMode>*|<PackMode>Folder</PackMode>|" -write -yes -quiet=2
 %Sfk% filter "Settings.xml" -where "<PackOutputFolderOption>" -rep "|<PackOutputFolderOption>*|<PackOutputFolderOption>ParentFolder</PackOutputFolderOption>|" -write -yes -quiet=2
 %Sfk% filter "Settings.xml" -where "<UpdateDownloadPath>" -rep "|<UpdateDownloadPath>*|<UpdateDownloadPath>%cd%\update</UpdateDownloadPath>|" -write -yes -quiet=2
-%Sfk% filter "Settings.xml" -where "<UpdateUpdateDownloadPath>" -rep "|<UpdateUpdateDownloadPath>*|<UpdateUpdateDownloadPath>%cd%\update</UpdateUpdateDownloadPath>|" -write -yes -quiet=2
+%Sfk% filter "Settings.xml" -where "<UpdateUpdateDownloadPath>" -rep "|<UpdateUpdateDownloadPath>*|<UpdateUpdateDownloadPath>%Cd%\update</UpdateUpdateDownloadPath>|" -write -yes -quiet=2
 %Sfk% filter "Settings.xml" -where "<UpdateCopySettingsIsChecked>" -rep "|<UpdateCopySettingsIsChecked>*|<UpdateCopySettingsIsChecked>true</UpdateCopySettingsIsChecked>|" -write -yes -quiet=2
 %Sfk% filter "Settings.xml" -where "<LibraryPath*>" -rep "|<LibraryPath*|<LibraryPath />|" -write -yes -quiet=2
 

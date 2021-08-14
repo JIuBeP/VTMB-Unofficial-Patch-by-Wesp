@@ -23,9 +23,9 @@ set "WhiteListVpks=WhiteList-v1.0-Vpks.lst"
 
 :SetPrograms
 pushd ..\..
-set Sfk="%cd%\helpers\sfk.exe"
-set Arc="%cd%\helpers\7za.exe"
-set Msg="%cd%\helpers\msgbox.exe"
+set Sfk="%cd%\assets\sfk.exe"
+set Arc="%cd%\assets\7za.exe"
+set Msg="%cd%\assets\msgbox.exe"
 set Sha="%~dp0service\sha1.exe"
 
 set "SourceDir=Vampire"

@@ -7,7 +7,7 @@ set "SourceDir=%CD%\Vampire"
 
 :SetPrograms
 pushd "%~dp0"
-set "Sfk=..\..\..\helpers\sfk.exe"
+set "Sfk=..\..\..\assets\sfk.exe"
 set "Sha=sha1.exe"
 set "WhiteList=%cd%\WhiteList-Vampire.lst"
 

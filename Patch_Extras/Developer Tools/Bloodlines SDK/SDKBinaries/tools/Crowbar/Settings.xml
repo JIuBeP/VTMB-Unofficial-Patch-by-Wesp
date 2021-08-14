@@ -15,13 +15,24 @@
 		<GameSetup>
 			<GameName>Vampire: Bloodlines</GameName>
 			<GameEngine>Source</GameEngine>
-			<GamePathFileName>E:\Bloodlines-Modding\SDKBinaries\GameCfg.ini</GamePathFileName>
-			<GameAppPathFileName>E:\Bloodlines-Modding\Vampire.exe</GameAppPathFileName>
+			<GamePathFileName>E:\MyProjects\Bloodlines\Modding\Game-SDK\SDKBinaries\GameCfg.ini</GamePathFileName>
+			<GameAppPathFileName>E:\MyProjects\Bloodlines\Modding\Game-SDK\Vampire.exe</GameAppPathFileName>
 			<GameAppOptions>-game Unofficial_Patch</GameAppOptions>
-			<CompilerPathFileName>E:\Bloodlines-Modding\SDKBinaries\StudioMDL.bat</CompilerPathFileName>
-			<ViewerPathFileName>E:\Bloodlines-Modding\SDKBinaries\HLMV.exe</ViewerPathFileName>
-			<MappingToolPathFileName>E:\Bloodlines-Modding\SDKBinaries\Hammer.exe</MappingToolPathFileName>
-			<PackerPathFileName>E:\Bloodlines-Modding\SDKBinaries\BspZip.exe</PackerPathFileName>
+			<CompilerPathFileName>E:\MyProjects\Bloodlines\Modding\Game-SDK\SDKBinaries\StudioMDL.bat</CompilerPathFileName>
+			<ViewerPathFileName>E:\MyProjects\Bloodlines\Modding\Game-SDK\SDKBinaries\HLMV.exe</ViewerPathFileName>
+			<MappingToolPathFileName>E:\MyProjects\Bloodlines\Modding\Game-SDK\SDKBinaries\Hammer.exe</MappingToolPathFileName>
+			<PackerPathFileName>E:\MyProjects\Bloodlines\Modding\Game-SDK\SDKBinaries\BspZip.exe</PackerPathFileName>
+		</GameSetup>
+		<GameSetup>
+			<GameName>Аlien Swarm Compiler</GameName>
+			<GameEngine>Source</GameEngine>
+			<GamePathFileName>E:\MyProjects\Bloodlines\Modding\Game-SDK\SDKBinaries\assets\GameInfo.txt</GamePathFileName>
+			<GameAppPathFileName>E:\MyProjects\Bloodlines\Modding\Game-SDK\Vampire.exe</GameAppPathFileName>
+			<GameAppOptions>-game Unofficial_Patch</GameAppOptions>
+			<CompilerPathFileName>E:\MyProjects\Bloodlines\Modding\Game-SDK\SDKBinaries\StudioMDL-Sw.bat</CompilerPathFileName>
+			<ViewerPathFileName>E:\MyProjects\Bloodlines\Modding\Game-SDK\SDKBinaries\HLMV.exe</ViewerPathFileName>
+			<MappingToolPathFileName>E:\MyProjects\Bloodlines\Modding\Game-SDK\SDKBinaries\Hammer.exe</MappingToolPathFileName>
+			<PackerPathFileName>E:\MyProjects\Bloodlines\Modding\Game-SDK\SDKBinaries\BspZip.exe</PackerPathFileName>
 		</GameSetup>
 	</GameSetups>
 	<SteamAppPathFileName>&lt; Unused for Bloodlines! &gt;</SteamAppPathFileName>
@@ -35,28 +46,28 @@
 	<SetUpGamesGameSetupSelectedIndex>0</SetUpGamesGameSetupSelectedIndex>
 	<DownloadItemIdOrLink>&lt; Unused for Bloodlines! &gt;</DownloadItemIdOrLink>
 	<DownloadOutputFolderOption>WorkFolder</DownloadOutputFolderOption>
-	<DownloadOutputWorkPath>E:\Bloodlines-Modding\SDKContent\</DownloadOutputWorkPath>
+	<DownloadOutputWorkPath>E:\MyProjects\Bloodlines\Modding\Game-SDK\SDKContent\</DownloadOutputWorkPath>
 	<DownloadUseItemIdIsChecked>false</DownloadUseItemIdIsChecked>
 	<DownloadPrependItemTitleIsChecked>false</DownloadPrependItemTitleIsChecked>
 	<DownloadAppendItemUpdateDateTimeIsChecked>false</DownloadAppendItemUpdateDateTimeIsChecked>
 	<DownloadReplaceSpacesWithUnderscoresIsChecked>false</DownloadReplaceSpacesWithUnderscoresIsChecked>
 	<DownloadConvertToExpectedFileOrFolderCheckBoxIsChecked>true</DownloadConvertToExpectedFileOrFolderCheckBoxIsChecked>
-	<UnpackPackagePathFolderOrFileName>E:\Bloodlines-Modding\Vampire</UnpackPackagePathFolderOrFileName>
+	<UnpackPackagePathFolderOrFileName>E:\MyProjects\Bloodlines\Modding\Game-SDK\Vampire</UnpackPackagePathFolderOrFileName>
 	<UnpackOutputFolderOption>WorkFolder</UnpackOutputFolderOption>
-	<UnpackOutputSamePath>E:\Bloodlines-Modding\Vampire</UnpackOutputSamePath>
+	<UnpackOutputSamePath>E:\MyProjects\Bloodlines\Modding\Game-SDK\Vampire</UnpackOutputSamePath>
 	<UnpackOutputSubfolderName>Unpacked</UnpackOutputSubfolderName>
-	<UnpackOutputFullPath>E:\Bloodlines-Modding\SDKContent\VpkContent</UnpackOutputFullPath>
+	<UnpackOutputFullPath>E:\MyProjects\Bloodlines\Modding\Game-SDK\SDKContent\VpkContent</UnpackOutputFullPath>
 	<UnpackGameSetupSelectedIndex>0</UnpackGameSetupSelectedIndex>
 	<UnpackFolderForEachPackageIsChecked>false</UnpackFolderForEachPackageIsChecked>
 	<UnpackLogFileIsChecked>false</UnpackLogFileIsChecked>
 	<UnpackMode>Folder</UnpackMode>
-	<PreviewMdlPathFileName>E:\Bloodlines-Modding\Unofficial_Patch\models\path\file.mdl</PreviewMdlPathFileName>
+	<PreviewMdlPathFileName>E:\MyProjects\Bloodlines\Modding\Game-SDK\Unofficial_Patch\models\path\file.mdl</PreviewMdlPathFileName>
 	<PreviewOverrideMdlVersion>DoNotOverride</PreviewOverrideMdlVersion>
 	<PreviewGameSetupSelectedIndex>0</PreviewGameSetupSelectedIndex>
-	<DecompileMdlPathFileName>E:\Bloodlines-Modding\Unofficial_Patch\models\path\file.mdl</DecompileMdlPathFileName>
+	<DecompileMdlPathFileName>E:\MyProjects\Bloodlines\Modding\Game-SDK\Unofficial_Patch\models\path\file.mdl</DecompileMdlPathFileName>
 	<DecompileOutputFolderOption>WorkFolder</DecompileOutputFolderOption>
 	<DecompileOutputSubfolderName>Decompiled</DecompileOutputSubfolderName>
-	<DecompileOutputFullPath>E:\Bloodlines-Modding\SDKContent\ModelSrc</DecompileOutputFullPath>
+	<DecompileOutputFullPath>E:\MyProjects\Bloodlines\Modding\Game-SDK\SDKContent\ModelSrc</DecompileOutputFullPath>
 	<DecompileQcFileIsChecked>true</DecompileQcFileIsChecked>
 	<DecompileGroupIntoQciFilesIsChecked>false</DecompileGroupIntoQciFilesIsChecked>
 	<DecompileQcSkinFamilyOnSingleLineIsChecked>true</DecompileQcSkinFamilyOnSingleLineIsChecked>
@@ -81,10 +92,10 @@
 	<DecompileUseNonValveUvConversionIsChecked>false</DecompileUseNonValveUvConversionIsChecked>
 	<DecompileOverrideMdlVersion>DoNotOverride</DecompileOverrideMdlVersion>
 	<DecompileMode>File</DecompileMode>
-	<CompileQcPathFileName>E:\Bloodlines-Modding\SDKContent\ModelSrc\MyMode\file.qc</CompileQcPathFileName>
+	<CompileQcPathFileName>E:\MyProjects\Bloodlines\Modding\Game-SDK\SDKContent\ModelSrc\MyMode\file.qc</CompileQcPathFileName>
 	<CompileOutputFolderOption>WorkFolder</CompileOutputFolderOption>
 	<CompileOutputSubfolderName>Compiled</CompileOutputSubfolderName>
-	<CompileOutputFullPath>E:\Bloodlines-Modding\Unofficial_Patch</CompileOutputFullPath>
+	<CompileOutputFullPath>E:\MyProjects\Bloodlines\Modding\Game-SDK\Unofficial_Patch</CompileOutputFullPath>
 	<CompileGameSetupSelectedIndex>0</CompileGameSetupSelectedIndex>
 	<CompileGoldSourceLogFileIsChecked>false</CompileGoldSourceLogFileIsChecked>
 	<CompileSourceLogFileIsChecked>false</CompileSourceLogFileIsChecked>
@@ -97,14 +108,14 @@
 	<CompileMode>File</CompileMode>
 	<PatchMdlPathFileName />
 	<PatchMode>File</PatchMode>
-	<ViewMdlPathFileName>E:\Bloodlines-Modding\Unofficial_Patch\models\path\file.mdl</ViewMdlPathFileName>
+	<ViewMdlPathFileName>E:\MyProjects\Bloodlines\Modding\Game-SDK\Unofficial_Patch\models\path\file.mdl</ViewMdlPathFileName>
 	<ViewOverrideMdlVersion>DoNotOverride</ViewOverrideMdlVersion>
 	<ViewGameSetupSelectedIndex>0</ViewGameSetupSelectedIndex>
 	<PackMode>Folder</PackMode>
 	<PackInputPath />
 	<PackOutputFolderOption>ParentFolder</PackOutputFolderOption>
 	<PackOutputParentPath />
-	<PackOutputPath>E:\Bloodlines-Modding\Unofficial_Patch</PackOutputPath>
+	<PackOutputPath>E:\MyProjects\Bloodlines\Modding\Game-SDK\Unofficial_Patch</PackOutputPath>
 	<PackGameSetupSelectedIndex>0</PackGameSetupSelectedIndex>
 	<PackLogFileIsChecked>false</PackLogFileIsChecked>
 	<PackOptionMultiFileVpkIsChecked>false</PackOptionMultiFileVpkIsChecked>
@@ -171,8 +182,8 @@
 	<OptionsCompileQcFileIsChecked>true</OptionsCompileQcFileIsChecked>
 	<OptionsCompileFolderIsChecked>true</OptionsCompileFolderIsChecked>
 	<OptionsCompileFolderAndSubfoldersIsChecked>true</OptionsCompileFolderAndSubfoldersIsChecked>
-	<UpdateDownloadPath>E:\Bloodlines-Modding\SDKBinaries\tools\Crowbar\update</UpdateDownloadPath>
+	<UpdateDownloadPath>E:\MyProjects\Bloodlines\Modding\Game-SDK\SDKBinaries\tools\Crowbar\update</UpdateDownloadPath>
 	<UpdateUpdateToNewPathIsChecked>false</UpdateUpdateToNewPathIsChecked>
-	<UpdateUpdateDownloadPath>E:\Bloodlines-Modding\SDKBinaries\tools\Crowbar\update</UpdateUpdateDownloadPath>
+	<UpdateUpdateDownloadPath>E:\MyProjects\Bloodlines\Modding\Game-SDK\SDKBinaries\tools\Crowbar\update</UpdateUpdateDownloadPath>
 	<UpdateCopySettingsIsChecked>true</UpdateCopySettingsIsChecked>
 </AppSettings>

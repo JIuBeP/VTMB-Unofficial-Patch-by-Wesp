@@ -70,7 +70,6 @@ WeaponData
 			{
 				"sound1"	"Character\Monster\Ming Xiao\tentacle_grow_mvmnt.wav"
 			}
-		}
 	}
 
 	Activation

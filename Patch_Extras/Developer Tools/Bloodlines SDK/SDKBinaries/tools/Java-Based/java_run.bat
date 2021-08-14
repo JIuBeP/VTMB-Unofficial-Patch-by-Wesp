@@ -5,7 +5,7 @@ if "%~2"=="" exit
 
 :vars
 pushd "%~dp0..\.."
-set MsgBox="%cd%\helpers\msgbox.exe"
+set MsgBox="%cd%\assets\msgbox.exe"
 set JarFile="%~dp0%~2"
 
 :checkfiles
@@ -28,23 +28,26 @@ if exist "GameCfg.ini" (
 )
 
 :checkjava
+if not defined JAVA_HOME (
+	set JAVA_HOME=null
+)
 for %%r in (
-	"%JAVA_HOME%\bin"
 	"%SystemRoot%\system32"
 	"%SystemRoot%\syswow64"
 	"%SystemRoot%\sysnative"
 ) do (
-	if exist "%%~r\java.exe" (
-		start /b "java" "%%~r\java.exe" %1 %JarFile% %3 %4 %5 %6 %7 %8 %9
+	if exist "%%~r\javaw.exe" (
+		start /b "java" "%%~r\javaw.exe" %1 %JarFile% %3 %4 %5 %6 %7 %8 %9
 		exit
 	)
 )
 for /d %%p in (
+	"%JAVA_HOME%"
 	"%ProgramFiles%\Java\jre*"
 	"%ProgramW6432%\Java\jre*"
 ) do (
-	if exist "%%~p\bin\java.exe" (
-		start /b "java" "%%~p\bin\java.exe" %1 %JarFile% %3 %4 %5 %6 %7 %8 %9
+	if exist "%%~p\bin\javaw.exe" (
+		start /b "java" "%%~p\bin\javaw.exe" %1 %JarFile% %3 %4 %5 %6 %7 %8 %9
 		exit
 	)
 )

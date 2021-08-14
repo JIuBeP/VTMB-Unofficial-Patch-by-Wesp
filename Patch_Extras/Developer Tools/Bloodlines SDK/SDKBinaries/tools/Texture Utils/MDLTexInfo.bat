@@ -16,8 +16,8 @@ pushd "%~dp0\..\.."
 :: PREPARE
 :========================================================================================================
 
-set "Sfk=helpers\sfk.exe"
-set "OpenDlg=helpers\opendlg.exe"
+set "Sfk=assets\sfk.exe"
+set "OpenDlg=assets\opendlg.exe"
 set "OpenFile=%OpenDlg% /f"
 
 for %%m in ("%Sfk%" "%OpenDlg%") do (

@@ -48,7 +48,7 @@ if /i "%~1"=="-shader" set CmdLine=%~1 "%~2"
 
 :StripMatsDir
 for /f "delims=" %%a in (
-'helpers\sfk.exe echo "%TgaPath%/" +filt -rep "|*materials*\||" -lerep "|/||" -lerep "|\||"'
+'assets\sfk.exe echo "%TgaPath%/" +filt -rep "|*materials*\||" -lerep "|/||" -lerep "|\||"'
 ) do (
 	set "TtzPath=%ModDir%\materials\%%~a"
 	set "TtzFile=materials\%%~a\%TexName%.tth"
@@ -94,14 +94,14 @@ if /i "%~7"=="-vmtparam" set "VmtParam7=^%~8^ ^%~9^"
 if defined TexNames (
 for %%m in (%TexNames%) do (
 if exist "%TtzPath%\%%~m.vmt" (
-	if defined VmtParam1 (helpers\sfk.exe replace "%TtzPath%\%%~m.vmt" -spat "|}|\t%VmtParam1:\=/%\r\n}|" -yes)
-	if defined VmtParam2 (helpers\sfk.exe replace "%TtzPath%\%%~m.vmt" -spat "|}|\t%VmtParam2:\=/%\r\n}|" -yes)
-	if defined VmtParam3 (helpers\sfk.exe replace "%TtzPath%\%%~m.vmt" -spat "|}|\t%VmtParam3:\=/%\r\n}|" -yes)
-	if defined VmtParam4 (helpers\sfk.exe replace "%TtzPath%\%%~m.vmt" -spat "|}|\t%VmtParam4:\=/%\r\n}|" -yes)
-	if defined VmtParam5 (helpers\sfk.exe replace "%TtzPath%\%%~m.vmt" -spat "|}|\t%VmtParam5:\=/%\r\n}|" -yes)
-	if defined VmtParam6 (helpers\sfk.exe replace "%TtzPath%\%%~m.vmt" -spat "|}|\t%VmtParam6:\=/%\r\n}|" -yes)
-	if defined VmtParam7 (helpers\sfk.exe replace "%TtzPath%\%%~m.vmt" -spat "|}|\t%VmtParam7:\=/%\r\n}|" -yes)
-	helpers\sfk.exe replace "%TtzPath%\%%~m.vmt" -spat "|^|\q|" -quiet -yes
+	if defined VmtParam1 (assets\sfk.exe replace "%TtzPath%\%%~m.vmt" -spat "|}|\t%VmtParam1:\=/%\r\n}|" -yes)
+	if defined VmtParam2 (assets\sfk.exe replace "%TtzPath%\%%~m.vmt" -spat "|}|\t%VmtParam2:\=/%\r\n}|" -yes)
+	if defined VmtParam3 (assets\sfk.exe replace "%TtzPath%\%%~m.vmt" -spat "|}|\t%VmtParam3:\=/%\r\n}|" -yes)
+	if defined VmtParam4 (assets\sfk.exe replace "%TtzPath%\%%~m.vmt" -spat "|}|\t%VmtParam4:\=/%\r\n}|" -yes)
+	if defined VmtParam5 (assets\sfk.exe replace "%TtzPath%\%%~m.vmt" -spat "|}|\t%VmtParam5:\=/%\r\n}|" -yes)
+	if defined VmtParam6 (assets\sfk.exe replace "%TtzPath%\%%~m.vmt" -spat "|}|\t%VmtParam6:\=/%\r\n}|" -yes)
+	if defined VmtParam7 (assets\sfk.exe replace "%TtzPath%\%%~m.vmt" -spat "|}|\t%VmtParam7:\=/%\r\n}|" -yes)
+	assets\sfk.exe replace "%TtzPath%\%%~m.vmt" -spat "|^|\q|" -quiet -yes
 )))> nul
 
 :ClearChildVmts

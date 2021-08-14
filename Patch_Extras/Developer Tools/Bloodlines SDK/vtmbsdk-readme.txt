@@ -1,6 +1,6 @@
---------------
-Bloodlines SDK
---------------
+--------------------
+Bloodlines SDK v2.00
+--------------------
 
 This is an unofficial software developer's kit (SDK) for Vampire - The Masquerade: 
 Bloodlines, the greatest game of all time developed by Troika Games in 2004. 
@@ -48,7 +48,7 @@ This SDK includes various third-party tools, in particular:
 * Source SDK GUI (developed by Valve, customized by Psycho-A)
 * PackFile Explorer v3.9 (developed by Dave Gaunt)
 * Crowbar tool v0.65 (developed by ZeqMacaw, https://github.com/ZeqMacaw/Crowbar)
-* BSPSource v1.4.1 (developed by Barracuda, adapted by atrblizzard, https://github.com/ata4/bspsrc)
+* BSPSource v1.2.1 (VMEx modification, developed by Barracuda, https://github.com/ata4/bspsrc)
 * VPKTool v3.9a (Quick and dirty Bloodlines Tools, developed by Turvy)
 * VTMBedit Tool (developed by David Arneson [xatmos])
 * Bloodlines Dialogue Editor (developed by Raptor for Paradise#77, http://go.to/paradise77)
@@ -57,14 +57,15 @@ This SDK includes various third-party tools, in particular:
 * BSPDetail v1.0 (by DDLullu, http://forums.planetvampire.com/index.php?action=profile;u=3672)
 * kHED v1.1.5, low-poly model editor (developed by JDPhU, http://khed.glsl.ru)
 * Blender v2.43, model editor (developed by Blender Foundation, http://www.blender.org)
-* Blender scripts, MDL decompressor and MDL formatter (written by DDLullu, adapted by Psycho-A)
+* Blender import/export scripts and MDL decompressor (written by DDLullu, adapted by Psycho-A)
+* MDL Formatter tool (Swarm SDK MDL converter, written by DDLullu, adapted by Psycho-A)
+* Alien Swarm StudioMDL compiler (developed by Valve, customized by Psycho-A)
 * VExtract (developed by Daedalus for Bloodlines Revival project [dropped now])
 * VPK Creator (developed by Psycho-A and Theo de Moree, http://www.gameapps.com)
 * Texture Converter and its Windows shell extenstions (developed by Psycho-A)
 * TTZ Viewer, shell script for VTFEdit (developed by Psycho-A, Fire64 & Nemesis)
 * Mods' Dupe Finder (custom script, written by Psycho-A)
 * Hammer Run Map Launcher (custom compile dialog, written by Psycho-A)
-* QC Models Compiler GUI (by InterWave Studios, modified by Psycho-A)
 * StudioCompiler Model Compiler v0.4 (by Cannonfodder, modified by Psycho-A)
 * Photoshop and Paint.NET texture plugins (the crew of authors)
 * LipSync/VCD Editor (Valve's FacePoser modification, extended by Psycho-A)
@@ -198,6 +199,10 @@ Usage notes:
   import/export which allows to edit UV and vertices of existing game models' meshes.
   It doesn't require additional installation and optimized for comfortable usage, so just
   read Usage Information.txt doc to learn how to use it.
+* Since version 2.0 the SDK includes Alien Swarm MDL compiler and Formatter (converter)
+  as the internal Crowbar's toolset, so you can edit animated and character models more
+  flexible (use custom meshes, eyes, heavily modified vertices)! To learn more on how to,
+  read the guide inside of the SDK main menu's Links section or see "PoisonIvy" example.
 
 [Modeling:Troubleshooting]
 * Game may crash on models with poly count > 4000..8000, truncate it's polys before import!
@@ -257,23 +262,23 @@ Project Developers:
 * Psycho-A (Programming and all subsequent works).
 * Behar (Rare, but very useful help).
 * Fire64 (Programming, project CEO) [no support anymore].
-* Wesp5 (Adding some new tools).
+* Wesp5 (Adding some new tools, support in patches).
 
 Special Thanks to:
 
-* DDLullu (huge help in fixing modelling bugs).
-* ZeqMacaw (for his wonderful decompiler).
+* DDLullu (huge help in fixing modelling bugs and new tools).
+* ZeqMacaw (for his wonderful model compiler/decompiler).
 
 --------------------
 
 Official project pages:
 
 * Planet-Vampire Community: 
-  https://planetvampire.com/modules/files/index.php?id=31
+  https://forums.planetvampire.com/downloads/?cat=10
   https://forums.planetvampire.com/index.php?topic=5797.0
 * Russian Communities:
-  http://cs-mapping.com.ua/forum/showthread.php?t=37053
-  http://vk.com/vtm_bloodlines [game's public page]
+  https://cs-mapping.com.ua/forum/showthread.php?t=37053
+  https://vk.com/vtm_bloodlines [game's public page]
 
 --------------------
 
@@ -283,7 +288,7 @@ Help Wanted!!!
 If you are interested in further project developing and ready
 to do something youeself, please, read notes below.
 
-= Bloodlines SDK 1.x =
+= Bloodlines SDK 2.x =
 = Programmer's notes =
 
 
@@ -374,6 +379,7 @@ specified in the SDK readme file. You may also email me: psycho-a@rambler.ru, ps
 -- Psycho-A
 
 
+
 --------------------
 Version History:
 --------------------
@@ -406,29 +412,42 @@ Global changes:
 * Integrated DDLullu's tool into Model Compiler, so no more any physics/collision model usage limitations.
 * Texture Converter now able to detect material types, properties and auto-append texture masks in vmt.
 * Added workarounds to automatically fix -90 degree rotation and animation bugs on compiling custom models.
+* Old MDL2SMD model decompiler replaced with more painless and functional "Crowbar" tool by ZeqMacaw.
+* Added "No-More-LOD" tool by DDLullu to disable LODs on character sheets, and added simple GUI to it.
+* Added new "MDL Formatter" by DDLullu to convert models compiled in Alien Swarm SDK to Bloodlines one.
+* Added new "Skin Editor" tool by hlstriker (skin, materials and .phy model editor).
+* Integrated "MDL Formatter" and Alien Swarm StudioMDL compiler with Crowbar tool and automatized their work.
 
 --------------------
 
-1.95 (10.04.2021):
-- BSPSource upated to 1.4.1, thanks to atrblizzard.
-- NirCmd updated to v2.86, thanks to Nir Sofer.
-- Blender model Formatter fixed, thanks to DDLullu.
+2.00 (13.08.2021):
+- Global SDKBinaries/ filesystem reogranisation. DON'T install this version over older ones!!!
+- Crowbar tool: Integrated DDLullu's MDL Formatter/converter (see "Formatter Guide" at SDK's links section).
+- Crowbar tool: Integrated Alien Swarm StudioMDL compiler, so the Formatter won't need Alien Swarm/Steam installation anymore!
+- Crowbar tool: Automatized adding missing XModel skeleton MDLs and launching Formatter after compiling model with Alien Swarm.
+- Replaced crappy prop model example in SDKContent/ModelSrc/ with a normal compileable static prop model (chair).
+- Moved "Poison Ivy" player model example to SDKContent/ModelSrc/ folder as an usable demo for the MDL Formatter work.
+- Removed "QC Files Compiler" tool as totally useless now and incompatible with new MDL compilers and file system.
+- Reduced using twin-version DLLs by SDK launcher, and other minor fixes and technical changes.
 
-1.94 (06.02.2021):
-- Blender model Formatter added, thanks to DDLullu.
-- Java made compatible to newer or open source versions, thanks to Caner Özdemir.
+1.94-1.95 (02.08.2021):
+- Added new "Skin Editor" tool (skin and .phy model editor, developed by hlstriker).
+- Added new "MDL Formatter" to convert models compiled in Alien Swarm SDK to Bloodlines one, thanks to DDLullu.
+- Added new Blender script to revert modified vertices of MDL back to original placement (see updated Usage Info).
+- Java tools launcher made compatible to newer or open source Java versions, thanks to Caner Ozdemir.
+- BSPSource tool upated to 1.4.1 and adapted for Bloodlines Hammer Editor, thanks to atrblizzard.
+- Updated NirCmd helper to prevent anti-virus false positives, and other minor fixes.
 
 1.93 (20.09.2020):
 - Hammer/FGD: Re-added env_sun entity as fully workable in game.
 - Model Compiler: Added checking models for physbox and asking user to auto-generate it when compiling.
 - Model Viewer: Fixed opening MDL files if mod directory contain spaces in path.
-- Skin Editor: Bloodlines Edition (custom editor, developed by hlstriker).
 
 1.92 (08.02.2020):
 - Model Compiler: Added workaround to automatically fix -90-degree-rotation-issue on Vtmb-decompiled models.
 - Model Compiler: Added workaround to fix game crashes and rendering issues on compiling all dynamic models.
 * These fixies applies during model compiling and when issued model found, user will asked to apply it or leave.
-- Model Compiler: Fixed darkening models on shooting them by updating Studiomdl-fix tool, thanks DDLullu.
+- Model Compiler: Fixed darkening models on shooting them by updating Studiomdl-fix tool, thanks to DDLullu.
 - Model Compiler: Better QC files parsing, fixing compiling materials and improved log messages.
 - Crowbar tool: Fixed incorrect "phy" material string dumping on decompiling Vtmb's physics meshes.
 - Crowbar tool: Isolated Vtmb-adapted tool version settings from regular Source Engine Crowbar releases.
@@ -443,7 +462,7 @@ Global changes:
 - Some unused Java-based libraries have been cleared.
 
 1.90 (27.01.2020):
-- Added "Make-Model-Solid" tool and integrated it with Model Compiler, thanks to DDLullu
+- Added "Make-Model-Solid" tool and integrated it with Model Compiler, thanks to DDLullu.
 * Now there's no manual fixing MDLs, no PHY models usage limitations, and all prop entity types are supported!
 - Model Compiler: Added drag-n-drop to StudioMDL.bat and Windows Context menu item to quick compile QC to MDL.
 - Model Compiler: Added auto-compiling all model's source textures (TGAs etc.) right after compiling MDL file.
