@@ -105,13 +105,15 @@ Trackerscheme.res: Turns Malkavian font off, check txt, by Wesp5.
 Version Changelog:
 ------------------
 
-v11.0                                                  20.07.2021
+v11.0                                                  10.08.2021
 -----
 Removed leftover changes to vendors and emails for plus and basic.
 Made Chang not drop his blade and renamed second knife for basic.
-Removed special Heather lines and Hallowbrook cowering from basic. 
+Removed special Heather lines and Hallowbrook cowering from basic.
 Fixed floating junk downtown and gums appearing after Ming fight.
 Made sure player can't leave endgame Skyeline haven via the vents.
+Killed Hannah on reading her diary to avoid duplicate quest logs.
+Fixed revisiting Kamikaze Zen and long silence after a Tommy line.
 
 v10.9                                                  16.07.2021
 -----
@@ -3117,6 +3119,7 @@ Modified XP and log for plague quest state and made CDC stay longer.
 Added missing XP for plague quest and fixed Hannah quest state bug.
 Lessened vents fade outs, loud humming sound and fixed a wrong decal.
 Made Hannah's apartment vent doors unlock on entering the password.
+Killed Hannah on reading her diary to avoid duplicate quest logs.
 
 Venture Tower:
 +Added a new discipline, Celerity/Fortidude/Animalism, from Beckett.
