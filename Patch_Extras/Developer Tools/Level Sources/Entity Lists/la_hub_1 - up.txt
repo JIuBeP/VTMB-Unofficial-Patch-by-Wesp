@@ -16674,7 +16674,7 @@
 {
 "classname" "prop_sign"
 "model" "models/scenery/structural/la/busstopsign.mdl"
-"angles" "0 82.5 0"
+"angles" "0 0.5 0"
 "skin" "0"
 "disableshadows" "1"
 "StartHidden" "0"
@@ -16683,7 +16683,7 @@
 "npc_transparent" "1"
 "definition_file" "vdata/Signs/LA_F.txt"
 "use_icon" "56"
-"origin" "4325 -2697 -7382"
+"origin" "4325 -2693 -7382"
 }
 {
 "classname" "info_player_start"
