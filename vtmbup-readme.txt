@@ -33,7 +33,7 @@ XP compatibility mode. On problems with Steam run Steam and the game
 as administrator and copy steam.dll to the game folder, if you get a
 "failed to find Steam" error. To start it from the Steam library add
 -game Unofficial_Patch to launch options! Disable auto-updating both
-in Steam and Galaxy. On issues in Linux run the loader-linux script.
+in Steam and Galaxy. For multiple mods or Linux use loader-menu.exe!
 
 Special thanks to burgermeister for the Public Library, EntenSchreck
 for the Hallowbrook Atrium, the Chateau Hotel outside and drafts for
@@ -105,7 +105,7 @@ Trackerscheme.res: Turns Malkavian font off, check txt, by Wesp5.
 Version Changelog:
 ------------------
 
-v11.0                                                  10.08.2021
+v11.0                                                  19.08.2021
 -----
 Removed leftover changes to vendors and emails for plus and basic.
 Made Chang not drop his blade and renamed second knife for basic.
@@ -114,6 +114,8 @@ Fixed floating junk downtown and gums appearing after Ming fight.
 Made sure player can't leave endgame Skyeline haven via the vents.
 Killed Hannah on reading her diary to avoid duplicate quest logs.
 Fixed revisiting Kamikaze Zen and long silence after a Tommy line.
+Updated SDK and the loader-menu mod launcher, thanks to Psycho-A.
+Corrected Mercurio lines and some minor text, file and map issues.
 
 v10.9                                                  16.07.2021
 -----
@@ -4348,14 +4350,13 @@ If game crashes when entering certain levels drop inventory items.
 Sometimes unknown occult items identify only after level changes.
 Visible colorful brushes means you continued an incompatible save.
 Occasionally you may not be able to throw the grenade from Nines.
-If a new game starts black remove all saves, or try windowed mode.
 
 
 Open Technical Issues:
 ----------------------
 When you get a SweetFX "d3d11" error rename dxgi.dll to d3d11.dll.
 To get rid off the bik intro movies just rename the media folder.
-Append -dxlevel 80(90) -window(fullscreen) to shortcut on crashes.
+If character movement feels skidding add "sv_friction" "8" to cfg.
 On "failed to load the launcher" error check game/patch location.
 When audio is missing on HDMI set snd_surround "0" in the console.
 If the mouse is missing from the menus, disable trail in windows.
@@ -4371,19 +4372,18 @@ If controls lag or the game crashes try Win98 or XP compatibility.
 Set resolution -w x -h y and use 3D-Analyze app for Intel G31/33.
 The skip intro button is only available for resolutions > 800x600.
 If background sounds are too low, add snd_refdist "80" to config.
-To improve performance add to shortcut -heapsize x, x being RAM/2.
-On runtime error remove \Python\Pythoncore\2.1\ line in registry.
-If character movement feels skidding add "sv_friction" "8" to cfg.
+"Bad inline model" error means you continued an incompatible save.
+If a new game starts black remove all saves or try windowed mode.
+When you get a "vertex buffer" error, disable additional monitors.
 Special dialogue fonts will only appear at resolutions > 800x600.
 On low frame rate kill rain: "particles_enable_precipitation" "0".
 If you experience random attacking bind attack away from "enter".
-When you get a "vertex buffer" error, disable additional monitors.
+Append -dxlevel 80(90) -window(fullscreen) to shortcut on crashes.
 On cutscenes freeze use "camera_kill", "frenzyplayer" or ALT-TAB.
 If you can't read papers re-bind "use" away from the mousebuttons.
 Weird water animations can be disabled using "mat_drawwater" "0".
 On crashes with "violation in module Vgui2.dll" change resolution.
 If dialogues are looping re-bind "use" away from any mousebutton.
-"Bad inline model" error means you continued an incompatible save.
 
 
 Patch Permission:
