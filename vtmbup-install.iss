@@ -56,7 +56,6 @@ end;
 Source: "{app}\Vampire\save\*"; DestDir: "{app}\Vampire\save\incompatible"; Components: basic; Flags: external skipifsourcedoesntexist
 Source: "{app}\Unofficial_Patch\save\*"; DestDir: "{app}\Unofficial_Patch\save\incompatible"; Components: basic; Flags: external skipifsourcedoesntexist
 Source: "vtmbup-readme.txt"; DestDir: "{app}"; Components: readme; Flags: isreadme overwritereadonly
-Source: "vtmbup-small.bmp"; DestDir: "{app}"; Components: basic; Flags: overwritereadonly
 Source: "Official_Patch\*"; DestDir: "{app}"; Components: basic; Flags: recursesubdirs ignoreversion overwritereadonly
 Source: "Basic_Patch\dlls\*"; DestDir: "{app}\vampire\dlls"; Components: basic; Flags: recursesubdirs ignoreversion overwritereadonly
 Source: "Basic_Patch\cl_dlls\*"; DestDir: "{app}\vampire\cl_dlls"; Components: basic; Flags: recursesubdirs ignoreversion overwritereadonly
@@ -65,7 +64,7 @@ Source: "Basic_Local\*"; DestDir: "{app}\Unofficial_Patch"; Components: basic; F
 Source: "Plus_Patch\*"; DestDir: "{app}\Unofficial_Patch"; Components: plus; Flags: recursesubdirs ignoreversion overwritereadonly
 Source: "Plus_Local\*"; DestDir: "{app}\Unofficial_Patch"; Components: plus; Flags: recursesubdirs ignoreversion overwritereadonly
 Source: "Patch_Extras\*"; DestDir: "{app}\Patch_Extras"; Components: extras; Flags: recursesubdirs ignoreversion overwritereadonly
-Source: "Patch_Extras\Developer Tools\Game Mod Loader\*"; DestDir: "{app}"; Components: basic; Flags: recursesubdirs ignoreversion; Excludes: "Vampire_4GB_fixed.exe"
+Source: "Patch_Extras\Developer Tools\Game Mod Loader\*"; DestDir: "{app}"; Components: basic; Flags: recursesubdirs ignoreversion; Excludes: "Vampire_4GB_fixed.exe,loader-linux.sh,loader-readme.txt"
 Source: "Patch_Extras\Developer Tools\Game Mod Loader\Vampire_4GB_fixed.exe"; DestDir: "{app}"; DestName: "Vampire.exe"; Flags: ignoreversion overwritereadonly; Check: IsWin64
 Source: "{app}\Bin\*"; DestDir: "{app}"; Components: basic; Flags: external skipifsourcedoesntexist overwritereadonly
 Source: "{app}\*.exe";                          Flags: external dontcopy skipifsourcedoesntexist; Attribs: readonly
@@ -91,8 +90,8 @@ Type: filesandordirs; Name: "{app}\Unofficial_Patch\vidcfg.bin"
 Type: filesandordirs; Name: "{app}\Unofficial_Patch\voice_ban.dt"
 
 [Icons]
-Name: "{userdesktop}\VTM Bloodlines Unofficial Patch"; Filename: {app}\vampire.exe; Parameters: "-game Unofficial_Patch"; IconFilename: {app}\vtmbup-small.bmp
-Name: "{userprograms}\VTM Bloodlines Unofficial Patch"; Filename: {app}\vampire.exe; Parameters: "-game Unofficial_Patch"; IconFilename: {app}\vtmbup-small.bmp
+Name: "{userdesktop}\VTM Bloodlines Unofficial Patch"; Filename: {app}\vampire.exe; Parameters: "-game Unofficial_Patch"; IconFilename: {app}\loader.exe
+Name: "{userprograms}\VTM Bloodlines Unofficial Patch"; Filename: {app}\loader.exe
 
 [Run]
 Filename: {app}\vampire.exe; Parameters: "-game Unofficial_Patch"; Description: Run Bloodlines with the Unofficial Patch; Flags: postinstall runascurrentuser nowait skipifsilent

@@ -33,7 +33,7 @@ XP compatibility mode. On problems with Steam run Steam and the game
 as administrator and copy steam.dll to the game folder, if you get a
 "failed to find Steam" error. To start it from the Steam library add
 -game Unofficial_Patch to launch options! Disable auto-updating both
-in Steam and Galaxy. For multiple mods or Linux use loader-menu.exe!
+in Steam or Galaxy. For mods and Linux use shortcut from start menu!
 
 Special thanks to burgermeister for the Public Library, EntenSchreck
 for the Hallowbrook Atrium, the Chateau Hotel outside and drafts for
@@ -105,7 +105,7 @@ Trackerscheme.res: Turns Malkavian font off, check txt, by Wesp5.
 Version Changelog:
 ------------------
 
-v11.0                                                  19.08.2021
+v11.0                                                  23.08.2021
 -----
 Removed leftover changes to vendors and emails for plus and basic.
 Made Chang not drop his blade and renamed second knife for basic.
@@ -114,7 +114,7 @@ Fixed floating junk downtown and gums appearing after Ming fight.
 Made sure player can't leave endgame Skyeline haven via the vents.
 Killed Hannah on reading her diary to avoid duplicate quest logs.
 Fixed revisiting Kamikaze Zen and long silence after a Tommy line.
-Updated SDK and the loader-menu mod launcher, thanks to Psycho-A.
+Updated SDK and game and mod launcher loader, thanks to Psycho-A.
 Corrected Mercurio lines and some minor text, file and map issues.
 
 v10.9                                                  16.07.2021
