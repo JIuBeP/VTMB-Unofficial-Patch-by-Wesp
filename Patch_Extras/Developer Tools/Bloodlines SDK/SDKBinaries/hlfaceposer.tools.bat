@@ -1,6 +1,6 @@
 @echo off
 rem Written by: Psycho-A
-rem Build: 9:55 13.08.2021 {beta}
+rem Build: 18:08 24.08.2021 {beta}
 color 80
 mode con cols=42 lines=15
 echo Initializing...

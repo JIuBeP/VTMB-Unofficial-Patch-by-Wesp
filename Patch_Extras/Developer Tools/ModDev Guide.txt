@@ -3647,7 +3647,7 @@ VI.3  > > > >  Dispositions
       Fear              [1,2]
       Disgust           [1]
       Apathy            [1]
-      Flirtatious       [1]
+      Flirt             [1]
       Confused          [1]
       Lay               [1,2,3,4]
       Damaged           [1]

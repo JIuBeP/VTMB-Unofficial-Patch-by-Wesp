@@ -12,10 +12,11 @@ if not exist "%%~m" (
 	echo>>"..\sdk_errors.log" [%date% %time%] HlmvShell error: Missing "%cd%\%%~m" file.
 	exit
 ))
+if not "%~1"=="" (
 if /i not "%~x1"==".mdl" (
 	echo>>"..\sdk_errors.log" [%date% %time%] HlmvShell error: "%~1" is not MDL file.
 	exit
-)
+))
 
 :RegFiles
 if "%~1"=="" (
@@ -47,7 +48,7 @@ exit
 :SearchBaseDir
 pushd ..
 if exist "SdkContent\VpkContent\materials\" (
-	set "VProject=%cd%\SdkContent\VpkContent") else (
+	set "VProject=%Cd%\SdkContent\VpkContent") else (
 	set "VProject=%ModDir%"
 )
 popd

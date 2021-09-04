@@ -420,13 +420,14 @@ Global changes:
 
 --------------------
 
-2.00 (13.08.2021):
+2.00 (24.08.2021):
 - Global SDKBinaries/ filesystem reogranisation. DON'T install this version over older ones!!!
 - Crowbar tool: Integrated DDLullu's MDL Formatter/converter (see "Formatter Guide" at SDK's links section).
 - Crowbar tool: Integrated Alien Swarm StudioMDL compiler, so the Formatter won't need Alien Swarm/Steam installation anymore!
 - Crowbar tool: Automatized adding missing XModel skeleton MDLs and launching Formatter after compiling model with Alien Swarm.
 - Replaced crappy prop model example in SDKContent/ModelSrc/ with a normal compileable static prop model (chair).
 - Moved "Poison Ivy" player model example to SDKContent/ModelSrc/ folder as an usable demo for the MDL Formatter work.
+- Fixed Lip/VCD editor file associations that got broken due to filesystem reorganisation.
 - Removed "QC Files Compiler" tool as totally useless now and incompatible with new MDL compilers and file system.
 - Reduced using twin-version DLLs by SDK launcher, and other minor fixes and technical changes.
 

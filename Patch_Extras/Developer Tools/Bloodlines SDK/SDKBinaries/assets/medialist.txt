@@ -161,12 +161,6 @@ Media
 				ShellExecute		"tools\\Blender\\"
 				Image			28
 			}
-		//	formatter
-		//	{
-		//		Title			"MDL Formatter"
-		//		ShellExecute		"tools\\MDL Formatter\\"
-		//		Image			31
-		//	}
 			skineditor
 			{
 				Title			"Skin Editor"
@@ -226,7 +220,7 @@ Media
 			faceposer
 			{
 				Title			"LIP/VCD Editor"
-				Program			"lipvcd_editor.bat"
+				Program			"hlfaceposer.tools.bat"
 		//		Program			"hlfaceposer.exe"
 				Image			5
 			}
@@ -355,12 +349,12 @@ Media
 		"8"
 		{
 			id		8
-			Name	"LINKS"
+			Name	"LINKS/DOCS"
 			
 			planetv
 			{
 				Title			"Planet-Vampire Community"
-				ShellExecute	"http://www.planetvampire.com/"
+				ShellExecute	"https://www.planetvampire.com/"
 				Image			8
 			}
 		//	vaulderie
@@ -372,7 +366,7 @@ Media
 			camarilla
 			{
 				Title			"Team Camarilla International"
-				ShellExecute	"http://camarillaedition.darkbb.com"
+				ShellExecute	"https://camarillaedition.darkbb.com"
 				Image			8
 			}
 		//	antitribu
