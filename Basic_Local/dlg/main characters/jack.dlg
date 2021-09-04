@@ -663,7 +663,7 @@
 {	663	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	664	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	665	}{	I'm outta here.	}{	I'm outta here.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	My shadow darkens other domains. Farewell.	}
-{	666	}{	[grim]Didn't you have some place to be?	}{	[grim]Didn't you have some place to be?	}{	#	}{	npc.SetDisposition("Angry", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	666	}{	[grim]Didn't you have some place to be?	}{	[grim]Didn't you have some place to be?	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	667	}{	I wanted to ask you some questions.	}{	I wanted to ask you some questions.	}{	1333	}{	G.Jack_Faction >= 0 and G.Jack_Dodged == 0	}{	}{	}{	}{	}{	}{	}{	}{	May I mine your gray matter?	}
 {	668	}{	I wanted to ask you some questions.	}{	I wanted to ask you some questions.	}{	391	}{	G.Jack_Faction < 0 and G.Jack_Dodged == 0	}{	}{	}{	}{	}{	}{	}{	}{	May I mine your gray matter?	}
 {	669	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -1058,7 +1058,7 @@
 {	1058	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	1059	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	1060	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	1061	}{	Don't jerk me around. You'd better do some re-strategizin' real quick if you think you can fool an old Lick like me.	}{	Don't jerk me around. You'd better do some re-strategizin' real quick if you think you can fool an old Lick like me.	}{	#	}{	npc.SetDisposition("Angry", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1061	}{	Don't jerk me around. You'd better do some re-strategizin' real quick if you think you can fool an old Lick like me.	}{	Don't jerk me around. You'd better do some re-strategizin' real quick if you think you can fool an old Lick like me.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	1062	}{	If you know, why did you ask?	}{	If you know, why did you ask?	}{	1066	}{	}{	G.Jack_Faction = G.Jack_Faction - 3	}{	}{	}{	}{	}{	}{	}{	Your ignorance is transparent, demon.	}
 {	1063	}{	The prince has it.	}{	The prince has it.	}{	1071	}{	}{	}{	}{	}{	}{	}{	}{	}{	The jester holds the terrible talisman.	}
 {	1064	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}

@@ -68,7 +68,7 @@
 {	68	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	69	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	70	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	71	}{	[Scorned, vehement]Well fine! You're just some no-dick fledgling. I've hung out with way more powerful vampires than you'll ever know! I wouldn't drink your gutter blood if you were the last vampire on earth!	}{	[Scorned, vehement]Well fine! You're just some ugly fledgling bitch. I've hung out with way more powerful vampires than you'll ever know! I wouldn't drink your gutter blood if you were the last vampire on earth!	}{	#	}{	npc.SetDisposition("Angry", 1)	}{	G.Patty_Pissed = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	71	}{	[Scorned, vehement]Well fine! You're just some no-dick fledgling. I've hung out with way more powerful vampires than you'll ever know! I wouldn't drink your gutter blood if you were the last vampire on earth!	}{	[Scorned, vehement]Well fine! You're just some ugly fledgling bitch. I've hung out with way more powerful vampires than you'll ever know! I wouldn't drink your gutter blood if you were the last vampire on earth!	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	G.Patty_Pissed = 1	}{	}{	}{	}{	}{	}{	}{	}
 {	72	}{	Good luck, ghoul.	}{	Good luck, ghoul.	}{	0	}{	G.Knox_Ghoul > 0	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	73	}{	Likewise.... I mean, er- whatever.	}{	Likewise.... I mean, er- whatever.	}{	0	}{	Wits -2	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	74	}{	So, I won't be getting a Christmas card is what you're saying. Oh well.	}{	So, I won't be getting a Christmas card is what you're saying. Oh well.	}{	0	}{	Wits 2	}{	}{	}{	}{	}{	}{	}{	}{	}

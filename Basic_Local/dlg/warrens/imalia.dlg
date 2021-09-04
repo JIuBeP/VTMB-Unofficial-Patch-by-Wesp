@@ -28,7 +28,7 @@
 {	28	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	29	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	30	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	31	}{	Tawni Sessions is a wanna-be face-girl with no talent whatsoever and scabby little knees. Do you know she got Model of the Year? Before I got here, she would have had a hard time making the catalog for "Jacque Penney".	}{	Tawni Sessions is a wanna-be face-girl with no talent whatsoever and scabby little knees. Do you know she got Model of the Year? Before I got here, she would have had a hard time making the catalog for "Jacque Penney".	}{	#	}{	npc.SetDisposition("Angry", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	31	}{	Tawni Sessions is a wanna-be face-girl with no talent whatsoever and scabby little knees. Do you know she got Model of the Year? Before I got here, she would have had a hard time making the catalog for "Jacque Penney".	}{	Tawni Sessions is a wanna-be face-girl with no talent whatsoever and scabby little knees. Do you know she got Model of the Year? Before I got here, she would have had a hard time making the catalog for "Jacque Penney".	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	32	}{	That's a good one. Uh, who are you, by the way?	}{	That's a good one. Uh, who are you, by the way?	}{	51	}{	}{	}{	}{	}{	}{	}{	}{	}{	And who might you be?	}
 {	33	}{	Oh! THAT Tawni Sessions. She's so hot right now.	}{	Oh! THAT Tawni Sessions. She's so hot right now.	}{	41	}{	IsClan(pc,"Toreador")	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	34	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}

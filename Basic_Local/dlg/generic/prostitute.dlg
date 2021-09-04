@@ -118,7 +118,7 @@
 {	118	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	119	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	120	}{	Follow me.	}{	Follow me.	}{	0	}{	}{	G.Whore_Follower = 1; G.Romero_Whore = 2; makeFollower()	}{	}{	}{	}{	}{	}{	}{	Walk this way....	}
-{	121	}{	Ohh, that's so sweet.... [suddenly turns angry]And you're trying to corrupt him by buying him a prostitute?!? How dare you!	}{	Ohh, that's so sweet.... [suddenly turns angry]And you're trying to corrupt him by buying him a prostitute?!? How dare you!	}{	#	}{	npc.SetDisposition("Angry", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	121	}{	Ohh, that's so sweet.... [suddenly turns angry]And you're trying to corrupt him by buying him a prostitute?!? How dare you!	}{	Ohh, that's so sweet.... [suddenly turns angry]And you're trying to corrupt him by buying him a prostitute?!? How dare you!	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	122	}{	I was just kidding... he works in the cemetery.	}{	I was just kidding... he works in the cemetery.	}{	101	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	123	}{	Hey, calm down. You're the sleazy ho here, not me.	}{	Hey, calm down. You're the sleazy ho here, not me.	}{	131	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	124	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}

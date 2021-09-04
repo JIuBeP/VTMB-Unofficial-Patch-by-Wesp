@@ -1,4 +1,4 @@
-{	1	}{	Yes, what is it?	}{	Yes, what is it?	}{	#	}{	npc.SetDisposition("Angry", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	1	}{	Yes, what is it?	}{	Yes, what is it?	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	2	}{	This is the Giovanni mansion?	}{	This is the Giovanni mansion?	}{	21	}{	Humanity 5 & G.Maria_Sick == 0	}{	}{	}{	}{	}{	}{	}{	}{	Is this where the Giovanni gather?	}
 {	3	}{	Is your wife okay?	}{	Is your wife okay?	}{	141	}{	Persuasion 6 & G.Maria_Drunk == 1 and G.Maria_Sick == 0	}{	}{	}{	}{	}{	}{	}{	}{	That woman is drowning.	}
 {	4	}{	There's a party here tonight?	}{	There's a party here tonight?	}{	31	}{	Humanity -5 & G.Maria_Sick == 0	}{	}{	}{	}{	}{	}{	}{	}{	Can I join the revelry?	}

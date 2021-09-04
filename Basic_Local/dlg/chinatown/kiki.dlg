@@ -8,7 +8,7 @@
 {	8	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	9	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	10	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	11	}{	[Annoyed, noticing the player for the first time]What? Aren't you a little tall for a Tong?	}{	[Annoyed, noticing the player for the first time]What? Yeah. Who are you? You're not with the Tong.	}{	#	}{	npc.SetDisposition("Angry", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	11	}{	[Annoyed, noticing the player for the first time]What? Aren't you a little tall for a Tong?	}{	[Annoyed, noticing the player for the first time]What? Yeah. Who are you? You're not with the Tong.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	12	}{	What?	}{	No, I'm not with the Tong.	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	I am no toothless Tong.	}
 {	13	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	14	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}

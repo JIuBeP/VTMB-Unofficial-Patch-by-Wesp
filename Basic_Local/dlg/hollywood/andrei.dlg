@@ -178,7 +178,7 @@
 {	178	}{	You might be right, but is the Sabbat really a better alternative?	}{	You might be right, but is the Sabbat really a better alternative?	}{	187	}{	}{	}{	}{	}{	}{	}{	}{	}{	You see through me, but is the Sword of Caine really better?	}
 {	179	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	180	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	181	}{	Puppet! The strength of your blood is all that's saved you from yourself. [rage cracking the façade]Wretched weak-minded mongrel! The blood is wasted in you. Wasted!	}{	Puppet! The strength of your blood is all that's saved you from yourself. [rage cracking the façade]Wretched weak-minded mongrel! The blood is wasted in you. Wasted!	}{	#	}{	npc.SetDisposition("Angry", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	181	}{	Puppet! The strength of your blood is all that's saved you from yourself. [rage cracking the façade]Wretched weak-minded mongrel! The blood is wasted in you. Wasted!	}{	Puppet! The strength of your blood is all that's saved you from yourself. [rage cracking the façade]Wretched weak-minded mongrel! The blood is wasted in you. Wasted!	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	182	}{	Wasted is what you're about to be.	}{	Wasted is what you're about to be.	}{	191	}{	}{	}{	}{	}{	}{	}{	}{	}{	Death has weighed you, and you are found wanting.	}
 {	183	}{	What are you talking about?	}{	What are you talking about?	}{	191	}{	}{	}{	}{	}{	}{	}{	}{	}{	Your words are steeped in your heart's black blood!	}
 {	184	}{	Puppet? For who? LaCroix? Nines Rodriguez?	}{	Puppet? For who? LaCroix? Nines Rodriguez?	}{	191	}{	}{	}{	}{	}{	}{	}{	}{	}{	No one pulls the strings of this puppet.	}
@@ -274,7 +274,7 @@
 {	274	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	275	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	276	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	277	}{	I have no patience for the lost, the timid and the hesitant. You came here with motive, Cainite. Are you so helpless to your fear that you lost your resolve... and with such ease? Perhaps I can help you find it in the last fleeting moments of your existence.	}{	I have no patience for the lost, the timid and the hesitant. You came here with motive, Cainite. Are you so helpless to your fear that you lost your resolve... and with such ease? Perhaps I can help you find it in the last fleeting moments of your existence.	}{	#	}{	npc.SetDisposition("Angry", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	277	}{	I have no patience for the lost, the timid and the hesitant. You came here with motive, Cainite. Are you so helpless to your fear that you lost your resolve... and with such ease? Perhaps I can help you find it in the last fleeting moments of your existence.	}{	I have no patience for the lost, the timid and the hesitant. You came here with motive, Cainite. Are you so helpless to your fear that you lost your resolve... and with such ease? Perhaps I can help you find it in the last fleeting moments of your existence.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	278	}{	Finally. Let's do this.	}{	Finally. Let's do this.	}{	0	}{	}{	npc.SetRelationship("player D_HT 5")	}{	}{	}{	}{	}{	}{	}{	Yours is the path to final sleep.	}
 {	279	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	280	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}

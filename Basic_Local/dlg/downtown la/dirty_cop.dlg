@@ -38,7 +38,7 @@
 {	38	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	39	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	40	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	41	}{	Fine, you can paddle your ass back to shore for all I care! You'll be lucky if Jacobson has you writin' obits after this.	}{	Fine, you can paddle your ass back to shore for all I care! You'll be lucky if Jacobson has you writin' obits after this.	}{	#	}{	npc.SetDisposition("Angry", 1)	}{	G.Dirtycop_Pissed = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	41	}{	Fine, you can paddle your ass back to shore for all I care! You'll be lucky if Jacobson has you writin' obits after this.	}{	Fine, you can paddle your ass back to shore for all I care! You'll be lucky if Jacobson has you writin' obits after this.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	G.Dirtycop_Pissed = 1	}{	}{	}{	}{	}{	}{	}{	}
 {	42	}{	Whatever.	}{	Whatever.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I laugh.	}
 {	43	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	44	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}

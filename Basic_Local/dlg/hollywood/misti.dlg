@@ -78,7 +78,7 @@
 {	78	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	79	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	80	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	81	}{	What!?! Listen, I don't have to take this kind of crap from a desperate loser like you. Go pay for it somewhere else, asshole!	}{	What!?! Listen, I don't have to take this kind of crap from you, bitch! Go pay for it somewhere else.	}{	#	}{	npc.SetDisposition("Angry", 1)	}{	G.Misti_Pissed = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	81	}{	What!?! Listen, I don't have to take this kind of crap from a desperate loser like you. Go pay for it somewhere else, asshole!	}{	What!?! Listen, I don't have to take this kind of crap from you, bitch! Go pay for it somewhere else.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	G.Misti_Pissed = 1	}{	}{	}{	}{	}{	}{	}{	}
 {	82	}{	Gladly. Later.	}{	Gladly. Later.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I shall be paying for eternity.	}
 {	83	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	84	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -98,7 +98,7 @@
 {	98	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	99	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	100	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	101	}{	[pissed]What do you want?	}{	[pissed]What do you want?	}{	#	}{	npc.SetDisposition("Angry", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	101	}{	[pissed]What do you want?	}{	[pissed]What do you want?	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	102	}{	Come on, Misti. I was just kidding. I'd really like to get to know you better.	}{	Come on, Misti. I was just kidding. I'd really like to get to know you better.	}{	111	}{	}{	}{	}{	}{	}{	}{	}{	}{	Forgive me, little devil. I wish only to die in your dark dance.	}
 {	103	}{	Nothing from you. Later.	}{	Nothing from you. Later.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Your body in a chalky outline. Farewell.	}
 {	104	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}

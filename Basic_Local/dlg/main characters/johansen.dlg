@@ -1,4 +1,4 @@
-{	1	}{	I told you everything - there's no reason for you to keep me here! Let me go!	}{	I told you everything - there's no reason for you to keep me here! Let me go!	}{	#	}{	npc.SetDisposition("Angry", 1)	}{	G.Story_State = 70	}{	}{	}{	}{	}{	}{	}{	}
+{	1	}{	I told you everything - there's no reason for you to keep me here! Let me go!	}{	I told you everything - there's no reason for you to keep me here! Let me go!	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	G.Story_State = 70	}{	}{	}{	}{	}{	}{	}{	}
 {	2	}{	Dr. Johansen?	}{	Dr. Johansen?	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	Eh, what's up, doc?	}
 {	3	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	4	}{	Tell me about the Ankaran Sarcophagus.	}{	Tell me about the Ankaran Sarcophagus.	}{	71	}{	Dominate 3	}{	}{	}{	}{	}{	}{	}{	}{	}

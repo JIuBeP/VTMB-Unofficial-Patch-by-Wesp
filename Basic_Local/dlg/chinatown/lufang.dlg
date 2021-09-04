@@ -368,7 +368,7 @@
 {	368	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	369	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	370	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	371	}{	Wha- Wait... wait ummm... [quietly does math to himself, then it dawns on him] You right! Gah - Lu Fang make stupid deal. Stupid to deal with you!	}{	Wha- Wait... wait ummm... [quietly does math to himself, then it dawns on him] You right! Gah - Lu Fang make stupid deal. Stupid to deal with you!	}{	#	}{	npc.SetDisposition("Angry", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	371	}{	Wha- Wait... wait ummm... [quietly does math to himself, then it dawns on him] You right! Gah - Lu Fang make stupid deal. Stupid to deal with you!	}{	Wha- Wait... wait ummm... [quietly does math to himself, then it dawns on him] You right! Gah - Lu Fang make stupid deal. Stupid to deal with you!	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	372	}{	Yeah, why not just work it out with Ji Wen Ja?	}{	Yeah, why not just work it out with Ji Wen Ja?	}{	381	}{	}{	}{	}{	}{	}{	}{	}{	}{	Perhaps a better deal with Ji Wen Ja...?	}
 {	373	}{	No, wait. I'll do it, I was just saying....	}{	No, wait. I'll do it, I was just saying....	}{	381	}{	}{	}{	}{	}{	}{	}{	}{	}{	Wait! My tongue twisted too loosely!	}
 {	374	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}

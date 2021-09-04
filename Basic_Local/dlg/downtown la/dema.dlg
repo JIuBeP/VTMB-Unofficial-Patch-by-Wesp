@@ -38,7 +38,7 @@
 {	38	}{	That's odd. He didn't tell you I was coming?	}{	That's odd. He didn't tell you I was coming?	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	Perhaps you have forgotten the message of my arrival?	}
 {	39	}{	I'm with Maintenance; your pipes are leaking.	}{	I'm with Maintenance; your pipes are leaking.	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	Don't you hear the pipes rattling? They may be full of snakes.	}
 {	40	}{	I'm Room Service; I have the caviar he ordered.	}{	I'm Room Service; I have the caviar he ordered.	}{	71	}{	}{	}{	}{	}{	}{	}{	}{	}{	Within my pockets are fish eggs for the man behind the door.	}
-{	41	}{	[Threatening]You give me message. I take to him.	}{	[Threatening]You give me message. I take to him.	}{	#	}{	npc.SetDisposition("Angry", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	41	}{	[Threatening]You give me message. I take to him.	}{	[Threatening]You give me message. I take to him.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	42	}{	Let me in.	}{	Let me in.	}{	3	}{	Dominate 1	}{	G.Dema_Go = 1	}{	}{	}{	}{	}{	}{	}{	}
 {	43	}{	You are a key. Do what comes naturally.	}{	You are a key. Do what comes naturally.	}{	3	}{	Dementation 1	}{	G.Dema_Go = 1	}{	}{	}{	}{	}{	}{	}{	You are a key. Do what comes naturally.	}
 {	44	}{	Let me in.	}{	Let me in.	}{	3	}{	Thaumaturgy 1 & G.Patch_Plus == 1	}{	G.Dema_Go = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}

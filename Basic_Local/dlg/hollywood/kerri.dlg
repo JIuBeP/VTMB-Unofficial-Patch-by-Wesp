@@ -78,7 +78,7 @@
 {	78	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	79	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	80	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	81	}{	Hey! I was waiting in there for ten minutes! What's your problem?	}{	Hey! I was waiting in there for ten minutes! What's your problem?	}{	#	}{	npc.SetDisposition("Angry", 1)	}{	G.Kerri_Biz = 0; G.Kerri_TimesUp = 0; G.Kerri_Mesmerize = 0	}{	}{	}{	}{	}{	}{	}{	}
+{	81	}{	Hey! I was waiting in there for ten minutes! What's your problem?	}{	Hey! I was waiting in there for ten minutes! What's your problem?	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	G.Kerri_Biz = 0; G.Kerri_TimesUp = 0; G.Kerri_Mesmerize = 0	}{	}{	}{	}{	}{	}{	}{	}
 {	82	}{	Go back in there, I'll be there in a second.	}{	Go back in there, I'll be there in a second.	}{	91	}{	}{	}{	}{	}{	}{	}{	}{	}{	Return and I will be your shadow.	}
 {	83	}{	I want you to leave this room and wait in the other one for me.	}{	I want you to leave this room and wait in the other one for me.	}{	11	}{	Dominate 3 & IsClan(pc,"Ventrue")	}{	G.Chastity_Attack = 1	}{	}{	}{	}{	}{	}{	}{	}
 {	84	}{	Bloom in another room, little flower, until I fly to you!	}{	Bloom in another room, little flower, until I fly to you!	}{	11	}{	Dementation 3	}{	G.Chastity_Attack = 1	}{	}{	}{	}{	}{	}{	}{	}

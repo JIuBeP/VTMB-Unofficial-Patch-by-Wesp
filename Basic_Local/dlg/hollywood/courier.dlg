@@ -88,7 +88,7 @@
 {	88	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	89	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	90	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	91	}{	What? Blood baron? What the hell? Who are you? Didn't Isaac send - agh, damn.... Y-you must have the wrong guy. I-I don't know what you're talking about. Get lost!	}{	What? Blood baron? What the hell? Who are you? Didn't Isaac send - agh, damn.... Y-you must have the wrong guy. I-I don't know what you're talking about. Get lost!	}{	#	}{	npc.SetDisposition("Angry", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	91	}{	What? Blood baron? What the hell? Who are you? Didn't Isaac send - agh, damn.... Y-you must have the wrong guy. I-I don't know what you're talking about. Get lost!	}{	What? Blood baron? What the hell? Who are you? Didn't Isaac send - agh, damn.... Y-you must have the wrong guy. I-I don't know what you're talking about. Get lost!	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	92	}{	Just toss me the terrible tape and you can retreat.	}{	Just toss me the terrible tape and you can retreat.	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	93	}{	Shadows draw near to you, little messenger. Tell me what you fear.	}{	Shadows draw near to you, little messenger. Tell me what you fear.	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	94	}{	The blood baron will be unhappy if my hands return to him empty.	}{	The blood baron will be unhappy if my hands return to him empty.	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	}

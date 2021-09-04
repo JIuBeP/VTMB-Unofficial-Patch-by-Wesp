@@ -77,7 +77,7 @@
 {	77	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	78	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	79	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	80	}{	You're an absolute saint. See ya.	}{	You're an absolute saint. See ya.	}{	0	}{	}{	npc.SetDisposition("Angry", 1)	}{	}{	}{	}{	}{	}{	}{	You've a heart of gold I look forward to filching. Farewell.	}
+{	80	}{	You're an absolute saint. See ya.	}{	You're an absolute saint. See ya.	}{	0	}{	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	You've a heart of gold I look forward to filching. Farewell.	}
 {	81	}{	My watch? It's a Quantum limited edition. Only fifty made in the world, quite irreplaceable - it was an anniversary present from my wife.	}{	My watch? It's a Quantum limited edition. Only fifty made in the world, quite irreplaceable - it was an anniversary present from my wife.	}{	#	}{	npc.SetDisposition("Fear", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	82	}{	Then I'm sure she won't be upset that you traded it for your life.	}{	Then I'm sure she won't be upset that you traded it for your life.	}{	91	}{	Intimidate 3	}{	}{	}{	}{	}{	}{	}{	}{	Consider it a mortgage on your mortality.	}
 {	83	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -87,7 +87,7 @@
 {	87	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	88	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	89	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	90	}{	You have a nice night. I'm going to go tell people what time it is.	}{	You have a nice night. I'm going to go tell people what time it is.	}{	0	}{	}{	npc.SetDisposition("Angry", 1)	}{	}{	}{	}{	}{	}{	}{	Hold on to your trinket. Farewell.	}
+{	90	}{	You have a nice night. I'm going to go tell people what time it is.	}{	You have a nice night. I'm going to go tell people what time it is.	}{	0	}{	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	Hold on to your trinket. Farewell.	}
 {	91	}{	Eh yes, well umm... here.	}{	Eh yes, well umm... here.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	G.Smblue_Mug = 2; spawnWatch()	}{	}{	}{	}{	}{	}{	}{	}
 {	92	}{	While you're taking off that watch, why don't you hand over all your money.	}{	While you're taking off that watch, why don't you hand over all your money.	}{	101	}{	Intimidate 4	}{	}{	}{	}{	}{	}{	}{	}{	You can add all your green to that fistful of tick-tocks.	}
 {	93	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}

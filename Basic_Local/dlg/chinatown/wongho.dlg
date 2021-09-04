@@ -238,7 +238,7 @@
 {	238	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	239	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	240	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	241	}{	No! I will hear no more of it! Ming-Xiao has been my trusted advisor ever since she arrived. I trust her completely.	}{	No! I will hear no more of it! Ming-Xiao has been my trusted advisor ever since she arrived. I trust her completely.	}{	#	}{	npc.SetDisposition("Angry", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	241	}{	No! I will hear no more of it! Ming-Xiao has been my trusted advisor ever since she arrived. I trust her completely.	}{	No! I will hear no more of it! Ming-Xiao has been my trusted advisor ever since she arrived. I trust her completely.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	242	}{	Okay, okay. Let's talk about the information I need from you.	}{	Okay, okay. Let's talk about the information I need from you.	}{	251	}{	}{	}{	}{	}{	}{	}{	}{	}{	Then let us delve into my own dilemma.	}
 {	243	}{	Keep your head in the sand if you want to. Now, for my own problem...	}{	Keep your head in the sand if you want to. Now, for my own problem...	}{	251	}{	}{	}{	}{	}{	}{	}{	}{	}{	I see your head on a jade platter. Now, let us toil in my own troubles.	}
 {	244	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -448,7 +448,7 @@
 {	448	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	449	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	450	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	451	}{	I will not hear such a thing! Ming-Xiao has done much for my people, and I will not have you casting [RM: aspersion]dispersion against her character!	}{	I will not hear such a thing! Ming-Xiao has done much for my people, and I will not have you casting [RM: aspersion]dispersion against her character!	}{	#	}{	npc.SetDisposition("Angry", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	451	}{	I will not hear such a thing! Ming-Xiao has done much for my people, and I will not have you casting [RM: aspersion]dispersion against her character!	}{	I will not hear such a thing! Ming-Xiao has done much for my people, and I will not have you casting [RM: aspersion]dispersion against her character!	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	452	}{	Fine, fine. I have a few more questions about Chinatown.	}{	Fine, fine. I have a few more questions about Chinatown.	}{	401	}{	}{	}{	}{	}{	}{	}{	}{	}{	Paint me a picture of Chinatown.	}
 {	453	}{	I have some other questions.	}{	I have some other questions.	}{	301	}{	}{	}{	}{	}{	}{	}{	}{	}{	I need to browse your braincase.	}
 {	454	}{	Take off the blinders, pal. I'm outta here.	}{	Take off the blinders, pal. I'm outta here.	}{	0	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
