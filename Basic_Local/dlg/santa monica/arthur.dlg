@@ -70,7 +70,7 @@
 {	70	}{	You're a true humanitarian. I'll let you know what I find out.	}{	You're a true humanitarian. I'll let you know what I find out.	}{	0	}{	G.Arthur_BJ == 1 and G.Arthur_BH >= 1 and G.Arthur_Knox == 2	}{	}{	}{	}{	}{	}{	}{	}{	You're a sideburned, sidewinding fellow. Farewell.	}
 {	71	}{	Of course. Goes with the business. Then ya sic the bounty hunter on 'em.	}{	Of course. Goes with the business. Then ya sic the bounty hunter on 'em.	}{	#	}{	npc.SetDisposition("Neutral",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	72	}{	That's got to be an interesting job.	}{	That's got to be an interesting job.	}{	181	}{	G.Arthur_BH == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	73	}{	I hope you have a good bounty hunter working for you.	}{	I hope you have a good bounty hunter working for you.	}{	671	}{	G.Arthur_BH == 1 and G.Arthur_Knox < 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	73	}{	I hope you have a good bounty hunter working for you.	}{	I hope you have a good bounty hunter working for you.	}{	671	}{	G.Arthur_BH >= 1 and G.Arthur_Knox < 1	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	74	}{	Heh. Can I bounce a few more questions off you, Arthur?	}{	Heh. Can I bounce a few more questions off you, Arthur?	}{	81	}{	G.Extra_Lines == 1	}{	}{	}{	}{	}{	}{	}{	}{	Can I pluck some answers from your head?	}
 {	75	}{	I'm outta here. Later.	}{	I'm outta here. Later.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Time to walk somewhere else.	}
 {	76	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -234,7 +234,7 @@
 {	234	}{	I found Carson. Unfortunately, he's not coming back.	}{	I found Carson. Unfortunately, he's not coming back.	}{	241	}{	G.Arthur_Knox == 3	}{	}{	}{	}{	}{	}{	}{	}{	I found the hunter, but he'll not come back to hunt bounties.	}
 {	235	}{	I'm curious about your business.	}{	I'm curious about your business.	}{	551	}{	G.Arthur_BJ == 0	}{	}{	}{	}{	}{	}{	}{	}{	Tell me your hunting tales, keymaster.	}
 {	236	}{	I had a question for you.	}{	I had a question for you.	}{	81	}{	G.Arthur_BJ == 1 and G.Arthur_BH == 0	}{	}{	}{	}{	}{	}{	}{	}{	I have a question bursting my brain.	}
-{	237	}{	Do you need a bounty hunter?	}{	Do you need a bounty hunter?	}{	721	}{	G.Arthur_BJ == 1 and G.Arthur_BH == 1 and G.Arthur_Knox == 0	}{	G.Player_Asked = 1	}{	}{	}{	}{	}{	}{	}{	You have need of my bounty hunting skills?	}
+{	237	}{	Do you need a bounty hunter?	}{	Do you need a bounty hunter?	}{	721	}{	G.Arthur_BJ == 1 and G.Arthur_BH >= 1 and G.Arthur_Knox == 0	}{	G.Player_Asked = 1	}{	}{	}{	}{	}{	}{	}{	You have need of my bounty hunting skills?	}
 {	238	}{	Do you know where I could get a gun... or two?	}{	Sounds dangerous. Do you know where I could get a gun... or two?	}{	471	}{	G.Arthur_Muddy == 2 and G.Trip_Know < 4 and not G.Trip_Know == 1	}{	}{	}{	}{	}{	}{	}{	}{	I may need a bow that fires bullets.	}
 {	239	}{	I had a few questions for you, Arthur.	}{	I had a few questions for you, Arthur.	}{	81	}{	G.Arthur_BJ == 1 and G.Arthur_BH >= 1 and G.Arthur_Knox >= 1	}{	}{	}{	}{	}{	}{	}{	}{	I have more questions bursting my brain.	}
 {	240	}{	Nothing right now, Arthur. I'll be seeing you.	}{	Nothing right now, Arthur. I'll be seeing you.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Egads. I must make my exit post-haste.	}
@@ -551,7 +551,7 @@
 {	551	}{	Bail bondin'? What do you want to know?	}{	Bail bondin'? What do you want to know?	}{	#	}{	npc.SetDisposition("Neutral",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	552	}{	Do you run this place?	}{	Do you run this place?	}{	21	}{	G.Arthur_Run == 0	}{	}{	}{	}{	}{	}{	}{	}{	Do you alone hold freedom's keys?	}
 {	553	}{	So, you get a lot of people who jump bail?	}{	So, you get a lot of people who jump bail?	}{	71	}{	G.Arthur_BH == 0	}{	}{	}{	}{	}{	}{	}{	}{	Are there many bounties to hunt?	}
-{	554	}{	Your bounty hunter, is he good?	}{	Your bounty hunter, is he good?	}{	671	}{	G.Arthur_BH == 1 and G.Arthur_Knox < 1	}{	}{	}{	}{	}{	}{	}{	}{	Do you have a skilled hunter of bounties?	}
+{	554	}{	Your bounty hunter, is he good?	}{	Your bounty hunter, is he good?	}{	671	}{	G.Arthur_BH >= 1 and G.Arthur_Knox < 1	}{	}{	}{	}{	}{	}{	}{	}{	Do you have a skilled hunter of bounties?	}
 {	555	}{	Actually, I'd like to ask you about something else.	}{	Actually, I'd like to ask you about something else.	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	I have more questions bursting my brain.	}
 {	556	}{	Nothing. See you later.	}{	Nothing. See you later.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I am somewhere that is not here.	}
 {	557	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -590,7 +590,7 @@
 {	590	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	591	}{	You talkin' about bail jumpers? Yeah, as a matter of fact we got plenty o' those. That's why I got a bounty hunter for.	}{	You talkin' about bail jumpers? Yeah, as a matter of fact we got plenty o' those. That's why I got a bounty hunter for.	}{	#	}{	npc.SetDisposition("Neutral",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	592	}{	Hunting bounties sounds exciting.	}{	Hunting bounties sounds exciting.	}{	181	}{	G.Arthur_BH == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	593	}{	Is your hunter skilled in finding bounties?	}{	Is your hunter skilled in finding bounties?	}{	671	}{	G.Arthur_BH == 1 and G.Arthur_Knox < 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	593	}{	Is your hunter skilled in finding bounties?	}{	Is your hunter skilled in finding bounties?	}{	671	}{	G.Arthur_BH >= 1 and G.Arthur_Knox < 1	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	594	}{	My brain has questions that need your brain's answers.	}{	My brain has questions that need your brain's answers.	}{	81	}{	G.Extra_Lines == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	595	}{	I am no longer here.	}{	I am no longer here.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	596	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
