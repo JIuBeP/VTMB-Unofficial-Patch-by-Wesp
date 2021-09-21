@@ -33,7 +33,7 @@ XP compatibility mode. On problems with Steam run Steam and the game
 as administrator and copy steam.dll to the game folder, if you get a
 "failed to find Steam" error. To start it from the Steam library add
 -game Unofficial_Patch to launch options! Disable auto-updating both
-in Steam or Galaxy. For mods and Linux use shortcut from start menu!
+in Steam or Galaxy. For mods or Linux use loader.exe in game folder!
 
 Special thanks to burgermeister for the Public Library, EntenSchreck
 for the Hallowbrook Atrium, the Chateau Hotel outside and drafts for
@@ -105,7 +105,7 @@ Trackerscheme.res: Turns Malkavian font off, check txt, by Wesp5.
 Version Changelog:
 ------------------
 
-v11.0                                                  23.08.2021
+v11.0                                                  21.09.2021
 -----
 Removed leftover changes to vendors and emails for plus and basic.
 Made Chang not drop his blade and renamed second knife for basic.
@@ -114,8 +114,10 @@ Fixed floating junk downtown and gums appearing after Ming fight.
 Made sure player can't leave endgame Skyeline haven via the vents.
 Killed Hannah on reading her diary to avoid duplicate quest logs.
 Fixed revisiting Kamikaze Zen and long silence after a Tommy line.
-Updated SDK and game and mod launcher loader, thanks to Psycho-A.
-Corrected Mercurio lines and some minor text, file and map issues.
+Updated the SDK and game mod launcher loader, thanks to Psycho-A.
+Corrected Mercurio and Arthur bugs and several other minor issues.
+Fixed over twenty facial animations because of a bad disposition.
+Disabled Obfuscate and Protean warform combi to avoid exit freeze.
 
 v10.9                                                  16.07.2021
 -----
@@ -2616,7 +2618,7 @@ General:
 Made all enemies drop weapon except for balance or impossible cases.
 All illogical spawning and respawning is removed on several levels.
 Fixed refresh-rate, coronas, floats and > 2 GB memory bugs in dlls.
-Added about hundred missing facial expressions to about thirty NPCs.
+Added and fixed over hundred facial expressions for over fifty NPCs.
 Swapped Colt Anacondas with Ithacas for cop crews arriving by car.
 Cops use GLOCKs, SWAT cops use AUGs and dead enemies drop more ammo.
 Fixed hunters spawning on main hubs and a few NPCs not staying dead.
@@ -2784,8 +2786,9 @@ Harmonized Presence chances and adjusted description of Blood Boil.
 Edited history and occult item descriptions to display percentages.
 Cleared Disciplines before many more cutscenes than in the original.
 Made Chang brothers and serial killer be resistant to Blood Purge.
-Mentioned light amplification effects of Auspex and Divine Vision.
 Disabled Vision of Death, Suicide and Mass Suicide for the zombies.
+Mentioned light amplification effects of Auspex and Divine Vision.
+Disabled Obfuscate and Protean warform combi to avoid exit freeze.
 
 Items:
 +Made it possible to give redundant items to NPCs and removed others.
