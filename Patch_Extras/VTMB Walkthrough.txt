@@ -122,10 +122,12 @@ OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
  |   ------[] CHAPTER 1: SANTA MONICA, THE LADY BY THE SEA
  |   |      |
  |   |      |
- |   |      ------(o) Side Quests
+ |   |      ------(o) Side Quests (13)
  |   |             |
+ |   |            <+> Trick or Treatment (plus patch only)
+ |   |            <+> Daydream Believer (plus patch only)
  |   |            <+> The Pain Of Being Mercurio
- |   |            <+> Drug Trip (plus patch only!)
+ |   |            <+> Drug Trip (plus patch only)
  |   |            <+> Thinned Blood
  |   |            <+> Replanting A Lily
  |   |            <+> Bloody Mess
@@ -136,7 +138,7 @@ OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
  |   |            <+> The Regent's Riddle (part 1)
  |   |            <+> Spiritual Release
  |   |             |
- |   |            (o) Main Quests
+ |   |            (o) Main Quests (8)
  |   |             |
  |   |            <+> Wherefore Art Thou, Mercurio?
  |   |            <+> Surf's Up
@@ -151,13 +153,13 @@ OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
  |   ------[] CHAPTER 2: DOWNTOWN, HEART OF THE JYHAD
  |   |      |
  |   |      |
- |   |      ------(o) Side Quests
+ |   |      ------(o) Side Quests (13)
  |   |             |
  |   |            <+> The Regent's Riddle (part 2)
  |   |            <+> A Plague For The Angels
  |   |            <+> Fun With Pestilence
  |   |            <+> More Fun With Pestilence
- |   |            <+> Night at the Library (plus patch only!)
+ |   |            <+> Night at the Library (plus patch only)
  |   |            <+> Mudd Hunt (part 1)
  |   |            <+> Traffik
  |   |            <+> A Confession
@@ -167,7 +169,7 @@ OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
  |   |            <+> Occultish Personality
  |   |            <+> Attention Whore
  |   |             |
- |   |            (o) Main Quests
+ |   |            (o) Main Quests (4)
  |   |             |
  |   |            <+> Elizabethan Rendezvous
  |   |            <+> Calling Dr. Grout
@@ -178,8 +180,9 @@ OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
  |   ------[] CHAPTER 3: HOLLYWOOD, THE LAND OF FALLEN STARS
  |   |      |
  |   |      |
- |   |      ------(o) Side Quests
+ |   |      ------(o) Side Quests (16)
  |   |             |
+ |   |            <+> Poster Session (plus patch only)
  |   |            <+> Gargoyle Removal Service
  |   |            <+> A Dish Best Served Cold
  |   |            <+> Hot Stripper Assassin Action!
@@ -196,7 +199,7 @@ OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
  |   |            <+> A Tangled Web (2nd network hub - Nocturne Theatre)
  |   |            <+> A Tangled Web (3rd network hub - Metalhead Industries)
  |   |             |
- |   |            (o) Main Quests
+ |   |            (o) Main Quests (4)
  |   |             |
  |   |            <+> Dead Ex
  |   |            <+> Snuff Is Enough
@@ -207,15 +210,16 @@ OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
  |   ------[] CHAPTER 4: CHINATOWN, HIDDEN MYSTERIES OF THE EASTERN LANDS
  |   |      |
  |   |      |
- |   |      ------(o) Side Quests
+ |   |      ------(o) Side Quests (6)
  |   |             |
+ |   |            <+> Dirty Dishes (plus patch only)
  |   |            <+> A Tangled Web (4th network hub - Kamikaze Zen)
  |   |            <+> Gone Fishin'
  |   |            <+> Eye Gouge Hell
  |   |            <+> Bad Luck Farmer
  |   |            <+> The Hitman Impasse
  |   |             |
- |   |            (o) Main Quests
+ |   |            (o) Main Quests (7)
  |   |             |
  |   |            <+> I Spy Barabus (part 1)
  |   |            <+> Kikinapped
@@ -229,7 +233,11 @@ OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
  |   ------[] CHAPTER 5: OPENING PANDORA'S BOX
  |   |      |
  |   |      |
- |   |      ------(o) Main Quests
+ |   |      ------(o) Side Quests (1)
+ |   |             |
+ |   |            <+> Ash to Ashes (plus patch only)
+ |   |             |
+ |   |            (o) Main Quests (5)
  |   |             |
  |   |            <+> The Epic Of The Ankaran Sarcophagus (part 3)
  |   |            <+> Society For The Preservation Of Professors
@@ -241,7 +249,7 @@ OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
  |   ------[] CHAPTER 6: IT'S THE BLOOD OF CAINE THAT SHAPES YOUR DESTINY
  |          |
  |          |
- |          ------(o) Endgame
+ |          ------(o) Endgame (2)
  |                 |
  |                <+> Ming Must Die!
  |                <+> Royal Flush
@@ -1904,9 +1912,8 @@ check his mail. If you can't hack the computer go to the top floor and check
 the restroom to the right, there you'll find his password is "panacea". After
 reading his mail go to him and blackmail him. You can persuade him to give you
 $75, or intimidate him for $150. You'll find the money in your mailbox latter
-[+: or behind the potted plants in the corridor of the building of Mercurio].
-Also in Malcolm's office you'll find 3 MORPHINE BOTTLES, sell two and keep
-one for Mercurio. In another room you'll find a PILL BOTTLE.
+[+: or in his office]. Also in Malcolm's office you'll find 3 MORPHINE BOTTLES,
+sell two and keep one for Mercurio. In another room you'll find a PILL BOTTLE.
 
 If you go to the basement you'll find Vandal. He sells blood bags.
 
@@ -2248,7 +2255,7 @@ the one with the bloodstain in front. There talk to Mercurio (1 XP) to get the
  MAIN QUEST: SURF'S UP
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-OUTCOME: 3-4 XP [+: HUMANITY GAIN]
+OUTCOME: 3-4 XP
 
 Head over to the beach and climb the iron stairs to the right. You can finish
 this quest in many ways. You can assault the house and kill all enemies. You
@@ -2260,7 +2267,7 @@ vent in the laundry room and crawl inside, there's a MONEY ENVELOPE there [+:
 or a cigar box with an envelope in it], take it ($250). There is also a CAR
 STEREO in the kitchen for you to sell for some cash. Go back to Mercurio and
 he'll give you the [EXPLOSIVE BEGINNING] quest (1 XP). If you give him money
-back you get another 1 XP [+: and a HUMANITY GAIN if didn't find his money].
+back you get another 1 XP.
 
 
 
@@ -4151,9 +4158,9 @@ available later.
 
 
 
-------------------------------------------------
- POINT OF INTEREST [+: SIDEQUEST: DIRTY DISHES]
-------------------------------------------------
+-------------------------------------------------
+ POINT OF INTEREST [+: SIDE QUEST: DIRTY DISHES]
+-------------------------------------------------
 
 OUTCOME: 4 XP, $0 or $200 or (FANCY WATCH and GOLD RING)
 
@@ -4923,10 +4930,7 @@ skyline apartment building and find yourself back at downtown LA.
 You can use the cab as usual to take you to the other locations,
 including griffith park. To go back to the endgame, simply
 re-enter your apartment from the vent, and exit through the
-front door.
-
-Regards,
-Naoise
+front door. [+-: This issue has been fixed in the patch.]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
