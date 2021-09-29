@@ -842,6 +842,8 @@
 "model" "models/scenery/furniture/computer/apple_monitor_screen.mdl"
 "hack_file" "vdata/HackTerminals/kilpatricks_computer.txt"
 "soundgroup" "old_computer"
+"OnUseEnd" "computer,Enable,,0,-1,,"
+"OnUseBegin" "computer,Disable,,0,-1,,"
 "origin" "3050.06 889.585 -280.3"
 }
 {
