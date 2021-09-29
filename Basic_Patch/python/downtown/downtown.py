@@ -102,6 +102,7 @@ def regentDialog():
 
 #CONFESSION: Called if Patty dies, changed by wesp
 def pattyDeath():
+    G.Test_Patty = 1
     pc = __main__.FindPlayer()
     state = pc.GetQuestState("Junky")
     if state == 1 or state == 7:
