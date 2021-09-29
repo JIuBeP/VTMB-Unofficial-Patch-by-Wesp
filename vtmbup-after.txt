@@ -1,19 +1,14 @@
+To play the Unofficial Patch version of Bloodlines
+START BLOODLINES FROM THE SHORTCUT THE PATCH ADDS!
 
-To play the Unofficial Patched version of the game
-RUN BLOODLINES FROM THE LINKS THAT THE PATCH MADE!
-
-If you want to play directly from the Steam client
+If you want to play Bloodlines directly from Steam
 ADD -game Unofficial_Patch TO IT'S LAUNCH OPTIONS.
+
+In case you are playing Bloodlines from GOG Galaxy
+or Steam you need to DISABLE THE GAME AUTO UPDATE.
+
+If you want to play Bloodlines UNDER LINUX USE THE
+GAME MOD LOADER tool shortcut from the start menu.
 
 After updating the patch version or switching from
 basic to plus YOU ALWAYS NEED TO START A NEW GAME!
-
-If you are RUNNING IN A WINE environment start the
-game using "loader-linux.sh" from the main folder.
-
-In case you are using the GOG version with Galaxy,
-you need to DISABLE THE AUTO UPDATE of Bloodlines.
-
-To IMPROVE THE VISUALS check out the shader suites
-in Patch_Extras/Player Mods or use your GPU panel.
-

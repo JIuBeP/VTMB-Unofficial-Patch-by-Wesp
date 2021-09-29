@@ -90,8 +90,8 @@ Type: filesandordirs; Name: "{app}\Unofficial_Patch\vidcfg.bin"
 Type: filesandordirs; Name: "{app}\Unofficial_Patch\voice_ban.dt"
 
 [Icons]
-Name: "{userdesktop}\VTM Bloodlines Unofficial Patch"; Filename: {app}\vampire.exe; Parameters: "-game Unofficial_Patch"; IconFilename: {app}\loader.exe
-Name: "{userprograms}\VTM Bloodlines Unofficial Patch"; Filename: {app}\loader.exe
+Name: "{userdesktop}\VtM Bloodlines Unofficial Patch"; Filename: {app}\vampire.exe; Parameters: "-game Unofficial_Patch"; IconFilename: {app}\loader.exe
+Name: "{userprograms}\VtM Bloodlines Game Mod Loader"; Filename: {app}\loader.exe
 
 [Run]
 Filename: {app}\vampire.exe; Parameters: "-game Unofficial_Patch"; Description: Run Bloodlines with the Unofficial Patch; Flags: postinstall runascurrentuser nowait skipifsilent

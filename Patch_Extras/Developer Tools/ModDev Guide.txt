@@ -1405,7 +1405,7 @@ III.6  > > > >  Events
   A) ENTITIES:
 
       The vast majority of entities only handle events meant for the entity 
-      itself. For example, if you embed an npc_Vhuman (see Attached Appendix 
+      itself. For example, if you embed an npc_VHuman (see Attached Appendix 
       G), you can set it up so that it receives an OnDialogBegin event and 
       calls a python method:
 

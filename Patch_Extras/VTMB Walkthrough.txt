@@ -114,7 +114,7 @@ OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
  |   ------[] INTRO: EMBRACED
  |   |      |
  |   |      |
- |   |      ------(o) Main Quests
+ |   |      ------(o) Main Quests (1)
  |   |             |
  |   |            <+> Jyhad For Beginners
  |   |

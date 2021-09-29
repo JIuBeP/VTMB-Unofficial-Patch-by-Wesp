@@ -24,7 +24,7 @@ TerminalDefinition
 	Email
 	{
 		"subject"	"Fetish"
-		"sender"	"pking@nmh.vtm"
+		"sender"	"pking@mnh.vtm"
 		"body"		"That statue on Daryl's workstation is creeping me out. I was working late the other night and I swear I thought I saw it move. This isn't another gag is it? If it is, I don't think it's funny.
 -Pam"
 	}

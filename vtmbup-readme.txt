@@ -22,10 +22,10 @@ widescreen support and fix weapon-stats, coronas-gone, refresh-rate,
 lights-through-walls, floats-for-females and more-than-2GB-RAM bugs.
 
 To install the patch choose the Bloodlines directory as destination,
-select wanted features, install and then start the game from the new
-desktop or start menu links. Thanks to Jordan Russel for Inno Setup!
-It's important to start a new game after patching, so old saves will
-be moved to save/incompatible! To remove the patch, delete the links
+select options and then start the game from the shortcuts it adds to
+both desktop and start menu. Thanks to Jordan Russel for Inno Setup!
+It's important to begin a new game after patching, so old saves will
+be moved to save/incompatible. To remove the patch, delete shortcuts
 and patch folder. Before updating to a new patch remove the old one.
 
 On issues in Windows install the patch as administrator or use it in
@@ -33,7 +33,7 @@ XP compatibility mode. On problems with Steam run Steam and the game
 as administrator and copy steam.dll to the game folder, if you get a
 "failed to find Steam" error. To start it from the Steam library add
 -game Unofficial_Patch to launch options! Disable auto-updating both
-in Steam or Galaxy. For mods or Linux use loader.exe in game folder!
+in Steam and GOG Galaxy. For mods or Linux use loader in start menu.
 
 Special thanks to burgermeister for the Public Library, EntenSchreck
 for the Hallowbrook Atrium, the Chateau Hotel outside and drafts for
@@ -53,8 +53,8 @@ The patch is provided "as is" and any warranties are disclaimed. The
 free redistribution of the unchanged patch is permitted but it's not
 allowed to use it as a base for derivative works without permission!
 Special thanks go to Dan Upright for starting the unofficial patches
-and doing the versions up to 1.2, his changelogs are included below.
-Many thanks also to the following people who contributed much to it!
+and doing the versions up to 1.2, his changelogs are included below,
+many thanks also to the following people who contributed much to it.
 
 
 Acknowledgments:
@@ -105,19 +105,20 @@ Trackerscheme.res: Turns Malkavian font off, check txt, by Wesp5.
 Version Changelog:
 ------------------
 
-v11.0                                                  21.09.2021
+v11.0                                                  29.09.2021
 -----
++Made it easier to access Arthur's PC and fixed possible Patty bug.
++Fixed finding gums after Ming fight and game sound at beachhouse.
 Removed leftover changes to vendors and emails for plus and basic.
 Made Chang not drop his blade and renamed second knife for basic.
 Removed special Heather lines and Hallowbrook cowering from basic.
-Fixed floating junk downtown and gums appearing after Ming fight.
-Made sure player can't leave endgame Skyeline haven via the vents.
 Killed Hannah on reading her diary to avoid duplicate quest logs.
 Fixed revisiting Kamikaze Zen and long silence after a Tommy line.
+Disabled Obfuscating the Protean warform to avoid freeze on exit.
+Made sure player can't leave endgame Skyeline haven via the vents.
 Updated the SDK and game mod launcher loader, thanks to Psycho-A.
-Corrected Mercurio and Arthur bugs and several other minor issues.
+Corrected Mercurio and Arthur dialogs and some other minor issues.
 Fixed over twenty facial animations because of a bad disposition.
-Disabled Obfuscate and Protean warform combi to avoid exit freeze.
 
 v10.9                                                  16.07.2021
 -----
@@ -2788,7 +2789,7 @@ Cleared Disciplines before many more cutscenes than in the original.
 Made Chang brothers and serial killer be resistant to Blood Purge.
 Disabled Vision of Death, Suicide and Mass Suicide for the zombies.
 Mentioned light amplification effects of Auspex and Divine Vision.
-Disabled Obfuscate and Protean warform combi to avoid exit freeze.
+Disabled Obfuscating the Protean warform to avoid freeze on exit.
 
 Items:
 +Made it possible to give redundant items to NPCs and removed others.
@@ -2892,7 +2893,7 @@ Santa Monica:
 +Made player phone Gimble in shop and Carson's killing being logged.
 +Unlocked door in Gimble's lair, showed his hand and fixed cutscene.
 +Made Carson pack his stuff and corrected skybox reflection on hub.
-+Restored fighters brawling in Al's video game at beachhouse level.
++Restored fighters and sound to Al's video game at beachhouse level.
 +Gave Humanity instead of XP if you give your own money to Mercurio.
 Fixed morphine quest updates after angering Mercurio and warehouse.
 Made diner cook move more and stopped Doris from falling into floor.

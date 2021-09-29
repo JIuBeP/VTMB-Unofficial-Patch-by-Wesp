@@ -24,7 +24,7 @@ TerminalDefinition
 	Email
 	{
 		"subject"	"RE: Fetish"
-		"sender"	"jcorning@nmh.vtm"
+		"sender"	"jcorning@mnh.vtm"
 		"body"		"Relax, Pam. I had him move the statue into another office. Oh, and it told me to say \"hi\"."
 	}
 
