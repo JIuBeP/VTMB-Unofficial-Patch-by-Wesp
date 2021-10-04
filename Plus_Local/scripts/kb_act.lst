@@ -12,6 +12,8 @@
 "+movedown"		"Swim Down"
 "+left"			"Turn Left"
 "+right"			"Turn Right"
+"+lookup"			"Look Up"					// added by wesp
+"+lookdown"		"Look Down"				// added by wesp
 "+attack"			"Primary Attack"
 "+wpn_secondaryatk"	"Secondary Attack"			// changed by wesp
 "+reload"			"Reload Weapon"
@@ -36,12 +38,12 @@
 "dlghist"			"Dialog History"
 "dlgscrlup"		"Dialog History Up"			// changed by wesp
 "dlgscrldn"		"Dialog History Down"			// changed by wesp
-"+mlook"			"Mouse Look"
-"pause"			"Pause"					// added by wesp
-"toggleconsole"		"Console"					// added by wesp
 "save quick"		"Quick Save"
 "load quick"		"Quick Load"
+"pause"			"Pause"					// added by wesp
+"toggleconsole"		"Console"					// added by wesp
 "snapshot"			"Screenshot"				// changed by wesp
+"+mlook"			"Mouse Look"
 "togglecamera"		"Toggle View"				// changed by wesp
 "+camin"			"Camera: Zoom In"			// added by wesp
 "+camout"			"Camera: Zoom Out"			// added by wesp
