@@ -459,8 +459,8 @@
 {	459	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	460	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	461	}{	Thank you, my friend. I don't know where you came from, but I will never forget this kindness.	}{	Thank you, my friend. I don't know where you came from, but I will never forget this kindness.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	462	}{	No problem.	}{	No problem.	}{	0	}{	G.Patch_Plus == 0	}{	}{	}{	}{	}{	}{	}{	}{	Don't mention it, or better do!	}
-{	463	}{	No problem.	}{	No problem.	}{	0	}{	G.Patch_Plus == 1	}{	FindPlayer().HumanityAdd( 1 )	}{	}{	}{	}{	}{	}{	}{	Don't mention it, or better do!	}
+{	462	}{	No problem.	}{	No problem.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Don't mention it, or better do!	}
+{	463	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	464	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	465	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	466	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
