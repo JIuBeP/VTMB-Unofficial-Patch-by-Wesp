@@ -259,7 +259,7 @@
 {	259	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	260	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	261	}{	Well, hell. That really leaves me in hot water, boy. Gonna cost old Arthur real good.	}{	Well, hell. That really leaves me in hot water, boy. Gonna cost old Arthur real good.	}{	#	}{	npc.SetDisposition("Sad",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	262	}{	Who did you need Carson to find?	}{	Who did you need Carson to find?	}{	271	}{	G.Extra_Lines == 1	}{	}{	}{	}{	}{	}{	}{	}{	Maybe I can hunt a bounty for you, key master.	}
+{	262	}{	Who did you need Carson to find?	}{	Who did you need Carson to find?	}{	271	}{	G.Extra_Lines == 1	}{	}{	}{	}{	}{	}{	}{	}{	Who is heating your hot tub?	}
 {	263	}{	What's the problem?	}{	What's the problem?	}{	271	}{	}{	}{	}{	}{	}{	}{	}{	}{	Has fate left you a losing hand?	}
 {	264	}{	Sorry, but can you pay me now?	}{	Sorry, but can you pay me now?	}{	301	}{	G.Arthur_Knoxpay == 0	}{	G.Arthur_Knoxpay = 2	}{	}{	}{	}{	}{	}{	}{	I need some green for my diggings.	}
 {	265	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}

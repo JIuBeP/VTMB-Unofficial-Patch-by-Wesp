@@ -1251,9 +1251,9 @@ have been making a move to take over California for the last several years and
 are wrestling territory away from the Anarchs.
 
 
-OOOOOOOOOOOOOOOO
- The Masquerade
-OOOOOOOOOOOOOOOO
+OOOOOOOOOOOOOOOOO
+ Masquerade Area
+OOOOOOOOOOOOOOOOO
 
 In this series we are introduced to the night of modern times which hides many
 secrets. There are vampires, werewolves, wraiths and other supernatural beings
@@ -1262,13 +1262,16 @@ vampires to survive and feast on the offerings of the human world they must
 hide their true identity from humans.
 
 When you'll see the "mask" icon on top of your life meter, it means that you're
-in an area where you must maintain the Masquerade and not show any of your
-supernatural powers. This means you must not be seen using any direct
-disciplines or feeding from unwilling victims. If you do, you will attract
-human vampire hunters and the wrath of your own kindred.
+in an Masquerade Area where you must maintain the Masquerade and not show any 
+of your supernatural powers. This means you must not be seen using any direct
+disciplines or feeding from unwilling victims. If you do, you will cause a
+Masquerade Violation and attract human vampire hunters and the wrath of your 
+own kindred.
 
-Breaking human laws does not affect the Masquerade but results in police
-pursuit and killing of innocents decreases you Humanity.
+Breaking human laws does not affect the Masquerade but results in a Criminal
+Violation and thus to police pursuit and killing of innocents decreases your 
+Humanity. Hiding from the police will make them give up after a short time.
+[+: Just running around with a weapon drawn will cause a Criminal Violation.]
 
 
 OOOOOOOOO
@@ -1278,18 +1281,17 @@ OOOOOOOOO
 Elysiums are the grounds where vampires are forbidden to attack or use their
 disciplines. These are usually the homes of powerful vampires. When you'll see
 an "E" on top of your life meter, you'll know you are in an Elysium. The only
-discipline still allowed is Bloodbuff while picking a lock.
+discipline still allowed is Bloodbuff when cast while you are picking a lock.
 
 
+OOOOOOOOOOOOO
+ Combat Area
+OOOOOOOOOOOOO
 
-OOOOOOOOOOOOOO
- Combat Zones
-OOOOOOOOOOOOOO
-
-When there is a gun on top of your life meter you are in a combat zone. Here
+When there is a gun on top of your life meter you are in a Combat Area. Here
 you can freely attack anyone and use any disciplines you like without any risk
 of violating the Masquerade or loosing Humanity when killing enemies. [+: You
-will loose Humanity when killing some innocents in these zones though.]
+will loose Humanity when killing innocents in these zones though.]
 
 
 OOOOOOOO
