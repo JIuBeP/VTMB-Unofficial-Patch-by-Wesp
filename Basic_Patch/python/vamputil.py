@@ -1754,11 +1754,17 @@ def VThaumaturgy(x):
             elif pc.IsMale() == 1:
                 HANDSMODEL.SetModel("models/hands/male/shared/v_shared_male_hands.mdl")
 
+#Sets criminal violation if player has weapon drawn on hubs, added by wesp
+def checkHub():
+    pc = __main__.FindPlayer()
+    if not (pc.HasWeaponEquipped("item_w_unarmed")or pc.HasWeaponEquipped("item_w_fists")):
+        pc.SetCriminalLevel(1)
 
 #Clan specific idle animations, added by EntenSchreck, improved by malkav and wesp
 def IsIdling():
     checkOccult()
     checkBomb()
+    checkHub()
     pc = __main__.FindPlayer()
     G  = __main__.G
     G.Pos_One = pc.GetOrigin()
