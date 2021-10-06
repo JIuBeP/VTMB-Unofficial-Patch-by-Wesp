@@ -6805,7 +6805,6 @@
 "StartHidden" "1"
 "follower_type" "Default"
 "base_gender" "1"
-"alternateequipment" "item_w_knife"
 "OnDeath" "warehouse_counter,Add,1,0,-1,,"
 "origin" "-1429.95 603 0"
 }
@@ -6866,7 +6865,6 @@
 "StartHidden" "1"
 "follower_type" "Default"
 "base_gender" "1"
-"alternateequipment" "item_w_knife"
 "OnDeath" "warehouse_counter,Add,1,0,-1,,"
 "origin" "-1725 471 0"
 }

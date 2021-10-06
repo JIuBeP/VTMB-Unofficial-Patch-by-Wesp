@@ -97918,7 +97918,6 @@ entity
 	"StartHidden" "1"
 	"follower_type" "Default"
 	"base_gender" "1"
-	"alternateequipment" "item_w_knife"
 	connections
 	{
 		"OnDeath" "warehouse_counter,Add,1,0,-1,,"
@@ -97988,7 +97987,6 @@ entity
 	"StartHidden" "1"
 	"follower_type" "Default"
 	"base_gender" "1"
-	"alternateequipment" "item_w_knife"
 	connections
 	{
 		"OnDeath" "warehouse_counter,Add,1,0,-1,,"
