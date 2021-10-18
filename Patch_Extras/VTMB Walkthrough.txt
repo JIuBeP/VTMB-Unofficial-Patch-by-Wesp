@@ -1271,7 +1271,7 @@ own kindred.
 Breaking human laws does not affect the Masquerade but results in a Criminal
 Violation and thus to police pursuit and killing of innocents decreases your 
 Humanity. Hiding from the police will make them give up after a short time.
-[+: Just running around with a weapon drawn will cause a Criminal Violation.]
+[+: Brandishing weapons will cause Criminal Violations sooner or later.]
 
 
 OOOOOOOOO
@@ -1929,7 +1929,7 @@ OUTCOME: HUMANITY GAIN [+: 1 XP]
 
 In one of the hospital rooms you'll come across a heavily injured girl. If you
 know about ghouls already, you can give her your blood to save her life and
-GAIN HUMANITY [+: (1 XP)]. Her name is Heather and if you want she can later be
+GAIN HUMANITY [+: 1 XP]. Her name is Heather and if you want she can later be
 your ghoul. You'll meet her again when you get downtown. Don't say you're a
 vampire cause you'll freak her out and a security guard will appear outside.
 
@@ -2032,7 +2032,8 @@ OUTCOME: 1 XP, HUMANITY GAIN
 
 When you first meet Mercurio and get his [SURF'S UP] quest, ask him if he is
 in pain to receive this quest. Enter the Hospital and go into Dr. Malcolm's
-office. There you'll find 3 MORPHINE BOTTLES. Give one to Mercurio (1 XP).
+office. There you'll find 3 MORPHINE BOTTLES. Give one to Mercurio (1 XP,
+HUMANITY GAIN).
 
 
 
@@ -2102,8 +2103,8 @@ him that you'll bring him a new blood "donor" (Unless you are a Nosferatu).
 Enter The Asylum and persuade or seduce the girl that is up the stairs to go
 to the blood bank, then report back to Vandal (2 XP). You'll get a HUMANITY
 LOSS for that. [+: You can convince Patty at the Confession later on too,
-which is the only way for Nosferatu to solve this quest. If you don't want
-to get a HUMANITY LOSS, you can also persuade Gimble to visit Vandal.]
+which is a way for Nosferatu to solve this quest. If you don't want to get a 
+HUMANITY LOSS, you can also persuade Gimble to visit Vandal.]
 
 
 
@@ -2429,8 +2430,7 @@ skill of only 4.
 Once you're in you can stealth kill the first thug easily, and then enter the
 next room. Grab the .38 ammo and continue to the next room stealth killing the
 second thug too. Back to the previous room and move the board off the wall to
-uncover an opening, kill the bum outside [+: with a HUMANITY LOSS] and then go
-to the back yard to get some shotgun ammo.
+uncover an opening, then go to the back yard to get some shotgun ammo.
 
 From then on there are many ways into the main warehouse building:
 1. Go through the main entrance which is heavily guarded.
@@ -2980,7 +2980,7 @@ give you $1000. This fails the [AND HER NAME WAS VENUS] quest.
  SIDE QUEST: NECROMANTIC
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-OUTCOME: 3 XP, MASQUERADE REDEMPTION [+: HUMANITY LOSS]
+OUTCOME: 3 XP, MASQUERADE REDEMPTION, HUMANITY LOSS
 
 To the left of the Venture Tower you'll find the abandoned hospital. Enter
 through an opening at the fence and go through the door. A man will come
@@ -3593,17 +3593,17 @@ Go back to VV and report (1 XP). If you talk to her again she'll give you the
  SIDE QUEST: B-RATED WRITER
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-OUTCOME: 4-5 XP, MASQUERADE REDEMPTION, HUMANITY GAIN/LOSS [+: 5-6 XP]
+OUTCOME: 4-5 XP, MASQUERADE REDEMPTION, HUMANITY GAIN/LOSS [+: 5 XP]
 
 Go to the Luckee Star motel and talk to Hatter. Persuade, seduce, intimidate,
 dominate or dementate him to give you his SCREENPLAY (2 XP). Then get him to
 tell you about his collaborator (1 XP), it's Julius, the thin-blood on the
 Santa Monica beach. Go there and talk to him, you can:
 
-1. Let him leave L.A. (HUMANITY GAIN). [+: and 1 XP]
+1. Let him leave L.A. (HUMANITY GAIN). [+: 1 XP]
 2. Let him leave L.A. and take his money ($100 and HUMANITY LOSS for taking 
 his money if your Humanity is 8 or more and HUMANITY GAIN if it is 7 or less,
-no extra XP). [+: $100 and 1 XP].
+no extra XP). [+: $100, 1 XP].
 3. Kill him (1 XP).
 
 Then go talk to VV (1 XP) and receive a MASQUERADE REDEMPTION. She'll also give
@@ -3751,7 +3751,7 @@ will be able to get the [MODEL CITIZEN] quest when you took her money too.]
  SIDE QUEST: MODEL CITIZEN
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-OUTCOME: 2 XP, $400 and HUMANITY LOSS
+OUTCOME: 1-2 XP, $200-400, HUMANITY LOSS
 
 This quest can be obtained after you've located the Nosferatu hideout. Imalia
 wants to get revenge on Tawni Sessions and tells you to go to her apartment
@@ -4448,7 +4448,7 @@ get the BARABUS' CELL KEY to free Barabus (2 XP). This quest ends here and the
  MAIN QUEST: I SPY BARABUS (PART 2)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-OUTCOME: 7 XP
+OUTCOME: 7 XP, HUMANITY GAIN
 
 After killing the Mandarin you finally find Barabus (3 XP). You can either
 tell him to leave any computers to you (if you have a high Hacking skill) or
@@ -4629,11 +4629,11 @@ new weapons available like the BUSH HOOK, DESERT EAGLE and STEYR AUG.
  POINT OF INTEREST [+: SIDE QUEST: ASH TO ASHES]
 -------------------------------------------------
 
-OUTCOME: [+: 2 XP]
+OUTCOME: HUMANITY GAIN [+: 2 XP]
 
 In the caves below the Society of Leopold you'll find a cavern where Ash is
 held prisoner. If you offer him a blood bag you'll GAIN HUMANITY. If you have
-Lockpicking at 10 you can free him now [+: (2 XP)], else you'll have to find
+Lockpicking at 10 you can free him now [+: 2 XP], else you'll have to find
 ASH'S CELL KEY, which will be dropped by one of the hunters in the big cavern
 [+: or can be found on the small box at the end of the level].
 
@@ -4665,7 +4665,7 @@ $500 with a Persuasion of 6 and $700 with a Persuasion of 8.
  MAIN QUEST: SOCIETY FOR THE PRESERVATION OF PROFESSORS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-OUTCOME: 9-11 XP, $300
+OUTCOME: 9-11 XP, $300, HUMANITY GAIN/LOSS
 
 Take the cab and travel to the Society of Leopold. There will be many hunters
 scattered around guarding the area, you can either sneak inside the monastery
@@ -5623,7 +5623,7 @@ Notes: This weapon is an improvement over the Braddock in every way except
 ~~~~~~~~~~~~~~
 Ranged Combat Requirement: 8
 Lethality: 14
-Base Damage: 1 (1 zoomed) [+: (2 zoomed)]
+Base Damage: 1 (1 zoomed) [+: 2 zoomed]
 Fire Rate: HIGH
 Range: LONG
 Reload Speed: MED

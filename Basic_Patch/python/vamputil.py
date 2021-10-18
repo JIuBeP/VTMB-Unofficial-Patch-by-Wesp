@@ -456,10 +456,12 @@ def HelloYoungCainite():
 
 #BAILBONDS: Starts Arthurs monologue on the phone, added by wesp
 def arthurPhones():
+    arthur = Find("plus_Arthur")
     if __main__.G.Arthur_Phoned == 0:
-        arthur = Find("plus_Arthur")
-        arthur.PlayDialogFile("character/dlg/santa monica/arthur/line1_col_e.mp3")
+        if arthur: arthur.PlayDialogFile("character/dlg/santa monica/arthur/line1_col_e.mp3")
         __main__.G.Arthur_Phoned = 1
+    else:
+        if arthur: arthur.PlayDialogFile("character/monster/comfort1.wav")
 
 #CLINIC: Sets Heather quest states, added by wesp
 def heatherQuest1():

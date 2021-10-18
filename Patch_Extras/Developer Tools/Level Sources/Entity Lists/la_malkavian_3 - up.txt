@@ -10195,13 +10195,6 @@
 "origin" "-2060 -120 -3413.8"
 }
 {
-"classname" "inspection_node"
-"parentname" "plus_mazenote"
-"start_enabled" "1"
-"inspection" "5"
-"origin" "-2060 -120 -3413.8"
-}
-{
 "classname" "prop_switch"
 "angles" "0 0 0"
 "use_icon" "8"

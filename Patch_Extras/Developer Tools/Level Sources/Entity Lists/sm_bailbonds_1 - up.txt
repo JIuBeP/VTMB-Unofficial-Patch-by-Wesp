@@ -744,6 +744,12 @@
 "follower_type" "Default"
 "level_reset_type" "2"
 "interesting_place_groups" "1"
+"OnDamaged" ",,,0,-1,arthurPhones(),"
+"OnDamaged" "plus_Arthur_sit,CancelSequence,,10,-1,,"
+"OnDamaged" "plus_Arthur,Kill,,1,-1,,"
+"OnDamaged" "plus_chair,Kill,,1,-1,,"
+"OnDamaged" "Arthur,ScriptUnhide,,1,-1,,"
+"OnDamaged" "chair,ScriptUnhide,,1,-1,,"
 "origin" "3058 886 -319"
 }
 {
@@ -768,19 +774,6 @@
 "OnEndSequence" "chair,ScriptUnhide,,7,-1,,"
 "OnEndSequence" "Arthur,UseInteresting,1,7.5,-1,,"
 "origin" "3058 886 -319"
-}
-{
-"classname" "ambient_generic"
-"health" "10"
-"pitch" "100"
-"pitchstart" "100"
-"radius" "300"
-"sound_event_level" "2"
-"targetname" "plus_Arthur_phones"
-"message" "character/dlg/santa monica/arthur/line1_col_e.mp3"
-"flag_force_looping" "0"
-"spawnflags" "48"
-"origin" "3051 898 -259"
 }
 {
 "classname" "prop_dynamic"

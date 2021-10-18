@@ -229,7 +229,7 @@ LoadingTips
 			"Type"		"World"
 			"StoryState"	"0"
 			"Size"		"Small"
-			"Text"		"Any Kindred who wishes to blend into mortal society must obey its laws. Criminal acts - assault, burglary, murder - are met with brutal force from human law enforcement."
+			"Text"		"Any Kindred who wishes to blend into mortal society must obey its laws. Criminal acts - assault, burglary, murder, or brandishing weapons in public areas - are met with brutal force from human law enforcement."	// changed by wesp
 		}
 
 //		//Game tips
