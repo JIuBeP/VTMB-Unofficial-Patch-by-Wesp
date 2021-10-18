@@ -18818,7 +18818,7 @@
 "angles" "90 0 0"
 "startposition" "0"
 "speed" "350"
-"movedistance" "325"
+"movedistance" "290"
 "blockdamage" "0"
 "targetname" "rope_drop_5"
 "spawnflags" "8"

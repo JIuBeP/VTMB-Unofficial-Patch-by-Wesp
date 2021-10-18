@@ -6326,8 +6326,6 @@
 "classname" "prop_dynamic"
 "angles" "0 90 0"
 "model" "models/scenery/structural/subway/wood_pile.mdl"
-"targetname" "plus_pile"
-"StartHidden" "1"
 "health" "0"
 "skin" "0"
 "disableshadows" "0"
@@ -6338,6 +6336,32 @@
 "npc_transparent" "1"
 "crossfade_skin_time" "2.0"
 "origin" "3800 1100 -455.5"
+}
+{
+"classname" "prop_destructable"
+"angles" "0 105 0"
+"model" "models/scenery/structural/subway/breakableaircompressor.mdl"
+"collideable_gibs" "0"
+"health" "1"
+"spawnflags" "0"
+"dmg_model_1" "models/scenery/structural/subway/breakableaircompressor2.mdl"
+"damage_absorption" "0"
+"break_on_end" "0"
+"physics_level" "9999"
+"origin" "2401 1248 -470"
+}
+{
+"classname" "prop_destructable"
+"angles" "0 285 0"
+"model" "models/scenery/structural/subway/breakableaircompressor.mdl"
+"collideable_gibs" "0"
+"health" "1"
+"spawnflags" "0"
+"dmg_model_1" "models/scenery/structural/subway/breakableaircompressor2.mdl"
+"damage_absorption" "0"
+"break_on_end" "0"
+"physics_level" "9999"
+"origin" "3830 1171 -470"
 }
 {
 "classname" "prop_dynamic"
@@ -6406,36 +6430,6 @@
 "npc_transparent" "1"
 "crossfade_skin_time" "2.0"
 "origin" "3870 1350 -466"
-}
-{
-"classname" "prop_destructable"
-"angles" "0 105 0"
-"model" "models/scenery/structural/subway/breakableaircompressor.mdl"
-"targetname" "plus_compressor"
-"StartHidden" "1"
-"collideable_gibs" "0"
-"health" "1"
-"spawnflags" "0"
-"dmg_model_1" "models/scenery/structural/subway/breakableaircompressor2.mdl"
-"damage_absorption" "0"
-"break_on_end" "0"
-"physics_level" "9999"
-"origin" "2401 1248 -470"
-}
-{
-"classname" "prop_destructable"
-"angles" "0 285 0"
-"model" "models/scenery/structural/subway/breakableaircompressor.mdl"
-"targetname" "plus_compressor"
-"StartHidden" "1"
-"collideable_gibs" "0"
-"health" "1"
-"spawnflags" "0"
-"dmg_model_1" "models/scenery/structural/subway/breakableaircompressor2.mdl"
-"damage_absorption" "0"
-"break_on_end" "0"
-"physics_level" "9999"
-"origin" "3830 1171 -470"
 }
 {
 "classname" "prop_destructable"

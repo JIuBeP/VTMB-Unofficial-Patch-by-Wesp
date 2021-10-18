@@ -15732,7 +15732,7 @@
 "targetname" "bomb_guy_downstairs"
 "StartDisabled" "0"
 "spawnflags" "1"
-"origin" "-1015 140 2680"
+"origin" "-1015 145 2680"
 "OnStartTouch" "bomberman_shield,Kill,,0,-1,,"
 "OnStartTouch" "playerevents,RemoveDisciplinesNow,,0,-1,,"
 "OnStartTouch" "bomberman,StartPlayerDialogRemote,,0.1,-1,,"
