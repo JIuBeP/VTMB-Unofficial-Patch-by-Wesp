@@ -11779,6 +11779,12 @@
 "OnPlayerPickup" "conversation_spot_4,Disable,,0,-1,,"
 "OnPlayerPickup" "conversation_spot_5,Disable,,0,-1,,"
 "OnPlayerPickup" "conversation_spot_6,Disable,,0,-1,,"
+"OnPlayerPickup" "elevator1,Kill,,0,-1,,"
+"OnPlayerPickup" "nervous1,Kill,,0,-1,,"
+"OnPlayerPickup" "gang1,Kill,,0,-1,,"
+"OnPlayerPickup" "dirty1,Kill,,0,-1,,"
+"OnPlayerPickup" "exchange1,Kill,,0,-1,,"
+"OnPlayerPickup" "ambush1,Kill,,0,-1,,"
 "origin" "1496 2372.06 -7320"
 }
 {
