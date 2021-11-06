@@ -89,8 +89,8 @@
 {	89	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	90	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	91	}{	I don't know why I'm here. I have to go.	}{	I don't know why I'm here. I have to go.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	92	}{	Get in your truck and go.	}{	Get in your truck and go.	}{	0	}{	G.Patch_Plus == 0	}{	FindPlayer().ChangeMasqueradeLevel( -1 ); pc.SetQuest("Necromantic",3)	}{	}{	}{	}{	}{	}{	}{	}
-{	93	}{	Get in your truck and go.	}{	Get in your truck and go.	}{	0	}{	G.Patch_Plus == 1	}{	FindPlayer().ChangeMasqueradeLevel( -1 ); pc.SetQuest("Necromantic",3)	}{	}{	}{	}{	}{	}{	}{	}
+{	92	}{	Get in your truck and go.	}{	Get in your truck and go.	}{	0	}{	}{	FindPlayer().ChangeMasqueradeLevel( -1 ); pc.SetQuest("Necromantic",3)	}{	}{	}{	}{	}{	}{	}{	}
+{	93	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	94	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	95	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	96	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}

@@ -79,7 +79,7 @@
 {	79	}{	I'm outta here.	}{	I'm outta here.	}{	511	}{	G.Bertram_Ready > 0 and G.Bertram_Map == 0 and IsClan(pc,"Nosferatu")	}{	G.Bertram_Feud = 2	}{	}{	}{	}{	}{	}{	}{	}
 {	80	}{	I'm outta here.	}{	I'm outta here.	}{	0	}{	G.Bertram_Ready > 0 and G.Bertram_Map == 1	}{	G.Bertram_Feud = 2	}{	}{	}{	}{	}{	}{	}{	I am no longer here.	}
 {	81	}{	Oh you did, did you? [laugh]Well, I wasn't worried. So why'd you need to find me? What did you need?	}{	Oh you did, did you? [laugh]Well, I wasn't worried. So why'd you need to find me? What did you need?	}{	#	}{	npc.SetDisposition("joy",3)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	82	}{	I need to get to that warehouse for Mercurio. You know Mercurio?	}{	I need to get to that warehouse for Mercurio. You know Mercurio?		}{	119	}{	}{	}{	}{	}{	}{	}{	}{	}{	I seek a strange house of wares, oh Nasty Dude! For the winged one, you know?	}
+{	82	}{	I need to get to that warehouse for Mercurio. You know Mercurio?	}{	I need to get to that warehouse for Mercurio. You know Mercurio?	}{	119	}{	}{	}{	}{	}{	}{	}{	}{	}{	I seek a strange house of wares, oh Nasty Dude! For the winged one, you know?	}
 {	83	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	84	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	85	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}

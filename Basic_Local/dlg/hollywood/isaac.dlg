@@ -558,7 +558,7 @@
 {	558	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	559	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	560	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	561	}{	You've met VV, have you? Of all the Kindred I know, she seems the most alive. She's still young, though - but nonetheless adept. She's not my childe, but she's become like a daughter to me.	}{	You've met VV, have you? Of all the Kindred I know, she seems the most alive. She's still young, though - but nonetheless adept. She's not my childe, but she's become like a daughter to me.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Isaac_VV = 1 }{	}{	}{	}{	}{	}{	}{	}
+{	561	}{	You've met VV, have you? Of all the Kindred I know, she seems the most alive. She's still young, though - but nonetheless adept. She's not my childe, but she's become like a daughter to me.	}{	You've met VV, have you? Of all the Kindred I know, she seems the most alive. She's still young, though - but nonetheless adept. She's not my childe, but she's become like a daughter to me.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Isaac_VV = 1	}{	}{	}{	}{	}{	}{	}{	}
 {	562	}{	I had another question.	}{	I had another question.	}{	491	}{	}{	}{	}{	}{	}{	}{	}{	}{	I wonder something else.	}
 {	563	}{	I'll get back to looking for that tape. Later, Isaac.	}{	I'll get back to looking for that tape. Later, Isaac.	}{	0	}{	G.Isaac_Show < 2	}{	}{	}{	}{	}{	}{	}{	}{	My search continues... I am gone.	}
 {	564	}{	Later, Isaac.	}{	Later, Isaac.	}{	0	}{	G.Isaac_Show == 2	}{	}{	}{	}{	}{	}{	}{	}{	I am gone.	}
@@ -721,7 +721,7 @@
 {	721	}{	Evening...	}{	Evening...	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	722	}{	King's Way - there was a Tzimisce. Notice I've used past tense.	}{	King's Way - there was a Tzimisce. Notice I've used past tense.	}{	831	}{	IsClan(pc,"Toreador") and G.Isaac_Gift == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	723	}{	King's Way - there was a Tzimisce. Notice I've used past tense.	}{	King's Way - there was a Tzimisce. Notice I've used past tense.	}{	61	}{	not IsClan(pc,"Toreador") and G.Isaac_Gift == 0	}{	}{	}{	}{	}{	}{	}{	}{	The fleshcrafter who walked with royalty is not so crafty now.	}
-{	724	}{	About that gift - can I have it now?	}{	About that gift - can I have it now?	}{	921	}{	G.Isaac_Gift == 2 and G.Patch_Plus == 0	}{	pc.MoneyAdd( 500 ) }{	}{	}{	}{	}{	}{	}{	}
+{	724	}{	About that gift - can I have it now?	}{	About that gift - can I have it now?	}{	921	}{	G.Isaac_Gift == 2 and G.Patch_Plus == 0	}{	pc.MoneyAdd( 500 )	}{	}{	}{	}{	}{	}{	}{	}
 {	725	}{	About that gift - can I have it now?	}{	About that gift - can I have it now?	}{	921	}{	G.Isaac_Gift == 2 and G.Patch_Plus == 1	}{	pc.GiveItem("item_g_ring_serial_killer_1")	}{	}{	}{	}{	}{	}{	}{	}
 {	726	}{	I had a few questions.	}{	I had a few questions.	}{	491	}{	}{	}{	}{	}{	}{	}{	}{	}{	I wonder something.	}
 {	727	}{	About that Gargoyle...	}{	About that Gargoyle...	}{	511	}{	G.Isaac_Gargoyle == 1 or G.Isaac_Gargoyle == 2	}{	}{	}{	}{	}{	}{	}{	}{	About the stone one...	}

@@ -79,7 +79,7 @@
 {	79	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	80	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	81	}{	I'll buy it, I'll buy it! I'm gonna go get some money. Umm... come back in a little while.	}{	I'll buy it, I'll buy it! I'm gonna go get some money. Umm... come back in a little while.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Copper_Quest = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	82	}{	Yeah, I may also find some special chewing gum to erode your fangs.	}{	Yeah, I may also find some special chewing gum to erode your fangs.	}{	0	}{	G.Patch_Plus == 1	}{ pc.SetQuest("Copper", 1)	}{	}{	}{	}{	}{	}{	}{	I may also produce some special rubber to bring your teeth down.	}
+{	82	}{	Yeah, I may also find some special chewing gum to erode your fangs.	}{	Yeah, I may also find some special chewing gum to erode your fangs.	}{	0	}{	G.Patch_Plus == 1	}{	pc.SetQuest("Copper", 1)	}{	}{	}{	}{	}{	}{	}{	I may also produce some special rubber to bring your teeth down.	}
 {	83	}{	I will.	}{	I will.	}{	0	}{	G.Patch_Plus == 0	}{	}{	}{	}{	}{	}{	}{	}{	There and back again.	}
 {	84	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	85	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}

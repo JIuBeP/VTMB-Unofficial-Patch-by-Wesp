@@ -105,10 +105,14 @@ Trackerscheme.res: Turns Malkavian font off, check txt, by Wesp5.
 Version Changelog:
 ------------------
 
-v11.0                                                  29.09.2021
+v11.0                                                  18.10.2021
 -----
-+Made it easier to access Arthur's PC and fixed possible Patty bug.
++Made it easier to use Arthur's PC and added look up and down keys.
 +Fixed finding gums after Ming fight and game sound at beachhouse.
++Removed Humanity gain for just telling Johansen you will save him.
++Made brandishing weapons on hub levels cause criminal violations.
++Corrected Arthur ignoring attack and removed maze note inspection.
+Repaired Mercurio and Arthur dialogues and other minor text bugs.
 Removed leftover changes to vendors and emails for plus and basic.
 Made Chang not drop his blade and renamed second knife for basic.
 Removed special Heather lines and Hallowbrook cowering from basic.
@@ -117,8 +121,9 @@ Fixed revisiting Kamikaze Zen and long silence after a Tommy line.
 Disabled Obfuscating the Protean warform to avoid freeze on exit.
 Made sure player can't leave endgame Skyeline haven via the vents.
 Updated the SDK and game mod launcher loader, thanks to Psycho-A.
-Corrected Mercurio and Arthur dialogs and some other minor issues.
-Fixed over twenty facial animations because of a bad disposition.
+Removed warrens2 computer trigger and fixed museum email adresses.
+Corrected over twenty facial animations and a possible Patty bug.
+Fixed Glaze TV, SWAT rope, bomberman trigger and other map issues.
 
 v10.9                                                  16.07.2021
 -----
@@ -2615,6 +2620,7 @@ General:
 +Updated Ash, Copper and Serial quest states when you failed some.
 +Made several corpses not dissappear immediately after cutscenes.
 +Added missing manholes and taxis with cabbies to several levels.
++Made brandishing weapons on hub levels cause criminal violations.
 +Restored wine drinking and cowering interesting places to levels.
 Made all enemies drop weapon except for balance or impossible cases.
 All illogical spawning and respawning is removed on several levels.

@@ -12,7 +12,7 @@
 {	12	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	13	}{	I'd like to sell something.	}{	I'd like to sell something.	}{	301	}{	}{	}{	}{	}{	}{	}{	}{	}{	I have goods that need your gold.	}
 {	14	}{	I heard this is the place to pick up some weapons.	}{	A little bird told me this is the place to pick up some weapons.	}{	21	}{	G.Trip_Know > 0 and G.Trip_Know < 4	}{	}{	}{	}{	}{	}{	}{	}{	The voices tell me you have a boom-stick with my name on it.	}
-{	15	}{	What's your name?	}{	What's your name?	}{	181	}{	}{	}{	}{	}{	}{	}{	}{	}{	What is your true name, Death Dealer?		}
+{	15	}{	What's your name?	}{	What's your name?	}{	181	}{	}{	}{	}{	}{	}{	}{	}{	}{	What is your true name, Death Dealer?	}
 {	16	}{	Do you sell weapons?	}{	Do you sell weapons?	}{	51	}{	G.Trip_Know == 0 and G.Trip_Guns == 0	}{	}{	}{	}{	}{	}{	}{	}{	Do you sell boom-sticks?	}
 {	17	}{	I'd like to buy something.	}{	I'd like to buy something.	}{	311	}{	}{	}{	}{	}{	}{	}{	}{	}{	How much gold for your goods?	}
 {	18	}{	Just looking, thanks.	}{	Just looking, thanks.	}{	0	}{	}{	G.Trip_Bye = 1	}{	}{	}{	}{	}{	}{	}{	I'm looking to find where my brain went.	}
@@ -149,7 +149,7 @@
 {	149	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	150	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	151	}{	Hey there. What's up?	}{	Hey there. What's up?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	152	}{	I got something from the clinic. Here you go!	}{	I got something from the clinic. Here you go!	}{	301	}{	G.Trip_Discount > 0 and pc.HasItem("item_g_drugs_drug_box")	}{	G.Trip_Discount = 3 }{	}{	}{	}{	}{	}{	}{	I got a surprise box from the house of healing!	}
+{	152	}{	I got something from the clinic. Here you go!	}{	I got something from the clinic. Here you go!	}{	301	}{	G.Trip_Discount > 0 and pc.HasItem("item_g_drugs_drug_box")	}{	G.Trip_Discount = 3	}{	}{	}{	}{	}{	}{	}{	I got a surprise box from the house of healing!	}
 {	153	}{	Someone told me point blank that you're the best arms dealer in Santa Monica.	}{	Someone told me point blank that you're the best arms dealer in Santa Monica.	}{	21	}{	G.Trip_Know > 0 and G.Trip_Know < 4 and G.Trip_Guns == 0	}{	}{	}{	}{	}{	}{	}{	}{	The voices tell me you have a boom-stick with my name on it.	}
 {	154	}{	I wanted to ask you about finding some weapons.	}{	I wanted to ask you about finding some weapons.	}{	161	}{	G.Trip_Know == 0 and G.Trip_Trust < 5 and G.Trip_Guns == 1 and G.Story_State < 100	}{	}{	}{	}{	}{	}{	}{	}{	Do you know where I can find a boom-stick?	}
 {	155	}{	Trip, I really need some weapons. Maybe you at least know someone?	}{	Trip, I really need some weapons. Maybe you at least know someone?	}{	171	}{	G.Trip_Name == 1 and G.Trip_Know == 0 and G.Trip_Trust > 3 and G.Story_State < 100	}{	}{	}{	}{	}{	}{	}{	}{	Death Trip, can you tell me where I can find a boom-stick?	}
@@ -596,7 +596,7 @@
 {	596	}{	What's there to do around here?	}{	What's there to do around here?	}{	211	}{	G.Trip_SM == 0	}{	}{	}{	}{	}{	}{	}{	}{	Can you tell me of the lady and her places?	}
 {	597	}{	I was wondering if you had heard anything about the serial killer.	}{	I was wondering if you had heard anything about the serial killer.	}{	231	}{	G.Know_Murder == 1 and G.Trip_Killer == 0 and pc.GetQuestState("Serial") < 8	}{	}{	}{	}{	}{	}{	}{	}{	Have you heard anything of the shadow-cloaked killer?	}
 {	598	}{	I'd like to buy something.	}{	I'd like to buy something.	}{	311	}{	}{	}{	}{	}{	}{	}{	}{	}{	How much gold for your goods?	}
-{	599	}{	I got you something from the clinic.	}{	I got you something from the clinic.	}{	301	}{	G.Trip_Discount > 0 and pc.HasItem("item_g_drugs_drug_box")	}{	G.Trip_Discount = 3 }{	}{	}{	}{	}{	}{	}{	I got a surprise box from the house of healing!	}
+{	599	}{	I got you something from the clinic.	}{	I got you something from the clinic.	}{	301	}{	G.Trip_Discount > 0 and pc.HasItem("item_g_drugs_drug_box")	}{	G.Trip_Discount = 3	}{	}{	}{	}{	}{	}{	}{	I got a surprise box from the house of healing!	}
 {	600	}{	Just looking, thanks.	}{	Just looking, thanks.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I'm not here anymore.	}
 {	601	}{	}{	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	602	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}

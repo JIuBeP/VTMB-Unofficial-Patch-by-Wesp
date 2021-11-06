@@ -1317,7 +1317,7 @@
 {	1317	}{	Alright.	}{	Alright.	}{	1323	}{	G.Jack_Faction > 0	}{	}{	}{	}{	}{	}{	}{	}{	Okay!	}
 {	1318	}{	Alright.	}{	Alright.	}{	1319	}{	G.Jack_Faction < 1	}{	}{	}{	}{	}{	}{	}{	}{	Okay!	}
 {	1319	}{	Alright, get runnin'. Hope you make it outta Santa Monica at least - I'd like to see how this turns out for ya.[sinister laugh]	}{	Alright, get runnin'. Hope you make it outta Santa Monica at least - I'd like to see how this turns out for ya.[sinister laugh]	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	1320	}{	Me too! }{	Me too!	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ha, ha, ha!	}
+{	1320	}{	Me too!	}{	Me too!	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Ha, ha, ha!	}
 {	1321	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	1322	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	1323	}{	In case we don't see each other again, nice knowin' ya, kiddo. Give 'em hell; they deserve it.	}{	In case we don't see each other again, nice knowin' ya, kiddo. Give 'em hell; they deserve it.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}

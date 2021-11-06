@@ -112,7 +112,7 @@
 {	112	}{	Yes, I'd like to make a withdrawal.	}{	Yes, I'd like to make a withdrawal.	}{	0	}{	G.Patch_Plus == 0	}{	G.Vandal_Blood = G.Vandal_Blood +1; npc.StartBarter(G.Story_State, 0); preBarter("Vandal")	}{	}{	}{	}{	}{	}{	}{	}
 {	113	}{	Nothing right now.	}{	Nothing right now.	}{	0	}{	G.Story_State < 100 and G.Patch_Plus == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	114	}{	Yes, I'd like to make a withdrawal.	}{	Yes, I'd like to make a withdrawal.	}{	0	}{	G.Patch_Plus == 1	}{	G.Vandal_Blood = G.Vandal_Blood +1; pc.AwardExperience("Danielle02"); G.Vandal_Plus = 1; npc.StartBarter(G.Story_State, 0); preBarter("Vandal")	}{	}{	}{	}{	}{	}{	}{	}
-{	115	}{	Nothing right now.	}{	Nothing right now.	}{	0	}{	G.Story_State < 100 and G.Patch_Plus == 1	}{ pc.AwardExperience("Danielle02"); G.Vandal_Plus = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	115	}{	Nothing right now.	}{	Nothing right now.	}{	0	}{	G.Story_State < 100 and G.Patch_Plus == 1	}{	pc.AwardExperience("Danielle02"); G.Vandal_Plus = 1	}{	}{	}{	}{	}{	}{	}{	}
 {	116	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	117	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	118	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}

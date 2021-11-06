@@ -420,7 +420,7 @@
 {	420	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	421	}{	[composed, again]What can I tell you about them?	}{	[composed, again]What can I tell you about them?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	422	}{	What is a Gargoyle?	}{	What is a Gargoyle?	}{	431	}{	}{	}{	}{	}{	}{	}{	}{	}{	Tell me of these Blood Golems!	}
-{	423	}{	How can I fight them?	}{	How can I fight them?	}{	471	}{	not IsDead("Gargoyle") and G.Gargoyle_Convinced == 0 }{	}{	}{	}{	}{	}{	}{	}{	How do I destroy such a demon?	}
+{	423	}{	How can I fight them?	}{	How can I fight them?	}{	471	}{	not IsDead("Gargoyle") and G.Gargoyle_Convinced == 0	}{	}{	}{	}{	}{	}{	}{	}{	How do I destroy such a demon?	}
 {	424	}{	Is there something special about this Gargoyle? Share your secrets with me.	}{	Is there something special about this Gargoyle? Share your secrets with me.	}{	481	}{	IsClan(pc,"Tremere") and G.Regent_Gargoyleinside == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	425	}{	Come on, Max... you're not telling me something about this Gargoyle.	}{	Come on, Max... you're not telling me something about this Gargoyle.	}{	481	}{	Persuasion 5 & (not IsClan(pc,"Tremere") and G.Regent_Gargoyleinside == 0)	}{	}{	}{	}{	}{	}{	}{	}{	Your eyes hide a blood secret, wizard-king! Tell me of this Blood Golem!	}
 {	426	}{	Come on, Max... you're not telling me something about this Gargoyle.	}{	Come on, Max... you're not telling me something about this Gargoyle.	}{	461	}{	Persuasion -5 & (not IsClan(pc,"Tremere"))	}{	}{	}{	}{	}{	}{	}{	}{	Your eyes hide a blood secret, wizard-king! Tell me of this Blood Golem!	}
@@ -440,7 +440,7 @@
 {	440	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	441	}{	Yes. We used our extensive knowledge of blood magics to create a race of protectors. They served that purpose well, but they have also caused many problems. It's a complicated issue.	}{	Yes. We used our extensive knowledge of blood magics to create a race of protectors. They served that purpose well, but they have also caused many problems. It's a complicated issue.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	442	}{	Just how complicated?	}{	Just how complicated?	}{	451	}{	}{	}{	}{	}{	}{	}{	}{	}{	What color is this complication?	}
-{	443	}{	Whatever. I just need to know how to fight one.	}{	Whatever. I just need to know how to fight one.	}{	471	}{	not IsDead("Gargoyle") and G.Gargoyle_Convinced == 0 }{	}{	}{	}{	}{	}{	}{	}{	How do I destroy such a demon?	}
+{	443	}{	Whatever. I just need to know how to fight one.	}{	Whatever. I just need to know how to fight one.	}{	471	}{	not IsDead("Gargoyle") and G.Gargoyle_Convinced == 0	}{	}{	}{	}{	}{	}{	}{	}{	How do I destroy such a demon?	}
 {	444	}{	A few more questions about Gargoyles...	}{	A few more questions about Gargoyles...	}{	421	}{	}{	}{	}{	}{	}{	}{	}{	}{	Tell me more of these Blood Golems!	}
 {	445	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	446	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -452,14 +452,14 @@
 {	452	}{	Sounds like you have some personal experience in this matter, Max.	}{	Sounds like you have some personal experience in this matter, Max.	}{	481	}{	IsClan(pc,"Tremere") and G.Regent_Gargoyleinside == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	453	}{	Sounds like you have some personal experience in this matter, Max.	}{	Sounds like you have some personal experience in this matter, Max.	}{	481	}{	Persuasion 5 & not IsClan(pc,"Tremere") and G.Regent_Gargoyleinside == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	454	}{	Sounds like you have some personal experience in this matter, Max.	}{	Sounds like you have some personal experience in this matter, Max.	}{	461	}{	Persuasion -5 & not IsClan(pc,"Tremere")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	455	}{	If I need to get rid of one, how do I do it?	}{	If I need to get rid of one, how do I do it?	}{	471	}{	not IsDead("Gargoyle") and G.Gargoyle_Convinced == 0 }{	}{	}{	}{	}{	}{	}{	}{	How do I destroy such a demon?	}
+{	455	}{	If I need to get rid of one, how do I do it?	}{	If I need to get rid of one, how do I do it?	}{	471	}{	not IsDead("Gargoyle") and G.Gargoyle_Convinced == 0	}{	}{	}{	}{	}{	}{	}{	}{	How do I destroy such a demon?	}
 {	456	}{	A few more questions about Gargoyles...	}{	A few more questions about Gargoyles...	}{	421	}{	}{	}{	}{	}{	}{	}{	}{	}{	Tell me more of these Blood Golems!	}
 {	457	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	458	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	459	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	460	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	461	}{	Some things are not to be spoken of, neonate. This is Tremere business, and you need not know any more than that.	}{	Some things are not to be spoken of, neonate. This is Tremere business, and you need not know any more than that.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	462	}{	If you say so, Max. Just tell me how I can get rid of it.	}{	If you say so, Max. Just tell me how I can get rid of it.	}{	471	}{	not IsDead("Gargoyle") and G.Gargoyle_Convinced == 0 }{	}{	}{	}{	}{	}{	}{	}{	How do I destroy such a demon?	}
+{	462	}{	If you say so, Max. Just tell me how I can get rid of it.	}{	If you say so, Max. Just tell me how I can get rid of it.	}{	471	}{	not IsDead("Gargoyle") and G.Gargoyle_Convinced == 0	}{	}{	}{	}{	}{	}{	}{	}{	How do I destroy such a demon?	}
 {	463	}{	A few more questions about Gargoyles...	}{	A few more questions about Gargoyles...	}{	421	}{	}{	}{	}{	}{	}{	}{	}{	}{	Tell me more of these Blood Golems.	}
 {	464	}{	Just one more thing...	}{	Just one more thing...	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	One thing more...	}
 {	465	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -479,8 +479,8 @@
 {	479	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	480	}{	I'm outta here.	}{	I'm outta here.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I am no longer here.	}
 {	481	}{	[Sigh]Yes. I know something of Gargoyles, and of this Gargoyle in particular. I had hoped that he would meet his Final Death, but it seems my creation still lives to torment me.	}{	[Sigh]Yes. I know something of Gargoyles, and of this Gargoyle in particular. I had hoped that he would meet his Final Death, but it seems my creation still lives to torment me.	}{	#	}{	}{	G.Regent_Gargoyleinside = 1	}{	}{	}{	}{	}{	}{	}{	}
-{	482	}{	What? YOUR creation?!?	}{	What? YOUR creation?!?	}{	491	}{	G.Patch_Plus == 0 }{	}{	}{	}{	}{	}{	}{	}{	You fathered this fiend?	}
-{	483	}{	What? YOUR creation?!?	}{	What? YOUR creation?!?	}{	491	}{	G.Patch_Plus == 1 }{	pc.AwardExperience("Gargoyle05")	}{	}{	}{	}{	}{	}{	}{	You fathered this fiend?	}
+{	482	}{	What? YOUR creation?!?	}{	What? YOUR creation?!?	}{	491	}{	G.Patch_Plus == 0	}{	}{	}{	}{	}{	}{	}{	}{	You fathered this fiend?	}
+{	483	}{	What? YOUR creation?!?	}{	What? YOUR creation?!?	}{	491	}{	G.Patch_Plus == 1	}{	pc.AwardExperience("Gargoyle05")	}{	}{	}{	}{	}{	}{	}{	You fathered this fiend?	}
 {	484	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	485	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	486	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -539,7 +539,7 @@
 {	539	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	540	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	541	}{	[relieved]Ah, I see that you've learned well. Despite the indiscretions of your sire, you are proving to be an asset for the clan. I commend and thank you, neonate.	}{	[relieved]Ah, I see that you've learned well. Despite the indiscretions of your sire, you are proving to be an asset for the clan. I commend and thank you, neonate.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	542	}{	No problem. Now what should I do?	}{	No problem. Now what should I do?	}{	581	}{	not IsDead("Gargoyle") and G.Gargoyle_Convinced == 0 }{	}{	}{	}{	}{	}{	}{	}{	}
+{	542	}{	No problem. Now what should I do?	}{	No problem. Now what should I do?	}{	581	}{	not IsDead("Gargoyle") and G.Gargoyle_Convinced == 0	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	543	}{	Actually I already resolved the issue with the Gargoyle.	}{	Actually I already resolved the issue with the Gargoyle.	}{	611	}{	(IsDead("Gargoyle") or G.Gargoyle_Convinced == 1)	}{	G.Regent_Gargoyle = 1	}{	}{	}{	}{	}{	}{	}{	I did ensure that the Blood Golem haunts Hollywood no more already.	}
 {	544	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	545	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -549,7 +549,7 @@
 {	549	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	550	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	551	}{	I appreciate your discretion in this matter, neonate.	}{	I appreciate your discretion in this matter, neonate.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	552	}{	Good to hear. Now, what do I need to do?	}{	Good to hear. Now, what do I need to do?	}{	581	}{	not IsDead("Gargoyle") and G.Gargoyle_Convinced == 0 }{	}{	}{	}{	}{	}{	}{	}{	What need I do now?	}
+{	552	}{	Good to hear. Now, what do I need to do?	}{	Good to hear. Now, what do I need to do?	}{	581	}{	not IsDead("Gargoyle") and G.Gargoyle_Convinced == 0	}{	}{	}{	}{	}{	}{	}{	}{	What need I do now?	}
 {	553	}{	Actually I already resolved the issue with the Gargoyle.	}{	Actually I already resolved the issue with the Gargoyle.	}{	611	}{	(IsDead("Gargoyle") or G.Gargoyle_Convinced == 1)	}{	G.Regent_Gargoyle = 1	}{	}{	}{	}{	}{	}{	}{	I did ensure that the Blood Golem haunts Hollywood no more already.	}
 {	554	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	555	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -569,7 +569,7 @@
 {	569	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	570	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	571	}{	It's a dangerous game you're playing, neonate. I trust you'll make the right decision. Farewell.	}{	It's a dangerous game you're playing, neonate. I trust you'll make the right decision. Farewell.	}{	#	}{	}{	G.Regent_QuestGargoyle = 4	}{	}{	}{	}{	}{	}{	}{	}
-{	572	}{	How can I fight the Gargoyle?	}{	How can I fight the Gargoyle?	}{	471	}{	not IsDead("Gargoyle") and G.Gargoyle_Convinced == 0 }{	}{	}{	}{	}{	}{	}{	}{	How do I destroy the demon?	}
+{	572	}{	How can I fight the Gargoyle?	}{	How can I fight the Gargoyle?	}{	471	}{	not IsDead("Gargoyle") and G.Gargoyle_Convinced == 0	}{	}{	}{	}{	}{	}{	}{	}{	How do I destroy the demon?	}
 {	573	}{	Actually I already resolved the issue with the Gargoyle.	}{	Actually I already resolved the issue with the Gargoyle.	}{	611	}{	(IsDead("Gargoyle") or G.Gargoyle_Convinced == 1)	}{	G.Regent_Gargoyle = 1	}{	}{	}{	}{	}{	}{	}{	I did ensure that the Blood Golem haunts Hollywood no more already.	}
 {	574	}{	Goodbye, Max.	}{	Goodbye, Max.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Farewell, wizard-king.	}
 {	575	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -579,7 +579,7 @@
 {	579	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	580	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	581	}{	Here... take this. It is an ancient ward that may help you in your battle with the Gargoyle. You need only carry it on your person to enjoy its protection.	}{	Here... take this. It is an ancient ward that may help you in your battle with the Gargoyle. You need only carry it on your person to enjoy its protection.	}{	#	}{	}{	pc.GiveItem("item_p_gargoyle_talisman")	}{	}{	}{	}{	}{	}{	}{	}
-{	582	}{	Thanks, but how do I best fight the Gargoyle?	}{	Thanks, but how do I best fight the Gargoyle?	}{	471	}{	not IsDead("Gargoyle") and G.Gargoyle_Convinced == 0 }{	}{	}{	}{	}{	}{	}{	}{	Gift appreciated, but how do I destroy the demon?	}
+{	582	}{	Thanks, but how do I best fight the Gargoyle?	}{	Thanks, but how do I best fight the Gargoyle?	}{	471	}{	not IsDead("Gargoyle") and G.Gargoyle_Convinced == 0	}{	}{	}{	}{	}{	}{	}{	}{	Gift appreciated, but how do I destroy the demon?	}
 {	583	}{	Thanks.	}{	Thanks.	}{	591	}{	}{	}{	}{	}{	}{	}{	}{	}{	My person appreciates this gift.	}
 {	584	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	585	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -589,7 +589,7 @@
 {	589	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	590	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	591	}{	Good luck, young one. When you succeed in destroying the Gargoyle, return and I will give you an appropriate reward.	}{	Good luck, young one. When you succeed in destroying the Gargoyle, return and I will give you an appropriate reward.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	592	}{	One question left, how can I fight the Gargoyle?	}{	One question left, how can I fight the Gargoyle?	}{	471	}{	not IsDead("Gargoyle") and G.Gargoyle_Convinced == 0 }{	}{	}{	}{	}{	}{	}{	}{	More knowledge needed. How do I destroy the demon?	}
+{	592	}{	One question left, how can I fight the Gargoyle?	}{	One question left, how can I fight the Gargoyle?	}{	471	}{	not IsDead("Gargoyle") and G.Gargoyle_Convinced == 0	}{	}{	}{	}{	}{	}{	}{	}{	More knowledge needed. How do I destroy the demon?	}
 {	593	}{	Actually I already resolved the issue with the Gargoyle.	}{	Actually I already resolved the issue with the Gargoyle.	}{	611	}{	(IsDead("Gargoyle") or G.Gargoyle_Convinced == 1)	}{	G.Regent_Gargoyle = 1	}{	}{	}{	}{	}{	}{	}{	I did ensure that the Blood Golem haunts Hollywood no more already.	}
 {	594	}{	Hold on. There was something else I needed.	}{	Hold on. There was something else I needed.	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	One thing more...	}
 {	595	}{	I'll do that. See ya.	}{	I'll do that. See ya.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I am no longer here.	}
@@ -741,7 +741,7 @@
 {	741	}{	I'm sorry you think so. Perhaps we have nothing further to speak of.	}{	I'm sorry you think so. Perhaps we have nothing further to speak of.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	742	}{	Wait! Maybe I could hear a little more before I make my decision.	}{	Wait! Maybe I could hear a little more before I make my decision.	}{	751	}{	}{	}{	}{	}{	}{	}{	}{	}{	Wait! Perhaps my tongue was a little too testy.	}
 {	743	}{	You said it, pal. Anarchy rules! I'm outta here.	}{	You said it, pal. Anarchy rules! I'm outta here.	}{	0	}{	G.Regent_Anarchs == 1	}{	G.Regent_Pissed = G.Regent_Pissed + 1	}{	}{	}{	}{	}{	}{	}{	I fly the Anarch flag, wizard-king! Farewell.	}
-{	744	}{	Your loyalty to LaCroix is questionable. Mine is not. Later.	}{	Your loyalty to LaCroix is questionable. Mine is not. Later.	}{	0	}{	G.Regent_LaCroix == 1 }{	G.Regent_Pissed = G.Regent_Pissed + 1	}{	}{	}{	}{	}{	}{	}{	I cannot stomach your infidelity to the jester. I leave you.	}
+{	744	}{	Your loyalty to LaCroix is questionable. Mine is not. Later.	}{	Your loyalty to LaCroix is questionable. Mine is not. Later.	}{	0	}{	G.Regent_LaCroix == 1	}{	G.Regent_Pissed = G.Regent_Pissed + 1	}{	}{	}{	}{	}{	}{	}{	I cannot stomach your infidelity to the jester. I leave you.	}
 {	745	}{	I don't follow anyone's rules, buddy. See ya.	}{	I don't follow anyone's rules, buddy. See ya.	}{	0	}{	}{	G.Regent_Pissed = G.Regent_Pissed + 1	}{	}{	}{	}{	}{	}{	}{	This road is one I travel alone. Farewell.	}
 {	746	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	747	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}

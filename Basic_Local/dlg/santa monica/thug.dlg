@@ -5,7 +5,7 @@
 {	5	}{	I don't know myself and neither will you.	}{	I don't know myself and neither will you.	}{	11	}{	Dementation 1	}{	}{	}{	}{	}{	}{	}{	}{	I don't know myself and neither will you.	}
 {	6	}{	You will not bother me.	}{	You will not bother me.	}{	11	}{	Dominate 1	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	7	}{	You will not bother me.	}{	You will not bother me.	}{	11	}{	Thaumaturgy 1 & G.Patch_Plus == 1	}{	dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
-{	8	}{	I'll just move along, okay? }{	I'll just move along, okay? }{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	My brain will move its body.	}
+{	8	}{	I'll just move along, okay?	}{	I'll just move along, okay?	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	My brain will move its body.	}
 {	9	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	10	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	11	}{	I'll let you go this time man.	}{	I'll let you go this time man.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Thugs_Peace = 1	}{	}{	}{	}{	}{	}{	}{	}

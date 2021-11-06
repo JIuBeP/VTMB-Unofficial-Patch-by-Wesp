@@ -6224,7 +6224,7 @@ v1.3: -Added up to date information about the changes that take place in the
 
 v1.4: -Made many small corrections in various places and added a possible
        exploit in the Hitman Impasse quest. (Thanks to Hassat Hunter)
-      -Added XP bonus in the Hunter Hunted quest.
+      -Added XP bonus in the Hunted Hunter quest.
        (Thanks to Vadim and Patrik)
       -Included trick to return to city hubs after the Bloodhunt.
        (Thanks to Naoise)

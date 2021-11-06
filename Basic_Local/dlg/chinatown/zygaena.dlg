@@ -249,10 +249,10 @@
 {	249	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	250	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	251	}{	[Laughing]Hahahahahahaha hahahaha....	}{	[Laughing]Hahahahahahaha hahahaha....	}{	#	}{	npc.SetDisposition("Joy", 3)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	252	}{	What the hell are you doing here? Where's Zygaena?	}{	What the hell are you doing here? Where's Zygaena?	}{	261	}{	not IsDead("Yukie") }{	}{	}{	}{	}{	}{	}{	}{	That smell...	}
-{	253	}{	What's so funny, asshole?	}{	What's so funny, asshole?	}{	261	}{	not IsDead("Yukie") }{	}{	}{	}{	}{	}{	}{	}{	HA HA HA HA HA HA!	}
-{	254	}{	What the hell are you doing here? Where's Zygaena?	}{	What the hell are you doing here? Where's Zygaena?	}{	281	}{	IsDead("Yukie") }{	}{	}{	}{	}{	}{	}{	}{	That smell...	}
-{	255	}{	What's so funny, asshole?	}{	What's so funny, asshole?	}{	281	}{	IsDead("Yukie") }{	}{	}{	}{	}{	}{	}{	}{	HA HA HA HA HA HA!	}
+{	252	}{	What the hell are you doing here? Where's Zygaena?	}{	What the hell are you doing here? Where's Zygaena?	}{	261	}{	not IsDead("Yukie")	}{	}{	}{	}{	}{	}{	}{	}{	That smell...	}
+{	253	}{	What's so funny, asshole?	}{	What's so funny, asshole?	}{	261	}{	not IsDead("Yukie")	}{	}{	}{	}{	}{	}{	}{	}{	HA HA HA HA HA HA!	}
+{	254	}{	What the hell are you doing here? Where's Zygaena?	}{	What the hell are you doing here? Where's Zygaena?	}{	281	}{	IsDead("Yukie")	}{	}{	}{	}{	}{	}{	}{	}{	That smell...	}
+{	255	}{	What's so funny, asshole?	}{	What's so funny, asshole?	}{	281	}{	IsDead("Yukie")	}{	}{	}{	}{	}{	}{	}{	}{	HA HA HA HA HA HA!	}
 {	256	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	257	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	258	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
