@@ -11547,9 +11547,9 @@
 "wait" "-1"
 "spawnflags" "1280"
 "origin" "832 -416 0"
-"soundgroup" "small_metal_switch"
-"use_icon" "12"
-"locked_icon" "12"
+"soundgroup" "None"
+"use_icon" "0"
+"locked_icon" "0"
 "OnIn" "trap_bamboo4_null,Explode,,0,-1,,"
 }
 {
@@ -13837,7 +13837,7 @@
 "OnTrigger" "thrusterB6,Impact,,0,-1,,"
 "OnTrigger" "cloth6,ScriptUnhide,,0,-1,,"
 "OnTrigger" "panel7,Break,,0,-1,,"
-"OnTrigger" "Trap_Stopper,ScriptUnhide,,0.5,-1,,"
+"OnTrigger" "Trap_Stopper-wesp,ScriptUnhide,,0.5,-1,,"
 "origin" "449 -224 -73.2797"
 }
 {
