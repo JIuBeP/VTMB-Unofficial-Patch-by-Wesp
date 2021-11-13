@@ -105,25 +105,27 @@ Trackerscheme.res: Turns Malkavian font off, check txt, by Wesp5.
 Version Changelog:
 ------------------
 
-v11.0                                                  18.10.2021
+v11.0                                                  11.11.2021
 -----
 +Made it easier to use Arthur's PC and added look up and down keys.
 +Fixed finding gums after Ming fight and game sound at beachhouse.
 +Removed Humanity gain for just telling Johansen you will save him.
 +Made brandishing weapons on hub levels cause criminal violations.
 +Corrected Arthur ignoring attack and removed maze note inspection.
-Repaired Mercurio and Arthur dialogues and other minor text bugs.
++Made dialog NPCs forget scared or aggressive state on map reload.
 Removed leftover changes to vendors and emails for plus and basic.
+Repaired Mercurio and Arthur dialogues and other minor text bugs.
+Fixed Glaze TV, SWAT rope, bomberman trigger and other map issues.
 Made Chang not drop his blade and renamed second knife for basic.
-Removed special Heather lines and Hallowbrook cowering from basic.
-Killed Hannah on reading her diary to avoid duplicate quest logs.
 Fixed revisiting Kamikaze Zen and long silence after a Tommy line.
+Killed Hannah on reading her diary to avoid duplicate quest logs.
+Removed special Heather lines and Hallowbrook cowering from basic.
 Disabled Obfuscating the Protean warform to avoid freeze on exit.
 Made sure player can't leave endgame Skyeline haven via the vents.
 Updated the SDK and game mod launcher loader, thanks to Psycho-A.
 Removed warrens2 computer trigger and fixed museum email adresses.
 Corrected over twenty facial animations and a possible Patty bug.
-Fixed Glaze TV, SWAT rope, bomberman trigger and other map issues.
+Fixed traps at the temple and an issue with somebody in the diner.
 
 v10.9                                                  16.07.2021
 -----
@@ -2616,6 +2618,7 @@ General:
 +Opened Ocean House, junkyard, basement and beachhouse after quest.
 +Reopened coffee shop, library, crackhouse, garage and fishmarket.
 +Updated some entries in some computers to reflect NPC fatalities.
++Made dialog NPCs forget scared or aggressive state on map reload.
 +Opened King's Way, the museum and Giovanni Mansion after quests.
 +Updated Ash, Copper and Serial quest states when you failed some.
 +Made several corpses not dissappear immediately after cutscenes.
@@ -3301,7 +3304,7 @@ Removed Disciplines when talking to the Mandarin at Fu Syndicate.
 
 Glaze:
 +Restored XP for stealth killing Johnny and made guards fight back.
-Removed reference to Ricky at Glaze and made monitor turn off sooner.
+Removed reference to Ricky at Glaze and fixed some monitor issues.
 Added several missing lines to Johnny's cutscene and unstuck Ricky.
 
 Kamikaze Zen:
@@ -3414,7 +3417,7 @@ Temple:
 +Gave guards Shin Guntos and removed unusable Ming temple doorknobs.
 Unlocked a temple door for Yukie and secured three others later on.
 Disabled arrow chest spawning and fixed facing Ming while Obfuscated.
-Corrected start orientation, inspections, trap trigger and a tin can.
+Corrected start orientation, inspections, traps, triggers and a can.
 Prevented picking of two temple doors and unbarred big temple gate.
 Fixed quest log update and XP gain on reaching Ming's inner sanctum.
 Added missing temple door sound and restored Chang and buddha skins.
@@ -3433,7 +3436,7 @@ Endgame:
 Corrected Venture Tower lamp, a passive guard and made bomb hurt one.
 Added endgame quest logs and improved subtitles for Dominated guard.
 Swapped Ventrues in Tower with females or Toreadors to avoid clones.
-Fixed sliding chute, elevator, portals and a lock in Venture Tower.
+Fixed Venture Tower sliding chute, elevator, portals, rope and lock.
 Showed player alive at Anarch ending and added Damsel and Skelter. 
 Made Chunk not attack you if you convinced him during the endgame.
 Repaired bad icons and flickering for upper Venture tower elevator.
