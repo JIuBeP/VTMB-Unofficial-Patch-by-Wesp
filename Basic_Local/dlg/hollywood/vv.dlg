@@ -53,7 +53,7 @@
 {	53	}{	I knew there had to be a catch.	}{	I knew there had to be a catch.	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	A motive; how unexpected.	}
 {	54	}{	Let me guess, you want me to do something for you?	}{	Let me guess, you want me to do something for you?	}{	81	}{	}{	}{	}{	}{	}{	}{	}{	}{	Go here, do this, I say so, blah blah blah.... It's all getting routine, really.	}
 {	55	}{	Just a wild guess, but you're a Toreador, aren't you?	}{	Just a wild guess, but you're a Toreador, aren't you?	}{	91	}{	not IsClan(pc,"Toreador")	}{	}{	}{	}{	}{	}{	}{	}{	You put the "adore" in Toreador.	}
-{	56	}{	test	}{	test	}{	911	}{	}{	G.Velvet_Dance = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	56	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	57	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	58	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	59	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
