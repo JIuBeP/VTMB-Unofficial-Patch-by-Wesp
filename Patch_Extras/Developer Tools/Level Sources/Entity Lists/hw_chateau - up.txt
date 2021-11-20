@@ -1529,9 +1529,8 @@
 }
 {
 "model" "*13"
-"classname" "trigger_multiple"
+"classname" "trigger_once"
 "StartDisabled" "0"
-"wait" "1"
 "spawnflags" "1"
 "origin" "-1399.5 -1122.49 -34.2"
 "targetname" "Skelter-force_dialog_trigger"
@@ -1589,7 +1588,6 @@
 "additionalequipment" "item_w_claws"
 "soundgroup" "Young_Thug"
 "floatfreq" "0"
-"OnDialogEnd" "Skelter-force_dialog_trigger,Kill,,0.5,-1,,"
 "origin" "-1353 -1129 -78"
 }
 {
@@ -2059,9 +2057,8 @@
 }
 {
 "model" "*19"
-"classname" "trigger_multiple"
+"classname" "trigger_once"
 "StartDisabled" "0"
-"wait" "1"
 "spawnflags" "1"
 "origin" "-1332.01 -880.03 171.01"
 "targetname" "Damsel-force_dialog_trigger"
@@ -8151,13 +8148,12 @@
 }
 {
 "model" "*52"
-"classname" "trigger_multiple"
+"classname" "trigger_once"
 "StartDisabled" "0"
-"wait" "1"
 "spawnflags" "1"
 "origin" "-1519.51 -871.02 171.01"
 "targetname" "Nines-force_dialog_trigger"
-"OnStartTouch" "Nines,StartPlayerDialogRemote,,0,-1,,"
+"OnStartTouch" "Nines,StartPlayerDialogRemote,,0,1,,"
 }
 {
 "classname" "prop_dynamic"
