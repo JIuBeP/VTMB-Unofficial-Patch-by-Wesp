@@ -61,8 +61,8 @@
 
 "INS"			"autospeed"
 "DEL"			"automove"
-"I"			"+lookup"
-"J"			"+lookdown"
+"u"			"+lookup"
+"j"			"+lookdown"
 "F5"			"slot4"
 "t"			"toggleuiside"
 "PAUSE"		"pause"
