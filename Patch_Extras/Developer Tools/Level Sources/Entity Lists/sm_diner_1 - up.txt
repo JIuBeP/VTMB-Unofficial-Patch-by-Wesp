@@ -1879,7 +1879,7 @@
 "follower_type" "Default"
 "invincible" "1"
 "OnDialogEnd" "Killer,WillTalk,0,0,-1,,"
-"OnDamaged" "Killer,SetRelationship,player D_HT 5,0,-1,,"
+"OnDamaged" ",,,0,-1,killerInDinerAngry(),"
 "OnFoundPlayer" ",,,0,-1,killerInDinerAngry(),"
 "origin" "-62.5621 83.0092 0.917595"
 }
@@ -2534,6 +2534,7 @@
 "m_iszIdle" "cellphone"
 "m_iszPostIdle" "cellphone"
 "OnBeginSequence" "killer_phones_sound,Start,,0.01,-1,,"
+"OnEndSequence" ",,,0,-1,G.Killer_Phoned = 1,"
 "origin" "-62.5621 83.0092 0.917595"
 }
 {

@@ -1128,10 +1128,10 @@ def killerInDiner():
     if(npc):
         if(G.Therese_Quest < 3 and G.Story_State < 4 and G.Killer_Warform == 0):
             npc.ScriptUnhide()
-            if G.Patch_Plus == 1 and G.Killer_Phoned == 0:
+            if G.Patch_Plus == 1 and G.Killer_Phones == 0:
                 script = Find("killer_phones")
                 script.BeginSequence()
-                G.Killer_Phoned = 1
+                G.Killer_Phones = 1
         else:
             npc.Kill()
     doris = Find("Doris")
@@ -1151,10 +1151,12 @@ def killerInDiner():
 #DINER: Called if you angrify the killer in the Diner, changed by wesp
 def killerInDinerAngry():
         killer = Find("Killer")
-        fade = Find("Transform_fade")
-        fade.Fade()
-        killer.SetModel("models/character/monster/Animalism_Beastform/Animalism_Beastform.mdl")
-        __main__.G.Killer_Warform = 1
+        if G.Patch_Plus == 0 or G.Killer_Phoned == 1:
+            fade = Find("Transform_fade")
+            fade.Fade()
+            killer.SetModel("models/character/monster/Animalism_Beastform/Animalism_Beastform.mdl")
+            __main__.G.Killer_Warform = 1
+            killer.SetRelationship("player D_HT 5")
 
 #DINER: Puts lilly's goods in the diner if they should be there, changed by wesp
 def lillyStuff():
