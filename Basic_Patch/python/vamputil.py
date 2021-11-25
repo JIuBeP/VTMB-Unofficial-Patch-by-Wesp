@@ -461,7 +461,7 @@ def arthurPhones():
         if arthur: arthur.PlayDialogFile("character/dlg/santa monica/arthur/line1_col_e.mp3")
         __main__.G.Arthur_Phoned = 1
     else:
-        if arthur: arthur.PlayDialogFile("character/monster/comfort1.wav")
+        if arthur: arthur.PlayDialogFile("character/monster/comfort_1.wav")
 
 #CLINIC: Sets Heather quest states, added by wesp
 def heatherQuest1():

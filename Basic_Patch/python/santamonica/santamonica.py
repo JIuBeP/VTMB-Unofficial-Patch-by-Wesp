@@ -1125,13 +1125,23 @@ def dorisDialog():
 #DINER: Determines if the serial killer is in the diner, changed by wesp
 def killerInDiner():
     npc = Find("Killer")
+    world = Find("world")
     if(npc):
-        if(G.Therese_Quest < 3 and G.Story_State < 4 and G.Killer_Warform == 0):
+        if(G.Therese_Quest < 3 and G.Story_State < 4):
             npc.ScriptUnhide()
-            if G.Patch_Plus == 1 and G.Killer_Phones == 0:
+            if G.Patch_Plus == 1 and G.Killer_Phoned == 0:
+                world.SetSafeArea(2)
                 script = Find("killer_phones")
                 script.BeginSequence()
-                G.Killer_Phones = 1
+                G.Killer_Phoned = 1
+                __main__.ScheduleTask(20.00, "__main__.Find(\"world\").SetSafeArea(1)")
+            else:
+                npc.PlayDialogFile("character/monster/comfort_1.wav")
+                script = Find("killer_phones")
+                script.CancelSequence()
+                sound = Find("killer_phones_sound")
+                sound.Cancel()
+                world.SetSafeArea(1)
         else:
             npc.Kill()
     doris = Find("Doris")
@@ -1148,15 +1158,12 @@ def killerInDiner():
     if __main__.IsDead("diner_patron_female"):
         if female: female.Kill()
 
-#DINER: Called if you angrify the killer in the Diner, changed by wesp
+#DINER: Called if you angrify the killer in the Diner
 def killerInDinerAngry():
         killer = Find("Killer")
-        if G.Patch_Plus == 0 or G.Killer_Phoned == 1:
-            fade = Find("Transform_fade")
-            fade.Fade()
-            killer.SetModel("models/character/monster/Animalism_Beastform/Animalism_Beastform.mdl")
-            __main__.G.Killer_Warform = 1
-            killer.SetRelationship("player D_HT 5")
+        fade = Find("Transform_fade")
+        fade.Fade()
+        killer.SetModel("models/character/monster/Animalism_Beastform/Animalism_Beastform.mdl")
 
 #DINER: Puts lilly's goods in the diner if they should be there, changed by wesp
 def lillyStuff():
