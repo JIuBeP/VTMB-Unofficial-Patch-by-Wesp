@@ -151,11 +151,11 @@
 {	151	}{	Yes I can. Just tell me when you're ready and we'll leave. Once you're there, however, you're on your own. You'll have to get into the place and plant the explosives in the middle office to take the whole structure down.	}{	Yes I can. Just tell me when you're ready and we'll leave. Once you're there, however, you're on your own. You'll have to get into the place and plant the explosives in the middle office to take the whole structure down.	}{	#	}{	}{	G.Bertram_Go = 1	}{	}{	}{	}{	}{	}{	}{	}
 {	152	}{	Can I ask you a few questions?	}{	Can I ask you a few questions?	}{	161	}{	G.Bertram_Goodjob == 1	}{	}{	}{	}{	}{	}{	}{	}{	May I mine your gray matter?	}
 {	153	}{	Let me get a few things together, first.	}{	Let me get a few things together, first.	}{	521	}{	}{	}{	}{	}{	}{	}{	}{	}{	My pockets desire things they do not have.	}
-{	154	}{	I was born ready. Let's go.	}{	I was born ready. Let's go.	}{	0	}{	not IsClan(pc,"Nosferatu") and pc.HasItem("item_g_astrolite") and G.Patch_Plus == 0	}{	G.Bertram_Ready = 2	}{	}{	}{	}{	}{	}{	}{	Light the way for me, Your Dudeness.	}
+{	154	}{	I was born ready. Let's go.	}{	I was born ready. Let's go.	}{	0	}{	not IsClan(pc,"Nosferatu") and pc.HasItem("item_g_astrolite")	}{	G.Bertram_Ready = 2	}{	}{	}{	}{	}{	}{	}{	Light the way for me, Your Dudeness.	}
 {	155	}{	I was born ready. Let's go.	}{	I was born ready. Let's go.	}{	511	}{	IsClan(pc,"Nosferatu") and G.Bertram_Map == 0 and pc.HasItem("item_g_astrolite")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	156	}{	I was born ready. Let's go.	}{	I was born ready. Let's go.	}{	0	}{	IsClan(pc,"Nosferatu") and G.Bertram_Map == 1 and pc.HasItem("item_g_astrolite") and G.Patch_Plus == 0	}{	G.Bertram_Ready = 2	}{	}{	}{	}{	}{	}{	}{	}
-{	157	}{	Pick me up at my haven after I sleep the day through and then we'll go.	}{	Pick me up at my haven after I sleep the day through and then we'll go.	}{	0	}{	not IsClan(pc,"Nosferatu") and pc.HasItem("item_g_astrolite") and G.Patch_Plus == 1	}{	G.Bertram_Ready = 2	}{	}{	}{	}{	}{	}{	}{	Light the way for me when I wake tomorrow evening, Your Dudeness.	}
-{	158	}{	Pick me up at my haven after I sleep the day through and then we'll go.	}{	Pick me up at my haven after I sleep the day through and then we'll go.	}{	0	}{	IsClan(pc,"Nosferatu") and G.Bertram_Map == 1 and pc.HasItem("item_g_astrolite") and G.Patch_Plus == 1	}{	G.Bertram_Ready = 2	}{	}{	}{	}{	}{	}{	}{	}
+{	156	}{	I was born ready. Let's go.	}{	I was born ready. Let's go.	}{	0	}{	IsClan(pc,"Nosferatu") and G.Bertram_Map == 1 and pc.HasItem("item_g_astrolite")	}{	G.Bertram_Ready = 2	}{	}{	}{	}{	}{	}{	}{	}
+{	157	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	158	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	159	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	160	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	161	}{	Like what?	}{	Like what?	}{	#	}{	npc.SetDisposition("neutral",1)	}{	}{	}{	}{	}{	}{	}{	}{	}

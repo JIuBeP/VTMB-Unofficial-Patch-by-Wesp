@@ -14,8 +14,8 @@ SignData
 	{
 		"Text"		"                       Warning!
 It seems as if an important Python script has not been compiled correctly on your system!
-You are probably playing inside a Linux Wine environment without the loader-linux script.
-Please exit the game and find it in the main game directory. Modify it to fit your setup!"
+You are probably playing inside a Linux Wine environment without running from loader.exe.
+Find it as VtM Bloodlines Game Mod Loader in the user programs section of the start menu!"
 		"Font"		"ParagraphText"
 		"XPos"		"836"	//324, ws-fix
 		"YPos"		"310"	//182, ws-fix
