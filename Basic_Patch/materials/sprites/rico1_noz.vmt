@@ -1,6 +1,6 @@
 "UnlitGeneric"
 {
-	"$basetexture" "sprites/rico1"
+	"$basetexture" "effects/black"
 	"$additive" 1
 	"$vertexcolor" 1
 }
