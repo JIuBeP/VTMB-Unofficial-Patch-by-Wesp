@@ -1127,7 +1127,7 @@ def killerInDiner():
     npc = Find("Killer")
     world = Find("world")
     if(npc):
-        if(G.Therese_Quest < 3 and G.Story_State < 4):
+        if(G.Therese_Quest < 3 and G.Story_State < 4 and G.Killer_Angry == 0):
             npc.ScriptUnhide()
             if G.Patch_Plus == 1 and G.Killer_Phoned == 0:
                 world.SetSafeArea(2)
@@ -1141,7 +1141,6 @@ def killerInDiner():
                 script.CancelSequence()
                 sound = Find("killer_phones_sound")
                 sound.Cancel()
-                world.SetSafeArea(1)
         else:
             npc.Kill()
     doris = Find("Doris")
@@ -1158,8 +1157,9 @@ def killerInDiner():
     if __main__.IsDead("diner_patron_female"):
         if female: female.Kill()
 
-#DINER: Called if you angrify the killer in the Diner
+#DINER: Called if you angrify the killer in the Diner, changed by wesp
 def killerInDinerAngry():
+        G.Killer_Angry = 1
         killer = Find("Killer")
         fade = Find("Transform_fade")
         fade.Fade()

@@ -31,9 +31,9 @@ def setBasic():
     __main__.ccmd.detaildist=""
     __main__.ccmd.clothes=""
     pc = __main__.FindPlayer()
-    if not (pc.HasItem("item_w_fists")):
-        pc.GiveItem("item_w_fists")
+    if not (pc.HasItem("weapon_physcannon")):
         pc.GiveItem("weapon_physcannon")
+        pc.GiveItem("item_w_fists")
         pc.GiveItem("item_g_wallet")
         pc.GiveItem("item_g_keyring")
         pc.GiveItem("item_a_lt_cloth")
@@ -104,9 +104,9 @@ def setPlus():
     if G.Player_Insane == 1:
         __main__.ccmd.ropestop=""
     pc = __main__.FindPlayer()
-    if not (pc.HasItem("item_w_fists")):
-        pc.GiveItem("item_w_fists")
+    if not (pc.HasItem("weapon_physcannon")):
         pc.GiveItem("weapon_physcannon")
+        pc.GiveItem("item_w_fists")
         pc.GiveItem("item_g_wallet")
         pc.GiveItem("item_g_keyring")
         pc.GiveItem("item_a_lt_cloth")
