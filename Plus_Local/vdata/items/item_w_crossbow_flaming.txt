@@ -38,7 +38,7 @@ WeaponData
 	"projectile_velocity"	"1000"				// changed by wesp
 	"projectile_particles"	"crossbow_flame_emitter"	// changed by wesp
 	"fires_projectile"	"1"
-	"projectile_sticks"	"0"
+	"projectile_sticks"	"0"	// changed by wesp
 	"can_stakedmg"		"1"
 
 	"muzzleflash_particle" 		"W_ithaca_m_37_Emitter"		// changed by wesp
@@ -68,7 +68,7 @@ WeaponData
 		"Size"			"2"
 		"Default_Size"		"2"	// changed by wesp
 		"Dropped_Ammo"		"2"
-		"Type"			"MediumRound"	// changed by wesp
+		"Type"			"FlameThrowerRound"	// changed by wesp
 		"ReloadTime"		"1.0"
 		
 		SoundData
@@ -90,13 +90,13 @@ WeaponData
 	{
 		"Tag"			"Primary"
 		"Type"			"Attack"
-		"Ammo_Type"		"MediumRound"	// changed by wesp
+		"Ammo_Type"		"FlameThrowerRound"	// changed by wesp
 		"Ammo_Cost"		"1"
 		"Ammo_Fired"		"16"
 
 		"SkillRequirement"	"6"		// min. skill requirement used in dmg calculations		
 		"BaseLethality"		"20"		// base lethality used in dmg calculations
-		"Dmg"			"4 Aggravated Ranged_Combat DMG_BUCKSHOT"	// changed by wesp
+		"Dmg"			"4 Aggravated Ranged_Combat DMG_BURN"
 
 		"Botch_Table"		"Shotguns"
 		"Attack_Rate"		"1.0"
