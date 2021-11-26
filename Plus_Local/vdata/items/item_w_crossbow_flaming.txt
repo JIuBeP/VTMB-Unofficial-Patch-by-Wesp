@@ -33,12 +33,11 @@ WeaponData
 	"impact_force"		"1000"	// an impulse measured in kg*in/s, changed by wesp
 	"sound_group"	"Shotgun"
 	"uses_accuracycursors"	"1"
-	
 
-	"projectile_velocity"	"1000"				// changed by wesp
+	"projectile_velocity"	"3000"				// changed by wesp
 	"projectile_particles"	"crossbow_flame_emitter"	// changed by wesp
 	"fires_projectile"	"1"
-	"projectile_sticks"	"0"	// changed by wesp
+	"projectile_sticks"	"0"
 	"can_stakedmg"		"1"
 
 	"muzzleflash_particle" 		"W_ithaca_m_37_Emitter"		// changed by wesp
@@ -96,7 +95,7 @@ WeaponData
 
 		"SkillRequirement"	"6"		// min. skill requirement used in dmg calculations		
 		"BaseLethality"		"20"		// base lethality used in dmg calculations
-		"Dmg"			"4 Aggravated Ranged_Combat DMG_BURN"
+		"Dmg"			"4 Aggravated Ranged_Combat DMG_BURN"	// changed by wesp
 
 		"Botch_Table"		"Shotguns"
 		"Attack_Rate"		"1.0"
@@ -263,7 +262,6 @@ WeaponData
 			}
 		}
 
-
 // Disabled because it uses Accuracy Crosshairs
 //		"crosshair"
 //		{
@@ -275,8 +273,6 @@ WeaponData
 //				"width"		"24"
 //				"height"	"24"
 //			}
-
-
 
 		// Accuracy Crosshairs
 		"Acc_Crosshair00"		"hud/Crosshairs/Crosshair_01"
