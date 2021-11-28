@@ -197,8 +197,15 @@ DisciplineTgt
 				"DisciplineStrata"	"0"
 			}
 
+			Mapping
+			{
+				"Chance"	"50%"
+				"HitTable"	"Hit_Human_Haunting"
+			}
+
 			Default_Mapping
 			{
+				"Chance"	"50%"
 				"HitTable"	"Hit_Human"
 			}
 		}
@@ -208,6 +215,12 @@ DisciplineTgt
 			Affects_Filters
 			{
 				"DisciplineStrata"	"1"
+			}
+
+			Mapping
+			{
+				"Chance"	"50%"
+				"HitTable"	"Hit_Strata_1_Haunting"
 			}
 
 			Default_Mapping
@@ -221,6 +234,12 @@ DisciplineTgt
 			Affects_Filters
 			{
 				"DisciplineStrata"	"2"
+			}
+
+			Mapping
+			{
+				"Chance"	"50%"
+				"HitTable"	"Hit_Strata_2_Haunting"
 			}
 
 			Default_Mapping
@@ -262,6 +281,12 @@ DisciplineTgt
 				"DisciplineStrata"	"5"
 			}
 
+			Mapping
+			{
+				"Chance"	"50%"
+				"HitTable"	"Hit_Strata_5_Haunting"
+			}
+
 			Default_Mapping
 			{
 				"HitTable"	"Hit_Strata_5"
@@ -273,6 +298,12 @@ DisciplineTgt
 			Affects_Filters
 			{
 				"DisciplineStrata"	"6"
+			}
+
+			Mapping
+			{
+				"Chance"	"50%"
+				"HitTable"	"Hit_Strata_6_Haunting"
 			}
 
 			Default_Mapping
@@ -305,8 +336,15 @@ DisciplineTgt
 				"Human"	"1"
 			}
 
+			Mapping
+			{
+				"Chance"	"50%"
+				"HitTable"	"Hit_Human_Haunting"
+			}
+
 			Default_Mapping
 			{
+				"Chance"	"50%"
 				"HitTable"	"Hit_Human"
 			}
 		}
@@ -321,7 +359,12 @@ DisciplineTgt
 
 			Mapping
 			{
-				"Chance"	"40%"
+				"Chance"	"20%"
+				"HitTable"	"Hit_Supernatural_Haunting"
+			}
+			Mapping
+			{
+				"Chance"	"20%"
 				"HitTable"	"Hit_Supernatural"
 			}
 
@@ -443,7 +486,6 @@ DisciplineTgt
 			}
 		}
 
-
 		OnInterrupt
 		{
 //			"AI_Schedule"		"SCHED_TROIKA_DISORIENTED"
@@ -477,10 +519,86 @@ DisciplineTgt
 		}
 	}
 
+	Hit_Human_Haunting
+	{
+		"AI_Schedule"		"SCHED_TROIKA_DO_HAUNTING_ACTIVITY"
+		"Duration"		"9-12"
+		"AddToComfort"		"1"
+		TraitEffect
+		{
+			"Effect"	"Discipline (Dementation-Hysteria)"
+		}
+
+		Effect_Tgt_Hit
+		{
+			Particle_ThirdPerson
+			{
+				"Entity"		"disc_particle"
+				"RateMin"		"1.0"
+				"OpacityMin"	"1.0"
+				"SizeMin"		"1.0"
+				"ParticleName"	"D_Dementation_Hysteria_Emitter"
+				"AttachType"	"BoneSinglePoint"
+				"AttachName"	"Bip01 Head"
+			}
+		}
+
+		OnEnd	// added by wesp
+		{
+				Particle_ThirdPerson
+			{
+				"Entity"		"disc_particle"
+				"RateMin"		"1.0"
+				"OpacityMin"	"1.0"
+				"SizeMin"		"1.0"
+				"ParticleName"	"D_Full_Resist_Generic_Emitter"
+				"AttachType"	"BoneTree"
+				"AttachName"	""
+			}
+		}
+
+		OnInterrupt
+		{
+//			"AI_Schedule"		"SCHED_TROIKA_DISORIENTED"
+
+			Effect_Tgt_Hit
+			{
+				Particle_ThirdPerson
+				{
+					"Entity"		"env_particle"
+					"RateMin"		"1.0"
+					"OpacityMin"	"1.0"
+					"SizeMin"		"1.0"
+					"ParticleName"	"D_Dementation_Hysteria_Broke_Emitter"
+					"AttachType"	"BoneSinglePoint"
+					"AttachName"	"Bip01 Head"
+
+					"Detach"		"1"
+				}
+
+				SoundFX
+				{
+//					"Sound"		"Disciplines/Dementation/Hysteria_Broke.wav"
+				}
+			}
+
+			FREEME_SoundFX
+			{
+//				"Sound"		"Disciplines/Dominate/Dementation_Ramp.wav"
+			}
+		}
+	}
+
 	Hit_Supernatural
 	{
 		"InheritFrom"		"Hit_Human"
 		"AddToComfort"		"0"	// added by wesp
+	}
+
+	Hit_Supernatural_Haunting
+	{
+		"InheritFrom"		"Hit_Human_Haunting"
+		"AddToComfort"		"0"
 	}
 
 //	Hit_Supernatural_NoEffect
@@ -558,9 +676,21 @@ DisciplineTgt
 		"Duration"		"7-10"
 	}
 
+	Hit_Strata_1_Haunting
+	{
+		"InheritFrom"		"Hit_Human_Haunting"
+		"Duration"		"7-10"
+	}
+
 	Hit_Strata_2
 	{
 		"InheritFrom"		"Hit_Human"
+		"Duration"		"4"
+	}
+
+	Hit_Strata_2_Haunting
+	{
+		"InheritFrom"		"Hit_Human_Haunting"
 		"Duration"		"4"
 	}
 
@@ -576,12 +706,26 @@ DisciplineTgt
 
 	Hit_Strata_5
 	{
-		"InheritFrom"		"Hit_Supernatural_NoEffect"
+		"InheritFrom"		"Hit_Human"	// changed by Populism
+		"Duration"		"3"	// changed by wesp
+	}
+
+	Hit_Strata_5_Haunting
+	{
+		"InheritFrom"		"Hit_Human_Haunting"
+		"Duration"		"3"
 	}
 
 	Hit_Strata_6
 	{
-		"InheritFrom"		"Hit_Supernatural_NoEffect"
+		"InheritFrom"		"Hit_Human"	// changed by Populism
+		"Duration"		"2"	// changed by wesp
+	}
+
+	Hit_Strata_6_Haunting
+	{
+		"InheritFrom"		"Hit_Human_Haunting"	
+		"Duration"		"2"
 	}
 
 	Hit_Strata_7
