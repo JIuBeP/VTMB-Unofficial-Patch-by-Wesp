@@ -105,7 +105,7 @@ Trackerscheme.res: Turns Malkavian font off, check txt, by Wesp5.
 Version Changelog:
 ------------------
 
-v11.0                                                  11.11.2021
+v11.0                                                  26.11.2021
 -----
 +Made it easier to use Arthur's PC and added look up and down keys.
 +Fixed finding gums after Ming fight and game sound at beachhouse.
@@ -113,6 +113,8 @@ v11.0                                                  11.11.2021
 +Made brandishing weapons on hub levels cause criminal violations.
 +Corrected Arthur ignoring attack and removed maze note inspection.
 +Made dialog NPCs forget scared or aggressive state on map reload.
++Improved Dragon's Breath effects and projectiles of all crossbows.
+Lowered max framerate to 60 and fixed sprites and effects issues.
 Removed leftover changes to vendors and emails for plus and basic.
 Repaired Mercurio and Arthur dialogues and other minor text bugs.
 Fixed Glaze TV, SWAT rope, bomberman trigger and other map issues.
@@ -125,7 +127,7 @@ Made sure player can't leave endgame Skyeline haven via the vents.
 Updated the SDK and game mod launcher loader, thanks to Psycho-A.
 Removed warrens2 computer trigger and fixed museum email adresses.
 Corrected over twenty facial animations and a possible Patty bug.
-Fixed traps at the temple and an issue with somebody in the diner.
+Fixed stuff at the temple and an issue with somebody in the diner.
 
 v10.9                                                  16.07.2021
 -----
@@ -2695,6 +2697,7 @@ Made all important sounds unique and fixed mixed up nosave messages.
 Renamed Auto-Level button and removed Ventrue clan popup test button.
 Added original Japanese and Russian words to translated subtitles.
 Unified formatting of newspaper articles and improved GUI issues.
+Lowered max framerate to 60 as this is supposed to fix UI issues.
 
 Graphics:
 +Restored Nosferatu eyeballs, many clan idles and several hand skins.

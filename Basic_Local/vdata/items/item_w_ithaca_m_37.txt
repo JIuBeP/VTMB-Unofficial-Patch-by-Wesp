@@ -57,7 +57,7 @@ WeaponData
 	Magazine
 	{
 		"ammoprintname"		"12 Gauge Tubefeed"
-		"ammodescription"	"A box containing shotgun shells for the Utica M37."
+		"ammodescription"	"A box containing six shotgun shells for the Utica M37."	// changed by wesp
 		"ammo_worth"		"12" //"18"
 		"ammoinfomodel"		"models/weapons/ammo/shotgun/shotgun_shells.mdl"
 

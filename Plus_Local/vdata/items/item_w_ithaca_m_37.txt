@@ -57,7 +57,7 @@ WeaponData
 	{
 		"ammoprintname"		"Ithaca M37 12 Gauge Shells"	// changed by wesp
 		"ammodescription"	"Five 12 gauge shells to tube feed the Ithaca M37."	// changed by wesp
-		"ammo_worth"		"12" //"18"
+		"ammo_worth"		"10" //"12" changed by wesp
 		"ammoinfomodel"		"models/weapons/ammo/shotgun/shotgun_shells.mdl"
 
 		"Size"			"5"	// changed by wesp

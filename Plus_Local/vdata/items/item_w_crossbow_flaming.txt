@@ -45,7 +45,7 @@ WeaponData
 	"viewmuzzleflash_particle" 	"W_ithaca_m_37_View_Emitter"	// changed by wesp
 	"viewmuzzlesmoke_particle" 	"Blank_emitter"
 
-	"item_worth"		"290"	// changed by wesp
+	"item_worth"		"300"	// changed by wesp
 	"player_sell"		"60"	// added by wesp
 
 	SoundData

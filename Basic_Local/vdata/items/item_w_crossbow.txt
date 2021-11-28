@@ -38,7 +38,7 @@ WeaponData
 	"projectile_particles"	""
 //	"projectile_particles"	"BulletTrail_Emitter"
 //"projectile_particles"	"Fire1_Emitter"
-	"projectile_sticks"	"1"	// changed by wesp
+	"projectile_sticks"	"0"
 	"can_stakedmg"		"1"
 
 	"muzzleflash_particle"		""
@@ -72,7 +72,7 @@ WeaponData
 		"Dropped_Ammo"		"1"	// changed by wesp
 		"Type"			"CrossbowBolt"
 		"ReloadTime"		"2.5"
-		"ammo_worth"		"2"	// changed by wesp
+		"ammo_worth"		"4"	// changed by wesp
 		"ammoinfomodel"		"models/weapons/ammo/crossbow/i_crossbow_ammo.mdl"
 		SoundData
 		{

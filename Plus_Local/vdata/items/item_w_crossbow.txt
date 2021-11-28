@@ -49,6 +49,7 @@ WeaponData
 	"impact_snd_group"	"bullet"
 
 	"item_worth"		"125"
+	"player_sell"		"30"	// added by wesp
 
 	SoundData
 	{
@@ -69,7 +70,7 @@ WeaponData
 		"Dropped_Ammo"		"1"	// changed by wesp
 		"Type"			"CrossbowBolt"
 		"ReloadTime"		"2.5"
-		"ammo_worth"		"2"	// changed by Wesp
+		"ammo_worth"		"4"	// changed by Wesp
 		"ammoinfomodel"		"models/weapons/ammo/crossbow/i_crossbow_ammo.mdl"	// added by wesp
 
 		SoundData
