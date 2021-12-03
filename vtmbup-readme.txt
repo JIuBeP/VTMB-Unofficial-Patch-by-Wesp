@@ -105,7 +105,7 @@ Trackerscheme.res: Turns Malkavian font off, check txt, by Wesp5.
 Version Changelog:
 ------------------
 
-v11.0                                                  26.11.2021
+v11.0                                                  28.11.2021
 -----
 +Made it easier to use Arthur's PC and added look up and down keys.
 +Fixed finding gums after Ming fight and game sound at beachhouse.
@@ -113,8 +113,8 @@ v11.0                                                  26.11.2021
 +Made brandishing weapons on hub levels cause criminal violations.
 +Corrected Arthur ignoring attack and removed maze note inspection.
 +Made dialog NPCs forget scared or aggressive state on map reload.
-+Improved Dragon's Breath effects and projectiles of all crossbows.
-Lowered max framerate to 60 and fixed sprites and effects issues.
++Improved Dragon's Breath hit effect and fixed more weapon details.
++Disabled Command hide and leave and restored Veil of Madness cry.
 Removed leftover changes to vendors and emails for plus and basic.
 Repaired Mercurio and Arthur dialogues and other minor text bugs.
 Fixed Glaze TV, SWAT rope, bomberman trigger and other map issues.
@@ -128,6 +128,7 @@ Updated the SDK and game mod launcher loader, thanks to Psycho-A.
 Removed warrens2 computer trigger and fixed museum email adresses.
 Corrected over twenty facial animations and a possible Patty bug.
 Fixed stuff at the temple and an issue with somebody in the diner.
+Lowered max framerate to 60 and fixed sprites and effects issues.
 
 v10.9                                                  16.07.2021
 -----
@@ -3477,7 +3478,9 @@ Quests:
 Disciplines:
 + Bloodheal discipline.
 + Sleep instead of Suicide.
++ Haunting as Veil partial.
 + Madness as Bedlam partial.
++ Command instead of Trance.
 + Spirit Heal Numina for hunters.
 + Faith Shield Numina for hunters.
 + Bloody Eye as Blood Purge partial.
@@ -3673,14 +3676,12 @@ Stats:
 Disciplines:
 * Auspex giving enhanced FOV (info found).
 * Animalism Serpents Succumbre (info found).
-* Domination Command levels and Sleep (info found).
-* Thaumaturgy Blood Malady and Bloody Eye (info found).
-* Dementation Haunting and Voice of Madness(info found).
 * Presence Awe, General and Daze 1/2 levels (info found).
 * Discipline and Numina levels shown in HUD (graphics found).
-* Protean 5 Wolf warform (info, textures and animations found).
+* Protean 5 wolf warform (info, textures and animations found).
 * Bloodbuff-Dexterity/Stamina/Strength Disciplines (info found).
 * Numinas Mind Shield and Shield of Faith (icons and info found).
+* Domination Command calm, follow, hide, jump and leave (info found).
 
 Items:
 * Electronic lockpick (info found).
