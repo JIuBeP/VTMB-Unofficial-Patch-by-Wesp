@@ -26,8 +26,8 @@
 "slot5"			"Armor Clothing"			// changed by wesp
 "slot6"			"General Inventory"
 "slot1"			"Available Disciplines"		// added by wesp
-"vm_discipline"		"Use Discipline"			// changed by wesp
-"vdiscipline_endall"	"End Disciplines"			// changed by wesp
+"vm_discipline"		"Use Discipline Power"		// changed by wesp
+"vdiscipline_endall"	"End All Disciplines"			// changed by wesp
 "toggleuiside"		"Toggle Discipline/Weapon"		// added by wesp
 "invprev"			"Previous Discipline/Weapon"	// changed by wesp
 "invnext"			"Next Discipline/Weapon"		// changed by wesp

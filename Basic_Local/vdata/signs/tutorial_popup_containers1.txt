@@ -28,7 +28,7 @@ SignData
 	{
 		"Text"		"When you approach a container, you will see this Use icon.
 Press the Use key (default E) to open it. If it is locked, you can try to open it with your lockpick.
-Once opened, your inventory appears on the left side of the screen, and the container's contents are on the right."	// changed by wesp
+Once opened, your inventory appears on the left side of the screen, and the container's contents are on the right. Select items with any mouse button and manipulate them with the left one."	// changed by wesp
 		"Font"		"ParagraphText"
 		"XPos"		"836"	//324, ws-fix
 		"YPos"		"460"	//332, ws-fix
