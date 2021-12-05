@@ -5160,9 +5160,9 @@
 "MaxAnimTime" "10"
 "crossfade_skin_time" "2.0"
 "npc_transparent" "1"
-"StartHidden" "0"
+"StartHidden" "1"
 "targetname" "floor_block"
-"origin" "-100 -2460 6"
+"origin" "-100 -2460 10"
 }
 {
 "classname" "npc_VVampire"

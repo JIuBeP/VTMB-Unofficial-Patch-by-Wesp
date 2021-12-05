@@ -166,10 +166,11 @@ def killerEscape():
     __main__.FindPlayer().SetQuest("Serial", 6)
     __main__.FindPlayer().SetQuest("Muddy", 4)
     G.Muddy_Dead = 1
-    dead_muddy = __main__.CreateEntityNoSpawn("prop_ragdoll", (-70,-2440,20), (0,222,0) )
+    dead_muddy = __main__.CreateEntityNoSpawn("prop_ragdoll", (-70,-2440,20), (-20,40,0) )
     dead_muddy.SetModel("models/character/npc/common/citizen/male/male_citizen_1.mdl")
     dead_muddy.SetName("dead_muddy")
     __main__.CallEntitySpawn(dead_muddy)
+    __main__.ScheduleTask(1.0, "__main__.FindEntityByName(\"floor_block\").ScriptUnhide()")
 
 # TJP - 01/28/04
 #LUCKYSTAR: Determines what state the luckystar hotel is in, changed by wesp

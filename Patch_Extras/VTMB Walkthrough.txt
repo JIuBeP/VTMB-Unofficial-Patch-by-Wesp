@@ -4688,13 +4688,13 @@ uncover a secret entrance.
 
 This will lead you to the underground caves. Descend down the stairs. You can
 shoot the explosives if you like to eliminate the hunters. You'll end up in a
-big cavern. Take note of the boat, it will be your way out later. Kill everyone.
+big cave. Take note of the boat, it will be your way out later. Kill everyone.
 
 Now move through the double doors and you'll find Bach waiting for you. He'll
 shoot you from afar with a sniper rifle and will drop grenades down the stairs.
-He also has two special abilities, he can cast a spell making him invulnerable
-for a short period of time and if you get close to him he can temporary blind
-you. Whatever kind of weapons you choose though, it's not gonna be that hard
+He also has two special abilities, he casts a spell making him less vulnerable
+for a short period of time and if you get close to him he temporary blinds you
+to move away. Whatever kind of weapons you choose though, it's not that hard
 to kill him at this point. [+: Bach will drop a katana or SWAT RIFLE on death.]
 
 After you've dealt with Bach, climb up the stairs and enter the little house
