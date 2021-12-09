@@ -10303,8 +10303,11 @@
 "OnTrigger" "ending_ws,Start,,0.5,-1,,"
 "OnTrigger" "tracka1,PlayAsCameraPosition,,0.5,-1,,"
 "OnTrigger" "focusa1,PlayAsCameraTarget,,0.5,-1,,"
-"OnTrigger" "fade_end,Fade,,3.4,-1,,"
-"OnTrigger" "epilogue_change,ScriptUnhide,,3.8,-1,,"
+"OnTrigger" "fade_end,Fade,,11,-1,,"
+"OnTrigger" "epilogue_change,ScriptUnhide,,12,-1,,"
+"OnTrigger" "flunky4,ScriptUnhide,,0,-1,,"
+"OnTrigger" "flunky3,ScriptUnhide,,0,-1,,"
+"OnTrigger" "Nines,ScriptUnhide,,0,-1,,"
 "origin" "904.819 -808.607 -7423"
 }
 {
@@ -11847,9 +11850,9 @@
 {
 "classname" "logic_pythoncheck"
 "targetname" "anarch2_check"
-"python_script" "G.Story_State == 115"
-"OnFalse" "Give_Prince_Key_ws,Start,,0.1,-1,,"
-"OnTrue" "Give_Prince_Key,Start,,0.1,-1,,"
+"python_script" "G.Story_State == 125 and G.Patch_Plus == 1"
+"OnFalse" "Give_Prince_Key,Start,,0.1,-1,,"
+"OnTrue" "Give_Prince_Key_ws,Start,,0.1,-1,,"
 "origin" "917.459 -745.121 -227"
 }
 {

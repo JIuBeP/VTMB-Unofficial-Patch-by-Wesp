@@ -34,16 +34,16 @@ actor "Prince2"
   }
   channel "dlg"
   {
-    event speak "Prince_1091"
+    event speak "Prince_1071"
     {
-      time 10.506667 26.592632
-      param "Character\dlg\Downtown LA\prince2\line1091_col_e.mp3"
+      time 10.506667 34.592632
+      param "Character\dlg\Downtown LA\prince2\line1071_col_e.mp3"
       fixedlength
     }
-    event speak "Prince_1101"
+    event speak "Prince_1081"
     {
-      time 49.006664 70.269772
-      param "Character\dlg\Downtown LA\prince2\line1101_col_e.mp3"
+      time 47.006664 54.269772
+      param "Character\dlg\Downtown LA\prince2\line1081_col_e.mp3"
       fixedlength
     }
     event speak "Prince_1252"
@@ -58,12 +58,12 @@ actor "Prince2"
       param "Character\dlg\Downtown LA\prince2\line1253_col_e.mp3"
       fixedlength
     }
-//    event speak "Prince_1171"
-//    {
-//      time 68.006668 68.549774
-//      param "Character\dlg\Downtown LA\prince2\line1171_col_e.mp3"
-//      fixedlength
-//    }
+    event speak "Prince_1082"
+    {
+      time 59.006668 68.549774
+      param "Character\dlg\Downtown LA\prince2\line1082_col_e.mp3"
+      fixedlength
+    }
   }
   channel "expressions"
   {

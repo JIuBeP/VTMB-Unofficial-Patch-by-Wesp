@@ -1761,7 +1761,7 @@ def VThaumaturgy(x):
 #Sets criminal violation if player has weapon drawn on hubs, added by wesp
 def checkHub():
     pc = __main__.FindPlayer()
-    if not (pc.HasWeaponEquipped("item_w_unarmed")or pc.HasWeaponEquipped("item_w_fists")):
+    if not (pc.HasWeaponEquipped("item_w_unarmed")or pc.HasWeaponEquipped("item_w_fists") or pc.HasWeaponEquipped("weapon_physcannon")):
         pc.SetCriminalLevel(1)
 
 #Clan specific idle animations, added by EntenSchreck, improved by malkav and wesp
