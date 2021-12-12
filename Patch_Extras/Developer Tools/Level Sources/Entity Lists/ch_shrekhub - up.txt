@@ -1633,7 +1633,7 @@
 "crossfade_skin_time" "2.0"
 "renderamt" "255"
 "rendercolor" "255 255 255"
-"OnTrigger0" "vent_door,Unlock,,0,-1,G.Shubs_Act = 4,"
+"OnTrigger0" "vent_door,Unlock,,0,-1,,"
 "origin" "-357.154 1722.87 50.948"
 }
 {
@@ -1676,7 +1676,7 @@
 "OnTrigger1" "vaultdoor3a,Lock,,0,-1,,"
 "OnTrigger1" "vaultdoor3b,Lock,,0,-1,,"
 "OnTrigger0" "vaultdoor3b,Unlock,,0,-1,,"
-"OnTrigger0" "vaultdoor3a,Unlock,,0,-1,G.Shubs_Act = 4,"
+"OnTrigger0" "vaultdoor3a,Unlock,,0,-1,,"
 "origin" "804.485 2312.66 54"
 }
 {
@@ -1718,7 +1718,7 @@
 "rendercolor" "255 255 255"
 "OnTrigger1" "vaultdoor3b,Lock,,0,-1,,"
 "OnTrigger1" "vaultdoor3a,Lock,,0,-1,,"
-"OnTrigger0" "vaultdoor3a,Unlock,,0,-1,G.Shubs_Act = 4,"
+"OnTrigger0" "vaultdoor3a,Unlock,,0,-1,,"
 "OnTrigger0" "vaultdoor3b,Unlock,,0,-1,,"
 "origin" "814.515 2046.34 54"
 }
@@ -3319,8 +3319,7 @@
 "StartDisabled" "0"
 "targetname" "poweron"
 "spawnflags" "0"
-"OnTrigger" ",,,0,-1,G.Shubs_Act = 4,"
-"OnTrigger" "circlelightsprite,ScriptUnhide,1,0,-1,,"
+"OnTrigger" "circlelightsprite,ScriptUnhide,1,0,-1,G.Shubfour_Virus = 0,"
 "OnTrigger" "circlelight,TurnOn,,0,-1,,"
 "OnTrigger" "circlelightmodel,Skin,0,0,-1,,"
 "OnTrigger" "flourecentlight,TurnOn,,0,-1,,"
