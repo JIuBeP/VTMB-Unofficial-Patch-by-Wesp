@@ -456,11 +456,11 @@ def beachhouseStatus():
         thinblood.ScriptUnhide()
     if (thinblood and (__main__.IsDead("Lily") or G.Story_State >= 35)):
         thinblood.Kill()
-    if(G.Beachhouse_Hostile == 1):
+    if G.Beachhouse_Hostile == 1:
         dudes = __main__.FindEntitiesByClass("npc_VHumanCombatant")
         for dude in dudes:
             dude.SetRelationship("player D_HT 5")
-    if(G.Beach_Dead == 1):
+    if G.Beach_Dead == 1:
         dudes = __main__.FindEntitiesByClass("npc_VHumanCombatant")
         for dude in dudes:
             dude.Kill()
@@ -469,7 +469,7 @@ def beachhouseStatus():
         call = Find("mike_call_dennis")
         if call: call.Kill()
         __main__.ScheduleTask(1.0, "__main__.FindEntityByName(\"plus_butch\").Kill()")
-    if(G.Story_State >= 10 and not G.Pier_Beach_Gone):
+    if (G.Story_State >= 10 and not G.Pier_Beach_Gone):
         G.Pier_Beach_Gone = 1
         blood = __main__.FindEntitiesByName("victimblooda")
         for b in blood:
@@ -1179,9 +1179,9 @@ def playerGotPurse():
     pc = __main__.FindPlayer()
     state = pc.GetQuestState("Lily")
     #changed by dan_upright 04/12/04
-    if (G.RolfTotenKnowledge == 1 and state != 10):
+    if (G.RolfTotenKnowledge == 1 and state != 10 and state != 5 and state != 6):
         pc.SetQuest("Lily", 11)
-    elif (state != 10):
+    elif (state != 10 and state != 5 and state != 6):
         pc.SetQuest("Lily", 7)
     #changes end
     __main__.GiveItem(pc, "item_g_lilly_photo")
