@@ -68,7 +68,7 @@ WeaponData
 		"Default_Size"		"2"	// changed by wesp
 		"Dropped_Ammo"		"2"
 		"Type"			"FlameThrowerRound"	// changed by wesp
-		"ReloadTime"		"1.0"
+		"ReloadTime"		"3.0"	// changed by wesp
 		
 		SoundData
 		{
@@ -131,7 +131,7 @@ WeaponData
 		"MinorKnockbackDist"	"250.0"			// maximum distance to cause minor knockback
 
 		"SpreadAngle"		"5.0"			// changed by Wesp
-		"CriminalLevel"	"3"
+		"CriminalLevel"	"5"				// changed by Wesp
 		"Accuracy"		"1"
 
 		SoundData

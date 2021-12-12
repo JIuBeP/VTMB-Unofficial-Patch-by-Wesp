@@ -123,7 +123,7 @@ WeaponData
 
 		"CrosshairFirePercent"	"0.9"			// percent to bloom to crosshair upon firing a bullet
 
-		"MajorKnockbackDist"	"50.0"			// maximum distance to cause major knockback, changed by Wesp
+		"MajorKnockbackDist"	"105.0"			// maximum distance to cause major knockback
 		"MinorKnockbackDist"	"250.0"			// maximum distance to cause minor knockback
 
 		"SpreadAngle"		"10.0"

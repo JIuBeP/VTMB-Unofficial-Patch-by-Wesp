@@ -84,7 +84,7 @@ WeaponData
 		"Ammo_Cost"		"1"
 
 		"SkillRequirement"	"5"				// min. skill requirement used in dmg calculations
-		"BaseLethality"		"12"				// base lethality used in dmg calculations, changed by wesp
+		"BaseLethality"		"14"				// base lethality used in dmg calculations
 		"Dmg"			"3 Lethal Ranged_Combat DMG_BULLET"
 
 		"Botch_Table"		"Revolvers"
@@ -229,7 +229,7 @@ WeaponData
 		"Ammo_Cost"		"1"
 
 		"SkillRequirement"	"5"				// min. skill requirement used in dmg calculations
-		"BaseLethality"		"12"				// base lethality used in dmg calculations, changed by wesp
+		"BaseLethality"		"14"				// base lethality used in dmg calculations
 		"Dmg"			"3 Lethal Ranged_Combat DMG_BULLET"
 
 		"Botch_Table"		"Revolvers"
