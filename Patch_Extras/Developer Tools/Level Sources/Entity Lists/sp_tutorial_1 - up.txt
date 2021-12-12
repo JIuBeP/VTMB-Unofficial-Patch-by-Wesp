@@ -6805,6 +6805,7 @@
 "StartHidden" "1"
 "follower_type" "Default"
 "base_gender" "1"
+"alternateequipment" "item_w_knife"
 "OnDeath" "warehouse_counter,Add,1,0,-1,,"
 "origin" "-1429.95 603 0"
 }
@@ -6865,6 +6866,7 @@
 "StartHidden" "1"
 "follower_type" "Default"
 "base_gender" "1"
+"alternateequipment" "item_w_knife"
 "OnDeath" "warehouse_counter,Add,1,0,-1,,"
 "origin" "-1725 471 0"
 }
@@ -19040,36 +19042,6 @@
 "spawnflags" "8"
 "OnBeginFade" "teleport_player,Teleport,,1,-1,,"
 "origin" "0 7472 -75"
-}
-{
-"classname" "light_spot"
-"_light" "107 176 182 400"
-"_quadratic_attn" "1"
-"fade_time" "0.05"
-"angles" "0 90 0"
-"_inner_cone" "45"
-"_cone" "80"
-"pitch" "0"
-"_constant_attn" "0"
-"_linear_attn" "0"
-"_exponent" "1"
-"_distance" "256"
-"origin" "-260 -295 174.351"
-}
-{
-"classname" "light_spot"
-"_light" "107 176 182 400"
-"_quadratic_attn" "1"
-"fade_time" "0.05"
-"angles" "0 90 0"
-"_inner_cone" "45"
-"_cone" "80"
-"pitch" "0"
-"_constant_attn" "0"
-"_linear_attn" "0"
-"_exponent" "1"
-"_distance" "256"
-"origin" "129 -295 174.351"
 }
 {
 "classname" "logic_auto"
