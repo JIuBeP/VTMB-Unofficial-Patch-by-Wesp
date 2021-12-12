@@ -2069,7 +2069,7 @@ def AThingOfSomeKind():
 #Adds random whispers to malkavian lookaround animation, "Ambiguous" or "Danger", added by Entenschreck, changed by wesp
 def RandomWhisper():
     pc = __main__.FindPlayer()
-    if not (__main__.IsClan(pc, "Malkavian") or __main__.G.Player_Insane == 1):
+    if not (__main__.IsClan(pc, "Malkavian")) or __main__.G.Player_Insane == 1:
         return
     print "Selecting Whisper"
     NonHostile = 0
