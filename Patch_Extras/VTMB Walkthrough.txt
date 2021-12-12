@@ -5423,7 +5423,7 @@ Notes: These claw weapons can be obtained after you kill the Chang Claw Brother.
 ~~~~~~~~~~~~~~~~~~
 Melee Combat Requirement: 6
 Lethality: 16
-Base Damage: 2
+Base Damage: 1 [+: 2]
 
 Notes: You will find this weapon on the roof among the rubble after the
        Sheriff turned into his warform. It inflicts aggravated damage.
@@ -5491,7 +5491,7 @@ Notes: "Come on punk, make my day!" Your first really good weapon. It can do a
  4. McLUSKY .50 CALIBER aka DESERT EAGLE
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Ranged Combat Requirement: 7
-Lethality: 12
+Lethality: 12 [+: 18]
 Base Damage: 3
 Fire Rate: HIGH
 Range: MEDIUM
@@ -5512,7 +5512,7 @@ Notes: The best handgun, deals much damage and has a high fire rate. One of the
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Ranged Combat Requirement: 4
 Lethality: 10
-Base Damage: 3 (15 zoomed) [+: 6 (no zoom)]
+Base Damage: 3 (15 zoomed) [+: 5 (no zoom)]
 Fire Rate: LOW
 Range: LONG
 Reload Speed: FAST
@@ -5525,8 +5525,8 @@ Notes: The first rifle you can get your hands on, and a really good
 [+: REMINGTON M700 SWAT]
 ~~~~~~~~~~~~~~~~~~~~~~~~
 Ranged Combat Requirement: 6
-Lethality: 15
-Base Damage: 8 (10 zoomed)
+Lethality: 25
+Base Damage: 2 (3 zoomed)
 Fire Rate: LOW
 Range: LONG
 Reload Speed: FAST
