@@ -6805,7 +6805,6 @@
 "StartHidden" "1"
 "follower_type" "Default"
 "base_gender" "1"
-"alternateequipment" "item_w_knife"
 "OnDeath" "warehouse_counter,Add,1,0,-1,,"
 "origin" "-1429.95 603 0"
 }
@@ -6866,7 +6865,6 @@
 "StartHidden" "1"
 "follower_type" "Default"
 "base_gender" "1"
-"alternateequipment" "item_w_knife"
 "OnDeath" "warehouse_counter,Add,1,0,-1,,"
 "origin" "-1725 471 0"
 }
@@ -14771,7 +14769,7 @@
 "OnTrigger" "trig_player_shot,Enable,,0.75,-1,,"
 "OnTrigger" "logic_alley_cams,Trigger,,0,-1,,"
 "OnTrigger" "logic_jack_vs_sabbat,Start,,0,-1,,"
-"OnTrigger" "timer_muzzle_flash_3,Disable,,2,-1,,"
+"OnTrigger" "timer_muzzle_flash_3,Disable,,7,-1,,"
 "OnTrigger" "timer_muzzle_flash_3,Enable,,0,-1,,"
 "OnTrigger" "knife,ScriptUnhide,,0,-1,,"
 "OnTrigger" "logic_alley_damage,Trigger,,0,-1,,"
@@ -14798,7 +14796,7 @@
 "targetname" "muzzle_flash_3"
 "angles" "0 0 0"
 "active" "0"
-"attach_type" "2"
+"attach_type" "1"
 "bounds" "512"
 "ramp_scale" "1"
 "ramp_time" "0"

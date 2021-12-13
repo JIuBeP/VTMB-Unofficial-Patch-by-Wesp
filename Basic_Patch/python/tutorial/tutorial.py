@@ -86,13 +86,13 @@ def DialogPostProcess():
         #changes end
 
     # tutorial/downtown location fix, added by wesp
-    elif (G.Tut_Jack == 1 and G.Tut_Patch == 0):
+    elif G.Tut_Jack == 1 and G.Tut_Patch == 0:
         G.Tut_Patch = 1
         teleport_fade = Find("teleport_fade")
         teleport_fade.Fade()
 
     # the first time
-    elif (G.Tut_Jack == 1 and G.Tutorial_Blueblood == 0 and G.Tutorial_Feeding == 0):
+    elif G.Tut_Jack == 1 and G.Tutorial_Blueblood == 0 and G.Tutorial_Feeding == 0:
 #        popup.SetValue(2)
 #        popup = Find("popup_2")
 #        popup.OpenWindow()
@@ -106,13 +106,14 @@ def DialogPostProcess():
         G.Tutorial_Feeding = 1 
 
     # outside the chopshop door, after the blueblood
-    elif (G.Tut_Jack == 2 and G.Tutorial_Blueblood == 1):
+    elif G.Tut_Jack == 2 and G.Tutorial_Blueblood == 1 and G.Popup_Use == 0:
         script = Find("script_1b")
         if script: script.BeginSequence()
         door = Find("tutchopdoora")
         door.Unlock()
         trig = Find("trig_popup_use")
         trig.Enable()
+        G.Popup_Use = 1
 
     # chopshop hall, before scripted event
     elif G.Tut_Jack == 3:
@@ -121,21 +122,24 @@ def DialogPostProcess():
         logic.Trigger()
 
     # in the chopshop, side hall by the windows, after scripted event
-    elif G.Tut_Jack == 4:
+    elif G.Tut_Jack == 4 and G.Popup_Quest == 0:
         script = Find("script_2c")
         if script: script.BeginSequence()
         popup = Find("popup_11")
         popup.OpenWindow()
+        G.Popup_Quest = 1
 
     # inside chopshop office, after jack jumps through window
-    elif (G.Tut_Jack == 5 and G.Tut_Officedoor == 1):
+    elif G.Tut_Jack == 5 and G.Tut_Officedoor == 1 and G.Popup_Masquerade == 0:
         popup = Find("popup_14")
         popup.OpenWindow()
+        G.Popup_Masquerade = 1
 
     # inside chopshop, got the key, leaves safe ui
-    elif G.Tut_Jack == 18:
+    elif G.Tut_Jack == 18 and G.Popup_Inventory == 0:
         popup = Find("popup_21")
         popup.OpenWindow()
+        G.Popup_Inventory = 1
 
     # two sabbat killed, before feeding on bum
     elif G.Tut_Jack == 6 and G.Tutorial_Bum == 0:
@@ -152,7 +156,7 @@ def DialogPostProcess():
             popup.OpenWindow()
 
     # outside gate to thug, after feeding on bum, after rats
-    elif (G.Tut_Jack == 8 and G.Tutorial_Bum == 1):
+    elif G.Tut_Jack == 8 and G.Tutorial_Bum == 1:
         script = Find("script_4d")
         script.BeginSequence()
         door = Find("tutalleydoora")
@@ -161,13 +165,14 @@ def DialogPostProcess():
         popup.OpenWindow()
 
     # inside warehouse area, after sneaking in, before unarmed combat
-    elif G.Tut_Jack == 9 and G.Tut_Aggfeed == 0:
+    elif G.Tut_Jack == 9 and G.Tut_Aggfeed == 0 and G.Popup_Unarmed == 0:
         door = Find("door_garage")
         door.Open()
         script = Find("script_5b")
         if script: script.BeginSequence()
         popup = Find("popup_30")
         popup.OpenWindow()
+        G.Popup_Unarmed = 1
 
     # thug killed, jack in front of bathroom door
     elif G.Tut_Jack == 11 and G.Tut_Melee == 0:
@@ -201,7 +206,7 @@ def DialogPostProcess():
             pc.GiveAmmo("item_w_thirtyeight", 12)
 
     # end of tutorial, changed by wesp
-    elif G.Tut_Jack >= 15:
+    elif G.Tut_Jack == 15:
         __main__.ScheduleTask(12, "__main__.FindEntityByName(\'popup_58\').OpenWindow()")
 #        Find("popup_58").OpenWindow()
         __main__.ScheduleTask(10, "__main__.FindEntityByName(\"end_fade\").Fade()")
@@ -359,7 +364,6 @@ def OnMasqueradeEnd():
     else:
         popup = Find("popup_15")
         popup.OpenWindow()
-
     trig = Find("trig_popup_masquerade")
     trig.Enable()
 
@@ -376,6 +380,8 @@ def jackflashChopshopOffice():
         logic.Trigger()
         trig = Find("trig_jack_teleport_3")
         trig.Disable()
+        tele = Find("teleport_2")
+        tele.Kill()
 
 #TUTORIAL: Check if player needs ventrue feeding popup
 def OnPopupFrenzy():
@@ -407,7 +413,6 @@ def OnDiscGuys():
         counter = Find("disc2_count_1")
         counter.ScriptHide()
         print 'spawning two guys in room 2'
-
     if not(IsClan(player, "Brujah")) and not(IsClan(player, "Toreador")):
         if player.base_dementation > 1 or player.base_dominate > 1:
             makers = Finds("disc3_maker")
