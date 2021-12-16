@@ -148,7 +148,7 @@
 {	148	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	149	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	150	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	151	}{	I always hated that damn job, anyway.	}{	I always hated that damn job, anyway.	}{	#	}{	npc.SetDisposition("Bartender", 1)	}{	Whisper("Crying")	}{	}{	}{	}{	}{	}{	}{	}
+{	151	}{	I always hated that damn job, anyway.	}{	I always hated that damn job, anyway.	}{	#	}{	npc.SetDisposition("Bartender", 1)	}{	Whisper("Moaning")	}{	}{	}{	}{	}{	}{	}{	}
 {	152	}{	Sorry.	}{	Sorry.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	This one hurts too.	}
 {	153	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	154	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}

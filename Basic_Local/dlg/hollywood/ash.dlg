@@ -148,7 +148,7 @@
 {	148	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	149	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	150	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	151	}{	Mmm, yeah, the biographers would eat it up; the studios would sell more copies of my movies; they'd probably put up a statue of me somewhere.... "Die young, live forever." I'd be one handsome pile of dust.	}{	Mmm, yeah, the biographers would eat it up; the studios would sell more copies of my movies; they'd probably put up a statue of me somewhere.... "Die young, live forever." I'd be one handsome pile of dust.	}{	#	}{	Whisper("Crying"); npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	151	}{	Mmm, yeah, the biographers would eat it up; the studios would sell more copies of my movies; they'd probably put up a statue of me somewhere.... "Die young, live forever." I'd be one handsome pile of dust.	}{	Mmm, yeah, the biographers would eat it up; the studios would sell more copies of my movies; they'd probably put up a statue of me somewhere.... "Die young, live forever." I'd be one handsome pile of dust.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	Whisper("Moaning")	}{	}{	}{	}{	}{	}{	}{	}
 {	152	}{	That's crazy.	}{	That's crazy.	}{	161	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	153	}{	Sounds like you've thought about it.	}{	Sounds like you've thought about it.	}{	171	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	154	}{	How are you going to do it?	}{	How are you going to do it?	}{	171	}{	}{	}{	}{	}{	}{	}{	}{	}{	}

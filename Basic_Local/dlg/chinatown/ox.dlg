@@ -8,7 +8,7 @@
 {	8	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	9	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	10	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	11	}{	Everyone gets what they deserve.	}{	Everyone gets what they deserve.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	11	}{	Everyone gets what they deserve.	}{	Everyone gets what they deserve.	}{	#	}{	}{	Whisper("Ambiguous")	}{	}{	}{	}{	}{	}{	}{	}
 {	12	}{	What's that supposed to mean?	}{	What's that supposed to mean?	}{	21	}{	}{	}{	}{	}{	}{	}{	}{	}{	I don't make sense of this.	}
 {	13	}{	A keychain with a map of California or a cheap, plastic buddha?	}{	A keychain with a map of California or a cheap, plastic buddha?	}{	31	}{	}{	}{	}{	}{	}{	}{	}{	}{	Don't tell ME things like that!	}
 {	14	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}

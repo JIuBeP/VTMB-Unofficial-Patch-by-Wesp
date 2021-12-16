@@ -658,7 +658,7 @@
 {	658	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	659	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	660	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	661	}{	Forget it, boss... it's Chinatown.	}{	Forget it, boss... it's Chinatown.	}{	#	}{	npc.SetDisposition("Joy", 1)	}{	G.Gary_Homage = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	661	}{	Forget it, boss... it's Chinatown.	}{	Forget it, boss... it's Chinatown.	}{	#	}{	npc.SetDisposition("Joy", 1)	}{	G.Gary_Homage = 1; Whisper("Danger")	}{	}{	}{	}{	}{	}{	}{	}
 {	662	}{	Aren't the Kindred at war with the Kuei-jin?	}{	Aren't the Kindred at war with the Kuei-jin?	}{	631	}{	}{	}{	}{	}{	}{	}{	}{	}{	Is our blood not feuding?	}
 {	663	}{	Sounds dangerous. Got anything I can use to protect myself?	}{	Sounds dangerous. Got anything I can use to protect myself?	}{	481	}{	IsClan(pc,"Nosferatu") and G.Pack_Given == 0	}{	}{	}{	}{	}{	}{	}{	}{	How do I enter the minefield without getting blown up?	}
 {	664	}{	Sounds dangerous. Got anything I can use to protect myself?	}{	Sounds dangerous. Got anything I can use to protect myself?	}{	491	}{	not IsClan(pc,"Nosferatu") and not IsClan(pc,"Toreador") and G.Pack_Given == 0	}{	}{	}{	}{	}{	}{	}{	}{	}

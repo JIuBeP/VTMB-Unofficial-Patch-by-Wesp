@@ -198,7 +198,7 @@
 {	198	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	199	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	200	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	201	}{	Yes. I thought that the Tong were almost gone, but then something happened. Their numbers began to grow and suddenly they had a lot of money to buy weapons. With them followed the drugs and the violence. It is almost worse now than before.	}{	Yes. I thought that the Tong were almost gone, but then something happened. Their numbers began to grow and suddenly they had a lot of money to buy weapons. With them followed the drugs and the violence. It is almost worse now than before.	}{	#	}{	}{	Whisper("Moaning")	}{	}{	}{	}{	}{	}{	}{	}
+{	201	}{	Yes. I thought that the Tong were almost gone, but then something happened. Their numbers began to grow and suddenly they had a lot of money to buy weapons. With them followed the drugs and the violence. It is almost worse now than before.	}{	Yes. I thought that the Tong were almost gone, but then something happened. Their numbers began to grow and suddenly they had a lot of money to buy weapons. With them followed the drugs and the violence. It is almost worse now than before.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	202	}{	Someone must be pulling their strings.	}{	Someone must be pulling their strings.	}{	211	}{	}{	}{	}{	}{	}{	}{	}{	}{	Who is the hand that pulls the strings?	}
 {	203	}{	Who's bankrolling them?	}{	Who's bankrolling them?	}{	211	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	204	}{	I'm sorry to hear it. Can you help me with my problem now?	}{	I'm sorry to hear it. Can you help me with my problem now?	}{	251	}{	}{	}{	}{	}{	}{	}{	}{	}{	Let us delve into my own dilemma.	}
@@ -588,7 +588,7 @@
 {	588	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	589	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	590	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	591	}{	[Outraged]What? How can that be? Ming-Xiao would never involve herself in something like this! I don't believe you.	}{	[Outraged]What? How can that be? Ming-Xiao would never involve herself in something like this! I don't believe you.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	591	}{	[Outraged]What? How can that be? Ming-Xiao would never involve herself in something like this! I don't believe you.	}{	[Outraged]What? How can that be? Ming-Xiao would never involve herself in something like this! I don't believe you.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	Whisper("Deluded")	}{	}{	}{	}{	}{	}{	}{	}
 {	592	}{	Believe it, Wong Ho. You were next on their list.	}{	Believe it, Wong Ho. You were next on their list.	}{	581	}{	}{	}{	}{	}{	}{	}{	}{	}{	Your soul was next to be harvested.	}
 {	593	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	594	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}

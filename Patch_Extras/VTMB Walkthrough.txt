@@ -5368,7 +5368,7 @@ Notes: This weapon is used by the Asian vampire and other enemies.
 ~~~~~~~~~~~~~~~
 [+: BROADSWORD]
 ~~~~~~~~~~~~~~~
-Melee Combat Requirement: 4
+Melee Combat Requirement: 7
 Lethality: 16
 Base Damage: 2
 
@@ -5423,7 +5423,7 @@ Notes: These claw weapons can be obtained after you kill the Chang Claw Brother.
 ~~~~~~~~~~~~~~~~~~
 Melee Combat Requirement: 6
 Lethality: 16
-Base Damage: 1 [+: 2]
+Base Damage: 2
 
 Notes: You will find this weapon on the roof among the rubble after the
        Sheriff turned into his warform. It inflicts aggravated damage.

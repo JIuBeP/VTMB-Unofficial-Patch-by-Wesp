@@ -18,7 +18,7 @@
 {	18	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	19	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	20	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	21	}{	I mean, like anyone ever knew who Tawni Sessions was before I left the scene. She'd still be a fluff girl at Vivisexion, making ten bucks a stiffy if I was still around. Arrgggh!	}{	I mean, like anyone ever knew who Tawni Sessions was before I left the scene. She'd still be a fluff girl at Vivisexion, making ten bucks a stiffy if I was still around. Arrgggh!	}{	#	}{	}{	Whisper("Crying")	}{	}{	}{	}{	}{	}{	}{	}
+{	21	}{	I mean, like anyone ever knew who Tawni Sessions was before I left the scene. She'd still be a fluff girl at Vivisexion, making ten bucks a stiffy if I was still around. Arrgggh!	}{	I mean, like anyone ever knew who Tawni Sessions was before I left the scene. She'd still be a fluff girl at Vivisexion, making ten bucks a stiffy if I was still around. Arrgggh!	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	22	}{	Who the hell is Tawni Sessions?	}{	Who the hell is Tawni Sessions?	}{	31	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	23	}{	And who exactly are you?	}{	And who exactly are you?	}{	51	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	24	}{	Often I enjoy a fluffing with my vivisections.	}{	Often I enjoy a fluffing with my vivisections.	}{	291	}{	IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
