@@ -519,7 +519,7 @@ DisciplineTgt
 		}
 	}
 
-	Hit_Human_Haunting
+	Hit_Human_Haunting	// added by EntenSchreck
 	{
 		"AI_Schedule"		"SCHED_TROIKA_DO_HAUNTING_ACTIVITY"
 		"Duration"		"9-12"
@@ -527,6 +527,13 @@ DisciplineTgt
 		TraitEffect
 		{
 			"Effect"	"Discipline (Dementation-Hysteria)"
+		}
+
+		Trigger_Casting
+		{
+			"DisciplineFX"	"Use_Spell"
+			"Source"		"Target"
+			"Affects"		"Self"
 		}
 
 		Effect_Tgt_Hit
@@ -643,6 +650,13 @@ DisciplineTgt
 	Hit_Supernatural_NoEffect
 	{
 		"AI_Schedule"		"SCHED_TROIKA_DISORIENTED"	// added by Populism
+
+		Trigger_Casting
+		{
+			"DisciplineFX"	"Use_Spell"
+			"Source"		"Target"
+			"Affects"		"Self"
+		}
 
 		Effect_Tgt_Hit
 		{
@@ -1177,7 +1191,14 @@ DisciplineTgt
 
 	Hit_Supernatural_NoEffect
 	{
-		"AI_Schedule"		"SCHED_TROIKA_DISORIENTED"	// added by Populism	
+		"AI_Schedule"		"SCHED_TROIKA_DISORIENTED"	// added by Populism
+
+		Trigger_Casting
+		{
+			"DisciplineFX"	"Use_Spell"
+			"Source"		"Target"
+			"Affects"		"Self"
+		}
 
 		Effect_Tgt_Hit
 		{
@@ -1400,7 +1421,7 @@ DisciplineTgt
 
 			Default_Mapping
 			{
-				"HitTable"	"Hit_Supernatural_PartialEffect"	// changed by wesp
+				"HitTable"	"Hit_Supernatural_Partial"	// changed by wesp
 			}
 		}
 
@@ -1413,7 +1434,7 @@ DisciplineTgt
 
 			Default_Mapping
 			{
-				"HitTable"	"Hit_Supernatural_PartialEffect"	// changed by wesp
+				"HitTable"	"Hit_Supernatural_Partial"	// changed by wesp
 			}
 		}
 
@@ -1426,7 +1447,7 @@ DisciplineTgt
 
 			Default_Mapping
 			{
-				"HitTable"	"Hit_Supernatural_PartialEffect"	// changed by wesp
+				"HitTable"	"Hit_Supernatural_Partial"	// changed by wesp
 			}
 		}
 
@@ -1592,7 +1613,7 @@ DisciplineTgt
 
 			Default_Mapping
 			{
-				"HitTable"	"Hit_Supernatural_PartialEffect"
+				"HitTable"	"Hit_Supernatural_Partial"
 			}
 		}
 
@@ -1696,11 +1717,11 @@ DisciplineTgt
 		"InheritFrom"		"Hit_Human"
 	}
 
-	Hit_Supernatural_PartialEffect
+	Hit_Supernatural_Partial
 	{
 		"AI_Schedule"		"SCHED_TROIKA_DO_MADNESS_ACTIVITY"	//"SCHED_TROIKA_DISORIENTED"	// added by Populism, changed by Entenschreck
 		"Dmg_Health"		"5-10%"
-		"Duration"		"5"	//changed by wesp
+		"Duration"		"6"	//changed by wesp
 
 		Trigger_Casting
 		{
@@ -1797,37 +1818,37 @@ DisciplineTgt
 
 	Hit_Strata_1
 	{
-		"InheritFrom"		"Hit_Supernatural_PartialEffect"
+		"InheritFrom"		"Hit_Supernatural_Partial"
 		"Dmg_Health"		"40%"
 	}
 
 	Hit_Strata_2
 	{
-		"InheritFrom"		"Hit_Supernatural_PartialEffect"
+		"InheritFrom"		"Hit_Supernatural_Partial"
 		"Dmg_Health"		"30%"
 	}
 
 	Hit_Strata_3
 	{
-		"InheritFrom"		"Hit_Supernatural_PartialEffect"
+		"InheritFrom"		"Hit_Supernatural_Partial"
 		"Dmg_Health"		"40%"
 	}
 
 	Hit_Strata_4
 	{
-		"InheritFrom"		"Hit_Supernatural_PartialEffect"
+		"InheritFrom"		"Hit_Supernatural_Partial"
 		"Dmg_Health"		"30%"
 	}
 
 	Hit_Strata_5
 	{
-		"InheritFrom"		"Hit_Supernatural_PartialEffect"
+		"InheritFrom"		"Hit_Supernatural_Partial"
 		"Dmg_Health"		"6-8%"
 	}
 
 	Hit_Strata_6
 	{
-		"InheritFrom"		"Hit_Supernatural_PartialEffect"
+		"InheritFrom"		"Hit_Supernatural_Partial"
 		"Dmg_Health"		"4-5%"
 	}
 
@@ -3801,6 +3822,13 @@ DisciplineTgt
 	Hit_Boss_NoEffect_Primary
 	{
 		"AI_Schedule"		"SCHED_TROIKA_DISORIENTED"	// added by Populism
+
+		Trigger_Casting
+		{
+			"DisciplineFX"	"Use_Spell"
+			"Source"		"Target"
+			"Affects"		"Self"
+		}
 
 		Effect_Tgt_Hit
 		{
