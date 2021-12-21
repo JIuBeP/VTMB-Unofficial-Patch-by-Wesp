@@ -1768,7 +1768,7 @@ def checkHub():
 def IsIdling():
     checkOccult()
     checkBomb()
-    checkHub()
+# disabled by wesp    checkHub()
     pc = __main__.FindPlayer()
     G  = __main__.G
     G.Pos_One = pc.GetOrigin()
