@@ -10324,8 +10324,8 @@
 "BaseAnim" "models/cinematic/LA/Streets/End_LoneWolf_female.mdl"
 "hide_ents" "1"
 "force_lod" "1"
-"MaleAnim" "models/cinematic/LA/Streets/End_LoneWolf.mdl"
-"FemaleAnim" "models/cinematic/LA/Streets/End_LoneWolf_female.mdl"
+"MaleAnim" "models/cinematic/LA/Streets/End_LoneWolf_plus.mdl"
+"FemaleAnim" "models/cinematic/LA/Streets/End_LoneWolf_female_plus.mdl"
 "full_sound" "1"
 "origin" "1434 -797 -7432"
 }
