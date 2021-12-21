@@ -463,8 +463,8 @@
 {	463	}{	I'll have some questions for you when I get back. Let's go.	}{	I'll have some questions for you when I get back. Let's go.	}{	0	}{	G.Bertram_Map == 1 and IsClan(pc,"Nosferatu") and pc.HasItem("item_g_astrolite")	}{	G.Bertram_Ready = 2	}{	}{	}{	}{	}{	}{	}{	}
 {	464	}{	I'll have some questions for you when I get back. Let's go.	}{	I'll have some questions for you when I get back. Let's go.	}{	0	}{	not IsClan(pc,"Nosferatu") and pc.HasItem("item_g_astrolite")	}{	G.Bertram_Ready = 2	}{	}{	}{	}{	}{	}{	}{	Lead on, Nasty Dude.	}
 {	465	}{	Not yet. I'll be back in a little while. See ya.	}{	Not yet. I'll be back in a little while. See ya.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	There are goods yet to be gotten. I shall return later.	}
-{	466	}{	I'll have some questions for you when I get back. Pick me up at my haven after I sleep the day through and then we'll go.	}{	I'll have some questions for you when I get back. Pick me up at my haven after I sleep the day through and then we'll go.	}{	0	}{	G.Bertram_Map == 1 and IsClan(pc,"Nosferatu") and pc.HasItem("item_g_astrolite") and G.Patch_Plus == 1	}{	G.Bertram_Ready = 2	}{	}{	}{	}{	}{	}{	}{	}
-{	467	}{	I'll have some questions for you when I get back. Pick me up at my haven after I sleep the day through and then we'll go.	}{	I'll have some questions for you when I get back. Pick me up at my haven after I sleep the day through and then we'll go.	}{	0	}{	not IsClan(pc,"Nosferatu") and pc.HasItem("item_g_astrolite") and G.Patch_Plus == 1	}{	G.Bertram_Ready = 2	}{	}{	}{	}{	}{	}{	}{	Light the way for me when I wake tomorrow evening, Your Dudeness.	}
+{	466	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	467	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	468	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	469	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	470	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
