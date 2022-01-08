@@ -6539,6 +6539,7 @@
 "crossfade_skin_time" "2.0"
 "renderamt" "255"
 "rendercolor" "255 255 255"
+"OnBreak" ",,,0,1,G.Beachhouse_Lights_Off = 1,"
 "OnBreak" "plus_videogame,Kill,,0,-1,,"
 "OnBreak" "living_room_furniture,Break,,0.1,-1,,"
 "OnBreak" "dennis_door_locked,Unlock,,0,-1,,"
@@ -7566,6 +7567,7 @@
 "OnBreak" "bulb,Skin,1,0,-1,,"
 "OnBreak" "fixture,Skin,1,0,-1,,"
 "OnBreak" "plus_videogame,Kill,,0,-1,,"
+"OnBreak" ",,,0,1,G.Beachhouse_Lights_Off = 1,"
 "origin" "3338.92 -3147.22 -83.5257"
 }
 {
@@ -8039,6 +8041,7 @@
 "StartHidden" "0"
 "StartDisabled" "0"
 "targetname" "lights_off_relay"
+"OnTrigger" ",,,0,1,G.Beachhouse_Lights_Off = 1,"
 "OnTrigger" "plus_videogame,ScriptHide,,0,-1,,"
 "OnTrigger" "game_sounds,StopSound,,0,-1,,"
 "OnTrigger" "basic_videogame,ScriptHide,,0,-1,,"

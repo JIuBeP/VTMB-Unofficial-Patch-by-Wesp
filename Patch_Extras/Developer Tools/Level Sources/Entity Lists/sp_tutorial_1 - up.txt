@@ -13209,6 +13209,7 @@
 "renderamt" "255"
 "rendercolor" "255 255 255"
 "disableshadows" "1"
+"StartHidden" "1"
 "targetname" "office_knob_brush"
 }
 {

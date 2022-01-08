@@ -5181,7 +5181,7 @@
 "ToPlayerTime" "0"
 "targetname" "trackc1"
 "NextKey" "trackc2"
-"OnAnimationCompleted" "sheriff,StartAttacking,,3,-1,,"
+"OnAnimationCompleted" "sheriff,StartAttacking,,0,-1,,"
 "origin" "2 392 91"
 }
 {
@@ -5191,7 +5191,7 @@
 "MoveTime" "1"
 "PositionInterpolator" "1"
 "Corner" "1"
-"Pause" "1"
+"Pause" "5"
 "RateIn" "1"
 "RateOut" "1"
 "FocalLength" "28.2"
@@ -5256,7 +5256,7 @@
 "MoveTime" "1"
 "PositionInterpolator" "1"
 "Corner" "1"
-"Pause" "1"
+"Pause" "5"
 "RateIn" "1"
 "RateOut" "1"
 "FocalLength" "28.2"

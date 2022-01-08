@@ -149,12 +149,12 @@ def IsaacDialogEnd():
         video = Find("start_half_snuff")
         video.Trigger()
 
-#LUCKYSTAR: Called when the player tries to exit the map
+#LUCKYSTAR: Called when the player tries to exit the map, changed by wesp
 def luckyStarExit():
     if(G.Story_State < 100):
-        __main__.ChangeMap(2.5, "luckystar1", "luckystarTeleport1")
+        __main__.ChangeMap(1.5, "luckystar1", "luckystarTeleport1")
     else:
-        __main__.ChangeMap(2.5, "caine_landmark", "luckystarCaine")
+        __main__.ChangeMap(1.5, "caine_landmark", "luckystarCaine")
 
 #LUCKYSTAR: Called when the player grabs the business card, changed by wesp
 def junkyardCardPickup():
@@ -184,8 +184,10 @@ def luckyState():
         if (G.Patch_Plus == 1):
             skelter.ScriptUnhide()
     deadmuddy = Find("dead_muddy")
+    floorblock = Find("floor_block")
     if (G.Muddy_Dead == 1):
         if deadmuddy: deadmuddy.Kill()
+        if floorblock: floorblock.Kill()
         G.Muddy_Dead = 2
     if(G.Killer_Key == 1):
     #A different flag, tied to the material clue from the downtown murder scene, would be better for the first argument

@@ -47414,7 +47414,7 @@ entity
 	"spawnflags" "0"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"origin" "372.582 -1188.54 -282.157"
+	"origin" "370.582 -1118.54 -247.713"
 	editor
 	{
 		"color" "127 63 0"
@@ -47438,7 +47438,7 @@ entity
 	"spawnflags" "1"
 	"renderamt" "255"
 	"rendercolor" "255 255 255"
-	"origin" "372.582 -1188.54 -284.156"
+	"origin" "370.582 -1118.54 -249.713"
 	editor
 	{
 		"color" "127 63 0"
@@ -51285,6 +51285,7 @@ entity
 	{
 		"OnDamaged" "pisha_fight_relay,Trigger,,0,1,pishaDeath(),"
 		"OnDeath" "pisha_dead_relay,Trigger,,0,-1,,"
+		"OnHalfHealth" "spell_timer,Disable,,0,-1,,"
 		"OnDialogEnd" "debris_hider,Trigger,,0,-1,pishaDialog(),"
 		"OnDialogBegin" "Corpse,Kill,,0,-1,,"
 	}

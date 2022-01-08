@@ -6477,7 +6477,7 @@
 "model" "*76"
 "classname" "trigger_multiple"
 "targetname" "dema_hide_trigger"
-"StartDisabled" "0"
+"StartDisabled" "1"
 "wait" "1"
 "filtername" "dema_filter"
 "spawnflags" "2"

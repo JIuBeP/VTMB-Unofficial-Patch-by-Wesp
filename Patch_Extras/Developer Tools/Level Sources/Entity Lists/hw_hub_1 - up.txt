@@ -18372,7 +18372,7 @@
 "clothescolor2" "0 0 0 0"
 "trimcolor" "0 0 0 0"
 "additionalequipment" "item_w_glock_17c"
-"alternateequipment" "0"
+"alternateequipment" "item_w_baton"
 "stattemplate" "OfficerGeneric"
 "player_reaction" "D_HT 5"
 "use_interesting" "0"

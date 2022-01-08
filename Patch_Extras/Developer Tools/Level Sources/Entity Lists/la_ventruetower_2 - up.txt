@@ -3692,6 +3692,7 @@
 "targetname" "anotherdamndoora"
 "use_icon" "10"
 "locked_icon" "3"
+"OnOpen" "bomberman_shield,Kill,,0,-1,,"
 }
 {
 "classname" "light"

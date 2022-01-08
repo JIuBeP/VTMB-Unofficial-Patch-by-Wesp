@@ -1187,7 +1187,7 @@ Soak stat and a +1 to their resistance to mind affecting disciplines.
 [+: Holy Light]
 ---------------
 
-Holy Light blinds vampires for a short time as Gruenfeld Bach shows when
+Holy Light blinds vampires for a short time as Grünfeld Bach shows when
 he uses this Numina against the player in the Society of Leopold cave.
 
 
@@ -2645,7 +2645,7 @@ that he can even get you some special ones.
 
 From that time on, you can visit him in his apartment and buy weapons. You can
 also ask him about special weapons like the STEYR AUG and the FLAMETHROWER [+:
-and the REMINGTON M24 SWS sniper rifle and the DRAGON'S BREATH shotgun]. Those
+and the REMINGTON M700P sniper rifle and the DRAGON'S BREATH shotgun]. Those
 weapons will be available from him much later though. Try to check with him
 frequently, especially after you've completed a main quest, to see what new he
 has to offer.
@@ -3179,7 +3179,7 @@ detour into the GREEN room to grab a MORPHINE BOTTLE and move up to the exit.]
 Pick up another MORPHINE BOTTLE from a table and go up the stairs to the "wife
 preservation" chamber. Turn on the gramophone and the door to Grouts bedroom
 will be unlocked. Enter to find Grout's remains on the bed (1 XP). Afterwards
-you'll meet with Gruenfeld Bach for the first time, the crazed leader of the
+you'll meet with Grünfeld Bach for the first time, the crazed leader of the
 vampire hunters. He has set the mansion on fire and you must now escape the
 building.
 
@@ -5447,7 +5447,7 @@ they are included in the plus patch weapon descriptions].
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- 1. THIRTY EIGHT aka Colt Police Positive Special
+ 1. THIRTY EIGHT aka COLT POLICE POSITIVE SPECIAL
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Ranged Combat Requirement: 4
 Lethality: 7
@@ -5521,12 +5521,12 @@ Notes: The first rifle you can get your hands on, and a really good
        one. You can get it from Romero during his zombie quest.
 
 
-~~~~~~~~~~~~~~~~~~~~~~~~
-[+: REMINGTON M700 SWAT]
-~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[+: REMINGTON M700P aka SWAT RIFLE]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Ranged Combat Requirement: 6
 Lethality: 25
-Base Damage: 2 (3 zoomed)
+Base Damage: 2 (2 zoomed)
 Fire Rate: LOW
 Range: LONG
 Reload Speed: FAST
@@ -5595,7 +5595,7 @@ Notes: This sawed off shotgun fires phosphorous shells. You can buy it from
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Ranged Combat Requirement: 5
 Lethality: 9
-Base Damage: 1
+Base Damage: 1 [+: 2]
 Fire Rate: HIGH
 Range: LONG
 Reload Speed: FAST
@@ -5623,7 +5623,7 @@ Notes: This weapon is an improvement over the Braddock in every way except
 ~~~~~~~~~~~~~~
 Ranged Combat Requirement: 8
 Lethality: 14
-Base Damage: 1 (1 zoomed) [+: 2 zoomed]
+Base Damage: 1 (1 zoomed) [+: 2 (2 zoomed)]
 Fire Rate: HIGH
 Range: LONG
 Reload Speed: MED

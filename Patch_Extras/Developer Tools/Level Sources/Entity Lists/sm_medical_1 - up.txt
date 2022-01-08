@@ -3244,7 +3244,7 @@
 "clothescolor1" "0 0 0 0"
 "clothescolor2" "0 0 0 0"
 "trimcolor" "0 0 0 0"
-"stattemplate" "Bomberman"
+"stattemplate" "Doggie"
 "player_reaction" "D_NU 0"
 "use_interesting" "0"
 "investigate_mode" "4"

@@ -46384,6 +46384,7 @@ entity
 		"OnBreak" "dennis_door_locked,Unlock,,0,-1,,"
 		"OnBreak" "living_room_furniture,Break,,0.1,-1,,"
 		"OnBreak" "plus_videogame,Kill,,0,-1,,"
+		"OnBreak" ",,,0,1,G.Beachhouse_Lights_Off = 1,"
 	}
 	"origin" "3255.75 -2532.83 -83.652"
 	editor
@@ -49055,6 +49056,7 @@ entity
 	"rendercolor" "255 255 255"
 	connections
 	{
+		"OnBreak" ",,,0,1,G.Beachhouse_Lights_Off = 1,"
 		"OnBreak" "plus_videogame,Kill,,0,-1,,"
 		"OnBreak" "fixture,Skin,1,0,-1,,"
 		"OnBreak" "bulb,Skin,1,0,-1,,"
@@ -50196,6 +50198,7 @@ entity
 		"OnTrigger" "basic_videogame,ScriptHide,,0,-1,,"
 		"OnTrigger" "game_sounds,StopSound,,0,-1,,"
 		"OnTrigger" "plus_videogame,ScriptHide,,0,-1,,"
+		"OnTrigger" ",,,0,1,G.Beachhouse_Lights_Off = 1,"
 	}
 	"origin" "3417 -3137 -43"
 	editor
