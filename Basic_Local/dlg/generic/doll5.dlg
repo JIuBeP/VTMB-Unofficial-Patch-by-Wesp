@@ -1,7 +1,7 @@
 {	1	}{	Yeah?	}{	Yeah?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	2	}{	Finally a masculine fighter just after my taste!	}{	Finally a masculine fighter just after my taste!	}{	11	}{	Seduction 4 & not IsMale(pc)	}{	}{	}{	}{	}{	}{	}{	}{	I see your scary scar and I really like it.	}
-{	3	}{	Hello brother, want to get some man on man action?	}{	Hello brother, want to get some man on man action?	}{	11	}{	Seduction 4 & IsMale(pc)	}{	}{	}{	}{	}{	}{	}{	}{	Does the brother want to hit it with this one?	}
-{	4	}{	Hi Tong, are you lonely tonight?	}{	Hi Tong, are you lonely tonight?	}{	21	}{	Seduction -4	}{	}{	}{	}{	}{	}{	}{	}{	Will the lonely Tong join our multitude?	}
+{	2	}{	Finally a masculine fighter just after my taste!	}{	Finally a masculine fighter just after my taste!	}{	11	}{	Seduction 8 & not IsMale(pc)	}{	}{	}{	}{	}{	}{	}{	}{	I see your scary scar and I really like it.	}
+{	3	}{	Hello brother, want to get some man on man action?	}{	Hello brother, want to get some man on man action?	}{	11	}{	Seduction 8 & IsMale(pc)	}{	}{	}{	}{	}{	}{	}{	}{	Does the brother want to hit it with this one?	}
+{	4	}{	Hi Tong, are you lonely tonight?	}{	Hi Tong, are you lonely tonight?	}{	21	}{	Seduction -8	}{	}{	}{	}{	}{	}{	}{	}{	Will the lonely Tong join our multitude?	}
 {	5	}{	Sorry, mistook you for someone else.	}{	Sorry, mistook you for someone else.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	My voices told me they know you, but they don't.	}
 {	6	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	7	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}

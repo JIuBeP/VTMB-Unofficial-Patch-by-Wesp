@@ -18,7 +18,7 @@
 {	18	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	19	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	20	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	21	}{	It's me, Samantha! Don't you... did you suffer amnesia, is that it? Let me make a call. We-we'll get everybody together, we can talk - maybe you'll remember something. The important thing is that they know that you're alive.	}{	It's me, Samantha! Don't you... did you suffer amnesia, is that it? Let me make a call. We-we'll get everybody together, we can talk - maybe you'll remember something. The important thing is that they know that you're alive.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	21	}{	It's me, Samantha! Don't you... did you suffer amnesia, is that it? Let me make a call. We'll get everybody together, we can talk - maybe you'll remember something. The important thing is that they know that you're alive.	}{	It's me, Samantha! Don't you... did you suffer amnesia, is that it? Let me make a call. We'll get everybody together, we can talk - maybe you'll remember something. The important thing is that they know that you're alive.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	22	}{	You never saw me, Samantha. I'm dead. This is how you will remember me.	}{	You never saw me, Samantha. I'm dead. This is how you will remember me.	}{	31	}{	Dominate 3	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	23	}{	No, don't you remember me? I'm your pet turtle, from when you were a kid.	}{	No, don't you remember me? I'm your pet turtle, from when you were a kid.	}{	51	}{	Dementation 3	}{	}{	}{	}{	}{	}{	}{	}{	No, don't you remember me? I'm your pet turtle, from when you were a kid.	}
 {	24	}{	Touch that phone and you're dead, bitch!	}{	Touch that phone and you're dead, bitch!	}{	91	}{	Intimidate 5	}{	}{	}{	}{	}{	}{	}{	}{	Don't make the last song you hear a dial tone.	}
@@ -38,7 +38,7 @@
 {	38	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	39	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	40	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	41	}{	I don't think you know what you're saying. We're going to help you. You'll see - everybody just wants to see you safe and back to your old self. Wait here. I'm going to make a call - it's gonna be okay.	}{	I don't think you know what you're saying. We're going to help you. You'll see - everybody just wants to see you safe and back to your old self. Wait here. I'm going to make a call - it's gonna be okay.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Samantha_Phone = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	41	}{	I don't think you know what you're saying. We're going to help you. You'll see - everybody just wants to see you safe and back to your old self. Wait here. I'm gonna make a call - it's gonna be okay.	}{	I don't think you know what you're saying. We're going to help you. You'll see - everybody just wants to see you safe and back to your old self. Wait here. I'm gonna make a call - it's gonna be okay.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	G.Samantha_Phone = 1	}{	}{	}{	}{	}{	}{	}{	}
 {	42	}{	But...	}{	But...	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	43	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	44	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}

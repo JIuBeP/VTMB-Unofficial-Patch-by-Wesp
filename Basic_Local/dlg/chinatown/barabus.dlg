@@ -1,9 +1,9 @@
 {	1	}{	[In a prison, desperate to get out]LET ME OUT!	}{	[In a prison, desperate to get out]LET ME OUT!	}{	#	}{	npc.SetDisposition("Anger", 3)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	2	}{	Wait...	}{	Wait...	}{	5	}{	}{	}{	}{	}{	}{	}{	}{	}{	Wait and see...	}
+{	2	}{	(Auto-Link)	}{	(Auto-Link)	}{	5	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	3	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	4	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	5	}{	GET ME OUT OF HERE!	}{	GET ME OUT OF HERE!	}{	#	}{	npc.SetDisposition("Anger", 3)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	6	}{	I'm not one of them.	}{	I'm not one of them.	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	I belong to your kind of monster.	}
+{	6	}{	Calm down, I'm not one of them.	}{	Calm down, I'm not one of them.	}{	11	}{	}{	}{	}{	}{	}{	}{	}{	}{	Behave, I am your kind of monster.	}
 {	7	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	8	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	9	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -112,4 +112,5 @@
 {	112	}{	(Starting Condition)	}{	}{	75	}{	G.Barrabus_Exit == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	113	}{	(Starting Condition)	}{	}{	61	}{	G.Files_Deleted == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	114	}{	(Starting Condition)	}{	}{	88	}{	G.Barrabus_Hacker == 1 or G.Barrabus_Defender == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	115	}{	(Starting Condition)	}{	}{	1	}{	npc.times_talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	115	}{	(Starting Condition)	}{	}{	11	}{	IsClan(pc,"Nosferatu")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	116	}{	(Starting Condition)	}{	}{	1	}{	npc.times_talked == 1	}{	}{	}{	}{	}{	}{	}{	}{	}

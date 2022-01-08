@@ -698,7 +698,7 @@
 {	698	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	699	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	700	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	701	}{	[Shocked, dismayed, icy daggers through the heart]Hatter's dead...?	}{	[Shocked, dismayed, icy daggers through the heart]Hatter's dead...?	}{	#	}{	npc.SetDisposition("Sad", 3)	}{	G.Velvet_Pissed = 2; G.David_Julius = 2; G.Velvet_Email = 0	}{	}{	}{	}{	}{	}{	}{	}
+{	701	}{	[Shocked, dismayed, icy daggers through the heart]Hatter's dead...?	}{	[Shocked, dismayed, icy daggers through the heart]Hatter's dead...?	}{	#	}{	npc.SetDisposition("Sad", 3)	}{	G.Velvet_Pissed = 2; G.David_Julius = 2; G.Velvet_Email = 0; G.Velvet_Doll = 0	}{	}{	}{	}{	}{	}{	}{	}
 {	702	}{	(Auto-Link)	}{	(Auto-Link)	}{	711	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	703	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	704	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -928,7 +928,7 @@
 {	928	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	929	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	930	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	931	}{	[Flustered]I'm not hiding my past... I'm not that girl - she was flawed, she was naïve, she was nobody - and now she's dead. Let the dead rest in peace. My name is VV. Show yourself out; I'd like to say a prayer for someone I used to know.	}{	[Flustered]I'm not hiding my past... I'm not that girl - she was flawed, she was naïve, she was nobody - and now she's dead. Let the dead rest in peace. My name is VV. Show yourself out; I'd like to say a prayer for someone I used to know.	}{	#	}{	npc.SetDisposition("Sad", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	931	}{	[Flustered]I'm not hiding my past... I'm not that girl - she was flawed, she was naive, she was nobody - and now she's dead. Let the dead rest in peace. My name is VV. Show yourself out; I'd like to say a prayer for someone I used to know.	}{	[Flustered]I'm not hiding my past... I'm not that girl - she was flawed, she was naive, she was nobody - and now she's dead. Let the dead rest in peace. My name is VV. Show yourself out; I'd like to say a prayer for someone I used to know.	}{	#	}{	npc.SetDisposition("Sad", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	932	}{	Pray then.	}{	Pray then.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	Pray then.	}
 {	933	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	934	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
