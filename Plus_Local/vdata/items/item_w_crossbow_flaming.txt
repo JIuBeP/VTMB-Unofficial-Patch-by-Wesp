@@ -59,8 +59,8 @@ WeaponData
 //Weapon Ammo
 	Magazine
 	{
-		"ammoprintname"		"Dragon's Breath shells"		// changed by wesp
-		"ammodescription"	"Two homemade phosphoric shotgun cartridges."	// changed by wesp
+		"ammoprintname"		"Dragon's Breath 12 Gauge Shells"		// changed by wesp
+		"ammodescription"	"Two homemade 12 gauge phosphoric shotgun cartridges."	// changed by wesp
 		"ammo_worth"		"4"	// changed by wesp
 		"ammoinfomodel"		"models/weapons/ammo/shotgun/shotgon_shells.mdl"	// changed by wesp
 
@@ -127,7 +127,7 @@ WeaponData
 
 		"CrosshairFirePercent"	"0.9"			// percent to bloom to crosshair upon firing a bullet
 
-		"MajorKnockbackDist"	"50.0"			// maximum distance to cause major knockback, changed by wesp
+		"MajorKnockbackDist"	"105.0"			// maximum distance to cause major knockback
 		"MinorKnockbackDist"	"250.0"			// maximum distance to cause minor knockback
 
 		"SpreadAngle"		"5.0"			// changed by Wesp

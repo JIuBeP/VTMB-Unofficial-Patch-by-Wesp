@@ -3,7 +3,7 @@
 WeaponData
 {
 	"printname"		"Braddock 9mm"
-	"description"		"A small, light machine pistol that fires a 9mm pistol round, not made for accuracy as much as to deliver the largest amount of ordinance in the shortest period of time.  Bursts are more accurate but due to the high cyclic rate and low weight of the weapon, it is still seen as mainly a 'spray and pray' gun."
+	"description"		"A small, light machine pistol that fires a 9mm pistol round, not made for accuracy as much as to deliver the largest amount of ordinance in the shortest period of time. Bursts are more accurate but due to the high cyclic rate and low weight of the weapon, it is still seen as mainly a 'spray and pray' gun."
 	"viewmodel"		"models/weapons/submachine_mac10/view/v_submachine_mac10.mdl"
 	"playermodel"		"models/weapons/submachine_mac10/ground/g_submachine_mac10.mdl"
 	"wieldmodel_f"		"models/weapons/submachine_mac10/wield/w_f_submachine_mac10.mdl"
@@ -99,8 +99,8 @@ WeaponData
 		"CrosshairMinSize"		"20"		// smallest crosshair size for this activation [0-99]
 		"CrosshairFireSize"		"99"		// MAXIMUM size (Firearms 1) of the crosshair when the gun is fired [0-99] scales to Min as player's firearms increases
 		"CrosshairFireSizeMin"		"70"		// MIN size (Firearms 10) of the crosshair when the gun is fired [0-99]
-		"CrosshairWalkSizeMin"	"20"			// min size of the crosshair when the player is walking [0-99]
-		"CrosshairWalkSizeMax"	"20"		//"90"	// max size of the crosshair when the player is walking [0-99]
+		"CrosshairWalkSizeMin"	"60"			// min size of the crosshair when the player is walking [0-99]
+		"CrosshairWalkSizeMax"	"60"		//"90"	// max size of the crosshair when the player is walking [0-99]
 		"CrosshairRunSizeMin"	"60"			// min size of the crosshair when the player is running [0-99]
 		"CrosshairRunSizeMax"	"60"		//"90"	// max size of the crosshair when the player is running [0-99]
 
