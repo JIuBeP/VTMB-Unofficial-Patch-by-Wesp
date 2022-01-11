@@ -90,8 +90,8 @@ WeaponData
 		"Range"			"200"
 
 		"SkillRequirement"	"4"			// min. skill requirement used in dmg calculations		
-		"BaseLethality"		"10"			// base lethality used in dmg calculations
-		"Dmg"			"5 Lethal Ranged_Combat DMG_BULLET" // changed by Wesp
+		"BaseLethality"		"15"			// base lethality used in dmg calculations, changed by Wesp
+		"Dmg"			"3 Lethal Ranged_Combat DMG_BULLET"
 
 		// SKS_RANGED
 		"KickPitchMin"			"-0.75"

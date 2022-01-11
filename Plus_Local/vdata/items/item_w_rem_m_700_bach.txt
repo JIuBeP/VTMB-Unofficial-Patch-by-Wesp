@@ -3,7 +3,7 @@
 WeaponData
 {
 	"printname"			"Remington M700P" // changed by Wesp
-	"description"			"This is a standard tactical rifle most commonly employed by SWAT teams. It features a 10X scope to pick beads of sweat off the target's forehead and thus to deal more damage with exact hits." // changed by Wesp
+	"description"			"This is a standard tactical rifle most commonly employed by SWAT teams. It features a 10x scope to pick beads of sweat off the target's forehead. It has to be reloaded after each shot." // changed by Wesp
 	"viewmodel"			"models/weapons/rifle_rem700/view/v_Rem700_bach.mdl"
 	"playermodel"			"models/weapons/rifle_rem700/ground/g_rifle_rem700_bach.mdl"
 	"wieldmodel_f"			"models/weapons/rifle_rem700/wield/w_f_rifle_rem700_bach.mdl"
@@ -90,8 +90,8 @@ WeaponData
 		"Range"				"200"
 
 		"SkillRequirement"	"6"			// min. skill requirement used in dmg calculations		
-		"BaseLethality"		"25"			// base lethality used in dmg calculations
-		"Dmg"			"2 Lethal Ranged_Combat DMG_BULLET" // changed by Wesp
+		"BaseLethality"		"20"			// base lethality used in dmg calculations, changed by Wesp
+		"Dmg"			"3 Lethal Ranged_Combat DMG_BULLET" // changed by Wesp
 
 		// SKS_RANGED
 		"KickPitchMin"			"-0.75"
@@ -208,8 +208,8 @@ WeaponData
 		"Attack_Rate"			"1"	// changed by Wesp
 
 		"SkillRequirement"	"6"			// min. skill requirement used in dmg calculations		
-		"BaseLethality"		"25"			// base lethality used in dmg calculations
-		"Dmg"			"2 Lethal Ranged_Combat DMG_BULLET" // changed by Wesp
+		"BaseLethality"		"20"			// base lethality used in dmg calculations
+		"Dmg"			"3 Lethal Ranged_Combat DMG_BULLET" // changed by Wesp
 
 		// SKS_RANGED
 		"KickPitchMin"			"-0.75"
