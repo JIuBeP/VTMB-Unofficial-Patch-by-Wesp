@@ -10,8 +10,8 @@ WeaponData
 	"wieldmodel_m"	"models/w_null.mdl"
 	"anim_prefix"	" "
 
-	"printname"	"Barabus' Cell Key"
-	"description"	"Key to the locked cell."
+	"printname"	"Fu Syndicate Cell Key"		// changed by wesp
+	"description"	"Key to a locked cell."		// changed by wesp
 
 	"bucket"		"1"
 	"bucket_position"	"2"

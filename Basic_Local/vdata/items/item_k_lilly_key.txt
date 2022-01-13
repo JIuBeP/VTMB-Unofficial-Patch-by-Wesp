@@ -10,7 +10,7 @@ WeaponData
 	"wieldmodel_m"	"models/w_null.mdl"
 	"anim_prefix"	" "
 
-	"printname"	"Lily's Key"	// changed by wesp
+	"printname"	"Lily's Car Key"	// changed by wesp
 	"description"	"This key looks like a car key."	// changed by wesp
 
 	"bucket"		"1"

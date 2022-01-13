@@ -10,7 +10,7 @@ WeaponData
 	"wieldmodel_m"	"models/w_null.mdl"
 	"anim_prefix"	" "
 
-	"printname"	"Cell Key"		// changed by wesp
+	"printname"	"Society of Leopold Cell Key"		// changed by wesp
 	"description"	"Key to a cell."	// changed by wesp
 
 	"bucket"		"1"
