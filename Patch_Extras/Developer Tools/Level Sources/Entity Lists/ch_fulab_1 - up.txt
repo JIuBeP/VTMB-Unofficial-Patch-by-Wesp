@@ -11171,7 +11171,7 @@
 "min" "0"
 "max" "4"
 "targetname" "shooter_counter"
-"OnHitMax" "shooter_door,Close,,0,-1,,"
+"OnHitMax" "push_player_back,Disable,,0,-1,,"
 "origin" "733.796 2167.3 241"
 }
 {
@@ -15937,17 +15937,27 @@
 "origin" "96.5003 662.907 2.9846"
 }
 {
-"classname" "item_w_glock_17c"
-"targetname" "gun"
-"origin" "590 2310 233"
-}
-{
-"classname" "inspection_node"
-"parentname" "gun"
-"targetname" "gun_node"
-"start_enabled" "1"
-"inspection" "5"
-"origin" "590 2310 233"
+"model" "*26"
+"classname" "func_door"
+"angles" "0 180 0"
+"StartHidden" "0"
+"renderfx" "0"
+"rendermode" "0"
+"renderamt" "255"
+"rendercolor" "255 255 255"
+"disableshadows" "1"
+"disablereceiveshadows" "0"
+"speed" "0"
+"wait" "0"
+"lip" "0"
+"dmg" "0"
+"health" "0"
+"soundgroup" "none"
+"spawnflags" "0"
+"origin" "885 2571 528"
+"targetname" "liftblock"
+"use_icon" "0"
+"locked_icon" "0"
 }
 {
 "classname" "prop_ragdoll"
