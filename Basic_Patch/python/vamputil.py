@@ -273,7 +273,9 @@ def setPlus():
             if gender: clothes.ScriptHide()
             else: condoms.ScriptHide()
         box = Find("plus_cigarbox")
-        if box: box.AddEntityToContainer("basic_money")
+        if (box and G.Box_Money == 0): 
+            box.AddEntityToContainer("basic_money")
+            G.Box_Money == 1
         stumpy = Find("stumpy")
         if (stumpy and G.Gimble_Dead == 1):
             stumpy.ScriptHide()

@@ -34,7 +34,7 @@ WeaponData
 	"sound_group"	"Shotgun"
 	"uses_accuracycursors"	"1"
 
-	"projectile_velocity"	"3000"				// changed by wesp
+	"projectile_velocity"	"10000"				// changed by wesp
 	"projectile_particles"	"crossbow_flame_emitter"	// changed by wesp
 	"fires_projectile"	"1"
 	"projectile_sticks"	"0"

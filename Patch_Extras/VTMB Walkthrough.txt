@@ -546,7 +546,7 @@ C. The Golden Temple bar
 
 During the endgame you will encounter a wooden bar locking a door. You need to
 move it physically by pushing it. This is a bit tricky and sometimes for some
-reason the plank wont budge. If all else fails open the console and enter the
+reason the plank won't budge. If all else fails open the console and enter the
 "noclip" code to pass through the door (enter "noclip" again afterwards to
 disable it). This bug has been circumvented and fixed in the Unofficial Patch.
 
@@ -739,10 +739,10 @@ already enabled but if you don't, then you'll have to do it yourself:
 2. Open the config.cfg file located in the vampire/cfg/ folder with notepad,
    add  'vchar_edit_histories "1"' to the bottom and then save it.
 
-I wont dwell into what each specific history does. There is a nice in-depth FAQ
-written by Jake Zahn in GameFAQs.com. Check it out if you like but be aware
-that several histories have been changed by the Unofficial Patch. I can give
-you some recommendations though:
+I won't dwell into what each specific history does. There is a nice in-depth
+FAQ written by Jake Zahn in GameFAQs.com. Check it out if you like but be 
+aware that several histories have been changed by the Unofficial Patch. I can
+give you some recommendations though:
 
 
 1. [Blunt Fangs] for Brujah, Malkavian and Nosferatu seems like a nice choice.
@@ -751,11 +751,11 @@ you some recommendations though:
    problem.
 
 2. [Burnout] is very good for Gangrels since it will make it virtually
-   impossible to frenzy (+3 frenzy modifier). The -1 Wits wont really make any
+   impossible to frenzy (+3 frenzy modifier). The -1 Wits won't really make any
    difference.
 
 3. [Deceptive Strength] for Gangrel, Toreador, Tremere and Ventrue is another
-   nice choice if you wont be specialising in Firearms. It gives a double
+   nice choice if you won't be specialising in Firearms. It gives a double
    duration of Bloodbuff at the expense of not being able to raise Dexterity
    and Perception over 3. Raising Dexterity isn't that useful anyway so if
    you're not a firearms kind of guy, it's worth it.
@@ -1023,7 +1023,7 @@ that you get Strength, Dexterity and Stamina at level 5 for a short period of
 time. This can be very useful in combat since you don't have to spend many
 points on physical attributes and it also helps you a lot with lockpicking
 since Dexterity affects Lockpicking. If you use it wisely it can be a real
-life-saver. [+: When using the plus patch all stats are only raised by +2]
+life-saver. [+: When using the plus patch all stats are only raised by +2.]
 
 
 --------------
@@ -1639,7 +1639,7 @@ console and type the following command:
 So if you want to bind Bloodbuff to the X key you should type:
 bind "x" "vdiscipline_int 4"
 
-After you've typed this it will stay in the config file forever so you wont
+After you've typed this it will stay in the config file forever so you won't
 have to type it again. If you want to change the key you can type "unbind"
 instead of the "bind" command.
 
@@ -1873,7 +1873,7 @@ before you know about his weapons you can start the TRIP TRAPPING quest.]
 
 When you reach the street after leaving your apartment you'll see a man in
 a suit to the right. Depending on your mental-feat stats you can do several
-things with him. You can intimidate him to give you money ($20), his watch
+things with him. You can intimidate him to give you money ($20), his watch,
 [+: you get a HUMANITY LOSS] and all his money ($100). Mentioning a beating
 or talking to him again after all of that, causes the upper-class victim to
 attack. You can persuade him to give you cab fare ($20), and you can seduce/
@@ -2159,10 +2159,10 @@ leave and head for the basement [+: or he will go outside if you persuaded him
 to visit Vandal in the REPLANTING A LILY quest, you get a HUMANITY LOSS for
 this]. Move down too, take the BLOOD PACK from the fridge, and you eventually
 reach his inner chamber. There you'll find Carson, talk to him and then kill
-Gimble and free Carson [+: or free Carson, you GAIN HUMANITY for this if you
-lost it for sending Gimble to Vandal] (1 XP). After rescuing Carson, go back
-to Kilpatrick (1 XP) to report and get the reward money ($200). Now you can
-receive the [JUMPIN' THE BAIL] quest from him.
+Gimble and free Carson [+: or just free Carson, you GAIN HUMANITY for this if 
+you lost it for sending Gimble to Vandal] (1 XP). After rescuing Carson, go 
+back to Kilpatrick (1 XP) to report and get the reward money ($200). Now you 
+can receive the [JUMPIN' THE BAIL] quest from him.
 
 
 
@@ -2421,7 +2421,7 @@ is over at Sunco Gasoline, the gate is now unlocked. Talk to him (1 XP) and
 he'll get you inside the warehouse.
 
 Once inside, you can kill nobody there for a bonus (2 XP) [+: or you can try
-to sneak unnoticed until you place the explosive for the same (2 XP).] You'll
+to sneak unnoticed until you place the explosive for the same (2 XP)]. You'll
 most likely need Obfuscate, Dominate or Animalism to help you sneak through
 this whole mission though. Even without the use of disciplines or killing
 anyone, it is possible to sneak in and out with a sneaking (and lockpicking)
@@ -3332,7 +3332,7 @@ alerted.
 
 - If you're a Malkavian you can use Dementation to make her think that you're
   her pet turtle (best solution so far).
-- If you're a Nosferatu, you wont meet Samantha at all.
+- If you're a Nosferatu, you won't meet Samantha at all.
 
 
 
@@ -3537,7 +3537,7 @@ are a Tremere and you've done the [A PLAGUE FOR THE ANGELS] quest for him too,
 he'll offer you a haven right there in the Chantry.
 
 You can also go back to Isaac [+: for 1 XP and a MASQUERADE REDEMPTION] and
-tell him about Strauss being the Gargoyle's creator (2 XP) [+: already got
+tell him about Strauss being the Gargoyle's creator (2 XP) [+: you already got
 them when talking to Strauss]. If you're a Tremere and want the downtown haven
 DON'T do this because from then on the Tremere Chantry will be closed for you.
 
@@ -4038,11 +4038,11 @@ the Colt Anaconda or the Ingram can be very helpful.
 
 Take the path that goes down and a bit further you'll find another path leading
 up. Take it and you'll find a Nosferatu fighting some monsters. You can try to
-save him but you must be quick [+: you'll get a HUMANITY GAIN for it]. Towards
-the right of the fight there is a dead body, take the PASS KEY that's next to
-it and move on all the way down. Eventually you'll reach another circular
-chamber with some platforms and a control centre. Go to the controls, use the
-pass key to open the door of the big shaft and drop down.
+save him but you must be quick [+: then you'll get a HUMANITY GAIN for it]. 
+Towards the right of the fight there is a dead body, take the PASS KEY that's 
+next to it and move on all the way down. Eventually you'll reach another 
+circular chamber with some platforms and a control centre. Go to the controls, 
+use the pass key to open the door of the big shaft and drop down.
 
 Congratulations! You've found the Nosferatu hideout. Swim to the shore and
 take the left path. You'll find a sofa, right next to it is a CD-ROM, pick
@@ -4133,8 +4133,7 @@ citizens scattered around.
 
 Next to the Red Dragon you'll find The White Cloud, a shop that sells and buys
 strange stuff and has a very bizarre owner, Mr. Ox. He will give you two quests
-[+: with occult items as a reward]. If you attack him, he vanishes in a
-flash...
+[+: with occult items as a reward]. If you attack him, he vanishes in a flash.
 
 
 
@@ -4342,8 +4341,8 @@ send you to see Wong Ho and she will open the elevator for you. If for some
 reason the elevator door doesn't open, just look behind her desk and push the
 button yourself.
 
-Now go up and talk to Wong Ho. He wont help you with Barabus until you've saved
-his daughter, so he gives you the [KIKINAPPED] quest.
+Now go up and talk to Wong Ho. He won't help you with Barabus until you have
+saved his daughter, so he gives you the [KIKINAPPED] quest.
 
 
 
@@ -4427,15 +4426,15 @@ eventually you'll have to step inside the elevator.
 
 You'll become his prisoner and he'll run some tests on you, play along for now.
 The first room has many energy beams, step carefully and move on. Next you'll
-find some dangerous moving blades. In order to disable them you must shoot at
-the 3 black boxes behind the bars [+: find a GLOCK in case you have no gun].
-Move to the next room, kill the "Van Helsing experiment" and the commandos that
-will come in afterwards. Be aware that commandos have armored necks and can't
-be fed upon. In the next room just shoot the electrical generators until you
-destroy them. The next room is the final one. Break the fire canisters of the
-flamethrowers, they will explode and shatter the reinforced windows (2 XP).
-[+: In the next lab room you'll find a SQUASHED ODIOUS CHALICE for one of
-Gary's new e-mail quests]
+find some dangerous moving blades. In order to disable them you must destroy
+the 3 black boxes behind the metal bars, which are breakable too. Move to the 
+next room, kill the "Van Helsing experiment" guy and the commandos that will 
+come in afterwards. Be aware that the commandos have armored necks and can't
+be fed upon. [+: One of them drops a SPAS-15 shotgun though.] In the room after
+that just hit the electrical generators until you destroy them. The next room
+is the final one. Break the fire canisters of the flamethrower units, they will 
+explode and shatter the reinforced windows (2 XP). [+: Break the glass to the 
+lab room nearby to get a SQUASHED ODIOUS CHALICE for Gary's new e-mail quest.]
 
 Now it's time for revenge, get out and kill the guards. Go down the stairs and
 you'll find the Mandarin, show him who's the boss (2 XP). From his remains you
@@ -4750,7 +4749,7 @@ stealth kill them if you want.
 
 Now descend down the stairs and kill any Sabbat you'll come across. You'll soon
 reach a corridor with some rooms on your left. You'll find the FLAMETHROWER and
-the TAL'MAHE'RA BLADE conveniently placed in these rooms [+: or nothing at all]
+the TAL'MAHE'RA BLADE conveniently placed in the rooms [+: or nothing at all].
 At the end of the corridor, to the left you'll find one of your old pals from
 the Hollywood warrens, he's an easy kill now. Afterwards drop down two floors
 through the gap.
@@ -4800,7 +4799,7 @@ Take the cab and travel to Griffith Park. Once there, take the cablecar to
 reach the Griffith Observatory. Here you'll finally find Nines (2 XP).
 Unfortunately something else has found you too, werewolves. The cablecar has
 gone back down and until it comes back you must try to stay alive. Weapons and
-disciplines wont do anything against the werewolf [+: some weapons will damage
+disciplines won't do anything against the werewolf [+: but weapons will damage
 the werewolf], so you must deal with him otherwise. You have two options here:
 
 1. Try to avoid the werewolf and hide until the cablecar comes back. You can't
@@ -5230,7 +5229,7 @@ place them according to their effectiveness, from the weakest to the most
 powerful.
 
 The Melee combat requirement shows how much your Melee feat must be, so that
-you wont have any penalties using that weapon. Lethality is something like the
+you won't have any penalties using that weapon. Lethality is something like the
 critical hit potential of the weapon. Base damage shows the minimum damage you
 can do with a successful hit.
 
@@ -5437,7 +5436,7 @@ OOOOOOOOOOOOOOOO
 What applies for melee weapons about damage potential and feat adjustments
 is true for the ranged weapons as well. They also have the fire rate, range
 and reload speed attributes which are essential in order to determine the
-weapon's effectiveness. I've added some of the weapons real names [+: like
+weapon's effectiveness. I've added some of the weapons real names [+: and
 they are included in the plus patch weapon descriptions].
 
 
@@ -5522,7 +5521,7 @@ Notes: The first rifle you can get your hands on, and a really good
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-[+: REMINGTON M700P aka SWAT RIFLE]
+[+: SWAT RIFLE aka REMINGTON M700P]
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Ranged Combat Requirement: 6
 Lethality: 20
@@ -5581,7 +5580,7 @@ Range: MEDIUM
 Reload Speed: SLOW
 
 Notes: This sawed off shotgun fires phosphorous shells. You can buy it from
-       Mercurio and it deals aggravated damage.
+       Mercurio, it deals aggravated damage and sets enemies on fire too.
 
 
 
@@ -5649,8 +5648,8 @@ Range: LONG
 Reload Speed: MEDIUM
 
 Notes: It can fire arrows silently so it's good for a sneaky character, but at
-       the time you'll get it wont do you much good. [+: The pyro version does
-       ignite the bolts to deal aggravated damage, so it isn't as useless.]
+       the time you'll get it won't do you much good. [+: The pyro version 
+       ignites the bolts to deal aggravated damage, so it isn't as useless.]
 
 
 ~~~~~~~~~~~~~~~~~
