@@ -23,7 +23,7 @@ TerminalDefinition
 			"name"		"cam check"
 			"description"	"camera activation"
 			"runtext"	"You messed it up!"
-			"dependency"	"G.Tawni_Spotted == 1"
+			"dependency"	"G.Tawni_Spotted == 1 and G.PP == 1"
 		}
 
 		Function
