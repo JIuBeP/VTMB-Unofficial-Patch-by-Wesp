@@ -1566,7 +1566,7 @@
 "RandomAnimation" "0"
 "MinAnimTime" "5"
 "MaxAnimTime" "10"
-"targetname" "cell_hand"
+"targetname" "Cop_Dirty_Talkie"
 "parentname" "Cop_Dirty"
 "model" "models/character/npc/common/Cop_Variant/Crooked_Cop/walkie_talki1.mdl"
 "InitialOwner" "Cop_Dirty"
@@ -3987,7 +3987,7 @@
 }
 {
 "classname" "scripted_sequence"
-"angles" "0 180 0"
+"angles" "0 90 0"
 "targetname" "ScriptSeq_Look_at_Whales"
 "m_flRadius" "1024"
 "m_flRepeat" "0"
@@ -8613,10 +8613,12 @@
 "OnTrigger" "Cop_Manifest_Office,ScriptHide,,0,-1,,"
 "OnTrigger" "ChoreoScene_Call_Buddy,Start,,0,-1,,"
 "OnTrigger" "IntPlc_Gangway_Post,Disable,,0,-1,,"
-"OnTrigger" "cell_hand,ScriptUnhide,,0.333,-1,,"
-"OnTrigger" "Cop_Dirty,Skin,1,0.333,-1,,"
-"OnTrigger" "cell_hand,ScriptHide,,14.5,-1,,"
+"OnTrigger" "Cop_Dirty_Talkie,ScriptUnhide,,0.3,-1,,"
+"OnTrigger" "Cop_Dirty,Skin,1,0.3,-1,,"
+"OnTrigger" "Cop_Gangway_Talkie,ScriptUnhide,,0.4,-1,,"
+"OnTrigger" "Cop_Dirty_Talkie,ScriptHide,,14.5,-1,,"
 "OnTrigger" "Cop_Dirty,Skin,0,14.5,-1,,"
+"OnTrigger" "Cop_Gangway_Talkie,ScriptHide,,15.1,-1,,"
 "origin" "94.1791 826.053 121"
 }
 {
@@ -8651,13 +8653,36 @@
 }
 {
 "classname" "logic_choreographed_scene"
-"SceneFile" "sound/Character/dlg/Downtown LA/dirty_cop/call_buddy.vcd"
+"SceneFile" "sound/character/conversations/elizabeth_dane/call_buddy.vcd"
 "target1" "Cop_Dirty"
+"target2" "Cop_Gangway_Guard"
 "targetname" "ChoreoScene_Call_Buddy"
 "angles" "0 0 0"
 "hide_ents" "0"
-"OnCompletion" "ScriptSeq_Look_at_Whales,BeginSequence,,2,-1,,"
+"BaseAnim" "models/character/npc/common/Cop_Variant/Crooked_Cop/Crooked_Cop.mdl"
+"OnCompletion" "ScriptSeq_Look_at_Whales,BeginSequence,,0,-1,,"
 "origin" "24 864 121"
+}
+{
+"classname" "prop_dynamic_ornament"
+"angles" "0 0 0"
+"collideable_gibs" "0"
+"health" "0"
+"demo_sequence" "None"
+"skin" "0"
+"crossfade_skin_time" "2.0"
+"disableshadows" "1"
+"npc_transparent" "1"
+"solid" "6"
+"RandomAnimation" "0"
+"MinAnimTime" "5"
+"MaxAnimTime" "10"
+"targetname" "Cop_Gangway_Talkie"
+"parentname" "Cop_Gangway_Guard"
+"model" "models/character/npc/common/Cop_Variant/Crooked_Cop/walkie_talki1.mdl"
+"InitialOwner" "Cop_Gangway_Guard"
+"StartHidden" "1"
+"origin" "288 856 0"
 }
 {
 "classname" "logic_relay"
@@ -8667,15 +8692,6 @@
 "OnTrigger" "ChoreoScene_Whale_Watch,Start,,0,-1,,"
 "OnTrigger" "test,ScriptUnhide,,0,-1,,"
 "origin" "240 832 121"
-}
-{
-"classname" "logic_relay"
-"StartDisabled" "1"
-"targetname" "Relay_CopG_Spot"
-"OnTrigger" "Timer_Whale_Watch,Enable,,0,-1,,"
-"OnTrigger" "ChoreoScene_Whale_Watch,Start,,0,-1,,"
-"OnTrigger" "test,ScriptUnhide,,0,-1,,"
-"origin" "288 832 121"
 }
 {
 "classname" "logic_choreographed_scene"
@@ -8890,6 +8906,9 @@
 "follower_type" "Default"
 "OnFoundPlayer" "Relay_Boched_Stern,Trigger,,0,-1,,"
 "OnDeath" "Relay_Cop_Death,Trigger,,0,1,,"
+"OnFoundPlayer" "Relay_StopConv,Trigger,,0,1,,"
+"OnFoundPlayer" "ChoreoScene_Call_Buddy,Cancel,,0,-1,,"
+"OnFoundPlayer" "Cop_Gangway_Talkie,ScriptHide,,0,-1,,"
 "origin" "154.725 -69.4819 -59"
 }
 {

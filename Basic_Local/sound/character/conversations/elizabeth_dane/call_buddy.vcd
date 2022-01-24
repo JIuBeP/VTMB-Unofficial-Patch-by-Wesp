@@ -1,0 +1,95 @@
+// Choreo version 1, changed by wesp
+actor "Cop_Dirty"
+{
+  channel "Speech"
+  {
+    event speak "NPC Line"
+    {
+      time 1.326666 6.160385
+      param "character/dlg/downtown la/dirty_cop/line6_col_e.wav"
+      param2 "70dB"
+      fixedlength
+    }
+    event speak "ijustsaw"
+    {
+      time 7.006666 10.142426
+      param "character/dlg/downtown la/dirty_cop/line8_col_e.wav"
+      fixedlength
+    }
+  }
+  channel "Animation"
+  {
+  }
+  channel "Gest"
+  {
+    event gesture "Crooked_Cop_Walkie_Talkie_Into"
+    {
+      time 0.000000 1.333333
+      param "Crooked_Cop_Walkie_Talkie_Into"
+    }
+    event gesture "Crooked_Cop_Walkie_Talkie_Loop"
+    {
+      time 1.313334 12.986668
+      param "Crooked_Cop_Walkie_Talkie_Loop"
+      sequenceduration 5.733333
+    }
+    event gesture "Crooked_Cop_Walkie_Talkie_Outof"
+    {
+      time 12.980000 15.913333
+      param "Crooked_Cop_Walkie_Talkie_Outof"
+      sequenceduration 2.933333
+    }
+  }
+  channel "Expressions"
+  {
+  }
+  bonerename "Bip01" "Bip01"
+}
+actor "Cop_Gangway_Guard"
+{
+  channel "Speech"
+  {
+    event speak "yeah"
+    {
+      time 6.126666 7.367323
+      param "character/dlg/downtown la/dirty_cop/line7_col_e.wav"
+      fixedlength
+    }
+    event speak "on my way"
+    {
+      time 12.826666 13.487323
+      param "character/dlg/downtown la/dirty_cop/line9_col_e.wav"
+      fixedlength
+    }
+  }
+  channel "Animation"
+  {
+  }
+  channel "Gest"
+  {
+    event gesture "Crooked_Cop_Walkie_Talkie_Into"
+    {
+      time 1.000000 2.333333
+      param "Crooked_Cop_Walkie_Talkie_Into"
+    }
+    event gesture "Crooked_Cop_Walkie_Talkie_Loop"
+    {
+      time 2.426666 15.579666
+      param "Crooked_Cop_Walkie_Talkie_Loop"
+      sequenceduration 5.733333
+    }
+    event gesture "Crooked_Cop_Walkie_Talkie_Outof"
+    {
+      time 15.539666 16.472999
+      param "Crooked_Cop_Walkie_Talkie_Outof"
+      sequenceduration 2.933333
+    }
+  }
+  channel "Expressions"
+  {
+  }
+  bonerename "Bip01" "Bip01"
+}
+
+fps 60
+snap off
