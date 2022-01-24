@@ -22783,7 +22783,7 @@
 {
 "classname" "intersting_place"
 "angles" "0 65 0"
-"type" can_drink"
+"type" "can_drink"
 "min_bounds" "-16 -16 0"
 "max_bounds" "16  16 32"
 "min_time" "5.0"

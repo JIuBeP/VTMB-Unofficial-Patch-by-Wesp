@@ -11370,13 +11370,15 @@
 "combat_start_activity" "-1"
 "spawnflags" "4"
 "additionalequipment" "item_w_claws_ghoul"
-"StartHidden" "1"
+"StartHidden" "0"
 "cantdropweapons" "0"
 "teleport_move_timer" "0"
 "is_bossmonster" "0"
 "ignore_detected_attack" "0"
 "follower_type" "Default"
 "soundgroup" "shovel_head"
+"OnDeath" "f1_trigger_1,Kill,,0,-1,,"
+"OnFoundPlayer" "f1_trigger_1,Kill,,0,-1,,"
 "origin" "528 -384 0"
 }
 {

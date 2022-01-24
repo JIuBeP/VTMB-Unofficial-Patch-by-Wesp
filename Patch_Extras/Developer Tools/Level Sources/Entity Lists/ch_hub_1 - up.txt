@@ -18206,8 +18206,8 @@
 "spawnflags" "129"
 "origin" "2820 1934 -218"
 "target" "John"
-"OnTrigger" "sJohn_2,BeginSequence,,22,-1,,"
-"OnTrigger" "sHooker_2,BeginSequence,,20,-1,,"
+"OnTrigger" "sJohn_2,BeginSequence,,2.2,-1,,"
+"OnTrigger" "sHooker_2,BeginSequence,,2.0,-1,,"
 }
 {
 "classname" "scripted_sequence"

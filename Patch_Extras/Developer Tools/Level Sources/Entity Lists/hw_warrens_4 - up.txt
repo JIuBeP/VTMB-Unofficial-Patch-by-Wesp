@@ -4825,7 +4825,7 @@
 "model" "models/character/monster/tzimisce/creation2/creation2_full.mdl"
 "targetname" "scene_tz"
 "base_gender" "1"
-"OnDeath" "scene_nos,TakeDamage,48,0,-1,,"
+"OnDeath" "scene_nos,TakeDamage,50,0,-1,,"
 "OnDeath" "tz_counter,Subtract,1,0,-1,,"
 "origin" "-2048 1152 -487.572"
 }
@@ -6788,7 +6788,7 @@
 "model" "models/character/monster/tzimisce/creation2/creation2_full.mdl"
 "targetname" "scene_tz"
 "base_gender" "1"
-"OnDeath" "scene_nos,TakeDamage,48,0,-1,,"
+"OnDeath" "scene_nos,TakeDamage,50,0,-1,,"
 "OnDeath" "tz_counter,Subtract,1,0,-1,,"
 "origin" "-2048 1408 -487.572"
 }
@@ -6888,7 +6888,7 @@
 "targetname" "scene_nos_timer"
 "spawnflags" "0"
 "OnTimer" "scene_nos_timer,Kill,,9,1,,"
-"OnTimer" "scene_nos,TakeDamage,64,0,-1,,"
+"OnTimer" "scene_nos,TakeDamage,22,0,-1,,"
 "origin" "-1322.45 1035.73 -453.438"
 }
 {
@@ -6898,7 +6898,7 @@
 "StartDisabled" "0"
 "spawnflags" "1"
 "origin" "-1824 1248 -389.84"
-"OnTrigger" "scene_nos,TakeDamage,48,0,-1,,"
+"OnTrigger" "scene_nos,TakeDamage,47,0,-1,,"
 }
 {
 "classname" "info_node"
