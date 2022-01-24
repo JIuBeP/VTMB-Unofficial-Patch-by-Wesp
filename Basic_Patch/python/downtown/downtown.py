@@ -943,7 +943,7 @@ def milliganDeath():
 def milliganSkylineDialog():
     if(G.Mill_Dementated or G.Mill_Loose or G.Mill_Persuaded or G.Mill_Dominated or G.Mill_Intimidate):
         scared = Find("milligan_scared")
-        scared.Kill()
+        if scared: scared.Kill()
         if (__main__.FindPlayer().HasItem("item_g_milligans_businesscard")):
             __main__.ScheduleTask(1.00, "__main__.FindPlayer().RemoveItem(\"item_g_milligans_businesscard\")")
         relay = Find("Milligan_leaves_relay")

@@ -73,7 +73,7 @@ def journalPickup():
         pc.SetQuest("Astrolite", 7)
         G.Mercurio_Quest = 2
 
-#APARTMENT: Determines which model Mercurio should use
+#APARTMENT: Determines which model Mercurio should use, changed by wesp
 def updateMercurioModel():
     npc = Find("Mercurio")
     if(G.Story_State >= 5 and G.Story_State < 15):
@@ -88,7 +88,7 @@ def updateMercurioModel():
         script = Find("mercurio_turn_around")
         script.StartSchedule()
     elif(G.Prince_Mercurio):
-        npc.Kill()
+        if npc: npc.Kill()
 
 #APARTMENT: Called to see if Mercurio needs his new camera
 def mercurioCamera():
@@ -419,7 +419,7 @@ def carsonDeath():
     switch = Find("carson_switch")
     switch.Unlock()
     brush = Find("Carson prot brush")
-    brush.Kill()
+    if brush: brush.Kill()
 
 #BASEMENT: Called when gimble is killed
 def gimbleDeath():

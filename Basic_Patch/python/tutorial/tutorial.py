@@ -381,7 +381,7 @@ def jackflashChopshopOffice():
         trig = Find("trig_jack_teleport_3")
         trig.Disable()
         tele = Find("teleport_2")
-        tele.Kill()
+        if tele: tele.Kill()
 
 #TUTORIAL: Check if player needs ventrue feeding popup
 def OnPopupFrenzy():

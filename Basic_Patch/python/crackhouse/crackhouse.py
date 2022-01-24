@@ -19,7 +19,8 @@ def bishopVickDeath():
         pc.SetQuest("Regent", 5)
     G.Vick_Dead = 1
     G.Jumbles_Removed = 1
-    __main__.ChangeMap(3, "ch_exit_landmark", "trig_ch_exit")
+    if G.Patch_Plus == 0:
+        __main__.ChangeMap(3, "ch_exit_landmark", "trig_ch_exit")
 
 def reenterCheck():
     if G.Jumbles_Removed >= 1:

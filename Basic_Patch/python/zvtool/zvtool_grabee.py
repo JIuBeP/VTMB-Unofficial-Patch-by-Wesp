@@ -631,7 +631,7 @@ def _zunmark_util(ent):
 		return 0
 	else:
 		marker = gz.Markers[ent]
-		marker.Kill()
+		if marker: marker.Kill()
 		del gz.Markers[ent]
 		return 1
 
