@@ -51,7 +51,7 @@
 {	51	}{	Well, I- um... [to self]alright, Phil, be cool.... Um, I don't know if you're supposed to be here... down here... yeah.	}{	Well, I- um... [to self]alright, Phil, be cool.... Um, I don't know if you're supposed to be here... down here... yeah.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	52	}{	Do I look like I'd lie to you?	}{	Do I look like I'd lie to you?	}{	61	}{	}{	}{	}{	}{	}{	}{	}{	}{	I just love doing things I'm not supposed to do.	}
 {	53	}{	So what?	}{	So what?	}{	41	}{	}{	G.Phil_Seduce = 2	}{	}{	}{	}{	}{	}{	}{	Grow a backbone, limp little jellyfish.	}
-{	54	}{	My eyes are up here, buddy.	}{	My eyes are up here, buddy.	}{	41	}{	not IsClan(pc,"Malkavian")	}{	G.Phil_Seduce = 2	}{	}{	}{	}{	}{	}{	}{	}
+{	54	}{	Stop looking at my dick, buddy.	}{	My eyes are up here, buddy.	}{	41	}{	not IsClan(pc,"Malkavian")	}{	G.Phil_Seduce = 2	}{	}{	}{	}{	}{	}{	}{	}
 {	55	}{	You just want me to turn around, don't you?	}{	You just want me to turn around, don't you?	}{	61	}{	not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	56	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	57	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}

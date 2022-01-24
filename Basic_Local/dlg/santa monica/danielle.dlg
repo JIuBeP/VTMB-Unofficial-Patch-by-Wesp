@@ -79,7 +79,7 @@
 {	79	}{	Wanna come play with me?	}{	Wanna come play with me?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	80	}{	As I said, I do.	}{	As I said, I do.	}{	0	}{	}{	G.Seductive_Feed = 1; pc.SeductiveFeed(npc)	}{	}{	}{	}{	}{	}{	}{	Yummy, playing leads to tasting.	}
 {	81	}{	Oooohhh. That was an interesting thing to say. What, are you are some kind of a barroom philosopher? Or are you just trying to pick me up?	}{	Oooohhh. That was an interesting thing to say. What, are you some kind of a barroom philosopher? Or is that your idea of girl talk?	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	82	}{	The blood bank holds a different delusion, my lovely.	}{	The blood bank holds a different delusion, my lovely.	}{	121	}{	G.Vandal_Quest == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	82	}{	The "blood bank" holds a different delusion, my lovely.	}{	The "blood bank" holds a different delusion, my lovely.	}{	121	}{	G.Vandal_Quest == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	83	}{	I'll pick you up and take you into a wonderfully dark, delicious delirium.	}{	My idea of girl-talk is my lips on your neck, sweetness.	}{	91	}{	Seduction 3	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	84	}{	Philosophy, philanderings... is there a difference, my sweet?	}{	Philosophy, philanderings... is there a difference, my sweet?	}{	51	}{	Seduction -3	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	85	}{	I'm just trying to divine your direction. Why are you here?	}{	I'm just trying to divine your direction. Why are you here?	}{	41	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -109,7 +109,7 @@
 {	109	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	110	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	111	}{	Ummm... do me a favor... and leave me alone, weirdo.	}{	Ummm... do me a favor... and leave me alone, weirdo.	}{	#	}{	npc.SetDisposition("Anger", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	112	}{	Wait! The blood bank holds a different delusion, my lovely.	}{	Wait! The blood bank holds a different delusion, my lovely.	}{	121	}{	G.Vandal_Quest == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	112	}{	Wait! The "blood bank" holds a different delusion, my lovely.	}{	Wait! The "blood bank" holds a different delusion, my lovely.	}{	121	}{	G.Vandal_Quest == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	113	}{	Until next we dance on death's doorstep. Farewell.	}{	Until next we dance on death's doorstep. Farewell.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	114	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	115	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -123,7 +123,7 @@
 {	123	}{	No, you are going to go there!	}{	No, you are going to go there!	}{	71	}{	Dominate 1 & IsClan(pc,"Ventrue") and pc.humanity >= 3 and G.Patch_Plus == 1	}{	FindPlayer().HumanityAdd( -1 )	}{	}{	}{	}{	}{	}{	}{	}
 {	124	}{	Oh. I'm sorry. I mistook you for someone who lived on the edge.	}{	Oh. I'm sorry. I mistook you for someone who lived on the edge.	}{	71	}{	Persuasion 3 & pc.humanity < 3	}{	}{	}{	}{	}{	}{	}{	}{	Perhaps I misjudged your worldly manner.	}
 {	125	}{	No, you are going to go there!	}{	No, you are going to go there!	}{	71	}{	Dominate 1 & IsClan(pc,"Ventrue") and pc.humanity < 3 and G.Patch_Plus == 1	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	126	}{	Wait! You don't believe me? You're going to love it!	}{	Wait! You don't believe me? You're going to love it!	}{	51	}{	Persuasion -3	}{	}{	}{	}{	}{	}{	}{	}{	Believe me! The blood bank is, uh... totally bitchin'!	}
+{	126	}{	Wait! You don't believe me? You're going to love it!	}{	Wait! You don't believe me? You're going to love it!	}{	51	}{	Persuasion -3	}{	}{	}{	}{	}{	}{	}{	}{	Believe me! The "blood bank" is, uh... totally bitchin'!	}
 {	127	}{	They probably wouldn't let you in anyway. See ya.	}{	They probably wouldn't let you in anyway. See ya.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	You're no VIP, little vixen. Farewell.	}
 {	128	}{	No, you are going to go there!	}{	No, you are going to go there!	}{	71	}{	Thaumaturgy 1 & pc.humanity < 3 and G.Patch_Plus == 1	}{	dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}
 {	129	}{	Not creepy. As amazing as I am!	}{	Not creepy. As amazing as I am!	}{	71	}{	Presence 1 & pc.humanity < 3 and G.Patch_Plus == 1	}{	G.Dialog_Presence = 1; dialogParticles()	}{	}{	}{	}{	}{	}{	}{	}

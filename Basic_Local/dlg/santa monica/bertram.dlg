@@ -201,15 +201,15 @@
 {	201	}{	They're a bunch of malcontents. They get pumped up by rousing the rabble they keep around them, like that's hard. Nothing breeds faster than contempt, and that's what the Brujah [BROO-ha]are all about. Jealousy and contempt.	}{	They're a bunch of malcontents. They get pumped up by rousing the rabble they keep around them, like that's hard. Nothing breeds faster than contempt, and that's what the Brujah [BROO-ha]are all about. Jealousy and contempt.	}{	#	}{	npc.SetDisposition("anger",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	202	}{	Will your head be jealous when I put my foot up your contemptible ass?	}{	Will your head be jealous when I put my foot up your contemptible ass?	}{	211	}{	IsClan(pc,"Brujah")	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	203	}{	I wanted to ask you about another clan.	}{	I wanted to ask you about another clan.	}{	171	}{	}{	}{	}{	}{	}{	}{	}{	}{	Shine the light on the clans.	}
-{	204	}{	I also wanted to ask you about the sects.	}{	I also wanted to ask you about the sects.	}{	191	}{	}{	}{	}{	}{	}{	}{	}{	}{	Can you open my eyes to the sects?	}
-{	205	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	204	}{	I also wanted to ask you about the sects.	}{	I also wanted to ask you about the sects.	}{	451	}{	G.Bertram_Sects == 0	}{	G.Bertram_Sects = 1	}{	}{	}{	}{	}{	}{	}{	Can you open my eyes to the sects?	}
+{	205	}{	I wanted to know more about the sects.	}{	I wanted to know more about the sects.	}{	191	}{	G.Bertram_Sects == 1	}{	}{	}{	}{	}{	}{	}{	}{	Can you open my eyes to the sects?	}
 {	206	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	207	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	208	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	209	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	210	}{	I'm outta here.	}{	I'm outta here.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I leave you to your black baths. Farewell.	}
 {	211	}{	See what I mean? You're fresh from your Embrace, no real clan ties, and yet you feel compelled to roar and beat your chest cuz I spoke my mind. Real free-thinking way to be there, Brujah boy. [derisively]Yeah, fight the power, right? Pfft.	}{	See what I mean? You're fresh from your Embrace, no real clan ties, and yet you feel compelled to roar and beat your chest cuz I spoke my mind. Real free-thinking way to be there, Brujah bitch. [derisively]Yeah, fight the power, right? Pfft.	}{	#	}{	npc.SetDisposition("anger",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	212	}{	Let's try to keep this friendly. Tell me something.	}{	Let's try to keep this friendly. Tell me something.	}{	171	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	212	}{	Let's try to keep this friendly. Tell me something.	}{	Let's try to keep this friendly. Tell me something.	}{	161	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	213	}{	You're gonna pay for that, worm!	}{	You're gonna pay for that, worm!	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	214	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	215	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -221,8 +221,8 @@
 {	221	}{	They fancy themselves loners and drifters, running around the countryside and barking at the moon. Hmph. It's all just an act. Gangrel can walk upright, they just choose not to.	}{	They fancy themselves loners and drifters, running around the countryside and barking at the moon. Hmph. It's all just an act. Gangrel can walk upright, they just choose not to.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	222	}{	Did you get to choose how you look? It's no different.	}{	Did you get to choose how you look? It's no different.	}{	231	}{	IsClan(pc,"Gangrel")	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	223	}{	I wanted to ask you about another clan.	}{	I wanted to ask you about another clan.	}{	171	}{	}{	}{	}{	}{	}{	}{	}{	}{	Shine the light on the clans.	}
-{	224	}{	I also wanted to ask you about the sects.	}{	I also wanted to ask you about the sects.	}{	191	}{	}{	}{	}{	}{	}{	}{	}{	}{	Can you open my eyes to the sects?	}
-{	225	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	224	}{	I also wanted to ask you about the sects.	}{	I also wanted to ask you about the sects.	}{	451	}{	G.Bertram_Sects == 0	}{	G.Bertram_Sects = 1	}{	}{	}{	}{	}{	}{	}{	Can you open my eyes to the sects?	}
+{	225	}{	I wanted to know more about the sects.	}{	I wanted to know more about the sects.	}{	191	}{	G.Bertram_Sects == 1	}{	}{	}{	}{	}{	}{	}{	}{	Can you open my eyes to the sects?	}
 {	226	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	227	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	228	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -240,10 +240,10 @@
 {	240	}{	I'm sick of your bullshit. See ya.	}{	I'm sick of your bullshit. See ya.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	241	}{	Malkavians [mahl-CAY-vee-uhns]are, uh... interesting. There's something to them. Learning to sort the wisdom from the bullshit can be some work and, uh, not all of them are worth listening to, but, uh, they're all good fun if you ask me.	}{	Malkavians [mahl-CAY-vee-uhns]are, uh... interesting. There's something to them. Learning to sort the wisdom from the bullshit can be some work and, uh, not all of them are worth listening to, but, uh, they're all good fun if you ask me.	}{	#	}{	npc.SetDisposition("sad",2)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	242	}{	I wanted to ask you about another clan.	}{	I wanted to ask you about another clan.	}{	171	}{	}{	}{	}{	}{	}{	}{	}{	}{	Shine the light on the clans.	}
-{	243	}{	I also wanted to ask you about the sects.	}{	I also wanted to ask you about the sects.	}{	191	}{	}{	}{	}{	}{	}{	}{	}{	}{	Can you open my eyes to the sects?	}
-{	244	}{	Like Therese Voerman? She good fun?	}{	Is Therese Voerman all good fun?	}{	41	}{	G.Bertram_Feud == 0 and not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	245	}{	Fun like the dark daughter of Janus?	}{	Fun like the dark daughter of Janus?	}{	861	}{	G.Bertram_Feud == 0 and IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	246	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	243	}{	I also wanted to ask you about the sects.	}{	I also wanted to ask you about the sects.	}{	451	}{	G.Bertram_Sects == 0	}{	G.Bertram_Sects = 1	}{	}{	}{	}{	}{	}{	}{	Can you open my eyes to the sects?	}
+{	244	}{	I wanted to know more about the sects.	}{	I wanted to know more about the sects.	}{	191	}{	G.Bertram_Sects == 1	}{	}{	}{	}{	}{	}{	}{	}{	Can you open my eyes to the sects?	}
+{	245	}{	Like Therese Voerman? She good fun?	}{	Is Therese Voerman all good fun?	}{	41	}{	G.Bertram_Feud == 0 and not IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	246	}{	Fun like the dark daughter of Janus?	}{	Fun like the dark daughter of Janus?	}{	861	}{	G.Bertram_Feud == 0 and IsClan(pc,"Malkavian")	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	247	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	248	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	249	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -252,8 +252,8 @@
 {	252	}{	Lucky me.	}{	Lucky me.	}{	261	}{	IsClan(pc,"Nosferatu")	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	253	}{	Lucky you.	}{	Lucky you.	}{	261	}{	not IsClan(pc,"Nosferatu")	}{	}{	}{	}{	}{	}{	}{	}{	Fate shines well on your twisted visage.	}
 {	254	}{	I wanted to ask you about another clan.	}{	I wanted to ask you about another clan.	}{	171	}{	}{	}{	}{	}{	}{	}{	}{	}{	Shine the light on the clans.	}
-{	255	}{	I also wanted to ask you about the sects.	}{	I also wanted to ask you about the sects.	}{	191	}{	}{	}{	}{	}{	}{	}{	}{	}{	Can you open my eyes to the sects?	}
-{	256	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	255	}{	I also wanted to ask you about the sects.	}{	I also wanted to ask you about the sects.	}{	451	}{	G.Bertram_Sects == 0	}{	G.Bertram_Sects = 1	}{	}{	}{	}{	}{	}{	}{	Can you open my eyes to the sects?	}
+{	256	}{	I wanted to know more about the sects.	}{	I wanted to know more about the sects.	}{	191	}{	G.Bertram_Sects == 1	}{	}{	}{	}{	}{	}{	}{	}{	Can you open my eyes to the sects?	}
 {	257	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	258	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	259	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -262,8 +262,8 @@
 {	262	}{	Well then, could you help a brother out?	}{	Well then, could you help a sister out?	}{	501	}{	IsClan(pc,"Nosferatu") and G.Bertram_Map == 0	}{	G.Bertram_M = 1	}{	}{	}{	}{	}{	}{	}{	}
 {	263	}{	Are the Nosferatu part of the Camarilla?	}{	Are the Nosferatu part of the Camarilla?	}{	271	}{	}{	}{	}{	}{	}{	}{	}{	}{	Are the creeping worms a part of the jester's family?	}
 {	264	}{	I wanted to ask you about another clan.	}{	I wanted to ask you about another clan.	}{	171	}{	}{	}{	}{	}{	}{	}{	}{	}{	Shine the light on the clans.	}
-{	265	}{	I also wanted to ask you about the sects.	}{	I also wanted to ask you about the sects.	}{	191	}{	}{	}{	}{	}{	}{	}{	}{	}{	Can you open my eyes to the sects?	}
-{	266	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	265	}{	I also wanted to ask you about the sects.	}{	I also wanted to ask you about the sects.	}{	451	}{	G.Bertram_Sects == 0	}{	G.Bertram_Sects = 1	}{	}{	}{	}{	}{	}{	}{	Can you open my eyes to the sects?	}
+{	266	}{	I wanted to know more about the sects.	}{	I wanted to know more about the sects.	}{	191	}{	G.Bertram_Sects == 1	}{	}{	}{	}{	}{	}{	}{	}{	Can you open my eyes to the sects?	}
 {	267	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	268	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	269	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -273,16 +273,16 @@
 {	273	}{	That wasn't an enthusiastic endorsement.	}{	That wasn't an enthusiastic endorsement.	}{	371	}{	pc.charisma > 2 or pc.perception > 2 or pc.intelligence > 2 or pc.manipulation > 2	}{	}{	}{	}{	}{	}{	}{	}{	Your words sound like they don't fit in your mouth.	}
 {	274	}{	Do you like them?	}{	Do you like them?	}{	371	}{	pc.charisma < 3 and pc.perception < 3 and pc.intelligence < 3 and pc.manipulation < 3	}{	}{	}{	}{	}{	}{	}{	}{	Do you like the jester's family?	}
 {	275	}{	I wanted to ask you about another clan.	}{	I wanted to ask you about another clan.	}{	171	}{	}{	}{	}{	}{	}{	}{	}{	}{	Shine the light on the clans.	}
-{	276	}{	I also wanted to ask you about the sects.	}{	I also wanted to ask you about the sects.	}{	191	}{	}{	}{	}{	}{	}{	}{	}{	}{	Can you open my eyes to the sects?	}
-{	277	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	276	}{	I also wanted to ask you about the sects.	}{	I also wanted to ask you about the sects.	}{	451	}{	G.Bertram_Sects == 0	}{	G.Bertram_Sects = 1	}{	}{	}{	}{	}{	}{	}{	Can you open my eyes to the sects?	}
+{	277	}{	I wanted to know more about the sects.	}{	I wanted to know more about the sects.	}{	191	}{	G.Bertram_Sects == 1	}{	}{	}{	}{	}{	}{	}{	}{	Can you open my eyes to the sects?	}
 {	278	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	279	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	280	}{	See ya.	}{	See ya.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I leave you to your black baths. Farewell.	}
 {	281	}{	Hmph. I don't rub elbows with the pretty bloodsuckers much, but I've seen them work people like puppeteers and that's admirable. Now if only they'd get off their slimy asses and put their talent to some use besides feeding their egos.	}{	Hmph. I don't rub elbows with the pretty bloodsuckers much, but I've seen them work people like puppeteers and that's admirable. Now if only they'd get off their slimy asses and put their talent to some use besides feeding their egos.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	282	}{	Astute observations made from the safety of a rat hole.	}{	Astute observations made from the safety of a rat hole.	}{	291	}{	IsClan(pc,"Toreador")	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	283	}{	I wanted to ask you about another clan.	}{	I wanted to ask you about another clan.	}{	171	}{	}{	}{	}{	}{	}{	}{	}{	}{	Shine the light on the clans.	}
-{	284	}{	I also wanted to ask you about the sects.	}{	I also wanted to ask you about the sects.	}{	191	}{	}{	}{	}{	}{	}{	}{	}{	}{	Can you open my eyes to the sects?	}
-{	285	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	284	}{	I also wanted to ask you about the sects.	}{	I also wanted to ask you about the sects.	}{	451	}{	G.Bertram_Sects == 0	}{	G.Bertram_Sects = 1	}{	}{	}{	}{	}{	}{	}{	Can you open my eyes to the sects?	}
+{	285	}{	I wanted to know more about the sects.	}{	I wanted to know more about the sects.	}{	191	}{	G.Bertram_Sects == 1	}{	}{	}{	}{	}{	}{	}{	}{	Can you open my eyes to the sects?	}
 {	286	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	287	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	288	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -301,8 +301,8 @@
 {	301	}{	[contemptfully]Mages. I don't have any reason to trust 'em. They're creepy and I think they like it that way. But to be honest, I don't hear much about the Tremere. There's a few in LA but all in all there's not that many of them.	}{	[contemptfully]Mages. I don't have any reason to trust 'em. They're creepy and I think they like it that way. But to be honest, I don't hear much about the Tremere. There's a few in LA but all in all there's not that many of them.	}{	#	}{	npc.SetDisposition("anger",2)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	302	}{	There's one right here for you not to trust.	}{	There's one right here for you not to trust.	}{	311	}{	IsClan(pc,"Tremere")	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	303	}{	I wanted to ask you about another clan.	}{	I wanted to ask you about another clan.	}{	171	}{	}{	}{	}{	}{	}{	}{	}{	}{	Shine the light on the clans.	}
-{	304	}{	I also wanted to ask you about the sects.	}{	I also wanted to ask you about the sects.	}{	191	}{	}{	}{	}{	}{	}{	}{	}{	}{	Can you open my eyes to the sects?	}
-{	305	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	304	}{	I also wanted to ask you about the sects.	}{	I also wanted to ask you about the sects.	}{	451	}{	G.Bertram_Sects == 0	}{	G.Bertram_Sects = 1	}{	}{	}{	}{	}{	}{	}{	Can you open my eyes to the sects?	}
+{	305	}{	I wanted to know more about the sects.	}{	I wanted to know more about the sects.	}{	191	}{	G.Bertram_Sects == 1	}{	}{	}{	}{	}{	}{	}{	}{	Can you open my eyes to the sects?	}
 {	306	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	307	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	308	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -310,8 +310,8 @@
 {	310	}{	I'm outta here.	}{	I'm outta here.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I leave you to your black baths. Farewell.	}
 {	311	}{	Well, from what I hear you're part of a dying breed.	}{	Well, from what I hear you're part of a dying breed.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	312	}{	That's good to know. I wanted to ask you about another clan.	}{	That's good to know. I wanted to ask you about another clan.	}{	171	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	313	}{	Could you tell me about the sects?	}{	Could you tell me about the sects?	}{	191	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	314	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	313	}{	Could you tell me about the sects?	}{	Could you tell me about the sects?	}{	451	}{	G.Bertram_Sects == 0	}{	G.Bertram_Sects = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	314	}{	I wanted to know more about the sects.	}{	I wanted to know more about the sects.	}{	191	}{	G.Bertram_Sects == 1	}{	}{	}{	}{	}{	}{	}{	}{	Can you open my eyes to the sects?	}
 {	315	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	316	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	317	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -321,8 +321,8 @@
 {	321	}{	They get a bad rap if you ask me. Everyone likes to take shots at the man in charge, but when it comes to getting the job done, the Ventrue know how to step up. They can take the heat.	}{	They get a bad rap if you ask me. Everyone likes to take shots at the man in charge, but when it comes to getting the job done, the Ventrue know how to step up. They can take the heat.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	322	}{	Are you just saying that because I'm Ventrue?	}{	Are you just saying that because I'm Ventrue?	}{	331	}{	IsClan(pc,"Ventrue")	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	323	}{	I wanted to ask you about another clan.	}{	I wanted to ask you about another clan.	}{	171	}{	}{	}{	}{	}{	}{	}{	}{	}{	Shine the light on the clans.	}
-{	324	}{	I also wanted to ask you about the sects.	}{	I also wanted to ask you about the sects.	}{	191	}{	}{	}{	}{	}{	}{	}{	}{	}{	Can you open my eyes to the sects?	}
-{	325	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	324	}{	I also wanted to ask you about the sects.	}{	I also wanted to ask you about the sects.	}{	451	}{	G.Bertram_Sects == 0	}{	G.Bertram_Sects = 1	}{	}{	}{	}{	}{	}{	}{	Can you open my eyes to the sects?	}
+{	325	}{	I wanted to know more about the sects.	}{	I wanted to know more about the sects.	}{	191	}{	G.Bertram_Sects == 1	}{	}{	}{	}{	}{	}{	}{	}{	Can you open my eyes to the sects?	}
 {	326	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	327	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	328	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -330,8 +330,8 @@
 {	330	}{	See ya.	}{	Thanks for your time. Goodbye.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I leave you to your black baths. Farewell.	}
 {	331	}{	Yeah right. I'm talking about the powerful Ventrue - you're just a pup.	}{	Yeah right. I'm talking about the powerful Ventrue - you're just a pup.	}{	#	}{	npc.SetDisposition("joy",1)	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	332	}{	All things in time. I wanted to ask you about another clan.	}{	All things in time. I wanted to ask you about another clan.	}{	171	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	333	}{	Indeed. I also wanted to ask you about the sects.	}{	Indeed. I also wanted to ask you about the sects.	}{	191	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	334	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	333	}{	Indeed. I also wanted to ask you about the sects.	}{	Indeed. I also wanted to ask you about the sects.	}{	451	}{	G.Bertram_Sects == 0	}{	G.Bertram_Sects = 1	}{	}{	}{	}{	}{	}{	}{	}
+{	334	}{	I wanted to know more about the sects.	}{	I wanted to know more about the sects.	}{	191	}{	G.Bertram_Sects == 1	}{	}{	}{	}{	}{	}{	}{	}{	Can you open my eyes to the sects?	}
 {	335	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	336	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	337	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -340,9 +340,9 @@
 {	340	}{	Peace.	}{	Peace.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	341	}{	The Anarchs... yeah, I respect what they do, strenuous liberty and all that jazz, but they're kidding themselves. Wherever there's an ounce of power to be had, there'll be people dickin' each other over. You think the Camarilla invented that?	}{	The Anarchs... yeah, I respect what they do, strenuous liberty and all that jazz, but they're kidding themselves. Wherever there's an ounce of power to be had, there'll be people dickin' each other over. You think the Camarilla invented that?	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	342	}{	What do you know about Nines Rodriguez?	}{	What do you know about Nines Rodriguez?	}{	961	}{	}{	}{	}{	}{	}{	}{	}{	}{	What do you know of the one with a number for name?	}
-{	343	}{	I hear you. I wanted to ask you about the clans.	}{	I see what you're saying. I wanted to ask you about the clans.	}{	171	}{	}{	}{	}{	}{	}{	}{	}{	}{	Shine the light on the clans.	}
+{	343	}{	I hear you. I wanted to ask you about the clans.	}{	I see what you're saying. I wanted to ask you about the clans.	}{	171	}{	G.Bertram_Clans == 1	}{	}{	}{	}{	}{	}{	}{	}{	Shine the light on the clans.	}
 {	344	}{	I see what you're saying. What about the other sects?	}{	I get you. What about the other sects?	}{	191	}{	}{	}{	}{	}{	}{	}{	}{	}{	Can you open my eyes to the sects?	}
-{	345	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	345	}{	I had some questions about the clans.	}{	I had some questions about the clans.	}{	441	}{	G.Bertram_Clans == 0	}{	G.Bertram_Clans = 1	}{	}{	}{	}{	}{	}{	}{	Shine the light on the clans.	}
 {	346	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	347	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	348	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -359,9 +359,9 @@
 {	359	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	360	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	361	}{	Y'ask me, the Sabbat makes no sense. They couldn't care less about the Masquerade, and they seem to care even less about themselves. It's like, "Hey! Let's all spread hell on earth so we can feel big and bad - oops! I'm dead! Now, how did that happen?"	}{	Y'ask me, the Sabbat makes no sense. They couldn't care less about the Masquerade, and they seem to care even less about themselves. It's like, "Hey! Let's all spread hell on earth so we can feel big and bad - oops! I'm dead! Now, how did that happen?"	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	362	}{	I wanted to ask you about a clan.	}{	I wanted to ask you about a clan.	}{	171	}{	}{	}{	}{	}{	}{	}{	}{	}{	Shine the light on the clans.	}
+{	362	}{	I wanted to ask you about a clan.	}{	I wanted to ask you about a clan.	}{	171	}{	G.Bertram_Clans == 1	}{	}{	}{	}{	}{	}{	}{	}{	Shine the light on the clans.	}
 {	363	}{	I also wanted to ask you about the other sects.	}{	I also wanted to ask you about the other sects.	}{	191	}{	}{	}{	}{	}{	}{	}{	}{	}{	Can you open my eyes to the sects?	}
-{	364	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	364	}{	I had some questions about the clans.	}{	I had some questions about the clans.	}{	441	}{	G.Bertram_Clans == 0	}{	G.Bertram_Clans = 1	}{	}{	}{	}{	}{	}{	}{	Shine the light on the clans.	}
 {	365	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	366	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	367	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -374,9 +374,9 @@
 {	374	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	375	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	376	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	377	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	378	}{	I wanted to ask you about another clan.	}{	I wanted to ask you about another clan.	}{	171	}{	}{	}{	}{	}{	}{	}{	}{	}{	Shine the light on the clans.	}
-{	379	}{	I also wanted to ask you about the sects.	}{	I also wanted to ask you about the sects.	}{	191	}{	}{	}{	}{	}{	}{	}{	}{	}{	Can you open my eyes to the sects?	}
+{	377	}{	I wanted to ask you about another clan.	}{	I wanted to ask you about another clan.	}{	171	}{	}{	}{	}{	}{	}{	}{	}{	}{	Shine the light on the clans.	}
+{	378	}{	I also wanted to ask you about the sects.	}{	I also wanted to ask you about the sects.	}{	451	}{	G.Bertram_Sects == 0	}{	}{	}{	}{	}{	}{	}{	}{	Can you open my eyes to the sects?	}
+{	379	}{	I wanted to know more about the sects.	}{	I wanted to know more about the sects.	}{	191	}{	G.Bertram_Sects == 1	}{	}{	}{	}{	}{	}{	}{	}{	Can you open my eyes to the sects?	}
 {	380	}{	I'm outta here.	}{	I'm outta here.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I leave you to your black baths. Farewell.	}
 {	381	}{	Caitiff are just riff-raff vampires who don't know anything about vampire society, don't know their clan; mutt vampires: what I suspect you were perilously close to becoming if LaCroix hadn't intervened.	}{	Caitiff are just riff-raff vampires who don't know anything about vampire society, don't know their clan; mutt vampires: what I suspect you were perilously close to becoming if LaCroix hadn't intervened.	}{	#	}{	}{	G.Bertram_Caitiff = 1	}{	}{	}{	}{	}{	}{	}{	}
 {	382	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -489,9 +489,9 @@
 {	489	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	490	}{	See ya.	}{	See ya.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	491	}{	A little. They invaded California a few years ago. They beat the Anarchs down pretty bad. The Anarchs are lucky the Camarilla came along when they did, really. Hopefully we'll all get organized and send the Kuei-jin[KWAY-jin] packing.	}{	A little. They invaded California a few years ago. They beat the Anarchs down pretty bad. The Anarchs are lucky the Camarilla came along when they did, really. Hopefully we'll all get organized and send the Kuei-jin[KWAY-jin] packing.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	492	}{	I hear you. I wanted to ask you about the clans.	}{	I see what you're saying. I wanted to ask you about the clans.	}{	171	}{	}{	}{	}{	}{	}{	}{	}{	}{	Shine the light on the clans.	}
+{	492	}{	I hear you. I wanted to ask you about the clans.	}{	I see what you're saying. I wanted to ask you about the clans.	}{	171	}{	G.Bertram_Clans == 1	}{	}{	}{	}{	}{	}{	}{	}{	Shine the light on the clans.	}
 {	493	}{	Alright. What about the other sects?	}{	Alright. What about the other sects?	}{	191	}{	}{	}{	}{	}{	}{	}{	}{	}{	Can you open my eyes to the sects?	}
-{	494	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	494	}{	I had some questions about the clans.	}{	I had some questions about the clans.	}{	441	}{	G.Bertram_Clans == 0	}{	G.Bertram_Clans = 1	}{	}{	}{	}{	}{	}{	}{	Shine the light on the clans.	}
 {	495	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	496	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	497	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
@@ -959,7 +959,7 @@
 {	959	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	960	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	961	}{	From what I hear he's a likable sort, and that's a problem. Nines Rodriguez is the kinda guy you want on your side and more Kindred go Anarch every day cuzza him.	}{	From what I hear he's a likable sort, and that's a problem. Nines Rodriguez is the kinda guy you want on your side and more Kindred go Anarch every day cuzza him.	}{	#	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	962	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
+{	962	}{	I had some questions about the clans.	}{	I had some questions about the clans.	}{	441	}{	G.Bertram_Clans == 0	}{	G.Bertram_Clans = 1	}{	}{	}{	}{	}{	}{	}{	Shine the light on the clans.	}
 {	963	}{	Can I ask you about someone else?	}{	Can I ask you about someone else?	}{	691	}{	}{	}{	}{	}{	}{	}{	}{	}{	I see someone with my mind's eye.	}
 {	964	}{	I see what you're saying. I wanted to ask you about the clans.	}{	I see what you're saying. I wanted to ask you about the clans.	}{	171	}{	}{	}{	}{	}{	}{	}{	}{	}{	Shine the light on the clans.	}
 {	965	}{	I see. About the other sects.	}{	I see. About the other sects.	}{	191	}{	}{	}{	}{	}{	}{	}{	}{	}{	Can you open my eyes to the sects?	}

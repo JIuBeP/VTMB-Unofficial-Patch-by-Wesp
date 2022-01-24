@@ -379,8 +379,8 @@
 {	379	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	380	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	381	}{	Looks like it won't be a problem for you if a few hunters get in our way.	}{	Looks like it won't be a problem for you if a few hunters get in our way.	}{	#	}{	npc.SetDisposition("Neutral", 1)	}{	}{	}{	}{	}{	}{	}{	}{	}
-{	382	}{	No. I'll be back when I'm ready.	}{	No. I'll be back when I'm ready.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	I am not. I will reappear to you when I am.	}
-{	383	}{	Yeah, I'm ready right now. Let's go.	}{	Yeah, I'm ready right now. Let's go.	}{	391	}{	Humanity 5	}{	}{	}{	}{	}{	}{	}{	}{	Yes. I will be your shadow and follow.	}
+{	382	}{	Indeed, and I'll be back once I'm ready.	}{	Indeed, and I'll be back once I'm ready.	}{	0	}{	}{	}{	}{	}{	}{	}{	}{	}{	It will not. And I will reappear to you once I am ready.	}
+{	383	}{	Yeah, and I'm ready right now. Let's go.	}{	Yeah, and I'm ready right now. Let's go.	}{	391	}{	Humanity 5	}{	}{	}{	}{	}{	}{	}{	}{	Yes. I will be your shadow and follow.	}
 {	384	}{	Yeah. Those hunters are going to bleed.	}{	Yeah. Those hunters are going to bleed.	}{	391	}{	Humanity -5	}{	}{	}{	}{	}{	}{	}{	}{	Yes. Let us swell with the blood of our pursuers.	}
 {	385	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
 {	386	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}{	}
