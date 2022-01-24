@@ -755,7 +755,7 @@ QuestTable
 		CompletionState
 		{
 			"ID"		"1"
-			"Description"	"Gary will swap a poster of Jeanette Voerman for a tape of an old movie of his called Tap Hotel. Just put the tape in the mailbox and check your haven and emails later."
+			"Description"	"Gary will swap a poster of Jeanette Voerman for an old movie of his called Tap Hotel. Just put it in the mailbox and check your haven and emails later."
 			"Type"		"incomplete"
 		}
 

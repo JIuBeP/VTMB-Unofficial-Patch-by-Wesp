@@ -1,6 +1,6 @@
 UnlitGeneric
 {
-	"$basetexture"	"hud\inventory_images\general_items\garys_tape"
+	"$basetexture" "hud/inventory_images/general_items/bloodvial"
 	"$translucent" "1"
 	"$ignorez" "1"
 	"$vertexcolor" "1"

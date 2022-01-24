@@ -1,0 +1,10 @@
+// created in bloodlines sdk
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/items/bloodvial/tube"
+	"$surfaceProp" "default"
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[0.4 0.1 0.05]"
+//	"$envmaptint" "[0.3 0.3 0.3]"
+	"$translucent" "1"
+}

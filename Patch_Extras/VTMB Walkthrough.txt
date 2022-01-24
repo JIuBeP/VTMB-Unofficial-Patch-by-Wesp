@@ -29,7 +29,7 @@
 
                                   Version 1.5
 
-                            (Unofficial Patch 11.0)
+                            (Unofficial Patch 11.1)
 
 
 
@@ -3433,10 +3433,10 @@ is promoting you!". He'll give you a poster of Jeanette if you find him a copy
 of "Tap Hotel".
 
 Go to the old Chinese Theatre in Hollywood, where the Gargoyle was/is. Enter
-the main theatre hall and pick up the VIDEO TAPE that's right in front of the
-screen, in the middle section. Now go back to your haven and put it in your
-mailbox. The next time you'll enter your haven you'll see that there is a
-poster of Jeanette on the wall.
+the main theatre hall and pick up the VIDEO TAPE [+: or FILM CANNISTER] that's 
+right in front of the screen, in the middle section. Now go back to your haven
+and put it in your mailbox. The next time you'll enter your haven you'll see 
+that there is a poster of Jeanette on the wall.
 
 OUTCOME: DAMSEL POSTER
 
@@ -3446,8 +3446,8 @@ Check your emails again and you'll find "Rocket Launcher for Sale" from Gary.
 Have in mind that his next quests require high level Hacking and Lockpicking
 (level 8). So if you haven't got these maybe you should leave them for later.
 
-In his second email Gary wants you get him a certain CD-ROM [+: or a wooden
-pull toy] from a safe at Metalhead Industries. You can get inside Metalhead
+In his second email Gary wants you get him a certain CD-ROM [+: or a WOODEN
+PULL TOY] from a safe at Metalhead Industries. You can get inside Metalhead
 Industries in Hollywood only if you have received the access card from the
 [A TANGLED WEB] quest from Mitnick.
 
@@ -5777,13 +5777,6 @@ With better blood quality than a normal blood pack it restores 5 blood points.
  ELDER VITAE
 ~~~~~~~~~~~~~
 The best blood pack in the game restores all normal 10 of your blood points.
-
-
-~~~~~~~~~~~~~~~~
- WEREWOLF BLOOD
-~~~~~~~~~~~~~~~~
-There is only one pack of werewolf blood found in the game. Unfortunately you
-can't drink it :).
 
 
 

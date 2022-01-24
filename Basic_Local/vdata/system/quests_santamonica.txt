@@ -356,8 +356,8 @@ QuestTable
 
 		CompletionState
 		{
-			"ID"		"1" // sent in email
-			"Description"	"LaCroix has contacted you through email and given you the task of retrieving a pack of werewolf blood from the Medical Clinic to protect the Masquerade."
+			"ID"		"1" // sent in email, changed by wesp
+			"Description"	"LaCroix has contacted you through email and given you the task of retrieving a sample of werewolf blood from the Medical Clinic to protect the Masquerade."
 			"Type"		"incomplete"
 		}
 
