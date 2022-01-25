@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "7999"
-	"mapversion" "309"
+	"mapversion" "310"
 	"prefab" "0"
 }
 visgroups
@@ -25,7 +25,7 @@ viewsettings
 world
 {
 	"id" "0"
-	"mapversion" "309"
+	"mapversion" "310"
 	"classname" "worldspawn"
 	"angles" "0 0 0"
 	"skyname" "warehouse3"
@@ -28100,6 +28100,80 @@ world
 	}
 	solid
 	{
+		"id" "170298"
+		side
+		{
+			"id" "7032"
+			"plane" "(1793.6 -2166.23 358) (1793.6 -2166.23 338) (1802.26 -2192.86 338)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[0.309033 -0.951051 0 14.5281] 1"
+			"vaxis" "[0 0 -1 50] 1"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "7033"
+			"plane" "(1755.66 -2208 358) (1755.66 -2208 338) (1747 -2181.37 338)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[0.309033 -0.951051 0 14.5281] 1"
+			"vaxis" "[0 0 -1 50] 1"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "7034"
+			"plane" "(1747 -2181.37 358) (1747 -2181.37 338) (1793.6 -2166.23 338)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[-0.951051 -0.309033 0 9.37042] 1"
+			"vaxis" "[0 0 -1 50] 1"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "7035"
+			"plane" "(1802.26 -2192.86 358) (1802.26 -2192.86 338) (1755.66 -2208 338)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[-0.951051 -0.309033 0 9.37042] 1"
+			"vaxis" "[0 0 -1 50] 1"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "7036"
+			"plane" "(1802.26 -2192.86 338) (1793.6 -2166.23 338) (1747 -2181.37 338)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[-0.951051 -0.309033 0 9.37042] 1"
+			"vaxis" "[-0.309033 0.951051 0 -14.5281] 1"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "7037"
+			"plane" "(1793.6 -2166.23 358) (1802.26 -2192.86 358) (1755.66 -2208 358)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[-0.951051 -0.309033 0 9.37042] 1"
+			"vaxis" "[-0.309033 0.951051 0 -14.5281] 1"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 224 245"
+		}
+	}
+	solid
+	{
 		"id" "123849"
 		side
 		{
@@ -29224,80 +29298,6 @@ world
 		{
 			"color" "162 151 0"
 			"groupid" "146487"
-		}
-	}
-	solid
-	{
-		"id" "170298"
-		side
-		{
-			"id" "7032"
-			"plane" "(1793.6 -2166.23 358) (1793.6 -2166.23 338) (1802.26 -2192.86 338)"
-			"material" "TOOLS/TOOLSINVISIBLE"
-			"uaxis" "[0.309033 -0.951051 0 14.5281] 1"
-			"vaxis" "[0 0 -1 50] 1"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "7033"
-			"plane" "(1755.66 -2208 358) (1755.66 -2208 338) (1747 -2181.37 338)"
-			"material" "TOOLS/TOOLSINVISIBLE"
-			"uaxis" "[0.309033 -0.951051 0 14.5281] 1"
-			"vaxis" "[0 0 -1 50] 1"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "7034"
-			"plane" "(1747 -2181.37 358) (1747 -2181.37 338) (1793.6 -2166.23 338)"
-			"material" "TOOLS/TOOLSINVISIBLE"
-			"uaxis" "[-0.951051 -0.309033 0 9.37042] 1"
-			"vaxis" "[0 0 -1 50] 1"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "7035"
-			"plane" "(1802.26 -2192.86 358) (1802.26 -2192.86 338) (1755.66 -2208 338)"
-			"material" "TOOLS/TOOLSINVISIBLE"
-			"uaxis" "[-0.951051 -0.309033 0 9.37042] 1"
-			"vaxis" "[0 0 -1 50] 1"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "7036"
-			"plane" "(1802.26 -2192.86 338) (1793.6 -2166.23 338) (1747 -2181.37 338)"
-			"material" "TOOLS/TOOLSINVISIBLE"
-			"uaxis" "[-0.951051 -0.309033 0 9.37042] 1"
-			"vaxis" "[-0.309033 0.951051 0 -14.5281] 1"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		side
-		{
-			"id" "7037"
-			"plane" "(1793.6 -2166.23 358) (1802.26 -2192.86 358) (1755.66 -2208 358)"
-			"material" "TOOLS/TOOLSINVISIBLE"
-			"uaxis" "[-0.951051 -0.309033 0 9.37042] 1"
-			"vaxis" "[-0.309033 0.951051 0 -14.5281] 1"
-			"rotation" "0"
-			"lightmapscale" "16"
-			"smoothing_groups" "0"
-		}
-		editor
-		{
-			"color" "0 224 245"
 		}
 	}
 	group
@@ -31551,18 +31551,18 @@ entity
 	"damagetype" "8"
 	"damagevelocitydir" "0"
 	"damagevelocitymag" "0"
-	"damagevelocitypos" "0 0 0"
+	"damagevelocitypos" "26.95 2 0"
 	"spawnflags" "1"
-	"origin" "1950.5 -4058 769.29"
+	"origin" "1977.45 -4056 769.29"
 	solid
 	{
 		"id" "2748"
 		side
 		{
 			"id" "2749"
-			"plane" "(1935 -4072 820.432) (1935 -4072 718.15) (1935 -4044 718.15)"
+			"plane" "(1961.95 -4070 820.432) (1961.95 -4070 718.15) (1961.95 -4042 718.15)"
 			"material" "TOOLS/TRIGGER_HURT"
-			"uaxis" "[0 1 0 58] 1"
+			"uaxis" "[0 1 0 56.0044] 1"
 			"vaxis" "[0 0 -1 -1] 1"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -31571,9 +31571,9 @@ entity
 		side
 		{
 			"id" "2750"
-			"plane" "(1966 -4044 820.432) (1966 -4044 718.15) (1966 -4072 718.15)"
+			"plane" "(1992.95 -4042 820.432) (1992.95 -4042 718.15) (1992.95 -4070 718.15)"
 			"material" "TOOLS/TRIGGER_HURT"
-			"uaxis" "[0 1 0 58] 1"
+			"uaxis" "[0 1 0 56.0044] 1"
 			"vaxis" "[0 0 -1 -1] 1"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -31582,9 +31582,9 @@ entity
 		side
 		{
 			"id" "2751"
-			"plane" "(1966 -4072 820.432) (1966 -4072 718.15) (1935 -4072 718.15)"
+			"plane" "(1992.95 -4070 820.432) (1992.95 -4070 718.15) (1961.95 -4070 718.15)"
 			"material" "TOOLS/TRIGGER_HURT"
-			"uaxis" "[1 0 0 49] 1"
+			"uaxis" "[1 0 0 22.053] 1"
 			"vaxis" "[0 0 -1 -1] 1"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -31593,9 +31593,9 @@ entity
 		side
 		{
 			"id" "2752"
-			"plane" "(1935 -4044 820.432) (1935 -4044 718.15) (1966 -4044 718.15)"
+			"plane" "(1961.95 -4042 820.432) (1961.95 -4042 718.15) (1992.95 -4042 718.15)"
 			"material" "TOOLS/TRIGGER_HURT"
-			"uaxis" "[1 0 0 49] 1"
+			"uaxis" "[1 0 0 22.053] 1"
 			"vaxis" "[0 0 -1 -1] 1"
 			"rotation" "0"
 			"lightmapscale" "16"
@@ -31604,10 +31604,10 @@ entity
 		side
 		{
 			"id" "2753"
-			"plane" "(1935 -4044 718.15) (1935 -4072 718.15) (1966 -4072 718.15)"
+			"plane" "(1961.95 -4042 718.15) (1961.95 -4070 718.15) (1992.95 -4070 718.15)"
 			"material" "TOOLS/TRIGGER_HURT"
-			"uaxis" "[1 0 0 49] 1"
-			"vaxis" "[0 -1 0 -58] 1"
+			"uaxis" "[1 0 0 22.053] 1"
+			"vaxis" "[0 -1 0 -56.0044] 1"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -31615,10 +31615,10 @@ entity
 		side
 		{
 			"id" "2754"
-			"plane" "(1935 -4072 820.432) (1935 -4044 820.432) (1966 -4044 820.432)"
+			"plane" "(1961.95 -4070 820.432) (1961.95 -4042 820.432) (1992.95 -4042 820.432)"
 			"material" "TOOLS/TRIGGER_HURT"
-			"uaxis" "[1 0 0 49] 1"
-			"vaxis" "[0 -1 0 -58] 1"
+			"uaxis" "[1 0 0 22.053] 1"
+			"vaxis" "[0 -1 0 -56.0044] 1"
 			"rotation" "0"
 			"lightmapscale" "16"
 			"smoothing_groups" "0"
@@ -31653,7 +31653,7 @@ entity
 	"targetname" "FireTrashcan"
 	"message" "Environmental/Fire/Trashcan_Fire.wav"
 	"spawnflags" "0"
-	"origin" "1949.05 -4062.8 808.998"
+	"origin" "1976 -4060.8 808.998"
 	editor
 	{
 		"color" "192 192 192"
@@ -31671,7 +31671,7 @@ entity
 	"_distance" "512"
 	"fade_time" "0.05"
 	"_distance_smooth" "0.5"
-	"origin" "1948.05 -4056.8 786.998"
+	"origin" "1975 -4054.8 786.998"
 	editor
 	{
 		"color" "220 30 220"
@@ -31694,7 +31694,7 @@ entity
 	"pitch" "90"
 	"fade_time" "0.05"
 	"_distance_smooth" "0.5"
-	"origin" "1950.05 -4059.6 754.998"
+	"origin" "1977 -4057.6 754.998"
 	editor
 	{
 		"color" "220 30 220"
@@ -31711,7 +31711,7 @@ entity
 	"ramp_scale" "1"
 	"bone" "<none>"
 	"spawnbounds" "512"
-	"origin" "1950.56 -4059.39 739.138"
+	"origin" "1977.51 -4057.39 739.138"
 	editor
 	{
 		"color" "220 30 220"
@@ -35670,22 +35670,22 @@ entity
 	"origin" "1964 -3097.5 -8.5"
 	connections
 	{
-		"OnTrigger" "Evelyn_target,Activate,,3.2,-1,,"
-		"OnTrigger" "SabbatGoonsProtean,SetScriptedDiscipline,protean 3,5,-1,,"
-		"OnTrigger" "SabbatGoonsFortitude,SetScriptedDiscipline,fortitude 3,5,-1,,"
-		"OnTrigger" "SabbatGoonsPotence,SetScriptedDiscipline,potence 3,5,-1,,"
-		"OnTrigger" "SabbatGoonsAuspex,SetScriptedDiscipline,auspex 3,5,-1,,"
-		"OnTrigger" "SabbatGoonsPresence,SetScriptedDiscipline,presence 3,5,-1,,"
-		"OnTrigger" "SabbatGoons*,ScriptUnhide,,3,-1,,"
-		"OnTrigger" "Evelyn,SetRelationship,player D_HT 10,3.1,-1,,"
-		"OnTrigger" "Evelyn,MakeInvincible,0,3.1,-1,,"
-		"OnTrigger" ",,,3,1,EvelynModel(),"
-		"OnTrigger" "Evelyn_hiss,PlaySound,,1,1,,"
-		"OnTrigger" "sEvelyn,BeginSequence,,0.1,-1,,"
-		"OnTrigger" "particles_Evelyn,TurnOn,,0,-1,,"
-		"OnTrigger" "Evelyn,ScriptUnhide,,0,-1,,"
-		"OnTrigger" "TriggerMabellene,ScriptUnhide,,0.5,-1,,"
 		"OnTrigger" "world,SetSafeArea,0,0,-1,,"
+		"OnTrigger" "TriggerMabellene,ScriptUnhide,,0.5,-1,,"
+		"OnTrigger" "Evelyn,ScriptUnhide,,0,-1,,"
+		"OnTrigger" "particles_Evelyn,TurnOn,,0,-1,,"
+		"OnTrigger" "sEvelyn,BeginSequence,,0.1,-1,,"
+		"OnTrigger" "Evelyn_hiss,PlaySound,,1,1,,"
+		"OnTrigger" ",,,3,1,EvelynModel(),"
+		"OnTrigger" "Evelyn,MakeInvincible,0,3.1,-1,,"
+		"OnTrigger" "Evelyn,SetRelationship,player D_HT 10,3.1,-1,,"
+		"OnTrigger" "SabbatGoons*,ScriptUnhide,,3,-1,,"
+		"OnTrigger" "SabbatGoonsPresence,SetScriptedDiscipline,presence 3,5,-1,,"
+		"OnTrigger" "SabbatGoonsAuspex,SetScriptedDiscipline,auspex 3,5,-1,,"
+		"OnTrigger" "SabbatGoonsPotence,SetScriptedDiscipline,potence 3,5,-1,,"
+		"OnTrigger" "SabbatGoonsFortitude,SetScriptedDiscipline,fortitude 3,5,-1,,"
+		"OnTrigger" "SabbatGoonsProtean,SetScriptedDiscipline,protean 3,5,-1,,"
+		"OnTrigger" "Evelyn_target,Activate,,3.2,-1,,"
 	}
 	solid
 	{
@@ -35959,8 +35959,8 @@ entity
 	"base_gender" "1"
 	connections
 	{
-		"OnDialogEnd" "AndreiSabbat,WillTalk,0,0,1,,"
 		"OnDialogEnd" "talk_result,Test,,0,-1,,"
+		"OnDialogEnd" "AndreiSabbat,WillTalk,0,0,1,,"
 	}
 	"origin" "1965 -3000 -169"
 	editor
@@ -35976,28 +35976,28 @@ entity
 	"python_script" "G.Player_Sabbat == 2"
 	connections
 	{
-		"OnFalse" "to_la2,ScriptUnhide,,2,-1,,"
-		"OnFalse" "exit_fade,Fade,,0,-1,,"
-		"OnTrue" "SabbatGoonsProtean,SetScriptedDiscipline,protean 3,5,-1,,"
-		"OnTrue" "SabbatGoonsFortitude,SetScriptedDiscipline,fortitude 3,5,-1,,"
-		"OnTrue" "SabbatGoonsPotence,SetScriptedDiscipline,potence 3,5,-1,,"
-		"OnTrue" "SabbatGoonsAuspex,SetScriptedDiscipline,auspex 3,5,-1,,"
-		"OnTrue" "SabbatGoonsPresence,SetScriptedDiscipline,presence 3,5,-1,,"
-		"OnTrue" "SabbatGoons*,ScriptUnhide,,3,-1,,"
-		"OnTrue" "Evelyn_target,Activate,,5.5,-1,,"
-		"OnTrue" "Evelyn,SetRelationship,player D_HT 10,5.1,-1,,"
-		"OnTrue" "Evelyn,MakeInvincible,0,5.1,-1,,"
-		"OnTrue" ",,,5,1,EvelynModel(),"
-		"OnTrue" "Evelyn_hiss,PlaySound,,3,1,,"
-		"OnTrue" "sEvelyn,BeginSequence,,2.1,-1,,"
-		"OnTrue" "particles_Evelyn,TurnOn,,2,-1,,"
-		"OnTrue" "Evelyn,ScriptUnhide,,2,-1,,"
-		"OnTrue" "TriggerMabellene,ScriptUnhide,,0.5,-1,,"
-		"OnTrue" "AndreiSabbat,Kill,,3,-1,,"
-		"OnTrue" "bradbury_door_close,ScriptHide,,2,-1,,"
-		"OnTrue" "bradbury_door_open,ScriptUnhide,,2,-1,,"
-		"OnTrue" "world,SetSafeArea,0,0,-1,,"
 		"OnTrue" "AndreiSabbat,TriggerCombat,0,0.3,-1,,"
+		"OnTrue" "world,SetSafeArea,0,0,-1,,"
+		"OnTrue" "bradbury_door_open,ScriptUnhide,,2,-1,,"
+		"OnTrue" "bradbury_door_close,ScriptHide,,2,-1,,"
+		"OnTrue" "AndreiSabbat,Kill,,3,-1,,"
+		"OnTrue" "TriggerMabellene,ScriptUnhide,,0.5,-1,,"
+		"OnTrue" "Evelyn,ScriptUnhide,,2,-1,,"
+		"OnTrue" "particles_Evelyn,TurnOn,,2,-1,,"
+		"OnTrue" "sEvelyn,BeginSequence,,2.1,-1,,"
+		"OnTrue" "Evelyn_hiss,PlaySound,,3,1,,"
+		"OnTrue" ",,,5,1,EvelynModel(),"
+		"OnTrue" "Evelyn,MakeInvincible,0,5.1,-1,,"
+		"OnTrue" "Evelyn,SetRelationship,player D_HT 10,5.1,-1,,"
+		"OnTrue" "Evelyn_target,Activate,,5.5,-1,,"
+		"OnTrue" "SabbatGoons*,ScriptUnhide,,3,-1,,"
+		"OnTrue" "SabbatGoonsPresence,SetScriptedDiscipline,presence 3,5,-1,,"
+		"OnTrue" "SabbatGoonsAuspex,SetScriptedDiscipline,auspex 3,5,-1,,"
+		"OnTrue" "SabbatGoonsPotence,SetScriptedDiscipline,potence 3,5,-1,,"
+		"OnTrue" "SabbatGoonsFortitude,SetScriptedDiscipline,fortitude 3,5,-1,,"
+		"OnTrue" "SabbatGoonsProtean,SetScriptedDiscipline,protean 3,5,-1,,"
+		"OnFalse" "exit_fade,Fade,,0,-1,,"
+		"OnFalse" "to_la2,ScriptUnhide,,2,-1,,"
 	}
 	"origin" "1944 -3008 -166"
 	editor
@@ -36136,14 +36136,14 @@ entity
 	"origin" "2075 -3556 -71.25"
 	connections
 	{
-		"OnTrigger" "Mabellene_target,Activate,,3.2,-1,,"
-		"OnTrigger" "Mabellene I Hofteholder,SetRelationship,player D_HT 10,3.1,-1,,"
-		"OnTrigger" "Mabellene I Hofteholder,MakeInvincible,0,3.1,-1,,"
-		"OnTrigger" ",,,3,1,MabelleneModel(),"
-		"OnTrigger" "Mabellene_hiss,PlaySound,,2,1,,"
-		"OnTrigger" "sMabellene,BeginSequence,,0.1,-1,,"
-		"OnTrigger" "particles_Mabellene,TurnOn,,0,-1,,"
 		"OnTrigger" "Mabellene I Hofteholder,ScriptUnhide,,0,-1,,"
+		"OnTrigger" "particles_Mabellene,TurnOn,,0,-1,,"
+		"OnTrigger" "sMabellene,BeginSequence,,0.1,-1,,"
+		"OnTrigger" "Mabellene_hiss,PlaySound,,2,1,,"
+		"OnTrigger" ",,,3,1,MabelleneModel(),"
+		"OnTrigger" "Mabellene I Hofteholder,MakeInvincible,0,3.1,-1,,"
+		"OnTrigger" "Mabellene I Hofteholder,SetRelationship,player D_HT 10,3.1,-1,,"
+		"OnTrigger" "Mabellene_target,Activate,,3.2,-1,,"
 	}
 	solid
 	{
@@ -36387,8 +36387,8 @@ entity
 	"base_gender" "1"
 	connections
 	{
-		"OnDeath" "bradbury_basement_close,ScriptHide,,0,-1,,"
 		"OnDeath" "bradbury_basement_open,ScriptUnhide,,0,-1,,"
+		"OnDeath" "bradbury_basement_close,ScriptHide,,0,-1,,"
 	}
 	"origin" "1925 -2200 720"
 	editor
@@ -39109,27 +39109,27 @@ entity
 	"enabled" "0"
 	connections
 	{
-		"OnPlayerTookDamage" ",,,0,-1,OnPlayerTookDamage(),"
-		"OnPlayerKilled" ",,,0,-1,OnPlayerKilled(),"
-		"OnFrenzyEnd" ",,,0,-1,OnFrenzyEnd(),"
-		"OnFrenzyBegin" ",,,0,-1,OnFrenzyBegin(),"
-		"OnActivateProtean" ",,,0,-1,OnActivateProtean(),"
-		"OnActivateAuspex" ",,,0,-1,OnActivateAuspex(),"
-		"OnActivateFortitude" ",,,0,-1,OnActivateFortitude(),"
-		"OnActivateObfuscate" ",,,0,-1,OnActivateObfuscate(),"
-		"OnActivatePotence" ",,,0,-1,OnActivatePotence(),"
-		"OnActivateCelerity" ",,,0,-1,OnActivateCelerity(),"
-		"OnWolfMorphEnd" ",,,0,-1,OnWolfMorphEnd(),"
-		"OnWolfMorphBegin" ",,,0,1,OnWolfMorphBegin(),"
-		"OnActivatePresense" ",,,0,-1,OnActivatePresence(),"
-		"OnActivateAnimalismLvl1" ",,,0,-1,OnActivateAnimalismLvl1(),"
-		"OnActivateAnimalismLvl2" ",,,0,-1,OnActivateAnimalismLvl2(),"
-		"OnActivateDementationLvl1" ",,,0,-1,OnActivateDementationLvl1(),"
-		"OnActivateDementationLvl2" ",,,0,-1,OnActivateDementationLvl2(),"
-		"OnActivateDominateLvl1" ",,,0,-1,OnActivateDominateLvl1(),"
-		"OnActivateDominateLvl2" ",,,0,-1,OnActivateDominateLvl2(),"
-		"OnActivateThaumaturgyLvl1" ",,,0,-1,OnActivateThaumLvl1(),"
 		"OnActivateThaumaturgyLvl2" ",,,0,-1,OnActivateThaumLvl2(),"
+		"OnActivateThaumaturgyLvl1" ",,,0,-1,OnActivateThaumLvl1(),"
+		"OnActivateDominateLvl2" ",,,0,-1,OnActivateDominateLvl2(),"
+		"OnActivateDominateLvl1" ",,,0,-1,OnActivateDominateLvl1(),"
+		"OnActivateDementationLvl2" ",,,0,-1,OnActivateDementationLvl2(),"
+		"OnActivateDementationLvl1" ",,,0,-1,OnActivateDementationLvl1(),"
+		"OnActivateAnimalismLvl2" ",,,0,-1,OnActivateAnimalismLvl2(),"
+		"OnActivateAnimalismLvl1" ",,,0,-1,OnActivateAnimalismLvl1(),"
+		"OnActivatePresense" ",,,0,-1,OnActivatePresence(),"
+		"OnWolfMorphBegin" ",,,0,1,OnWolfMorphBegin(),"
+		"OnWolfMorphEnd" ",,,0,-1,OnWolfMorphEnd(),"
+		"OnActivateCelerity" ",,,0,-1,OnActivateCelerity(),"
+		"OnActivatePotence" ",,,0,-1,OnActivatePotence(),"
+		"OnActivateObfuscate" ",,,0,-1,OnActivateObfuscate(),"
+		"OnActivateFortitude" ",,,0,-1,OnActivateFortitude(),"
+		"OnActivateAuspex" ",,,0,-1,OnActivateAuspex(),"
+		"OnActivateProtean" ",,,0,-1,OnActivateProtean(),"
+		"OnFrenzyBegin" ",,,0,-1,OnFrenzyBegin(),"
+		"OnFrenzyEnd" ",,,0,-1,OnFrenzyEnd(),"
+		"OnPlayerKilled" ",,,0,-1,OnPlayerKilled(),"
+		"OnPlayerTookDamage" ",,,0,-1,OnPlayerTookDamage(),"
 	}
 	"origin" "0 0 0"
 	editor
@@ -39145,29 +39145,29 @@ entity
 	"StartHidden" "0"
 	connections
 	{
-		"OnUseEnd" ",,,0,-1,OnUseEnd(),"
-		"OnUseBegin" ",,,0,-1,OnUseBegin(),"
-		"OnNormalMusicEnd" ",,,0,-1,OnNormalMusicEnd(),"
-		"OnNormalMusicStart" ",,,0,-1,OnNormalMusicStart(),"
-		"OnAlertMusicEnd" ",,,0,-1,OnAlertMusicEnd(),"
-		"OnAlertMusicStart" ",,,0,-1,OnAlertMusicStart(),"
-		"OnCombatMusicEnd" ",,,0,-1,OnCombatMusicEnd(),"
-		"OnCombatMusicStart" ",,,0,-1,OnCombatMusicStart(),"
-		"OnPlayerHasNoBlood" ",,,0,-1,OnPlayerHasNoBlood(),"
-		"OnMasqueradeLevelChanged" ",,,0,-1,OnMasqueradeLevelChanged(),"
-		"OnMasqueradeLevel5" ",,,0,-1,OnMasqueradeLevel5(),"
-		"OnMasqueradeLevel4" ",,,0,-1,OnMasqueradeLevel4(),"
-		"OnMasqueradeLevel3" ",,,0,-1,OnMasqueradeLevel3(),"
-		"OnMasqueradeLevel2" ",,,0,-1,OnMasqueradeLevel2(),"
-		"OnMasqueradeLevel1" ",,,0,-1,OnMasqueradeLevel1(),"
-		"OnEndHunterPursuitMode" ",,,0,-1,OnEndHunterPursuitMode(),"
-		"OnStartHunterPursuitMode" ",,,0,-1,OnStartHunterPursuitMode(),"
-		"OnEndCopAlertMode" ",,,0,-1,OnEndCopAlertMode(),"
-		"OnStartCopAlertMode" ",,,0,-1,OnStartCopAlertMode(),"
-		"OnEndCopPursuitMode" ",,,0,-1,OnEndCopPursuitMode(),"
-		"OnStartCopPursuitMode" ",,,0,-1,OnStartCopPursuitMode(),"
-		"OnCopsComing" ",,,0,-1,OnCopsComing(),"
 		"OnCopsOutside" ",,,0,-1,OnCopsOutside(),"
+		"OnCopsComing" ",,,0,-1,OnCopsComing(),"
+		"OnStartCopPursuitMode" ",,,0,-1,OnStartCopPursuitMode(),"
+		"OnEndCopPursuitMode" ",,,0,-1,OnEndCopPursuitMode(),"
+		"OnStartCopAlertMode" ",,,0,-1,OnStartCopAlertMode(),"
+		"OnEndCopAlertMode" ",,,0,-1,OnEndCopAlertMode(),"
+		"OnStartHunterPursuitMode" ",,,0,-1,OnStartHunterPursuitMode(),"
+		"OnEndHunterPursuitMode" ",,,0,-1,OnEndHunterPursuitMode(),"
+		"OnMasqueradeLevel1" ",,,0,-1,OnMasqueradeLevel1(),"
+		"OnMasqueradeLevel2" ",,,0,-1,OnMasqueradeLevel2(),"
+		"OnMasqueradeLevel3" ",,,0,-1,OnMasqueradeLevel3(),"
+		"OnMasqueradeLevel4" ",,,0,-1,OnMasqueradeLevel4(),"
+		"OnMasqueradeLevel5" ",,,0,-1,OnMasqueradeLevel5(),"
+		"OnMasqueradeLevelChanged" ",,,0,-1,OnMasqueradeLevelChanged(),"
+		"OnPlayerHasNoBlood" ",,,0,-1,OnPlayerHasNoBlood(),"
+		"OnCombatMusicStart" ",,,0,-1,OnCombatMusicStart(),"
+		"OnCombatMusicEnd" ",,,0,-1,OnCombatMusicEnd(),"
+		"OnAlertMusicStart" ",,,0,-1,OnAlertMusicStart(),"
+		"OnAlertMusicEnd" ",,,0,-1,OnAlertMusicEnd(),"
+		"OnNormalMusicStart" ",,,0,-1,OnNormalMusicStart(),"
+		"OnNormalMusicEnd" ",,,0,-1,OnNormalMusicEnd(),"
+		"OnUseBegin" ",,,0,-1,OnUseBegin(),"
+		"OnUseEnd" ",,,0,-1,OnUseEnd(),"
 	}
 	"origin" "0 0 0"
 	editor
@@ -53837,7 +53837,7 @@ entity
 	"MinAnimTime" "5"
 	"MaxAnimTime" "10"
 	"npc_opaque" "1"
-	"origin" "1950.56 -4059.39 744.138"
+	"origin" "1977.51 -4057.39 744.138"
 	editor
 	{
 		"color" "127 127 255"
@@ -64674,8 +64674,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[2064.99 -2393.62 555.893]"
-		"look" "[2032.56 -2150.59 451.917]"
+		"position" "[1912.92 -3917.69 804.581]"
+		"look" "[1927.72 -4182.5 780.443]"
 	}
 }
 cordon

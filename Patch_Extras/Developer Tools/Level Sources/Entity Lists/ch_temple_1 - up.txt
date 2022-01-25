@@ -2602,7 +2602,7 @@
 "soundgroup" "standard_door"
 "use_icon" "10"
 "locked_icon" "3"
-"linked_door" "rot_door6a"
+"linked_door" "rot_door6b"
 "OnOpen" "guard_west_quarters,TweakParam,HEARING 1,0,-1,,"
 }
 {
