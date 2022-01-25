@@ -13,6 +13,11 @@ actor "Knox"
   }
   channel "Expressions"
   {
+    event gesture "Dennis_Line61_Col_E"	// added by wesp
+    {
+      time 0.000000 12.513719
+      param "Knox_Line61_Col_E"
+    }
   }
   channel "Speech Triggers"
   {
